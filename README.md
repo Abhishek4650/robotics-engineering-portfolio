@@ -66,6 +66,11 @@ and a full bill of materials with sourcing.
 The audit caught three defects that would each have wasted a print run — including three
 bearing seats that did not physically exist in the solid.
 
+**It is not only drawings — the arm runs.** [`ros2/arm450_description`](2-arm450-mechanical-design/ros2/arm450_description)
+is the generated URDF plus meshes, and [`ros2/arm450_sine`](2-arm450-mechanical-design/ros2/arm450_sine)
+drives the sine trajectory on it: the design is loaded into ROS 2 and moved, so the geometry
+is checked by simulation and not only by the drawings that produced it.
+
 → [`2-arm450-mechanical-design/`](2-arm450-mechanical-design) ·
 [Summary](2-arm450-mechanical-design/SUMMARY.md) ·
 [Full report](2-arm450-mechanical-design/REPORT.md) ·
@@ -103,6 +108,20 @@ The first working version: offline `ikpy` IK over the official M5 URDF, streamed
 to *writing* the solver in Project 1.
 
 → [`4-mycobot-rviz-demo/`](4-mycobot-rviz-demo)
+
+---
+
+## Project 5 — How I got here: the ROS 2 learning progression
+
+I started ROS 2 from zero. The six packages that led to Project 1 are kept **in order and
+unedited** — publisher/subscriber, forward kinematics, a first sine attempt, a rewrite after
+that attempt drifted, a modular restructure, then the verified solver.
+
+Steps 3 and 4 exist because step 3 was wrong: the arm drifted off the plane, so I wrote a
+separate FK test to isolate whether the fault was in the kinematics or the solver. It was in
+the kinematics. The 1e-15 m agreement in the finished package is a direct consequence.
+
+→ [`5-ros2-learning-progression/`](5-ros2-learning-progression)
 
 ---
 

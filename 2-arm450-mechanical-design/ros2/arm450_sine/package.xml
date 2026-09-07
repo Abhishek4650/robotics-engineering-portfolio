@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>arm450_sine</name>
+  <version>1.0.0</version>
+  <description>Replays a pre-solved sine trajectory on ARM-450 for RViz.</description>
+  <maintainer email="royabhishek4650roy@gmail.com">Abhishek</maintainer>
+  <license>MIT</license>
+  <exec_depend>rclpy</exec_depend>
+  <exec_depend>sensor_msgs</exec_depend>
+  <exec_depend>visualization_msgs</exec_depend>
+  <export><build_type>ament_python</build_type></export>
+</package>
