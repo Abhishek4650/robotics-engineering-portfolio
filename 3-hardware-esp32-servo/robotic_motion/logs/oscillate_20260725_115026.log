@@ -1,0 +1,40 @@
+2026-07-25 11:50:26  === oscillate joints [4, 5, 6]  secs=30.0  amp=15.0deg freq=0.3Hz  go=True ===
+2026-07-25 11:50:26  log file: /home/user/robotic_motion/logs/oscillate_20260725_115026.log
+2026-07-25 11:51:05  servo 4: start 1814 counts (159.4 deg)
+2026-07-25 11:51:06  servo 5: start 3593 counts (315.8 deg)
+2026-07-25 11:51:06  servo 6: start 1251 counts (110.0 deg)
+2026-07-25 11:51:07  framing OK; oscillating 30s, +/-15 deg @ 0.3 Hz ...
+2026-07-25 11:51:08  t= 0.0s  J4 tgt=1814 act=None(0.0d)  J5 tgt=3763 act=3678(323.3d)  J6 tgt=1250 act=1251(110.0d)
+2026-07-25 11:51:09  t= 1.0s  J4 tgt=1976 act=None(0.0d)  J5 tgt=3539 act=3639(319.8d)  J6 tgt=1088 act=1099(96.6d)
+2026-07-25 11:51:10  t= 2.0s  J4 tgt=1712 act=None(0.0d)  J5 tgt=3455 act=3467(304.7d)  J6 tgt=1352 act=1342(117.9d)
+2026-07-25 11:51:11  t= 3.0s  J4 tgt=1715 act=None(0.0d)  J5 tgt=3732 act=3579(314.6d)  J6 tgt=1349 act=1351(118.7d)
+2026-07-25 11:51:12  t= 4.0s  J4 tgt=1977 act=None(0.0d)  J5 tgt=3642 act=3667(322.3d)  J6 tgt=1087 act=1099(96.6d)
+2026-07-25 11:51:13  t= 5.0s  J4 tgt=1810 act=None(0.0d)  J5 tgt=3422 act=3534(310.6d)  J6 tgt=1254 act=1246(109.5d)
+2026-07-25 11:51:14  t= 6.0s  J4 tgt=1653 act=None(0.0d)  J5 tgt=3650 act=3543(311.4d)  J6 tgt=1411 act=1402(123.2d)
+2026-07-25 11:51:15  t= 7.0s  J4 tgt=1918 act=None(0.0d)  J5 tgt=3727 act=3725(327.4d)  J6 tgt=1146 act=1158(101.8d)
+2026-07-25 11:51:16  t= 8.0s  J4 tgt=1909 act=None(0.0d)  J5 tgt=3451 act=3610(317.3d)  J6 tgt=1155 act=1152(101.2d)
+2026-07-25 11:51:17  t= 9.0s  J4 tgt=1649 act=None(0.0d)  J5 tgt=3546 act=3531(310.3d)  J6 tgt=1415 act=1406(123.6d)
+2026-07-25 11:51:18  t=10.0s  J4 tgt=1821 act=None(0.0d)  J5 tgt=3763 act=3663(321.9d)  J6 tgt=1243 act=1252(110.0d)
+2026-07-25 11:51:19  t=11.0s  J4 tgt=1973 act=None(0.0d)  J5 tgt=3532 act=3638(319.7d)  J6 tgt=1091 act=1101(96.8d)
+2026-07-25 11:51:20  t=12.0s  J4 tgt=1706 act=None(0.0d)  J5 tgt=3460 act=3469(304.9d)  J6 tgt=1358 act=1347(118.4d)
+2026-07-25 11:51:21  t=13.0s  J4 tgt=1721 act=None(0.0d)  J5 tgt=3736 act=3585(315.1d)  J6 tgt=1343 act=1348(118.5d)
+2026-07-25 11:51:22  t=14.0s  J4 tgt=1979 act=None(0.0d)  J5 tgt=3635 act=3651(320.9d)  J6 tgt=1085 act=1097(96.4d)
+2026-07-25 11:51:23  t=15.0s  J4 tgt=1802 act=None(0.0d)  J5 tgt=3422 act=3513(308.8d)  J6 tgt=1262 act=1253(110.1d)
+2026-07-25 11:51:24  t=16.0s  J4 tgt=1655 act=None(0.0d)  J5 tgt=3657 act=3545(311.6d)  J6 tgt=1409 act=1400(123.0d)
+2026-07-25 11:51:25  t=17.0s  J4 tgt=1924 act=None(0.0d)  J5 tgt=3722 act=3713(326.3d)  J6 tgt=1140 act=1152(101.2d)
+2026-07-25 11:51:26  t=18.0s  J4 tgt=1902 act=None(0.0d)  J5 tgt=3447 act=3595(316.0d)  J6 tgt=1162 act=1155(101.5d)
+2026-07-25 11:51:27  t=19.0s  J4 tgt=1647 act=None(0.0d)  J5 tgt=3554 act=3534(310.6d)  J6 tgt=1417 act=1407(123.7d)
+2026-07-25 11:51:28  t=20.0s  J4 tgt=1829 act=None(0.0d)  J5 tgt=3762 act=3674(322.9d)  J6 tgt=1235 act=1245(109.4d)
+2026-07-25 11:51:29  t=21.1s  J4 tgt=1970 act=None(0.0d)  J5 tgt=3525 act=3638(319.7d)  J6 tgt=1094 act=1105(97.1d)
+2026-07-25 11:51:30  t=22.1s  J4 tgt=1700 act=None(0.0d)  J5 tgt=3465 act=3475(305.4d)  J6 tgt=1364 act=1352(118.8d)
+2026-07-25 11:51:31  t=23.1s  J4 tgt=1728 act=None(0.0d)  J5 tgt=3740 act=3590(315.5d)  J6 tgt=1336 act=1345(118.2d)
+2026-07-25 11:51:32  t=24.1s  J4 tgt=1981 act=None(0.0d)  J5 tgt=3627 act=3648(320.6d)  J6 tgt=1083 act=1095(96.2d)
+2026-07-25 11:51:33  t=25.1s  J4 tgt=1794 act=None(0.0d)  J5 tgt=3423 act=3507(308.2d)  J6 tgt=1270 act=1260(110.7d)
+2026-07-25 11:51:34  t=26.1s  J4 tgt=1659 act=None(0.0d)  J5 tgt=3664 act=3546(311.7d)  J6 tgt=1405 act=1396(122.7d)
+2026-07-25 11:51:35  t=27.1s  J4 tgt=1930 act=None(0.0d)  J5 tgt=3717 act=3709(326.0d)  J6 tgt=1134 act=1145(100.6d)
+2026-07-25 11:51:36  t=28.1s  J4 tgt=1895 act=None(0.0d)  J5 tgt=3443 act=3590(315.5d)  J6 tgt=1169 act=1159(101.9d)
+2026-07-25 11:51:37  t=29.1s  J4 tgt=1646 act=None(0.0d)  J5 tgt=3562 act=3537(310.9d)  J6 tgt=1418 act=1410(123.9d)
+2026-07-25 11:51:40  servo 4: returned 1807 counts (158.8 deg), start 1814
+2026-07-25 11:51:40  servo 5: returned 3587 counts (315.3 deg), start 3593
+2026-07-25 11:51:40  servo 6: returned 1260 counts (110.7 deg), start 1251
+2026-07-25 11:51:40  Done.  log saved: /home/user/robotic_motion/logs/oscillate_20260725_115026.log

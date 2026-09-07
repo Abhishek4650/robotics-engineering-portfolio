@@ -1,0 +1,38 @@
+2026-07-25 11:46:37  === oscillate joints [5, 6]  secs=30.0  amp=15.0deg freq=0.3Hz  go=True ===
+2026-07-25 11:46:37  log file: /home/user/arm_demo/logs/oscillate_20260725_114637.log
+2026-07-25 11:46:55  servo 5: start 3599 counts (316.3 deg)
+2026-07-25 11:46:55  servo 6: start 1243 counts (109.2 deg)
+2026-07-25 11:46:56  framing OK; oscillating 30s, +/-15 deg @ 0.3 Hz ...
+2026-07-25 11:46:57  t= 0.0s  J5 tgt=3599 act=None(0.0d)  J6 tgt=1413 act=1325(116.5d)
+2026-07-25 11:46:58  t= 1.0s  J5 tgt=3761 act=None(0.0d)  J6 tgt=1189 act=1200(105.5d)
+2026-07-25 11:46:59  t= 2.0s  J5 tgt=3497 act=None(0.0d)  J6 tgt=1106 act=1099(96.6d)
+2026-07-25 11:47:00  t= 3.0s  J5 tgt=3501 act=None(0.0d)  J6 tgt=1382 act=1371(120.5d)
+2026-07-25 11:47:01  t= 4.0s  J5 tgt=3762 act=None(0.0d)  J6 tgt=1291 act=1300(114.3d)
+2026-07-25 11:47:02  t= 5.0s  J5 tgt=3593 act=None(0.0d)  J6 tgt=1072 act=1084(95.3d)
+2026-07-25 11:47:03  t= 6.0s  J5 tgt=3438 act=None(0.0d)  J6 tgt=1301 act=1292(113.6d)
+2026-07-25 11:47:04  t= 7.0s  J5 tgt=3705 act=None(0.0d)  J6 tgt=1376 act=1391(122.3d)
+2026-07-25 11:47:05  t= 8.0s  J5 tgt=3692 act=None(0.0d)  J6 tgt=1099 act=1111(97.6d)
+2026-07-25 11:47:06  t= 9.0s  J5 tgt=3433 act=None(0.0d)  J6 tgt=1199 act=1190(104.6d)
+2026-07-25 11:47:07  t=10.0s  J5 tgt=3609 act=None(0.0d)  J6 tgt=1413 act=1406(123.6d)
+2026-07-25 11:47:08  t=11.0s  J5 tgt=3757 act=None(0.0d)  J6 tgt=1178 act=1187(104.3d)
+2026-07-25 11:47:09  t=12.0s  J5 tgt=3488 act=None(0.0d)  J6 tgt=1113 act=1106(97.2d)
+2026-07-25 11:47:10  t=13.0s  J5 tgt=3510 act=None(0.0d)  J6 tgt=1388 act=1378(121.1d)
+2026-07-25 11:47:11  t=14.0s  J5 tgt=3765 act=None(0.0d)  J6 tgt=1281 act=1290(113.4d)
+2026-07-25 11:47:12  t=15.1s  J5 tgt=3582 act=None(0.0d)  J6 tgt=1073 act=1083(95.2d)
+2026-07-25 11:47:13  t=16.1s  J5 tgt=3442 act=None(0.0d)  J6 tgt=1312 act=1303(114.5d)
+2026-07-25 11:47:14  t=17.1s  J5 tgt=3713 act=None(0.0d)  J6 tgt=1369 act=1378(121.1d)
+2026-07-25 11:47:15  t=18.1s  J5 tgt=3682 act=None(0.0d)  J6 tgt=1094 act=1105(97.1d)
+2026-07-25 11:47:16  t=19.1s  J5 tgt=3431 act=None(0.0d)  J6 tgt=1210 act=1202(105.6d)
+2026-07-25 11:47:17  t=20.1s  J5 tgt=3621 act=None(0.0d)  J6 tgt=1412 act=1404(123.4d)
+2026-07-25 11:47:18  t=21.1s  J5 tgt=3752 act=None(0.0d)  J6 tgt=1168 act=1179(103.6d)
+2026-07-25 11:47:19  t=22.1s  J5 tgt=3479 act=None(0.0d)  J6 tgt=1120 act=1112(97.7d)
+2026-07-25 11:47:20  t=23.1s  J5 tgt=3520 act=None(0.0d)  J6 tgt=1394 act=1384(121.6d)
+2026-07-25 11:47:21  t=24.1s  J5 tgt=3767 act=None(0.0d)  J6 tgt=1269 act=1278(112.3d)
+2026-07-25 11:47:22  t=25.1s  J5 tgt=3571 act=None(0.0d)  J6 tgt=1074 act=1083(95.2d)
+2026-07-25 11:47:23  t=26.1s  J5 tgt=3447 act=None(0.0d)  J6 tgt=1322 act=1312(115.3d)
+2026-07-25 11:47:24  t=27.1s  J5 tgt=3721 act=None(0.0d)  J6 tgt=1361 act=1370(120.4d)
+2026-07-25 11:47:25  t=28.1s  J5 tgt=3672 act=None(0.0d)  J6 tgt=1088 act=1099(96.6d)
+2026-07-25 11:47:26  t=29.1s  J5 tgt=3429 act=None(0.0d)  J6 tgt=1221 act=1212(106.5d)
+2026-07-25 11:47:29  servo 5: returned 3593 counts (315.8 deg), start 3599
+2026-07-25 11:47:29  servo 6: returned 1251 counts (110.0 deg), start 1243
+2026-07-25 11:47:29  Done.  log saved: /home/user/arm_demo/logs/oscillate_20260725_114637.log

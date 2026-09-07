@@ -1,0 +1,146 @@
+<?xml version="1.0"?>
+<!--
+  myCobot 280 - kinematic URDF reconstructed from "myCobot 280 URDF Joint
+  Specifications" (PDF in this folder). Joint origins / axes / limits are taken
+  verbatim from that document. Link visuals are simple cylinders generated to
+  span each link vector so the arm is recognizable in RViz; they are cosmetic
+  and carry no inertial/collision data (this model is for kinematics + RViz only).
+  root link = link1 (base), end-effector frame = gripper_base.
+-->
+<robot name="mycobot_280">
+
+  <material name="grey">  <color rgba="0.3 0.3 0.3 1.0"/></material>
+  <material name="orange"><color rgba="0.9 0.5 0.1 1.0"/></material>
+  <material name="blue">  <color rgba="0.1 0.3 0.8 1.0"/></material>
+
+  <!-- ===== Links ===== -->
+
+  <!-- link1 : base. Vertical cylinder up to joint 1 (h = 0.13156) -->
+  <link name="link1">
+    <visual>
+      <origin rpy="0 0 0" xyz="0 0 0.06578"/>
+      <geometry><cylinder radius="0.035" length="0.13156"/></geometry>
+      <material name="grey"/>
+    </visual>
+  </link>
+
+  <!-- link2 : near-zero offset to joint 2 -> small marker box -->
+  <link name="link2">
+    <visual>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry><box size="0.05 0.05 0.04"/></geometry>
+      <material name="orange"/>
+    </visual>
+  </link>
+
+  <!-- link3 : cylinder along -X (h = 0.1104) -->
+  <link name="link3">
+    <visual>
+      <origin rpy="0 1.5708 0" xyz="-0.0552 0 0"/>
+      <geometry><cylinder radius="0.028" length="0.1104"/></geometry>
+      <material name="blue"/>
+    </visual>
+  </link>
+
+  <!-- link4 : cylinder along (-0.096, 0, 0.06062), |v| = 0.11349 -->
+  <link name="link4">
+    <visual>
+      <origin rpy="0 -1.0070 0" xyz="-0.048 0 0.03031"/>
+      <geometry><cylinder radius="0.024" length="0.11349"/></geometry>
+      <material name="orange"/>
+    </visual>
+  </link>
+
+  <!-- link5 : cylinder along -Y (h = 0.07318) -->
+  <link name="link5">
+    <visual>
+      <origin rpy="1.5708 0 0" xyz="0 -0.03659 0"/>
+      <geometry><cylinder radius="0.022" length="0.07318"/></geometry>
+      <material name="blue"/>
+    </visual>
+  </link>
+
+  <!-- link6 : cylinder along +Y (h = 0.0456) -->
+  <link name="link6">
+    <visual>
+      <origin rpy="1.5708 0 0" xyz="0 0.0228 0"/>
+      <geometry><cylinder radius="0.020" length="0.0456"/></geometry>
+      <material name="orange"/>
+    </visual>
+  </link>
+
+  <!-- link6_flange : short cylinder along +Z (h = 0.034) -->
+  <link name="link6_flange">
+    <visual>
+      <origin rpy="0 0 0" xyz="0 0 0.017"/>
+      <geometry><cylinder radius="0.018" length="0.034"/></geometry>
+      <material name="grey"/>
+    </visual>
+  </link>
+
+  <!-- gripper_base : end-effector marker -->
+  <link name="gripper_base">
+    <visual>
+      <origin rpy="0 0 0" xyz="0 0 0.01"/>
+      <geometry><box size="0.03 0.03 0.02"/></geometry>
+      <material name="blue"/>
+    </visual>
+  </link>
+
+  <!-- ===== Joints (origins/axes/limits verbatim from the PDF) ===== -->
+
+  <joint name="link1_to_link2" type="revolute">
+    <axis xyz="0 0 1"/>
+    <limit effort="56.0" lower="-2.879793" upper="2.879793" velocity="2.792527"/>
+    <parent link="link1"/>
+    <child link="link2"/>
+    <origin rpy="0 0 1.5707963267948966" xyz="0 0 0.13156"/>
+  </joint>
+
+  <joint name="link2_to_link3" type="revolute">
+    <axis xyz="0 0 1"/>
+    <limit effort="56.0" lower="-2.879793" upper="2.879793" velocity="2.792527"/>
+    <parent link="link2"/>
+    <child link="link3"/>
+    <origin rpy="1.5707963267948966 0 -1.5707963267948966" xyz="0 0 -0.001"/>
+  </joint>
+
+  <joint name="link3_to_link4" type="revolute">
+    <axis xyz="0 0 1"/>
+    <limit effort="56.0" lower="-2.879793" upper="2.879793" velocity="2.792527"/>
+    <parent link="link3"/>
+    <child link="link4"/>
+    <origin rpy="0 0 0" xyz="-0.1104 0 0"/>
+  </joint>
+
+  <joint name="link4_to_link5" type="revolute">
+    <axis xyz="0 0 1"/>
+    <limit effort="56.0" lower="-2.879793" upper="2.879793" velocity="2.792527"/>
+    <parent link="link4"/>
+    <child link="link5"/>
+    <origin rpy="0 0 -1.5707963267948966" xyz="-0.096 0 0.06062"/>
+  </joint>
+
+  <joint name="link5_to_link6" type="revolute">
+    <axis xyz="0 0 1"/>
+    <limit effort="56.0" lower="-2.879793" upper="2.879793" velocity="2.792527"/>
+    <parent link="link5"/>
+    <child link="link6"/>
+    <origin rpy="1.5707963267948966 -1.5707963267948966 0" xyz="0 -0.07318 0"/>
+  </joint>
+
+  <joint name="link6_to_link6_flange" type="revolute">
+    <axis xyz="0 0 1"/>
+    <limit effort="56.0" lower="-3.05" upper="3.05" velocity="2.792527"/>
+    <parent link="link6"/>
+    <child link="link6_flange"/>
+    <origin rpy="-1.5707963267948966 0 0" xyz="0 0.0456 0"/>
+  </joint>
+
+  <joint name="link6_flange_to_gripper_base" type="fixed">
+    <parent link="link6_flange"/>
+    <child link="gripper_base"/>
+    <origin rpy="1.579 0 0" xyz="0 0 0.034"/>
+  </joint>
+
+</robot>

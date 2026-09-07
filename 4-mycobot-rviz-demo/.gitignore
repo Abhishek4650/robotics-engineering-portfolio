@@ -1,0 +1,13 @@
+# Python venv (machine-specific; recreate with setup.sh)
+venv/
+
+# Generated, machine-specific URDF (absolute mesh paths; made by make_local_urdf.py)
+urdf/mycobot_280_m5/mycobot_280_m5_local.urdf
+
+# Python caches
+__pycache__/
+*.pyc
+
+# Generated outputs
+results/
+preview_path.png

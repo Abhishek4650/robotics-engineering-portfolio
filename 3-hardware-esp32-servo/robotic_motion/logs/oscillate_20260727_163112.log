@@ -1,0 +1,8 @@
+2026-07-27 16:31:12  === oscillate joints [2, 3, 4, 5, 6]  secs=20.0  amp=30.0deg freq=0.3Hz  go=True ===
+2026-07-27 16:31:12  log file: /home/user/robotic_motion/logs/oscillate_20260727_163112.log
+2026-07-27 16:31:43  servo 2: start 109 counts (9.6 deg)
+2026-07-27 16:31:43  servo 3: start 3513 counts (308.8 deg)
+2026-07-27 16:31:43  servo 4: start 1808 counts (158.9 deg)
+2026-07-27 16:31:43  servo 5: start 3594 counts (315.9 deg)
+2026-07-27 16:31:44  servo 6: start 1266 counts (111.3 deg)
+2026-07-27 16:31:44  servo 2: framing check FAILED (109->154); abort
