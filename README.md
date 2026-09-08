@@ -152,4 +152,5 @@ Hardware and design scripts are plain Python — see each folder's README.
 
 ---
 
-**Abhishek Ray** · royabhishek4650roy@gmail.com
+**Abhishek Ray** — Junior Research Fellow, Space Dynamics and Flight Control Laboratory
+(SDFCL), Department of Aerospace Engineering, IIT Kanpur · royabhishek4650roy@gmail.com
