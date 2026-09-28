@@ -162,6 +162,19 @@ All 25 check stages are at 0 failures, and each has its own log.
 
 ---
 
+## Videos
+
+Screen recordings from the work itself, in date order ([`videos/`](videos), with a table of
+what each one shows):
+
+- **June 2026, myCobot 280:** first Gazebo and RViz sessions, the end-effector path display,
+  the first sine-wave IK node driving Gazebo and RViz together, a joint-trajectory sender,
+  and the ikpy demo streaming at 30 Hz.
+- **August 2026, ARM-450 first design:** the sine traced in RViz on an early simplified model
+  and on the detailed meshes, plus a print timelapse of the J2 turret.
+
+---
+
 ## Skills, concretely
 
 | Area | Evidence |
