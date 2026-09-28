@@ -1,0 +1,69 @@
+==========================================================================================
+BEARINGS + BOLTS as solids, against every part
+==========================================================================================
+
+J3  (joint frame, axis Z)
+   J3 drive bearing seats only on its OD / faces in p1          PASS  8627 contacts, 0 elsewhere
+   J3 drive bearing vs p2                                       PASS  0
+   J3 drive bearing vs servo                                    PASS  0
+   J3 drive bearing vs shaft                                    PASS  0
+   J3 idle bearing seats only on its OD / faces in p1           PASS  8657 contacts, 0 elsewhere
+   J3 idle bearing vs p2                                        PASS  0
+   J3 idle bearing vs servo                                     PASS  0
+   J3 idle bearing vs shaft                                     PASS  0
+   J3 split bolt (-20,+16) clear of everything                  PASS  clear
+   J3 split bolt (-20,-16) clear of everything                  PASS  clear
+   J3 split bolt (+26,+16) clear of everything                  PASS  clear
+   J3 split bolt (+26,-16) clear of everything                  PASS  clear
+
+J5  (joint frame, axis Z)
+   J5 drive bearing seats only on its OD / faces in p1          PASS  8126 contacts, 0 elsewhere
+   J5 drive bearing vs p2                                       PASS  0
+   J5 drive bearing vs servo                                    PASS  0
+   J5 drive bearing vs shaft                                    PASS  0
+   J5 drive bearing vs j6_body                                  PASS  0
+   J5 drive bearing vs spacer_A                                 PASS  0
+   J5 drive bearing vs spacer_B                                 PASS  0
+   J5 idle bearing seats only on its OD / faces in p1           PASS  8160 contacts, 0 elsewhere
+   J5 idle bearing vs p2                                        PASS  0
+   J5 idle bearing vs servo                                     PASS  0
+   J5 idle bearing vs shaft                                     PASS  0
+   J5 idle bearing vs j6_body                                   PASS  0
+   J5 idle bearing vs spacer_A                                  PASS  0
+   J5 idle bearing vs spacer_B                                  PASS  0
+   J5 split bolt (-20,+16) clear of everything                  PASS  clear
+   J5 split bolt (-20,-16) clear of everything                  PASS  clear
+   J5 split bolt (+26,+16) clear of everything                  PASS  clear
+   J5 split bolt (+26,-16) clear of everything                  PASS  clear
+
+J2  (joint frame, axis Z)
+   J2 drive bearing seats only on its OD / faces                PASS  8560 contacts, 0 elsewhere
+   J2 drive bearing vs turret_p2                                PASS  0
+   J2 drive bearing vs servo                                    PASS  0
+   J2 drive bearing vs shaft                                    PASS  0
+   J2 idle bearing seats only on its OD / faces                 PASS  8093 contacts, 0 elsewhere
+   J2 idle bearing vs turret_p2                                 PASS  0
+   J2 idle bearing vs servo                                     PASS  0
+   J2 idle bearing vs shaft                                     PASS  0
+
+J4  (roll frame, axis Z)
+   J4 bearing seats only on its OD / faces in the cap           PASS  3168 contacts, 0 elsewhere
+   J4 bearing vs base: only the seated face z=382.59            PASS  0 contacts, 0 elsewhere
+   J4 bearing vs hub: only the seated face z=386.59             PASS  1251 contacts, 0 elsewhere
+   J4 bearing vs servo                                          PASS  0
+   J4 cap bolt (+14.5,-15.5) clear of everything                PASS  clear
+   J4 cap bolt (+14.5,+15.5) clear of everything                PASS  clear
+   J4 cap bolt (+31.0,-15.5) clear of everything                PASS  clear
+   J4 cap bolt (+31.0,+15.5) clear of everything                PASS  clear
+
+J6  (roll frame, axis Z)
+   J6 bearing seats only on its OD / faces in the cap           PASS  3266 contacts, 0 elsewhere
+   J6 bearing vs base: only the seated face z=68.59             PASS  0 contacts, 0 elsewhere
+   J6 bearing vs hub: only the seated face z=72.59              PASS  1180 contacts, 0 elsewhere
+   J6 bearing vs servo                                          PASS  0
+   J6 cap bolt (+14.5,-17.5) clear of everything                PASS  clear
+   J6 cap bolt (+14.5,+17.5) clear of everything                PASS  clear
+   J6 cap bolt (+31.0,-17.5) clear of everything                PASS  clear
+   J6 cap bolt (+31.0,+17.5) clear of everything                PASS  clear
+
+FAILURES: 0

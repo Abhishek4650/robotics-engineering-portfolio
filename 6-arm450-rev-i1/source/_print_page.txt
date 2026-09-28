@@ -1,0 +1,30 @@
+file                                 qty  orient supports  size mm        note
+01_base_x1.stl                         1  +Z up  REQUIRED  120 x 120 x 50 rev I: lower 6806 pocket opens from underneath
+02_spigot_collar_x1.stl                1  +Z up  none      46 x 46 x 12   split clamp + J1 collet closer, slot 2.0, 1 x M3 pinch bolt
+03_j1_mount_x1.stl                     1  +Z up  none      128 x 128 x 70 J1 servo mount + the arm's foot
+04_j1_hub_x1.stl                       1  +Z up  advised   29 x 29 x 17   J1 horn coupler, D-keys the turret
+05_J2_turret_p1_x1.stl                 1  +X up  REQUIRED  138 x 70 x 84  turret; spigot end slit as a collet (J1 zero play); land on the 6806 i
+06_J2_turret_p2_x1.stl                 1  -Y up  advised   83 x 66 x 37   J2 servo pod (2.4 shell round the whole servo), 4 x M3x45 split bolts
+07_J2_shaft_x1.stl                     1  +Y up  none      30 x 30 x 50   printed J2 shaft, bolts to the horn; double-D flats for the M5 set scr
+08_shaft_clamp_x4.stl                  4  -Z up  none      37 x 38 x 14   link centring ring (0.025 fits); links locked by 2 x M5 set screws eac
+09_link_upper_groove_x1.stl            1  +Z up  advised   110 x 50 x 14  released, unchanged (reuse your printed one)
+10_link_upper_tongue_x1.stl            1  +Z up  advised   110 x 50 x 16  rev I: released + head counterbores (or drill yours: O6.0x3.2 seam, O5
+11_collar_upper_x2.stl                 2  +Z up  none      64 x 24 x 10   J2 spring collar, print 2 (same part)
+12_J3_p1_x1.stl                        1  -Z up  REQUIRED  98 x 50 x 53   J3 fork; J3 spring lugs (both pockets)
+13_J3_p2_x1.stl                        1  -Z up  none      72 x 50 x 37   J3 servo cradle, bay 34.99 deep, 2.4 back wall
+14_J3_shaft_x1.stl                     1  -Z up  none      30 x 30 x 50   printed J3 shaft, double-D flats for the M5 set screws
+15_link_fore_tongue_x1.stl             1  +Z up  advised   144 x 50 x 16  rev I forearm: socket end, valid solid, flush seam-screw heads
+16_link_fore_groove_x1.stl             1  +Z up  advised   144 x 50 x 14  rev I forearm: socket end, valid solid
+17_collar_fore_x2.stl                  2  +Z up  none      64 x 24 x 10   J3 spring collar, print 2 (same part)
+18_j4_base_x1.stl                      1  -Z up  REQUIRED  57 x 38 x 65   J4 servo base; lip tops relieved off the 6706 inner ring
+19_j4_cap_x1.stl                       1  -Z up  none      58 x 45 x 10   J4 cap, holds the 6706
+20_j4_hub_x1.stl                       1  -Z up  none      46 x 46 x 20   J4 hub, carries the J5 fork
+21_J5_p1_x1.stl                        1  +X up  advised   48 x 50 x 66   J5 fork
+22_J5_p2_x1.stl                        1  -Z up  none      66 x 50 x 37   J5 servo cradle, bay 34.99 deep, 2.4 back wall
+23_J5_shaft_x1.stl                     1  -Z up  none      30 x 30 x 45   printed J5 axle
+24_J5_spacer_x2.stl                    2  +Z up  none      32 x 32 x 3    blade spacers, exactly 3.0 (close the J5 stack), print 2
+25_j6_body_x1.stl                      1  -X up  REQUIRED  43 x 54 x 87   J5 blade + J6 servo housing
+26_j6_cap_x1.stl                       1  -X up  none      45 x 58 x 10   J6 cap, holds the 6706
+27_j6_flange_x1.stl                    1  -X up  none      46 x 46 x 20   tool flange, bolts to the J6 horn
+
+27 files, 33 pieces

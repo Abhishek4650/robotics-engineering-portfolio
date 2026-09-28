@@ -1,0 +1,14 @@
+CABLE ROUTE -- daisy chain controller -> J1 -> ... -> J6, one joint per cable
+
+  cable      crosses range        exit r from axis         span min..max (mm)     change     loop / cable
+  J1 -> J2   J1      +-90.0       40.0 mm (bound   80)      144.6 .. 179.0         34.5 mm    54 / 263 mm
+  J2 -> J3   J2      +-54.0       14.8 mm (bound   24)      184.1 .. 200.7         16.6 mm    37 / 267 mm
+  J3 -> J4   J3      +-72.0       14.8 mm (bound   28)      141.6 .. 155.1         13.5 mm    33 / 219 mm
+  J4 -> J5   J4      +-90.0       40.0 mm (bound   80)      106.8 .. 148.4         41.6 mm    62 / 240 mm
+  J5 -> J6   J5      +-46.5       14.8 mm (bound   21)       74.6 .. 85.3          10.7 mm    31 / 146 mm
+
+  controller -> J1: both in the foot, no joint crossed
+  J6 is the last servo on the bus: no cable leaves it
+
+No joint turns more than 180 deg in total, so no cable can wind up; the largest path change is 42 mm.
+CABLE ROUTE: 0 problem(s)

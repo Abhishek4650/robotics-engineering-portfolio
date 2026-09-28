@@ -1,0 +1,9 @@
+ARM-450 rev I.1 -- PRINT STATUS (verification audit 2026-09-24, J3_p1 lug fix re-verified 2026-09-27)
+
+PRINT VERDICT: GREEN. Print the fit test first (7 coupons, about 2 h); when coupon 07 screws onto the back of your servo, print all 27 files. Every check is at 0 after M1 (servos screwed by their own holes), M2 (wire windows) and M3 (Rule 8: every servo seated on 4 supports, heads beside turning links sunk, cable route proven); wiring verified against your photo.
+
+PRINT ORDER:
+  1. 00_FIT_TEST_print_first -- FIRST, all 7 coupons (07 = the servo-screw plate)
+  2. then all 27 files in PRINTABLE_FILES (33 pieces); the 6 servo housings (03_j1_mount, 06_J2_turret_p2, 13_J3_p2, 18_j4_base, 22_J5_p2, 25_j6_body) once coupon 07 has screwed onto your servo's back
+
+Why and what changed: ARM450_AUDIT_REPORT.pdf

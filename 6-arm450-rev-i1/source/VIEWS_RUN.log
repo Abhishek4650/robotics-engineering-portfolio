@@ -1,0 +1,17 @@
+/home/user/.local/lib/python3.12/site-packages/matplotlib/projections/__init__.py:63: UserWarning: Unable to import Axes3D. This may be due to multiple versions of Matplotlib being installed (e.g. as a system package and as a pip package). As a result, the 3D projection is not available.
+  warnings.warn("Unable to import Axes3D. This may be due to multiple versions of "
+wrote /home/user/ros2_ws/Arm_450_new_design/REV_H/RULE6_VIEWS/servo_screws.png  undesigned overlaps 0
+/home/user/.local/lib/python3.12/site-packages/matplotlib/projections/__init__.py:63: UserWarning: Unable to import Axes3D. This may be due to multiple versions of Matplotlib being installed (e.g. as a system package and as a pip package). As a result, the 3D projection is not available.
+  warnings.warn("Unable to import Axes3D. This may be due to multiple versions of "
+wrote /home/user/ros2_ws/Arm_450_new_design/REV_H/RULE6_VIEWS/j1_drive_explained.png
+/home/user/.local/lib/python3.12/site-packages/matplotlib/projections/__init__.py:63: UserWarning: Unable to import Axes3D. This may be due to multiple versions of Matplotlib being installed (e.g. as a system package and as a pip package). As a result, the 3D projection is not available.
+  warnings.warn("Unable to import Axes3D. This may be due to multiple versions of "
+wrote /home/user/ros2_ws/Arm_450_new_design/REV_H/RULE6_VIEWS/idler_compare.png
+wrote /home/user/ros2_ws/Arm_450_new_design/REV_H/RULE6_VIEWS/idler_cut_J1.png  idler min gap 0.5899999999998541  undesigned overlaps 0
+wrote /home/user/ros2_ws/Arm_450_new_design/REV_H/RULE6_VIEWS/idler_cut_J4.png  idler min gap 0.589999999999911  undesigned overlaps 0
+wrote /home/user/ros2_ws/Arm_450_new_design/REV_H/RULE6_VIEWS/idler_cut_J6.png  idler min gap 0.5899999999998542  undesigned overlaps 0
+AUDIT VIEWS: 0 undesigned overlap(s)
+/home/user/.local/lib/python3.12/site-packages/matplotlib/projections/__init__.py:63: UserWarning: Unable to import Axes3D. This may be due to multiple versions of Matplotlib being installed (e.g. as a system package and as a pip package). As a result, the 3D projection is not available.
+  warnings.warn("Unable to import Axes3D. This may be due to multiple versions of "
+wrote /home/user/ros2_ws/Arm_450_new_design/REV_H/RULE6_VIEWS/head_clearance.png
+wrote ['/home/user/ros2_ws/Arm_450_new_design/REV_H/RULE6_VIEWS/cable_route_home.png', '/home/user/ros2_ws/Arm_450_new_design/REV_H/RULE6_VIEWS/cable_route_folded.png']

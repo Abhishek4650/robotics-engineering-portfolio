@@ -1,0 +1,15 @@
+PLUG INSERTION -- each bus plug pulled straight out of its socket, arm assembled
+   J1 plug A: ACCESS -- 10 mm straight out, then +y 4 mm, then +x, turned 0 deg
+   J1 plug B: ACCESS -- 10 mm straight out, then -y 6 mm, then +x, turned 0 deg
+   J2 plug A: SLOT -- goes straight in and out
+   J2 plug B: SLOT -- goes straight in and out
+   J3 plug A: SLOT -- goes straight in and out
+   J3 plug B: SLOT -- goes straight in and out
+   J4 plug A: ACCESS -- 10 mm straight out, then +y 4 mm, then +x, turned 0 deg
+   J4 plug B: ACCESS -- 10 mm straight out, then -y 6 mm, then +x, turned 0 deg
+   J5 plug A: SLOT -- goes straight in and out
+   J5 plug B: SLOT -- goes straight in and out
+   J6 plug A: ACCESS -- 14 mm straight out, then +x 8 mm, then +y, turned 0 deg
+   J6 plug B: ACCESS -- 14 mm straight out, then +x 8 mm, then +y, turned 0 deg
+
+PLUG INSERTION: 0 plug(s) that cannot be plugged in with the arm assembled

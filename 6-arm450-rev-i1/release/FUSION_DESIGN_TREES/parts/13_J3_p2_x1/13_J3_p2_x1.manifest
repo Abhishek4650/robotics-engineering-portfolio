@@ -1,0 +1,10 @@
+{
+ "autodeskProduct": "Fusion360",
+ "type": "script",
+ "author": "ARM-450 rev I",
+ "description": {
+  "": "ARM-450 rev I J3_p2: build the design tree, save 13_J3_p2_x1.f3d"
+ },
+ "supportedOS": "windows|mac",
+ "editEnabled": true
+}

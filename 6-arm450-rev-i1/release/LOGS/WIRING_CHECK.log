@@ -1,0 +1,54 @@
+WIRING -- both bus plugs in every servo (manufacturer's socket position, user's photo)
+  plug (photo): socket footprint, 2.0 mm above the socket top; wires 7.5 x 2.0 straight for 8.0 mm
+
+J1
+   upper-bound plug_A: clear
+   upper-bound plug_B: clear
+   plug_A  fits, nearest part 2.20 mm (j1_mount)
+   plug_B  fits, nearest part 1.98 mm (j1_mount)
+   lead end: free run +x (along case) 60.0  -x 18.0  +y 17.5  -y 7.5  +z (straight out) 15.0   -> way out: +x (along case) 60.0
+   lead end: free run +x (along case) 60.0  -x 18.0  +y 7.5  -y 17.5  +z (straight out) 15.0   -> way out: +x (along case) 60.0
+
+J2
+   upper-bound plug_A: clear
+   upper-bound plug_B: clear
+   plug_A  fits, nearest part 2.20 mm (J2_turret_p2)
+   plug_B  fits, nearest part 2.05 mm (J2_turret_p2)
+   lead end: free run +x (along case) 4.5  -x 3.5  +y 16.0  -y 6.5  +z (straight out) 60.0   -> way out: +z (straight out) 60.0
+   lead end: free run +x (along case) 4.5  -x 3.5  +y 6.0  -y 16.5  +z (straight out) 60.0   -> way out: +z (straight out) 60.0
+
+J3
+   upper-bound plug_A: clear
+   upper-bound plug_B: clear
+   plug_A  fits, nearest part 2.20 mm (J3_p2)
+   plug_B  fits, nearest part 2.05 mm (J3_p2)
+   lead end: free run +x (along case) 4.5  -x 3.5  +y 16.0  -y 6.5  +z (straight out) 60.0   -> way out: +z (straight out) 60.0
+   lead end: free run +x (along case) 4.5  -x 3.5  +y 6.0  -y 16.5  +z (straight out) 60.0   -> way out: +z (straight out) 60.0
+
+J4
+   upper-bound plug_A: clear
+   upper-bound plug_B: clear
+   plug_A  fits, nearest part 2.20 mm (j4_base)
+   plug_B  fits, nearest part 1.98 mm (j4_base)
+   lead end: free run +x (along case) 60.0  -x 18.0  +y 60.0  -y 7.5  +z (straight out) 10.0   -> way out: +x (along case) 60.0
+   lead end: free run +x (along case) 60.0  -x 18.0  +y 60.0  -y 17.5  +z (straight out) 10.0   -> way out: +x (along case) 60.0
+
+J5
+   upper-bound plug_A: clear
+   upper-bound plug_B: clear
+   plug_A  fits, nearest part 2.20 mm (J5_p2)
+   plug_B  fits, nearest part 2.05 mm (J5_p2)
+   lead end: free run +x (along case) 4.5  -x 3.5  +y 16.0  -y 6.5  +z (straight out) 60.0   -> way out: +z (straight out) 60.0
+   lead end: free run +x (along case) 4.5  -x 3.5  +y 6.0  -y 16.5  +z (straight out) 60.0   -> way out: +z (straight out) 60.0
+
+J6
+   upper-bound plug_A: clear
+   upper-bound plug_B: clear
+   plug_A  fits, nearest part 2.20 mm (j6_body)
+   plug_B  fits, nearest part 2.05 mm (j6_body)
+   lead end: free run +x (along case) 14.5  -x 18.0  +y 17.5  -y 7.5  +z (straight out) 16.5   -> way out: straight out 2 mm, then +x 60.0
+   lead end: free run +x (along case) 14.5  -x 18.0  +y 7.5  -y 17.5  +z (straight out) 16.5   -> way out: straight out 2 mm, then +x 60.0
+
+CONTROL  plugs moved 22 mm into the J3 bay end -> DETECTED
+
+WIRING CHECK: 0 problem(s)

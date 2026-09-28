@@ -1,0 +1,66 @@
+A  JOINTS TOGETHER -- 450 combined poses
+   J4 hub - blade         min   0.471 mm at J1..J5 (0, -27, -72, 0, 0)  (J5_p1 | J5_spacer_B)  ok
+   forearm - J4 hub       min   0.495 mm at J1..J5 (45, 54, -72, -90, -46.5)  (j4_base | j4_hub)  ok
+   blade - flange         min   0.500 mm at J1..J5 (45, -54, 72, 90, 0)  (j6_body | j6_flange)  ok
+   ground - turret        min   0.500 mm at J1..J5 (45, -54, -72, -90, -46.5)  (base | J2_turret_p1)  ok
+   turret - upper link    min   0.510 mm at J1..J5 (45, -54, -72, -90, -46.5)  (J2_turret_p1 | J2_shaft)  ok
+   upper link - forearm   min   0.518 mm at J1..J5 (45, 27, -72, -90, -46.5)  (J3_p1 | J3_shaft)  ok
+   ground - upper link    min  15.000 mm at J1..J5 (45, 0, -72, -90, -46.5)  (brg_J1_z43 | link_upper_tongue)  ok
+   forearm - blade        min  19.779 mm at J1..J5 (0, 0, 72, -90, 0)  (j4_cap | j6_body)  ok
+   J4 hub - flange        min  27.820 mm at J1..J5 (0, -27, -72, 0, 0)  (J5_p1 | horn_screw_J6_90)  ok
+   turret - forearm       min  44.162 mm at J1..J5 (0, -54, 0, -90, -46.5)  (J2_turret_p1 | link_fore_groove)  ok
+   forearm - flange       min  77.220 mm at J1..J5 (0, 27, 72, 0, 46.5)  (j4_cap | j6_flange)  ok
+   ground - forearm       min  99.376 mm at J1..J5 (0, -54, 72, -90, -46.5)  (base | link_fore_tongue)  ok
+   upper link - J4 hub    min 115.931 mm at J1..J5 (45, 54, 0, -90, -46.5)  (J3_p1 | horn_screw_J4_0)  ok
+   upper link - blade     min 149.283 mm at J1..J5 (45, 54, 0, 0, 0)  (J3_p1 | j6_body)  ok
+   ground - J4 hub        min 155.355 mm at J1..J5 (0, -54, 72, 90, -46.5)  (base | J5_p2)  ok
+   turret - J4 hub        min 181.848 mm at J1..J5 (45, 54, -72, -90, -46.5)  (J2_turret_p1 | J5_p2)  ok
+   ground - blade         min 183.738 mm at J1..J5 (0, -54, 72, 0, 46.5)  (base | j6_body)  ok
+   ground - flange        min 199.399 mm at J1..J5 (0, -54, 72, 0, 46.5)  (j1_mount | j6_flange)  ok
+   upper link - flange    min 205.857 mm at J1..J5 (45, -27, 0, -90, 46.5)  (pin_J3_fork_+1 | j6_flange)  ok
+   turret - blade         min 208.372 mm at J1..J5 (45, -54, 72, 0, 46.5)  (J2_turret_p1 | j6_body)  ok
+   turret - flange        min 243.334 mm at J1..J5 (45, 54, -72, 0, -46.5)  (J2_turret_p1 | j6_flange)  ok
+JOINTS TOGETHER: 0 pair(s) too close
+
+B  TIPPING -- centre of mass vs the foot
+   total mass 1509 g (printed parts at 65 % fill, 6 x ST3215 55 g)
+   worst pose J1..J5 (0, -54, 36, 90, 0): centre of mass 118.0 mm from the J1 axis, 98.4 mm high; foot radius 64.0 mm -> TIPS unless the foot is fixed down
+   -> the foot MUST be fixed down: 4 x O5.5 table holes at r 58 are in the foot -> ok
+TIPPING: 0 problem(s)
+
+C  THINNEST WALLS of the printed parts (inward rays, 20 000 points each)
+   base                 1st percentile  1.99 mm   thin WALLS (>= 15 mm2 under 0.8 mm): none
+   spigot_collar        1st percentile  1.36 mm   thin WALLS (>= 15 mm2 under 0.8 mm): none
+   j1_mount             1st percentile  1.19 mm   thin WALLS (>= 15 mm2 under 0.8 mm): none
+   j1_hub               1st percentile  1.11 mm   thin WALLS (>= 15 mm2 under 0.8 mm): none
+   J2_turret_p1         1st percentile  1.49 mm   thin WALLS (>= 15 mm2 under 0.8 mm): none
+   J2_turret_p2         1st percentile  1.79 mm   thin WALLS (>= 15 mm2 under 0.8 mm): none
+   J2_shaft             1st percentile  3.20 mm   thin WALLS (>= 15 mm2 under 0.8 mm): none
+   shaft_clamp          1st percentile  2.91 mm   thin WALLS (>= 15 mm2 under 0.8 mm): none
+   link_upper_groove    1st percentile  0.85 mm   thin WALLS (>= 15 mm2 under 0.8 mm): 185 mm2 at [70.0, -0.0, 0.3], 0.57 mm
+   link_upper_tongue    1st percentile  1.19 mm   thin WALLS (>= 15 mm2 under 0.8 mm): none
+   collar_upper         1st percentile  1.80 mm   thin WALLS (>= 15 mm2 under 0.8 mm): none
+   J3_p1                1st percentile  1.44 mm   thin WALLS (>= 15 mm2 under 0.8 mm): none
+   J3_p2                1st percentile  1.79 mm   thin WALLS (>= 15 mm2 under 0.8 mm): none
+   J3_shaft             1st percentile  3.20 mm   thin WALLS (>= 15 mm2 under 0.8 mm): none
+   link_fore_tongue     1st percentile  1.59 mm   thin WALLS (>= 15 mm2 under 0.8 mm): none
+   link_fore_groove     1st percentile  1.59 mm   thin WALLS (>= 15 mm2 under 0.8 mm): none
+   collar_fore          1st percentile  1.80 mm   thin WALLS (>= 15 mm2 under 0.8 mm): none
+   j4_base              1st percentile  1.19 mm   thin WALLS (>= 15 mm2 under 0.8 mm): none
+   j4_cap               1st percentile  1.40 mm   thin WALLS (>= 15 mm2 under 0.8 mm): none
+   j4_hub               1st percentile  1.14 mm   thin WALLS (>= 15 mm2 under 0.8 mm): none
+   J5_p1                1st percentile  1.44 mm   thin WALLS (>= 15 mm2 under 0.8 mm): none
+   J5_p2                1st percentile  1.79 mm   thin WALLS (>= 15 mm2 under 0.8 mm): none
+   J5_shaft             1st percentile  3.21 mm   thin WALLS (>= 15 mm2 under 0.8 mm): none
+   J5_spacer            1st percentile  0.89 mm   thin WALLS (>= 15 mm2 under 0.8 mm): none
+   j6_body              1st percentile  2.32 mm   thin WALLS (>= 15 mm2 under 0.8 mm): none
+   j6_cap               1st percentile  1.18 mm   thin WALLS (>= 15 mm2 under 0.8 mm): none
+   j6_flange            1st percentile  1.14 mm   thin WALLS (>= 15 mm2 under 0.8 mm): none
+   accepted: link_upper_groove -- released part the user already printed: 0.5 mm skin under its cable bore = the first bottom layers on the bed, not load-bearing
+THIN WALLS: 0 part(s) with a thin wall
+
+D  BED FIT (print-ready orientation)
+BED: 0 part(s) too big for a 180 mm cube
+   largest: 15_link_fore_tongue_x1.stl  -> all fit 180 mm cube: True, 256 mm cube: True
+
+written AUDIT_GAPS.json

@@ -1,0 +1,10 @@
+{
+ "autodeskProduct": "Fusion360",
+ "type": "script",
+ "author": "ARM-450 rev I",
+ "description": {
+  "": "ARM-450 rev I J2_turret_p1: build the design tree, save 05_J2_turret_p1_x1.f3d"
+ },
+ "supportedOS": "windows|mac",
+ "editEnabled": true
+}

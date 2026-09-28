@@ -1,0 +1,68 @@
+<?xml version="1.0"?>
+<robot name="arm450_rev_i">
+  <!-- generated from the verified rev-I assembly; mm -> m; home = arm straight up -->
+  <material name="m_ground"><color rgba="0.55 0.55 0.6 1"/></material>
+  <link name="ground">
+    <visual><geometry><mesh filename="package://arm450_rev_i_view/meshes/ground.stl"/></geometry><material name="m_ground"/></visual>
+  </link>
+  <material name="m_turret"><color rgba="0.85 0.25 0.25 1"/></material>
+  <link name="turret">
+    <visual><geometry><mesh filename="package://arm450_rev_i_view/meshes/turret.stl"/></geometry><material name="m_turret"/></visual>
+  </link>
+  <material name="m_upper_link"><color rgba="0.2 0.6 0.3 1"/></material>
+  <link name="upper_link">
+    <visual><geometry><mesh filename="package://arm450_rev_i_view/meshes/upper_link.stl"/></geometry><material name="m_upper_link"/></visual>
+  </link>
+  <material name="m_forearm"><color rgba="0.25 0.4 0.85 1"/></material>
+  <link name="forearm">
+    <visual><geometry><mesh filename="package://arm450_rev_i_view/meshes/forearm.stl"/></geometry><material name="m_forearm"/></visual>
+  </link>
+  <material name="m_j4_hub"><color rgba="0.9 0.55 0.1 1"/></material>
+  <link name="j4_hub">
+    <visual><geometry><mesh filename="package://arm450_rev_i_view/meshes/j4_hub.stl"/></geometry><material name="m_j4_hub"/></visual>
+  </link>
+  <material name="m_blade"><color rgba="0.6 0.2 0.7 1"/></material>
+  <link name="blade">
+    <visual><geometry><mesh filename="package://arm450_rev_i_view/meshes/blade.stl"/></geometry><material name="m_blade"/></visual>
+  </link>
+  <material name="m_flange"><color rgba="0.3 0.7 0.75 1"/></material>
+  <link name="flange">
+    <visual><geometry><mesh filename="package://arm450_rev_i_view/meshes/flange.stl"/></geometry><material name="m_flange"/></visual>
+  </link>
+  <joint name="J1_base_yaw" type="revolute">
+    <parent link="ground"/><child link="turret"/>
+    <origin xyz="0.000000 0.000000 -0.014311" rpy="0 0 0"/>
+    <axis xyz="0.000000 -0.000000 -1.000000"/>
+    <limit lower="-1.57080" upper="1.57080" effort="2.9" velocity="4.0"/>
+  </joint>
+  <joint name="J2_shoulder" type="revolute">
+    <parent link="turret"/><child link="upper_link"/>
+    <origin xyz="0.000000 -0.028500 0.104311" rpy="0 0 0"/>
+    <axis xyz="0.000000 -1.000000 0.000000"/>
+    <limit lower="-0.94248" upper="0.94248" effort="2.9" velocity="4.0"/>
+  </joint>
+  <joint name="J3_elbow" type="revolute">
+    <parent link="upper_link"/><child link="forearm"/>
+    <origin xyz="0.000000 0.057000 0.119000" rpy="0 0 0"/>
+    <axis xyz="0.000000 1.000000 0.000000"/>
+    <limit lower="-1.25664" upper="1.25664" effort="2.9" velocity="4.0"/>
+  </joint>
+  <joint name="J4_forearm_roll" type="revolute">
+    <parent link="forearm"/><child link="j4_hub"/>
+    <origin xyz="0.000000 -0.028500 0.169589" rpy="0 0 0"/>
+    <axis xyz="0.000000 -0.000000 -1.000000"/>
+    <limit lower="-1.57080" upper="1.57080" effort="2.9" velocity="4.0"/>
+  </joint>
+  <joint name="J5_wrist_pitch" type="revolute">
+    <parent link="j4_hub"/><child link="blade"/>
+    <origin xyz="0.000000 0.026000 0.051780" rpy="0 0 0"/>
+    <axis xyz="0.000000 1.000000 0.000000"/>
+    <limit lower="-0.81158" upper="0.81158" effort="2.9" velocity="4.0"/>
+  </joint>
+  <joint name="J6_tool_roll" type="revolute">
+    <parent link="blade"/><child link="flange"/>
+    <origin xyz="0.000000 -0.026000 0.064589" rpy="0 0 0"/>
+    <axis xyz="-0.000000 -0.000000 -1.000000"/>
+    <limit lower="-1.57080" upper="1.57080" effort="2.9" velocity="4.0"/>
+  </joint>
+</robot>

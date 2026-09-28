@@ -1,0 +1,17 @@
+WHAT CHANGED FROM THE RELEASE
+  * every servo bay sized from the MEASURED servo (the release used its width
+    as its depth); -0.22 mm pinch, your proven motor-fixer grip
+  * every horn BOLTED to a shaft/hub on your Motor_mount pattern (4 x O2.52, BCD 14)
+    -- in the release no horn was connected to anything
+  * servo seats on its CAP FACE; floors relieved for the step and horn
+  * bearings: every one can now actually be fitted (three were trapped)
+  * J1 keyed hub + foot; J4 new base/cap/hub on a socket-ended forearm;
+    J5 real axle + D-key; J6 re-designed for the ST3215 you have
+
+VERIFIED  0 failures at J1..J6, part against part; whole-arm sweep 0 clashes
+          (control detected); 0 unprintable / sub-layer features.
+
+!! OPEN: J2 SHOULDER TORQUE  (arm horizontal, no payload)
+   J2 1.649 N.m   ST3215 SF 0.53 continuous / 1.78 stall
+                  ST3250 SF 0.89 continuous / 2.97 stall
+   -> needs ST3250 + a counterbalance spring, or a lighter wrist. Your call.

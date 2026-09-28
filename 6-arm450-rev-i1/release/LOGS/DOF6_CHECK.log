@@ -1,0 +1,22 @@
+1  JOINT AXES -- A: servo horn   B: bearing pockets on the printed part
+
+   J1 base yaw      axis [ 0. -0. -1.] through [  0.     0.   -14.31] | 3 pocket faces (base.step), coaxial to 0.0000 | servo vs bearings: 0.0000 deg, 0.0000 mm  ok
+   J2 shoulder      axis [ 0. -1.  0.] through [  0.  -28.5  90. ] | 4 pocket faces (J2_turret_p1.step), coaxial to 0.0000 | servo vs bearings: 0.0000 deg, 0.0000 mm  ok
+   J3 elbow         axis [0. 1. 0.] through [  0.   28.5 209. ] | 3 pocket faces (J3_p1.step), coaxial to 0.0000 | servo vs bearings: 0.0000 deg, 0.0000 mm  ok
+   J4 forearm roll  axis [ 0. -0. -1.] through [  0.     0.   378.59] | 1 pocket faces (j4_cap.step), coaxial to 0.0000 | servo vs bearings: 0.0000 deg, 0.0000 mm  ok
+   J5 wrist pitch   axis [0. 1. 0.] through [  0.    26.   430.37] | 3 pocket faces (J5_p1.step), coaxial to 0.0000 | servo vs bearings: 0.0000 deg, 0.0000 mm  ok
+   J6 tool roll     axis [-0. -0. -1.] through [  0.     0.   494.96] | 1 pocket faces (j6_cap.step), coaxial to 0.0000 | servo vs bearings: 0.0000 deg, 0.0000 mm  ok
+
+2  six distinct ST3215 (one per joint): True;  swept ranges without a clash: J1 yaw +-90.0, J2 shoulder +-54.0, J3 elbow +-72.0, J4 roll +-90.0, J5 pitch +-46.5, J6 roll +-90.0
+
+3  Jacobian rank over 3000 random poses inside the swept ranges (linear rows / 430 mm): rank 6 at 100.0 %; sigma_min/sigma_max min 3.96e-06, median 0.024
+   107 near-singular poses (sigma ratio < 1e-3): elbow straight (|J3| < 8 deg) 70; wrist aligned (|J5| < 8 deg) 28; wrist centre within 25 mm of the J1 axis 9; other 0
+   home (all 0: arm straight up)        rank 3   sigma_min/sigma_max 0.00e+00
+   working pose (30,40,-70,20,35,10)    rank 6   sigma_min/sigma_max 8.09e-02
+   J5 = 0 only (wrist aligned)          rank 5   sigma_min/sigma_max 3.73e-17
+   J3 = 0 only (elbow straight)         rank 5   sigma_min/sigma_max 3.75e-17
+   wrist: J4-J5 0.000 mm, J5-J6 0.000 mm, J4-J6 0.000 mm apart -> spherical wrist (axes meet in one point)
+
+4  CONTROL: J5 axis moved onto J4 -> max rank 4 over 300 poses -> DETECTED
+
+6-DOF CHECK: 0 failure(s)

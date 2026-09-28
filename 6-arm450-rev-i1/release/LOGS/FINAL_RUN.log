@@ -1,0 +1,98 @@
+=== ASSEMBLY ===
+written /home/user/ros2_ws/Arm_450_new_design/REV_H/ARM450_REV_I_ASSEMBLY.step (232 components)
+component meshes in /home/user/ros2_ws/Arm_450_new_design/REV_H/_asm_meshes
+     4 x 6706 bearing (30x37x4)
+     6 x 6806 bearing (30x42x7)
+     2 x M2.5 heat-set insert
+     2 x M2.5 x 16 socket head
+    24 x M2.5 x 6 socket head (horn)
+    55 x M3 heat-set insert
+     4 x M3 nyloc nut
+    12 x M3 x 10 socket head
+    16 x M3 x 12 socket head
+    10 x M3 x 16 socket head
+     1 x M3 x 20 socket head
+     1 x M3 x 4 set screw
+    16 x M3 x 45 socket head
+     4 x M4 heat-set insert
+     4 x M4 x 12 socket head
+     8 x M5 x 10 set screw (cup point)
+     6 x ST3215 servo
+     2 x extension spring J2 (7.4 N @ 36.0 / 12.4 N @ 58.2 mm, inside hooks)
+     2 x extension spring J3 (2.2 N @ 43.0 / 5.0 N @ 91.4 mm, inside hooks)
+    20 x self-tapping screw ~2.2 x 8 pan head (from the servo box)
+--- exit 0
+=== SECTION MEASURE (manual check by slicing) ===
+J1 base yaw      parts in cut 10   pairs measured  18   clashes 0
+J2 shoulder      parts in cut 16   pairs measured  35   clashes 0
+J3 elbow         parts in cut 30   pairs measured  56   clashes 0
+J4 forearm roll  parts in cut 10   pairs measured  11   clashes 0
+J5 wrist pitch   parts in cut 13   pairs measured  24   clashes 0
+J6 tool roll     parts in cut  9   pairs measured  10   clashes 0
+
+TOTAL CLASHES IN THE SECTIONS: 0  (SECTION_MEASURE.md)
+--- exit 0
+=== FINAL PRINT FOLDER ===
+  01_base_x1.stl                     qty 1  +Z up    supports REQUIRED               120x120x50  watertight True
+  02_spigot_collar_x1.stl            qty 1  +Z up    supports none                   46x46x12  watertight True
+  03_j1_mount_x1.stl                 qty 1  +Z up    supports none                   128x128x70  watertight True
+  04_j1_hub_x1.stl                   qty 1  +Z up    supports advised                29x29x17  watertight True
+  05_J2_turret_p1_x1.stl             qty 1  +X up    supports REQUIRED               138x70x84  watertight True
+  06_J2_turret_p2_x1.stl             qty 1  -Y up    supports advised                83x66x37  watertight True
+  07_J2_shaft_x1.stl                 qty 1  +Y up    supports none                   30x30x50  watertight True
+  08_shaft_clamp_x4.stl              qty 4  -Z up    supports none                   37x38x14  watertight True
+  09_link_upper_groove_x1.stl        qty 1  +Z up    supports advised                110x50x14  watertight True
+  10_link_upper_tongue_x1.stl        qty 1  +Z up    supports advised                110x50x16  watertight True
+  11_collar_upper_x2.stl             qty 2  +Z up    supports none                   64x24x10  watertight True
+  12_J3_p1_x1.stl                    qty 1  -Z up    supports REQUIRED               98x50x53  watertight True
+  13_J3_p2_x1.stl                    qty 1  -Z up    supports none                   72x50x37  watertight True
+  14_J3_shaft_x1.stl                 qty 1  -Z up    supports none                   30x30x50  watertight True
+  15_link_fore_tongue_x1.stl         qty 1  +Z up    supports advised                144x50x16  watertight True
+  16_link_fore_groove_x1.stl         qty 1  +Z up    supports advised                144x50x14  watertight True
+  17_collar_fore_x2.stl              qty 2  +Z up    supports none                   64x24x10  watertight True
+  18_j4_base_x1.stl                  qty 1  -Z up    supports REQUIRED               57x38x65  watertight True
+  19_j4_cap_x1.stl                   qty 1  -Z up    supports none                   58x45x10  watertight True
+  20_j4_hub_x1.stl                   qty 1  -Z up    supports none                   46x46x20  watertight True
+  21_J5_p1_x1.stl                    qty 1  +X up    supports advised                48x50x66  watertight True
+  22_J5_p2_x1.stl                    qty 1  -Z up    supports none                   66x50x37  watertight True
+  23_J5_shaft_x1.stl                 qty 1  -Z up    supports none                   30x30x45  watertight True
+  24_J5_spacer_x2.stl                qty 2  +Z up    supports none                   32x32x3  watertight True
+  25_j6_body_x1.stl                  qty 1  -X up    supports REQUIRED               43x54x87  watertight True
+  26_j6_cap_x1.stl                   qty 1  -X up    supports none                   45x58x10  watertight True
+  27_j6_flange_x1.stl                qty 1  -X up    supports none                   46x46x20  watertight True
+printable files -> /home/user/ros2_ws/Arm_450_new_design/PRINTABLE_FILES (+ 7 fit-test coupons)
+
+27 files, 33 pieces to print
+--- exit 0
+=== PRINT SLICER on the print-ready files ===
+01_base_x1            250 layers    0 finding(s)
+02_spigot_collar_x1    60 layers    0 finding(s)
+03_j1_mount_x1        350 layers    0 finding(s)
+04_j1_hub_x1           87 layers    0 finding(s)
+05_J2_turret_p1_x1    420 layers    0 finding(s)
+06_J2_turret_p2_x1    187 layers    0 finding(s)
+07_J2_shaft_x1        252 layers    0 finding(s)
+08_shaft_clamp_x4      70 layers    0 finding(s)
+09_link_upper_groove_x1   72 layers    0 finding(s)
+10_link_upper_tongue_x1   81 layers    1 finding(s)
+      MARGINAL     z= 16.100  only 0.0% of the layer survives erosion
+11_collar_upper_x2     50 layers    0 finding(s)
+12_J3_p1_x1           265 layers    0 finding(s)
+13_J3_p2_x1           187 layers    0 finding(s)
+14_J3_shaft_x1        252 layers    0 finding(s)
+15_link_fore_tongue_x1   81 layers    1 finding(s)
+      MARGINAL     z= 16.100  only 0.0% of the layer survives erosion
+16_link_fore_groove_x1   72 layers    0 finding(s)
+17_collar_fore_x2      50 layers    0 finding(s)
+18_j4_base_x1         323 layers    0 finding(s)
+19_j4_cap_x1           50 layers    0 finding(s)
+20_j4_hub_x1          102 layers    0 finding(s)
+21_J5_p1_x1           331 layers    0 finding(s)
+22_J5_p2_x1           187 layers    0 finding(s)
+23_J5_shaft_x1        227 layers    0 finding(s)
+24_J5_spacer_x2        15 layers    0 finding(s)
+25_j6_body_x1         433 layers    0 finding(s)
+26_j6_cap_x1           50 layers    0 finding(s)
+27_j6_flange_x1       102 layers    0 finding(s)
+--- exit 0
+=== DONE ===

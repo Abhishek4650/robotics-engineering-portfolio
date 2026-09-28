@@ -1,0 +1,31 @@
+' ARM-450 rev I -- SolidWorks macro (Tools > Macro > Run > this .swb).
+' Opens every STEP in ..\parts_step and saves it as .SLDPRT in this folder,
+' then opens ..\assembly_step\ARM450_ASSEMBLY.step and saves .SLDASM (+ its
+' parts). NOT RUN HERE (no SolidWorks on the build machine).
+' Mates: Insert > Mate > Concentric on the bearing pocket of each joint, or
+' use the axis table ..\JOINT_AXES.csv; add a Limit Angle mate for the range.
+' For editable FEATURES (extrude / cut / fillet) run Insert > FeatureWorks >
+' Recognize Features on a part.
+Dim swApp As Object
+Sub main()
+    Set swApp = Application.SldWorks
+    Dim here As String, src As String, f As String, errs As Long, warn As Long
+    here = swApp.GetCurrentMacroPathFolder() & "\"
+    src = here & "..\parts_step\"
+    f = Dir(src & "*.step")
+    Do While f <> ""
+        Dim m As Object
+        Set m = swApp.LoadFile4(src & f, "r", Nothing, errs)
+        If Not m Is Nothing Then
+            m.Extension.SaveAs here & Replace(f, ".step", ".SLDPRT"), 0, 1, Nothing, errs, warn
+            swApp.CloseDoc m.GetTitle
+        End If
+        f = Dir()
+    Loop
+    Dim a As Object
+    Set a = swApp.LoadFile4(here & "..\assembly_step\ARM450_ASSEMBLY.step", "r", Nothing, errs)
+    If Not a Is Nothing Then
+        a.Extension.SaveAs here & "ARM450_ASSEMBLY.SLDASM", 0, 1 + 4, Nothing, errs, warn
+    End If
+    MsgBox "ARM-450: parts saved as .SLDPRT, assembly as .SLDASM in " & here
+End Sub

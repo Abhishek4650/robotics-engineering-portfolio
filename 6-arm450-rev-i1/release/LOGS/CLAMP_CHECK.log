@@ -1,0 +1,32 @@
+ring 1 in link_upper_groove (axis [0. 1. 0.])
+   1  ring x link 0.0000 mm3, x shaft 0.0000 mm3; touching link 0.025 / shaft 0.025 mm  ok
+   2  seam ear inside the ring gap: 420.9 mm3 (ring slides in over it)  ok
+   3  set screw  90 deg: link hole O4.24 (M5 self-tap), thread in link 5.6 mm, ring hole clears M5 True, shaft surface on the axis r 14.195 -> ON the flat  ok
+   3  set screw 270 deg: link hole O4.24 (M5 self-tap), thread in link 5.6 mm, ring hole clears M5 True, shaft surface on the axis r 14.195 -> ON the flat  ok
+ring 2 in link_upper_tongue (axis [ 0. -1.  0.])
+   1  ring x link 0.0000 mm3, x shaft 0.0000 mm3; touching link 0.025 / shaft 0.025 mm  ok
+   2  seam ear inside the ring gap: 414.7 mm3 (ring slides in over it)  ok
+   3  set screw  90 deg: link hole O4.24 (M5 self-tap), thread in link 5.6 mm, ring hole clears M5 True, shaft surface on the axis r 14.195 -> ON the flat  ok
+   3  set screw 270 deg: link hole O4.24 (M5 self-tap), thread in link 5.6 mm, ring hole clears M5 True, shaft surface on the axis r 14.195 -> ON the flat  ok
+ring 3 in link_fore_groove (axis [0. 1. 0.])
+   1  ring x link 0.0000 mm3, x shaft 0.0000 mm3; touching link 0.025 / shaft 0.025 mm  ok
+   2  seam ear inside the ring gap: 420.9 mm3 (ring slides in over it)  ok
+   3  set screw  90 deg: link hole O4.24 (M5 self-tap), thread in link 5.6 mm, ring hole clears M5 True, shaft surface on the axis r 14.195 -> ON the flat  ok
+   3  set screw 270 deg: link hole O4.24 (M5 self-tap), thread in link 5.6 mm, ring hole clears M5 True, shaft surface on the axis r 14.195 -> ON the flat  ok
+ring 4 in link_fore_tongue (axis [ 0. -1.  0.])
+   1  ring x link 0.0000 mm3, x shaft 0.0000 mm3; touching link 0.025 / shaft 0.025 mm  ok
+   2  seam ear inside the ring gap: 414.7 mm3 (ring slides in over it)  ok
+   3  set screw  90 deg: link hole O4.24 (M5 self-tap), thread in link 5.6 mm, ring hole clears M5 True, shaft surface on the axis r 14.195 -> ON the flat  ok
+   3  set screw 270 deg: link hole O4.24 (M5 self-tap), thread in link 5.6 mm, ring hole clears M5 True, shaft surface on the axis r 14.195 -> ON the flat  ok
+
+4  hex key (O3.2 path from the screw's outer end, 80 mm) in the whole assembled arm
+   ring 1 screw  90: CLEAR
+   ring 1 screw 270: CLEAR
+   ring 2 screw  90: CLEAR
+   ring 2 screw 270: CLEAR
+   ring 3 screw  90: CLEAR
+   ring 3 screw 270: CLEAR
+   ring 4 screw  90: CLEAR
+   ring 4 screw 270: CLEAR
+
+LINK LOCK VERIFICATION: 0 failure(s)

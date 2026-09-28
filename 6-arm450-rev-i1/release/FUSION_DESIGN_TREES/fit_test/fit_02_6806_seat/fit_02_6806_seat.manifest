@@ -1,0 +1,10 @@
+{
+ "autodeskProduct": "Fusion360",
+ "type": "script",
+ "author": "ARM-450 rev I",
+ "description": {
+  "": "ARM-450 rev I fit_02_6806_seat: build the design tree, save fit_02_6806_seat.f3d"
+ },
+ "supportedOS": "windows|mac",
+ "editEnabled": true
+}

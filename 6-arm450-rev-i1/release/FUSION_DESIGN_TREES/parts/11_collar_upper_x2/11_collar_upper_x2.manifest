@@ -1,0 +1,10 @@
+{
+ "autodeskProduct": "Fusion360",
+ "type": "script",
+ "author": "ARM-450 rev I",
+ "description": {
+  "": "ARM-450 rev I collar_upper: build the design tree, save 11_collar_upper_x2.f3d"
+ },
+ "supportedOS": "windows|mac",
+ "editEnabled": true
+}

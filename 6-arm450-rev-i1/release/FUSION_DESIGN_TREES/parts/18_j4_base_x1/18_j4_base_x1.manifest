@@ -1,0 +1,10 @@
+{
+ "autodeskProduct": "Fusion360",
+ "type": "script",
+ "author": "ARM-450 rev I",
+ "description": {
+  "": "ARM-450 rev I j4_base: build the design tree, save 18_j4_base_x1.f3d"
+ },
+ "supportedOS": "windows|mac",
+ "editEnabled": true
+}

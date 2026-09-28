@@ -1,0 +1,10 @@
+{
+ "autodeskProduct": "Fusion360",
+ "type": "script",
+ "author": "ARM-450 rev I",
+ "description": {
+  "": "ARM-450 rev I link_fore_groove: build the design tree, save 16_link_fore_groove_x1.f3d"
+ },
+ "supportedOS": "windows|mac",
+ "editEnabled": true
+}

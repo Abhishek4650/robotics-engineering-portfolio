@@ -1,0 +1,773 @@
+{
+ "A": [
+  {
+   "pair": "J4 hub-blade",
+   "min": 0.471,
+   "pose": [
+    0,
+    -27,
+    -72,
+    0,
+    0
+   ],
+   "parts": [
+    "J5_p1",
+    "J5_spacer_B"
+   ],
+   "ok": true
+  },
+  {
+   "pair": "forearm-J4 hub",
+   "min": 0.495,
+   "pose": [
+    45,
+    54,
+    -72,
+    -90,
+    -46.5
+   ],
+   "parts": [
+    "j4_base",
+    "j4_hub"
+   ],
+   "ok": true
+  },
+  {
+   "pair": "blade-flange",
+   "min": 0.5,
+   "pose": [
+    45,
+    -54,
+    72,
+    90,
+    0
+   ],
+   "parts": [
+    "j6_body",
+    "j6_flange"
+   ],
+   "ok": true
+  },
+  {
+   "pair": "ground-turret",
+   "min": 0.5,
+   "pose": [
+    45,
+    -54,
+    -72,
+    -90,
+    -46.5
+   ],
+   "parts": [
+    "base",
+    "J2_turret_p1"
+   ],
+   "ok": true
+  },
+  {
+   "pair": "turret-upper link",
+   "min": 0.51,
+   "pose": [
+    45,
+    -54,
+    -72,
+    -90,
+    -46.5
+   ],
+   "parts": [
+    "J2_turret_p1",
+    "J2_shaft"
+   ],
+   "ok": true
+  },
+  {
+   "pair": "upper link-forearm",
+   "min": 0.518,
+   "pose": [
+    45,
+    27,
+    -72,
+    -90,
+    -46.5
+   ],
+   "parts": [
+    "J3_p1",
+    "J3_shaft"
+   ],
+   "ok": true
+  },
+  {
+   "pair": "ground-upper link",
+   "min": 15.0,
+   "pose": [
+    45,
+    0,
+    -72,
+    -90,
+    -46.5
+   ],
+   "parts": [
+    "brg_J1_z43",
+    "link_upper_tongue"
+   ],
+   "ok": true
+  },
+  {
+   "pair": "forearm-blade",
+   "min": 19.779,
+   "pose": [
+    0,
+    0,
+    72,
+    -90,
+    0
+   ],
+   "parts": [
+    "j4_cap",
+    "j6_body"
+   ],
+   "ok": true
+  },
+  {
+   "pair": "J4 hub-flange",
+   "min": 27.82,
+   "pose": [
+    0,
+    -27,
+    -72,
+    0,
+    0
+   ],
+   "parts": [
+    "J5_p1",
+    "horn_screw_J6_90"
+   ],
+   "ok": true
+  },
+  {
+   "pair": "turret-forearm",
+   "min": 44.162,
+   "pose": [
+    0,
+    -54,
+    0,
+    -90,
+    -46.5
+   ],
+   "parts": [
+    "J2_turret_p1",
+    "link_fore_groove"
+   ],
+   "ok": true
+  },
+  {
+   "pair": "forearm-flange",
+   "min": 77.22,
+   "pose": [
+    0,
+    27,
+    72,
+    0,
+    46.5
+   ],
+   "parts": [
+    "j4_cap",
+    "j6_flange"
+   ],
+   "ok": true
+  },
+  {
+   "pair": "ground-forearm",
+   "min": 99.376,
+   "pose": [
+    0,
+    -54,
+    72,
+    -90,
+    -46.5
+   ],
+   "parts": [
+    "base",
+    "link_fore_tongue"
+   ],
+   "ok": true
+  },
+  {
+   "pair": "upper link-J4 hub",
+   "min": 115.931,
+   "pose": [
+    45,
+    54,
+    0,
+    -90,
+    -46.5
+   ],
+   "parts": [
+    "J3_p1",
+    "horn_screw_J4_0"
+   ],
+   "ok": true
+  },
+  {
+   "pair": "upper link-blade",
+   "min": 149.283,
+   "pose": [
+    45,
+    54,
+    0,
+    0,
+    0
+   ],
+   "parts": [
+    "J3_p1",
+    "j6_body"
+   ],
+   "ok": true
+  },
+  {
+   "pair": "ground-J4 hub",
+   "min": 155.355,
+   "pose": [
+    0,
+    -54,
+    72,
+    90,
+    -46.5
+   ],
+   "parts": [
+    "base",
+    "J5_p2"
+   ],
+   "ok": true
+  },
+  {
+   "pair": "turret-J4 hub",
+   "min": 181.848,
+   "pose": [
+    45,
+    54,
+    -72,
+    -90,
+    -46.5
+   ],
+   "parts": [
+    "J2_turret_p1",
+    "J5_p2"
+   ],
+   "ok": true
+  },
+  {
+   "pair": "ground-blade",
+   "min": 183.738,
+   "pose": [
+    0,
+    -54,
+    72,
+    0,
+    46.5
+   ],
+   "parts": [
+    "base",
+    "j6_body"
+   ],
+   "ok": true
+  },
+  {
+   "pair": "ground-flange",
+   "min": 199.399,
+   "pose": [
+    0,
+    -54,
+    72,
+    0,
+    46.5
+   ],
+   "parts": [
+    "j1_mount",
+    "j6_flange"
+   ],
+   "ok": true
+  },
+  {
+   "pair": "upper link-flange",
+   "min": 205.857,
+   "pose": [
+    45,
+    -27,
+    0,
+    -90,
+    46.5
+   ],
+   "parts": [
+    "pin_J3_fork_+1",
+    "j6_flange"
+   ],
+   "ok": true
+  },
+  {
+   "pair": "turret-blade",
+   "min": 208.372,
+   "pose": [
+    45,
+    -54,
+    72,
+    0,
+    46.5
+   ],
+   "parts": [
+    "J2_turret_p1",
+    "j6_body"
+   ],
+   "ok": true
+  },
+  {
+   "pair": "turret-flange",
+   "min": 243.334,
+   "pose": [
+    45,
+    54,
+    -72,
+    0,
+    -46.5
+   ],
+   "parts": [
+    "J2_turret_p1",
+    "j6_flange"
+   ],
+   "ok": true
+  }
+ ],
+ "B": {
+  "mass_g": 1509,
+  "worst_pose": [
+   0,
+   -54,
+   36,
+   90,
+   0
+  ],
+  "com_r": 118.0,
+  "foot_r": 64.0,
+  "stands": false,
+  "fixed_down": true
+ },
+ "C": [
+  {
+   "part": "base",
+   "p1": 1.99,
+   "thin_walls": []
+  },
+  {
+   "part": "spigot_collar",
+   "p1": 1.36,
+   "thin_walls": []
+  },
+  {
+   "part": "j1_mount",
+   "p1": 1.19,
+   "thin_walls": []
+  },
+  {
+   "part": "j1_hub",
+   "p1": 1.11,
+   "thin_walls": []
+  },
+  {
+   "part": "J2_turret_p1",
+   "p1": 1.49,
+   "thin_walls": []
+  },
+  {
+   "part": "J2_turret_p2",
+   "p1": 1.79,
+   "thin_walls": []
+  },
+  {
+   "part": "J2_shaft",
+   "p1": 3.2,
+   "thin_walls": []
+  },
+  {
+   "part": "shaft_clamp",
+   "p1": 2.91,
+   "thin_walls": []
+  },
+  {
+   "part": "link_upper_groove",
+   "p1": 0.85,
+   "thin_walls": [
+    [
+     184.8,
+     [
+      70.0,
+      -0.0,
+      0.3
+     ],
+     0.57
+    ]
+   ]
+  },
+  {
+   "part": "link_upper_tongue",
+   "p1": 1.19,
+   "thin_walls": []
+  },
+  {
+   "part": "collar_upper",
+   "p1": 1.8,
+   "thin_walls": []
+  },
+  {
+   "part": "J3_p1",
+   "p1": 1.44,
+   "thin_walls": []
+  },
+  {
+   "part": "J3_p2",
+   "p1": 1.79,
+   "thin_walls": []
+  },
+  {
+   "part": "J3_shaft",
+   "p1": 3.2,
+   "thin_walls": []
+  },
+  {
+   "part": "link_fore_tongue",
+   "p1": 1.59,
+   "thin_walls": []
+  },
+  {
+   "part": "link_fore_groove",
+   "p1": 1.59,
+   "thin_walls": []
+  },
+  {
+   "part": "collar_fore",
+   "p1": 1.8,
+   "thin_walls": []
+  },
+  {
+   "part": "j4_base",
+   "p1": 1.19,
+   "thin_walls": []
+  },
+  {
+   "part": "j4_cap",
+   "p1": 1.4,
+   "thin_walls": []
+  },
+  {
+   "part": "j4_hub",
+   "p1": 1.14,
+   "thin_walls": []
+  },
+  {
+   "part": "J5_p1",
+   "p1": 1.44,
+   "thin_walls": []
+  },
+  {
+   "part": "J5_p2",
+   "p1": 1.79,
+   "thin_walls": []
+  },
+  {
+   "part": "J5_shaft",
+   "p1": 3.21,
+   "thin_walls": []
+  },
+  {
+   "part": "J5_spacer",
+   "p1": 0.89,
+   "thin_walls": []
+  },
+  {
+   "part": "j6_body",
+   "p1": 2.32,
+   "thin_walls": []
+  },
+  {
+   "part": "j6_cap",
+   "p1": 1.18,
+   "thin_walls": []
+  },
+  {
+   "part": "j6_flange",
+   "p1": 1.14,
+   "thin_walls": []
+  }
+ ],
+ "D": [
+  {
+   "file": "01_base_x1.stl",
+   "size": [
+    120.0,
+    120.0,
+    50.0
+   ],
+   "fits180": true,
+   "fits256": true
+  },
+  {
+   "file": "02_spigot_collar_x1.stl",
+   "size": [
+    46.0,
+    46.0,
+    12.0
+   ],
+   "fits180": true,
+   "fits256": true
+  },
+  {
+   "file": "03_j1_mount_x1.stl",
+   "size": [
+    128.0,
+    128.0,
+    70.0
+   ],
+   "fits180": true,
+   "fits256": true
+  },
+  {
+   "file": "04_j1_hub_x1.stl",
+   "size": [
+    29.0,
+    29.0,
+    17.0
+   ],
+   "fits180": true,
+   "fits256": true
+  },
+  {
+   "file": "05_J2_turret_p1_x1.stl",
+   "size": [
+    138.0,
+    70.0,
+    84.0
+   ],
+   "fits180": true,
+   "fits256": true
+  },
+  {
+   "file": "06_J2_turret_p2_x1.stl",
+   "size": [
+    83.0,
+    66.0,
+    37.0
+   ],
+   "fits180": true,
+   "fits256": true
+  },
+  {
+   "file": "07_J2_shaft_x1.stl",
+   "size": [
+    30.0,
+    30.0,
+    50.0
+   ],
+   "fits180": true,
+   "fits256": true
+  },
+  {
+   "file": "08_shaft_clamp_x4.stl",
+   "size": [
+    37.0,
+    38.0,
+    14.0
+   ],
+   "fits180": true,
+   "fits256": true
+  },
+  {
+   "file": "09_link_upper_groove_x1.stl",
+   "size": [
+    110.0,
+    50.0,
+    14.0
+   ],
+   "fits180": true,
+   "fits256": true
+  },
+  {
+   "file": "10_link_upper_tongue_x1.stl",
+   "size": [
+    110.0,
+    50.0,
+    16.0
+   ],
+   "fits180": true,
+   "fits256": true
+  },
+  {
+   "file": "11_collar_upper_x2.stl",
+   "size": [
+    64.0,
+    24.0,
+    10.0
+   ],
+   "fits180": true,
+   "fits256": true
+  },
+  {
+   "file": "12_J3_p1_x1.stl",
+   "size": [
+    98.0,
+    50.0,
+    53.0
+   ],
+   "fits180": true,
+   "fits256": true
+  },
+  {
+   "file": "13_J3_p2_x1.stl",
+   "size": [
+    72.0,
+    50.0,
+    37.0
+   ],
+   "fits180": true,
+   "fits256": true
+  },
+  {
+   "file": "14_J3_shaft_x1.stl",
+   "size": [
+    30.0,
+    30.0,
+    50.0
+   ],
+   "fits180": true,
+   "fits256": true
+  },
+  {
+   "file": "15_link_fore_tongue_x1.stl",
+   "size": [
+    144.0,
+    50.0,
+    16.0
+   ],
+   "fits180": true,
+   "fits256": true
+  },
+  {
+   "file": "16_link_fore_groove_x1.stl",
+   "size": [
+    144.0,
+    50.0,
+    14.0
+   ],
+   "fits180": true,
+   "fits256": true
+  },
+  {
+   "file": "17_collar_fore_x2.stl",
+   "size": [
+    64.0,
+    24.0,
+    10.0
+   ],
+   "fits180": true,
+   "fits256": true
+  },
+  {
+   "file": "18_j4_base_x1.stl",
+   "size": [
+    57.0,
+    38.0,
+    65.0
+   ],
+   "fits180": true,
+   "fits256": true
+  },
+  {
+   "file": "19_j4_cap_x1.stl",
+   "size": [
+    58.0,
+    45.0,
+    10.0
+   ],
+   "fits180": true,
+   "fits256": true
+  },
+  {
+   "file": "20_j4_hub_x1.stl",
+   "size": [
+    46.0,
+    46.0,
+    20.0
+   ],
+   "fits180": true,
+   "fits256": true
+  },
+  {
+   "file": "21_J5_p1_x1.stl",
+   "size": [
+    48.0,
+    50.0,
+    66.0
+   ],
+   "fits180": true,
+   "fits256": true
+  },
+  {
+   "file": "22_J5_p2_x1.stl",
+   "size": [
+    66.0,
+    50.0,
+    37.0
+   ],
+   "fits180": true,
+   "fits256": true
+  },
+  {
+   "file": "23_J5_shaft_x1.stl",
+   "size": [
+    30.0,
+    30.0,
+    45.0
+   ],
+   "fits180": true,
+   "fits256": true
+  },
+  {
+   "file": "24_J5_spacer_x2.stl",
+   "size": [
+    32.0,
+    32.0,
+    3.0
+   ],
+   "fits180": true,
+   "fits256": true
+  },
+  {
+   "file": "25_j6_body_x1.stl",
+   "size": [
+    43.0,
+    54.0,
+    87.0
+   ],
+   "fits180": true,
+   "fits256": true
+  },
+  {
+   "file": "26_j6_cap_x1.stl",
+   "size": [
+    45.0,
+    58.0,
+    10.0
+   ],
+   "fits180": true,
+   "fits256": true
+  },
+  {
+   "file": "27_j6_flange_x1.stl",
+   "size": [
+    46.0,
+    46.0,
+    20.0
+   ],
+   "fits180": true,
+   "fits256": true
+  }
+ ]
+}

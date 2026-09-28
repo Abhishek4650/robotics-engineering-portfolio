@@ -1,0 +1,73 @@
+ARM-450 rev I -- release pass (all stages 0)
+
+J1                                                   0
+J2                                                   0
+J3                                                   0
+J4                                                   0
+WRIST                                                0
+HARDWARE (bearings + bolts as solids)                0
+LINK LOCK (J2/J3 set screws, centring rings)         0
+FASTENERS (every screw, insert, nut)                 0
+PARAMETER AUDIT                                      0
+TOOL ACCESS (hex key to every screw at its build step) 0
+RULE 4 (mate, never overlap; pathways; attached)     0
+SPRINGS                                              0
+SWEEP                                                0
+6-DOF (axes two ways, Jacobian rank)                 0
+OFFICIAL ST3215 (manufacturer's model, rear idler horn) 0
+DISASSEMBLY PATHS (our servo model)                  0
+DISASSEMBLY PATHS (official servo)                   0
+AUDIT GAPS (joints together, tipping, walls, bed)    0
+GATES (each part in its chosen PRINT orientation)    0
+PAIRS (static all-pairs)                             0
+WIRING (both bus plugs in every servo, way out)      0
+HEAD CLEARANCE (screw heads vs turning parts, contact angle) 0
+CABLE ROUTE (one joint per cable, path change, loops) 0
+PLUG INSERTION (bus plugs in and out with the arm assembled) 0
+UNION JOINTS (every glued feature joined over its full section) 0
+SECTION MEASURE (manual check by slicing)            0
+PRINT SLICER on the print-ready files                0
+
+VERIFICATION AUDIT 2026-09-24 (Rules 3, 4, 6, 8) -- ARM450_AUDIT_REPORT.pdf:
+ * every servo SCREWED by its own back holes (20 self-tappers) and seated on 4 supports
+ * rear idler horn of the real ST3215 cleared at J1/J4/J6; J5 axle assembles; table holes
+ * thin walls fixed; fork-floor bolt heads sunk; wire windows fitted to the plugs
+ * new checks: manufacturer's servo, disassembly, wiring, head clearance, cable route
+
+RULE 4 (mate, never overlap; interact only through proper pathways) found and fixed:
+ * J1: hub D-plug in the spigot on 0.1/0.2 mm clearance (+-1.9 deg yaw play) ->
+   spigot end slit into a COLLET, closed by the spigot collar (slot 2.0: 1.10 needed)
+ * J2/J3: links hung on +-0.2 mm clearances (+-1 deg) -> 2 x M5 set screws per link
+   half, self-tapped in the link's own O4.2 side holes, on double-D shaft flats
+ * J1: turret land sat on the base and the 6806 OUTER ring -> land on the inner ring only
+ * J4/J6: stationary lips on the 6706's turning INNER ring -> 0.5 mm relief
+ * J4/J6 caps overlapped the bearings 0.01 mm; J5 spacers floated 0.05 per face
+ * every set screw / grub modelled TIGHTENED; split clamps checked for closing travel
+
+Earlier in this pass (each measured, then re-checked):
+ * shaft clamps: the released O38 ring could not enter the links' bores (seam ear);
+   rev-I C-clamp straddles the ear (gap 11.4 -> ~1 deg play) + M3 grub on the D-flat
+ * J2 servo cover was held on by nothing (cover-bolt axes in air in both halves);
+   now a servo pod (2.4 mm shell round the whole servo) + 4 x M3 x 45 split bolts
+ * J3/J5 bays were 35.99 deep with a 1.4 back wall (released generator cut +1);
+   now exactly 34.99 with 2.4 wall
+ * -y spring-lug insert pockets were missing (mirror bug) on turret p1 and J3 p1
+ * seam-screw heads on the link tongues stood 3 mm into the fork cheeks (1 mm gap)
+   and under the forearm collars: all tongue seam holes counterbored (flush heads)
+ * spigot-collar insert broke out of the O46 surface: pads added
+ * standard screw lengths everywhere; several would have bottomed out
+ * forearm seam: 0.27 mm tongue/groove overlap removed
+
+6 DOF: six independent axes (yaw, shoulder, elbow, forearm roll, wrist pitch,
+tool roll), each axis measured twice (servo horn = bearing pockets, 0.0000 deg /
+0.0000 mm), spherical wrist, Jacobian rank 6 over the working range. Singular
+(as every arm of this type): arm straight up (the modelled home), elbow straight,
+wrist aligned (J5 = 0), wrist centre over the base axis -- use a bent 'ready' pose.
+
+Limits you accepted: simple gravity springs, NO continuous payload
+(worst case arm level: J2 SF 1.07, J3 SF 1.26 on 0.88 N.m continuous).
+Supports: see the print list (J2_turret_p1, J3_p1, j6_body, base REQUIRED).
+
+Slicer note, measured: the two link tongues show 'MARGINAL z 16.1' -- that is the
+cut exactly AT the top face of the rounded seam lip. The lip is 2.00 mm wide to
+z 15.4 and 1.17 mm at z 16.0 (three lines): not a thin wall.

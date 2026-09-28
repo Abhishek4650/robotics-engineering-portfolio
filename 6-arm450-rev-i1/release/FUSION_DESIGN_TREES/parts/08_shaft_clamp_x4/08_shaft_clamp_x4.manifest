@@ -1,0 +1,10 @@
+{
+ "autodeskProduct": "Fusion360",
+ "type": "script",
+ "author": "ARM-450 rev I",
+ "description": {
+  "": "ARM-450 rev I shaft_clamp: build the design tree, save 08_shaft_clamp_x4.f3d"
+ },
+ "supportedOS": "windows|mac",
+ "editEnabled": true
+}

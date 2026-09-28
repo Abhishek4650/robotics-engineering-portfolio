@@ -1,0 +1,10 @@
+{
+ "autodeskProduct": "Fusion360",
+ "type": "script",
+ "author": "ARM-450 rev I",
+ "description": {
+  "": "ARM-450 rev I spigot_collar: build the design tree, save 02_spigot_collar_x1.f3d"
+ },
+ "supportedOS": "windows|mac",
+ "editEnabled": true
+}

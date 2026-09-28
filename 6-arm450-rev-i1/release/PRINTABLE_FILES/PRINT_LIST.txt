@@ -1,0 +1,33 @@
+ARM-450 rev I -- printable files. Each STL is already turned to its checked print
+orientation and sits on the bed. Print the quantity in the file name (_xN).
+
+file                                 qty  orient supports  size mm
+01_base_x1.stl                         1  +Z up  REQUIRED  120 x 120 x 50
+02_spigot_collar_x1.stl                1  +Z up  none      46 x 46 x 12
+03_j1_mount_x1.stl                     1  +Z up  none      128 x 128 x 70
+04_j1_hub_x1.stl                       1  +Z up  advised   29 x 29 x 17
+05_J2_turret_p1_x1.stl                 1  +X up  REQUIRED  138 x 70 x 84
+06_J2_turret_p2_x1.stl                 1  -Y up  advised   83 x 66 x 37
+07_J2_shaft_x1.stl                     1  +Y up  none      30 x 30 x 50
+08_shaft_clamp_x4.stl                  4  -Z up  none      37 x 38 x 14
+09_link_upper_groove_x1.stl            1  +Z up  advised   110 x 50 x 14
+10_link_upper_tongue_x1.stl            1  +Z up  advised   110 x 50 x 16
+11_collar_upper_x2.stl                 2  +Z up  none      64 x 24 x 10
+12_J3_p1_x1.stl                        1  -Z up  REQUIRED  98 x 50 x 53
+13_J3_p2_x1.stl                        1  -Z up  none      72 x 50 x 37
+14_J3_shaft_x1.stl                     1  -Z up  none      30 x 30 x 50
+15_link_fore_tongue_x1.stl             1  +Z up  advised   144 x 50 x 16
+16_link_fore_groove_x1.stl             1  +Z up  advised   144 x 50 x 14
+17_collar_fore_x2.stl                  2  +Z up  none      64 x 24 x 10
+18_j4_base_x1.stl                      1  -Z up  REQUIRED  57 x 38 x 65
+19_j4_cap_x1.stl                       1  -Z up  none      58 x 45 x 10
+20_j4_hub_x1.stl                       1  -Z up  none      46 x 46 x 20
+21_J5_p1_x1.stl                        1  +X up  advised   48 x 50 x 66
+22_J5_p2_x1.stl                        1  -Z up  none      66 x 50 x 37
+23_J5_shaft_x1.stl                     1  -Z up  none      30 x 30 x 45
+24_J5_spacer_x2.stl                    2  +Z up  none      32 x 32 x 3
+25_j6_body_x1.stl                      1  -X up  REQUIRED  43 x 54 x 87
+26_j6_cap_x1.stl                       1  -X up  none      45 x 58 x 10
+27_j6_flange_x1.stl                    1  -X up  none      46 x 46 x 20
+
+27 files, 33 pieces. Hardware, springs and the build order: FINAL_PRINT/README.md

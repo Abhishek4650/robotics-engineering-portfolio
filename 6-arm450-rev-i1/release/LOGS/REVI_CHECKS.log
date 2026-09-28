@@ -1,0 +1,1870 @@
+=== J1 ===
+==============================================================================
+J1 DRIVE TRAIN -- world frame, every part against every other
+==============================================================================
+   A horn on the J1 axis                                  PASS  offset 0.0000 mm
+   A horn face at Z_HORN                                  PASS  horn face -11.300, want -11.300
+   B servo vs mount: only lips + pinch walls + end stop   PASS  5491 contacts (160 lip, 5331 pinch 0.112/side, 0 end), 0 elsewhere
+   B case back clears the pedestals (0.4 gap)             PASS  0 points
+   B servo vs hub: only the horn face (bolted joint)      PASS  686 contacts on z -11.300, 0 elsewhere
+   B servo vs turret                                      PASS  0 / 60000
+   B servo vs base                                        PASS  0 / 60000
+   B servo vs collar                                      PASS  0 / 60000
+   B servo slides in along the channel (no snag)          PASS  worst 0 off-wall points over 12 stations
+   C hub vs turret                                        PASS  0 / 60000
+   C hub vs mount                                         PASS  0 / 60000
+   C hub vs base                                          PASS  0 / 60000
+   C hub vs collar                                        PASS  0 / 60000
+   D hub turned 2 deg bears on the spigot D-key           PASS  53 points
+   D hub turned 4 deg bears on the spigot D-key           PASS  756 points
+   E mount vs turret                                      PASS  0 / 80000
+   E mount vs collar                                      PASS  0 / 80000
+   E mount vs base: posts meet the underside only         PASS  0 contacts, z -, 0 off the face
+   E posts on the base foot-hole axes (holes open above)  PASS  4 of 4
+   F hub flange clears the plate bore                     PASS  radial 1.00 mm
+   F lip top under the spigot end                         PASS  1.31 mm below the spigot
+   F lip top under the collar                             PASS  3.31 mm below the collar
+   G collar pinch bolt z -4.8: hex-key run from outside   PASS  >70 mm clear
+
+FAILURES: 0
+=== J2 ===
+
+============================================================================
+DRIVE TRAIN -- J2   (joint frame, axis = Z)
+============================================================================
+   A horn on the joint axis                           PASS  offset 0.0000 mm
+   A horn face at P - 3.011                           PASS  horn face z 25.489, want 25.489
+   A case back inside the bay                         PASS  back 63.089, bay top 63.489
+   B servo vs p1: contact only on the seat plane      PASS  464 contacts at z 28.500, 0 off the plane
+   B servo vs shaft: contact only on the seat plane   PASS  771 contacts at z 25.489, 0 off the plane
+   B servo vs p2: contact ONLY on the pinch walls     PASS  5403 contacts, 0 off-pinch, pinch 0.112 mm/side
+   B servo vs link_upper_groove                       PASS  0 / 60000
+   B servo vs link_upper_tongue                       PASS  0 / 60000
+   B servo vs shaft_clamp_1                           PASS  0 / 60000
+   B servo vs shaft_clamp_2                           PASS  0 / 60000
+   B servo vs base                                    PASS  0 / 60000
+   C horn face meets the shaft end                    PASS  horn face 25.489, shaft end 25.489, gap -0.000 mm
+   D horn bolt holes inside the O19.2 horn disc       PASS  holes reach r 8.26, disc r 9.60
+   E shaft vs p1                                      PASS  0 / 60000
+   E shaft vs p2                                      PASS  0 / 60000
+   E shaft vs link_upper_groove (grip)                PASS  clear
+   E shaft vs link_upper_tongue (grip)                PASS  clear
+   E shaft vs shaft_clamp_1 (grip)                    PASS  clear
+   E shaft vs shaft_clamp_2 (grip)                    PASS  clear
+   E shaft vs base                                    PASS  0 / 60000
+   F driver reach through the O22 bore                PASS  screw heads 47.0 mm in from the idle end; 6 mm driver in a 22 bore
+FAILURES: 0
+=== J3 ===
+
+============================================================================
+DRIVE TRAIN -- J3   (joint frame, axis = Z)
+============================================================================
+   A horn on the joint axis                           PASS  offset 0.0000 mm
+   A horn face at P - 3.011                           PASS  horn face z 25.489, want 25.489
+   A case back inside the bay                         PASS  back 63.089, bay top 63.489
+   B servo vs p1: contact only on the seat plane      PASS  480 contacts at z 28.500, 0 off the plane
+   B servo vs shaft: contact only on the seat plane   PASS  802 contacts at z 25.489, 0 off the plane
+   B servo vs p2: contact ONLY on the pinch walls     PASS  5228 contacts, 0 off-pinch, pinch 0.112 mm/side
+   B servo vs link_fore_groove                        PASS  0 / 60000
+   B servo vs link_fore_tongue                        PASS  0 / 60000
+   B servo vs shaft_clamp_3                           PASS  0 / 60000
+   B servo vs shaft_clamp_4                           PASS  0 / 60000
+   B servo vs link_upper_groove                       PASS  0 / 60000
+   B servo vs link_upper_tongue                       PASS  0 / 60000
+   C horn face meets the shaft end                    PASS  horn face 25.489, shaft end 25.489, gap -0.000 mm
+   D horn bolt holes inside the O19.2 horn disc       PASS  holes reach r 8.26, disc r 9.60
+   E shaft vs p1                                      PASS  0 / 60000
+   E shaft vs p2                                      PASS  0 / 60000
+   E shaft vs link_fore_groove (grip)                 PASS  clear
+   E shaft vs link_fore_tongue (grip)                 PASS  clear
+   E shaft vs shaft_clamp_3 (grip)                    PASS  clear
+   E shaft vs shaft_clamp_4 (grip)                    PASS  clear
+   E shaft vs link_upper_groove (grip)                PASS  clear
+   E shaft vs link_upper_tongue (grip)                PASS  clear
+   F driver reach through the O22 bore                PASS  screw heads 47.0 mm in from the idle end; 6 mm driver in a 22 bore
+FAILURES: 0
+=== J4 ===
+================================================================================
+J4 DRIVE TRAIN -- world frame, every part against every other
+================================================================================
+   A horn on the J4 axis                                    PASS  offset 0.0000 mm
+   A horn face at Z_HORN                                    PASS  381.600 vs 381.600
+   B servo vs base: only lips + pinch walls + end stop      PASS  5549 contacts, 0 elsewhere
+   B servo vs hub: only the horn face                       PASS  686 contacts, 0 elsewhere
+   B servo vs cap                                           PASS  0 / 60000
+   B servo vs link_fore_tongue                              PASS  0 / 60000
+   B servo vs link_fore_groove                              PASS  0 / 60000
+   B servo slides in along the channel (no snag)            PASS  worst 0
+   C base vs link_fore_tongue: contact only on the face     PASS  0 contacts, 0 off the face
+   C base vs link_fore_groove: contact only on the face     PASS  0 contacts, 0 off the face
+   C base bolt holes over the forearm inserts               PASS  4 of 4
+   C cap vs base: contact only on the wall tops             PASS  0 contacts, 0 elsewhere
+   D hub turns a full revolution clear of base/cap/forearm  PASS  worst 0 points
+   D hub flange clears the cap top                          PASS  0.50 mm
+   D collar on the inner race, inside the outer-race shoulder PASS  collar r 16.0 < shoulder r 17.0
+   E forearm bolt heads (-17,+-7) clear the end wall        PASS  head edge x -14.25, wall face -13.91
+
+FAILURES: 0
+=== WRIST ===
+====================================================================================
+J5 DRIVE TRAIN -- J5 fork frame
+====================================================================================
+
+============================================================================
+DRIVE TRAIN -- J5   (joint frame, axis = Z)
+============================================================================
+   A horn on the joint axis                           PASS  offset 0.0000 mm
+   A horn face at P - 3.011                           PASS  horn face z 22.989, want 22.989
+   A case back inside the bay                         PASS  back 60.589, bay top 60.989
+   B servo vs p1: contact only on the seat plane      PASS  454 contacts at z 26.000, 0 off the plane
+   B servo vs shaft: contact only on the seat plane   PASS  764 contacts at z 22.989, 0 off the plane
+   B servo vs p2: contact ONLY on the pinch walls     PASS  5279 contacts, 0 off-pinch, pinch 0.112 mm/side
+   B servo vs link_j6_body (D-bore grip)              PASS  0 / 60000
+   B servo vs spacer_A                                PASS  0 / 60000
+   B servo vs spacer_B                                PASS  0 / 60000
+   B servo vs j6_cap                                  PASS  0 / 60000
+   B servo vs j6_flange                               PASS  0 / 60000
+   B servo vs j4_hub                                  PASS  0 / 60000
+   B servo vs j4_cap                                  PASS  0 / 60000
+   C horn face meets the shaft end                    PASS  horn face 22.989, shaft end 22.989, gap -0.000 mm
+   D horn bolt holes inside the O19.2 horn disc       PASS  holes reach r 8.26, disc r 9.60
+   E shaft vs p1                                      PASS  0 / 60000
+   E shaft vs p2                                      PASS  0 / 60000
+   E shaft vs link_j6_body (D-bore grip) (grip)       PASS  clear
+   E shaft vs spacer_A                                PASS  0 / 60000
+   E shaft vs spacer_B                                PASS  0 / 60000
+   E shaft vs j6_cap                                  PASS  0 / 60000
+   E shaft vs j6_flange                               PASS  0 / 60000
+   E shaft vs j4_hub                                  PASS  0 / 60000
+   E shaft vs j4_cap                                  PASS  0 / 60000
+   F driver reach through the O22 bore                PASS  screw heads 42.0 mm in from the idle end; 6 mm driver in a 22 bore
+   J5 blade + J6 stack swings +-93 deg clear of fork/servo/J4 PASS  worst 0 points
+   J5 blade D-bore bears on the shaft flat at 2 deg           PASS  685 points
+   J5 spacers close the stack: blade face -> spacer -> inner ring, 0 play PASS  spacer z 15.000..18.000, blade face 15.000, inner ring 18.000
+   J5 spacer OD clears the cheek seat bore                    PASS  r 16.0 < r 16.5
+   J5 fork sits on the J4 hub top face only                   PASS  0 contacts, 0 off the face
+   J5 fork bolts land on the J4 hub inserts                   PASS  4 of 4
+
+====================================================================================
+J6 DRIVE TRAIN -- J6 frame (a channel, b pinch, c output)
+====================================================================================
+   J6 horn on the J6 axis                                     PASS  offset 0.0000
+   J6 horn face at X6_HORN                                    PASS  67.600 vs 67.600
+   J6 servo vs body: only lips + pinch walls + end stop       PASS  5532 contacts, 0 elsewhere
+   J6 servo vs flange: only the horn face                     PASS  698 contacts, 0 elsewhere
+   J6 servo vs j6_cap                                         PASS  0 / 60000
+   J6 servo vs J5_shaft                                       PASS  0 / 60000
+   J6 servo vs spacer_A                                       PASS  0 / 60000
+   J6 servo vs spacer_B                                       PASS  0 / 60000
+   J6 servo vs J5_p1                                          PASS  0 / 60000
+   J6 servo vs J5_p2                                          PASS  0 / 60000
+   J6 servo slides into the body channel (no snag)            PASS  worst 0
+   J6 cap vs body: only on the lip/boss tops                  PASS  0 contacts, 0 elsewhere
+   J6 flange turns a full revolution clear of body/cap        PASS  worst 0
+   J6 flange clears the cap top                               PASS  0.50 mm
+   J6 plug room between hub and case back                     PASS  11.9 mm
+
+FAILURES: 0
+=== HARDWARE (bearings + bolts as solids) ===
+==========================================================================================
+BEARINGS + BOLTS as solids, against every part
+==========================================================================================
+
+J3  (joint frame, axis Z)
+   J3 drive bearing seats only on its OD / faces in p1          PASS  8653 contacts, 0 elsewhere
+   J3 drive bearing vs p2                                       PASS  0
+   J3 drive bearing vs servo                                    PASS  0
+   J3 drive bearing vs shaft                                    PASS  0
+   J3 idle bearing seats only on its OD / faces in p1           PASS  8666 contacts, 0 elsewhere
+   J3 idle bearing vs p2                                        PASS  0
+   J3 idle bearing vs servo                                     PASS  0
+   J3 idle bearing vs shaft                                     PASS  0
+   J3 split bolt (-20,+16) clear of everything                  PASS  clear
+   J3 split bolt (-20,-16) clear of everything                  PASS  clear
+   J3 split bolt (+26,+16) clear of everything                  PASS  clear
+   J3 split bolt (+26,-16) clear of everything                  PASS  clear
+
+J5  (joint frame, axis Z)
+   J5 drive bearing seats only on its OD / faces in p1          PASS  8099 contacts, 0 elsewhere
+   J5 drive bearing vs p2                                       PASS  0
+   J5 drive bearing vs servo                                    PASS  0
+   J5 drive bearing vs shaft                                    PASS  0
+   J5 drive bearing vs j6_body                                  PASS  0
+   J5 drive bearing vs spacer_A                                 PASS  0
+   J5 drive bearing vs spacer_B                                 PASS  0
+   J5 idle bearing seats only on its OD / faces in p1           PASS  8204 contacts, 0 elsewhere
+   J5 idle bearing vs p2                                        PASS  0
+   J5 idle bearing vs servo                                     PASS  0
+   J5 idle bearing vs shaft                                     PASS  0
+   J5 idle bearing vs j6_body                                   PASS  0
+   J5 idle bearing vs spacer_A                                  PASS  0
+   J5 idle bearing vs spacer_B                                  PASS  0
+   J5 split bolt (-20,+16) clear of everything                  PASS  clear
+   J5 split bolt (-20,-16) clear of everything                  PASS  clear
+   J5 split bolt (+26,+16) clear of everything                  PASS  clear
+   J5 split bolt (+26,-16) clear of everything                  PASS  clear
+
+J2  (joint frame, axis Z)
+   J2 drive bearing seats only on its OD / faces                PASS  8693 contacts, 0 elsewhere
+   J2 drive bearing vs turret_p2                                PASS  0
+   J2 drive bearing vs servo                                    PASS  0
+   J2 drive bearing vs shaft                                    PASS  0
+   J2 idle bearing seats only on its OD / faces                 PASS  8078 contacts, 0 elsewhere
+   J2 idle bearing vs turret_p2                                 PASS  0
+   J2 idle bearing vs servo                                     PASS  0
+   J2 idle bearing vs shaft                                     PASS  0
+
+J4  (roll frame, axis Z)
+   J4 bearing seats only on its OD / faces in the cap           PASS  3061 contacts, 0 elsewhere
+   J4 bearing vs base: only the seated face z=382.59            PASS  0 contacts, 0 elsewhere
+   J4 bearing vs hub: only the seated face z=386.59             PASS  1278 contacts, 0 elsewhere
+   J4 bearing vs servo                                          PASS  0
+   J4 cap bolt (+14.5,-15.5) clear of everything                PASS  clear
+   J4 cap bolt (+14.5,+15.5) clear of everything                PASS  clear
+   J4 cap bolt (+31.0,-15.5) clear of everything                PASS  clear
+   J4 cap bolt (+31.0,+15.5) clear of everything                PASS  clear
+
+J6  (roll frame, axis Z)
+   J6 bearing seats only on its OD / faces in the cap           PASS  3183 contacts, 0 elsewhere
+   J6 bearing vs base: only the seated face z=68.59             PASS  0 contacts, 0 elsewhere
+   J6 bearing vs hub: only the seated face z=72.59              PASS  1198 contacts, 0 elsewhere
+   J6 bearing vs servo                                          PASS  0
+   J6 cap bolt (+14.5,-17.5) clear of everything                PASS  clear
+   J6 cap bolt (+14.5,+17.5) clear of everything                PASS  clear
+   J6 cap bolt (+31.0,-17.5) clear of everything                PASS  clear
+   J6 cap bolt (+31.0,+17.5) clear of everything                PASS  clear
+
+FAILURES: 0
+=== LINK LOCK (J2/J3 set screws, centring rings) ===
+ring 1 in link_upper_groove (axis [0. 1. 0.])
+   1  ring x link 0.0000 mm3, x shaft 0.0000 mm3; touching link 0.025 / shaft 0.025 mm  ok
+   2  seam ear inside the ring gap: 420.9 mm3 (ring slides in over it)  ok
+   3  set screw  90 deg: link hole O4.24 (M5 self-tap), thread in link 5.6 mm, ring hole clears M5 True, shaft surface on the axis r 14.195 -> ON the flat  ok
+   3  set screw 270 deg: link hole O4.24 (M5 self-tap), thread in link 5.6 mm, ring hole clears M5 True, shaft surface on the axis r 14.195 -> ON the flat  ok
+ring 2 in link_upper_tongue (axis [ 0. -1.  0.])
+   1  ring x link 0.0000 mm3, x shaft 0.0000 mm3; touching link 0.025 / shaft 0.025 mm  ok
+   2  seam ear inside the ring gap: 414.7 mm3 (ring slides in over it)  ok
+   3  set screw  90 deg: link hole O4.24 (M5 self-tap), thread in link 5.6 mm, ring hole clears M5 True, shaft surface on the axis r 14.195 -> ON the flat  ok
+   3  set screw 270 deg: link hole O4.24 (M5 self-tap), thread in link 5.6 mm, ring hole clears M5 True, shaft surface on the axis r 14.195 -> ON the flat  ok
+ring 3 in link_fore_groove (axis [0. 1. 0.])
+   1  ring x link 0.0000 mm3, x shaft 0.0000 mm3; touching link 0.025 / shaft 0.025 mm  ok
+   2  seam ear inside the ring gap: 420.9 mm3 (ring slides in over it)  ok
+   3  set screw  90 deg: link hole O4.24 (M5 self-tap), thread in link 5.6 mm, ring hole clears M5 True, shaft surface on the axis r 14.195 -> ON the flat  ok
+   3  set screw 270 deg: link hole O4.24 (M5 self-tap), thread in link 5.6 mm, ring hole clears M5 True, shaft surface on the axis r 14.195 -> ON the flat  ok
+ring 4 in link_fore_tongue (axis [ 0. -1.  0.])
+   1  ring x link 0.0000 mm3, x shaft 0.0000 mm3; touching link 0.025 / shaft 0.025 mm  ok
+   2  seam ear inside the ring gap: 414.7 mm3 (ring slides in over it)  ok
+   3  set screw  90 deg: link hole O4.24 (M5 self-tap), thread in link 5.6 mm, ring hole clears M5 True, shaft surface on the axis r 14.195 -> ON the flat  ok
+   3  set screw 270 deg: link hole O4.24 (M5 self-tap), thread in link 5.6 mm, ring hole clears M5 True, shaft surface on the axis r 14.195 -> ON the flat  ok
+
+4  hex key (O3.2 path from the screw's outer end, 80 mm) in the whole assembled arm
+   ring 1 screw  90: CLEAR
+   ring 1 screw 270: CLEAR
+   ring 2 screw  90: CLEAR
+   ring 2 screw 270: CLEAR
+   ring 3 screw  90: CLEAR
+   ring 3 screw 270: CLEAR
+   ring 4 screw  90: CLEAR
+   ring 4 screw 270: CLEAR
+
+LINK LOCK VERIFICATION: 0 failure(s)
+=== FASTENERS (every screw, insert, nut) ===
+FASTENERS: 114 screws/grubs/pins, 61 inserts, 4 nuts, against 49 parts
+
+  1 cap_J4_0                   free
+  1 cap_J4_1                   free
+  1 cap_J4_2                   free
+  1 cap_J4_3                   free
+  1 cap_J6_0                   free
+  1 cap_J6_1                   free
+  1 cap_J6_2                   free
+  1 cap_J6_3                   free
+  1 collar_clamp_158_+1        free
+  1 collar_clamp_158_-1        free
+  1 collar_clamp_299_+1        free
+  1 collar_clamp_299_-1        free
+  1 collar_pinch               free
+  1 ear_bolt_fore              free
+  1 ear_bolt_upper             free
+  1 horn_screw_J1_0            free
+  1 horn_screw_J1_180          free
+  1 horn_screw_J1_270          free
+  1 horn_screw_J1_90           free
+  1 horn_screw_J2_0            free
+  1 horn_screw_J2_180          free
+  1 horn_screw_J2_270          free
+  1 horn_screw_J2_90           free
+  1 horn_screw_J3_0            free
+  1 horn_screw_J3_180          free
+  1 horn_screw_J3_270          free
+  1 horn_screw_J3_90           free
+  1 horn_screw_J4_0            free
+  1 horn_screw_J4_180          free
+  1 horn_screw_J4_270          free
+  1 horn_screw_J4_90           free
+  1 horn_screw_J5_0            free
+  1 horn_screw_J5_180          free
+  1 horn_screw_J5_270          free
+  1 horn_screw_J5_90           free
+  1 horn_screw_J6_0            free
+  1 horn_screw_J6_180          free
+  1 horn_screw_J6_270          free
+  1 horn_screw_J6_90           free
+  1 j3fork_link_0              free
+  1 j3fork_link_1              free
+  1 j3fork_link_2              free
+  1 j3fork_link_3              free
+  1 j4base_forearm_0           free
+  1 j4base_forearm_1           free
+  1 j4base_forearm_2           free
+  1 j4base_forearm_3           free
+  1 j5_grub                    j6_body 6.725 mm3 (self-tapping, designed)
+  1 j5fork_j4hub_0             free
+  1 j5fork_j4hub_1             free
+  1 j5fork_j4hub_2             free
+  1 j5fork_j4hub_3             free
+  1 link_set_1_270             link_upper_groove 29.302 mm3 (self-tapping, designed)
+  1 link_set_1_90              link_upper_groove 29.305 mm3 (self-tapping, designed)
+  1 link_set_2_270             link_upper_tongue 29.302 mm3 (self-tapping, designed)
+  1 link_set_2_90              link_upper_tongue 29.305 mm3 (self-tapping, designed)
+  1 link_set_3_270             link_fore_groove 29.302 mm3 (self-tapping, designed)
+  1 link_set_3_90              link_fore_groove 29.305 mm3 (self-tapping, designed)
+  1 link_set_4_270             link_fore_tongue 29.302 mm3 (self-tapping, designed)
+  1 link_set_4_90              link_fore_tongue 29.305 mm3 (self-tapping, designed)
+  1 m4_base_foot_0             free
+  1 m4_base_foot_1             free
+  1 m4_base_foot_2             free
+  1 m4_base_foot_3             free
+  1 pin_J2_collar_+1           free
+  1 pin_J2_collar_-1           free
+  1 pin_J2_turret_+1           free
+  1 pin_J2_turret_-1           free
+  1 pin_J3_collar_+1           free
+  1 pin_J3_collar_-1           free
+  1 pin_J3_fork_+1             free
+  1 pin_J3_fork_-1             free
+  1 seam_fore_0                free
+  1 seam_fore_1                free
+  1 seam_fore_2                free
+  1 seam_fore_3                free
+  1 seam_fore_4                free
+  1 seam_fore_5                free
+  1 seam_upper_0               free
+  1 seam_upper_1               free
+  1 seam_upper_2               free
+  1 seam_upper_3               free
+  1 servo_scr_J1_0             servo_J1 1.525 mm3 (self-tapping, designed)
+  1 servo_scr_J1_1             servo_J1 1.525 mm3 (self-tapping, designed)
+  1 servo_scr_J1_2             servo_J1 1.525 mm3 (self-tapping, designed)
+  1 servo_scr_J1_3             servo_J1 1.525 mm3 (self-tapping, designed)
+  1 servo_scr_J2_0             servo_J2 1.525 mm3 (self-tapping, designed)
+  1 servo_scr_J2_1             servo_J2 1.525 mm3 (self-tapping, designed)
+  1 servo_scr_J2_2             servo_J2 1.525 mm3 (self-tapping, designed)
+  1 servo_scr_J2_3             servo_J2 1.525 mm3 (self-tapping, designed)
+  1 servo_scr_J3_0             servo_J3 1.525 mm3 (self-tapping, designed)
+  1 servo_scr_J3_1             servo_J3 1.525 mm3 (self-tapping, designed)
+  1 servo_scr_J3_2             servo_J3 1.525 mm3 (self-tapping, designed)
+  1 servo_scr_J3_3             servo_J3 1.525 mm3 (self-tapping, designed)
+  1 servo_scr_J4_0             servo_J4 1.525 mm3 (self-tapping, designed)
+  1 servo_scr_J4_1             servo_J4 1.525 mm3 (self-tapping, designed)
+  1 servo_scr_J5_0             servo_J5 1.525 mm3 (self-tapping, designed)
+  1 servo_scr_J5_1             servo_J5 1.525 mm3 (self-tapping, designed)
+  1 servo_scr_J5_2             servo_J5 1.525 mm3 (self-tapping, designed)
+  1 servo_scr_J5_3             servo_J5 1.525 mm3 (self-tapping, designed)
+  1 servo_scr_J6_0             servo_J6 1.525 mm3 (self-tapping, designed)
+  1 servo_scr_J6_1             servo_J6 1.525 mm3 (self-tapping, designed)
+  1 split_J2_0                 free
+  1 split_J2_1                 free
+  1 split_J2_2                 free
+  1 split_J2_3                 free
+  1 split_J3_0                 free
+  1 split_J3_1                 free
+  1 split_J3_2                 free
+  1 split_J3_3                 free
+  1 split_J5_0                 free
+  1 split_J5_1                 free
+  1 split_J5_2                 free
+  1 split_J5_3                 free
+
+CLAMP / THREAD ENGAGEMENT, HEAD SEAT, TIP
+  cap_J4_0                   engaged  5.7 mm in cap_ins_J4_0         head on j4_cap                 tip free  ok
+  cap_J4_1                   engaged  5.7 mm in cap_ins_J4_1         head on j4_cap                 tip free  ok
+  cap_J4_2                   engaged  5.7 mm in cap_ins_J4_2         head on j4_cap                 tip free  ok
+  cap_J4_3                   engaged  5.7 mm in cap_ins_J4_3         head on j4_cap                 tip free  ok
+  cap_J6_0                   engaged  5.7 mm in cap_ins_J6_0         head on j6_cap                 tip free  ok
+  cap_J6_1                   engaged  5.7 mm in cap_ins_J6_1         head on j6_cap                 tip free  ok
+  cap_J6_2                   engaged  5.7 mm in cap_ins_J6_2         head on j6_cap                 tip free  ok
+  cap_J6_3                   engaged  5.7 mm in cap_ins_J6_3         head on j6_cap                 tip free  ok
+  collar_clamp_158_+1        engaged  4.0 mm in collar_nut_158_+1    head on collar_upper_+y        tip free  ok
+  collar_clamp_158_-1        engaged  4.0 mm in collar_nut_158_-1    head on collar_upper_+y        tip free  ok
+  collar_clamp_299_+1        engaged  4.0 mm in collar_nut_299_+1    head on collar_fore_+y         tip free  ok
+  collar_clamp_299_-1        engaged  4.0 mm in collar_nut_299_-1    head on collar_fore_+y         tip free  ok
+  collar_pinch               engaged  3.1 mm in collar_ins           head on spigot_collar          tip free  ok
+  ear_bolt_fore              engaged  4.0 mm in ear_ins_fore         head on link_fore_tongue       tip free  ok
+  ear_bolt_upper             engaged  4.0 mm in ear_ins_upper        head on link_upper_tongue      tip free  ok
+  horn_screw_J1_0            engaged  3.0 mm in servo_J1             head on j1_hub                 tip free  ok
+  horn_screw_J1_180          engaged  3.0 mm in servo_J1             head on j1_hub                 tip free  ok
+  horn_screw_J1_270          engaged  3.0 mm in servo_J1             head on j1_hub                 tip free  ok
+  horn_screw_J1_90           engaged  3.0 mm in servo_J1             head on j1_hub                 tip free  ok
+  horn_screw_J2_0            engaged  2.5 mm in servo_J2             head on J2_shaft               tip free  ok
+  horn_screw_J2_180          engaged  2.5 mm in servo_J2             head on J2_shaft               tip free  ok
+  horn_screw_J2_270          engaged  2.5 mm in servo_J2             head on J2_shaft               tip free  ok
+  horn_screw_J2_90           engaged  2.5 mm in servo_J2             head on J2_shaft               tip free  ok
+  horn_screw_J3_0            engaged  2.5 mm in servo_J3             head on J3_shaft               tip free  ok
+  horn_screw_J3_180          engaged  2.5 mm in servo_J3             head on J3_shaft               tip free  ok
+  horn_screw_J3_270          engaged  2.5 mm in servo_J3             head on J3_shaft               tip free  ok
+  horn_screw_J3_90           engaged  2.5 mm in servo_J3             head on J3_shaft               tip free  ok
+  horn_screw_J4_0            engaged  3.0 mm in servo_J4             head on j4_hub                 tip free  ok
+  horn_screw_J4_180          engaged  3.0 mm in servo_J4             head on j4_hub                 tip free  ok
+  horn_screw_J4_270          engaged  3.0 mm in servo_J4             head on j4_hub                 tip free  ok
+  horn_screw_J4_90           engaged  3.0 mm in servo_J4             head on j4_hub                 tip free  ok
+  horn_screw_J5_0            engaged  2.5 mm in servo_J5             head on J5_shaft               tip free  ok
+  horn_screw_J5_180          engaged  2.5 mm in servo_J5             head on J5_shaft               tip free  ok
+  horn_screw_J5_270          engaged  2.5 mm in servo_J5             head on J5_shaft               tip free  ok
+  horn_screw_J5_90           engaged  2.5 mm in servo_J5             head on J5_shaft               tip free  ok
+  horn_screw_J6_0            engaged  3.0 mm in servo_J6             head on j6_flange              tip free  ok
+  horn_screw_J6_180          engaged  3.0 mm in servo_J6             head on j6_flange              tip free  ok
+  horn_screw_J6_270          engaged  3.0 mm in servo_J6             head on j6_flange              tip free  ok
+  horn_screw_J6_90           engaged  3.0 mm in servo_J6             head on j6_flange              tip free  ok
+  j3fork_link_0              engaged  5.2 mm in link_end_ins_0       head on J3_p1                  tip free  ok
+  j3fork_link_1              engaged  5.2 mm in link_end_ins_1       head on J3_p1                  tip free  ok
+  j3fork_link_2              engaged  5.2 mm in link_end_ins_2       head on J3_p1                  tip free  ok
+  j3fork_link_3              engaged  5.2 mm in link_end_ins_3       head on J3_p1                  tip free  ok
+  j4base_forearm_0           engaged  5.7 mm in forearm_ins_0        head on j4_base                tip free  ok
+  j4base_forearm_1           engaged  5.7 mm in forearm_ins_1        head on j4_base                tip free  ok
+  j4base_forearm_2           engaged  5.7 mm in forearm_ins_2        head on j4_base                tip free  ok
+  j4base_forearm_3           engaged  5.7 mm in forearm_ins_3        head on j4_base                tip free  ok
+  j5_grub                    engaged  3.8 mm in j6_body              head on (grub)                 tip on J5_shaft  ok
+  j5fork_j4hub_0             engaged  5.2 mm in j4hub_ins_0          head on J5_p1                  tip free  ok
+  j5fork_j4hub_1             engaged  5.2 mm in j4hub_ins_1          head on J5_p1                  tip free  ok
+  j5fork_j4hub_2             engaged  5.2 mm in j4hub_ins_2          head on J5_p1                  tip free  ok
+  j5fork_j4hub_3             engaged  5.2 mm in j4hub_ins_3          head on J5_p1                  tip free  ok
+  link_set_1_270             engaged  5.0 mm in link_upper_groove    head on link_upper_groove      tip on J2_shaft  ok
+  link_set_1_90              engaged  5.0 mm in link_upper_groove    head on link_upper_groove      tip on J2_shaft  ok
+  link_set_2_270             engaged  5.0 mm in link_upper_tongue    head on link_upper_tongue      tip on J2_shaft  ok
+  link_set_2_90              engaged  5.0 mm in link_upper_tongue    head on link_upper_tongue      tip on J2_shaft  ok
+  link_set_3_270             engaged  5.0 mm in link_fore_groove     head on link_fore_groove       tip on J3_shaft  ok
+  link_set_3_90              engaged  5.0 mm in link_fore_groove     head on link_fore_groove       tip on J3_shaft  ok
+  link_set_4_270             engaged  5.0 mm in link_fore_tongue     head on link_fore_tongue       tip on J3_shaft  ok
+  link_set_4_90              engaged  5.0 mm in link_fore_tongue     head on link_fore_tongue       tip on J3_shaft  ok
+  m4_base_foot_0             engaged  6.5 mm in foot_ins_0           head on base                   tip free  ok
+  m4_base_foot_1             engaged  6.5 mm in foot_ins_1           head on base                   tip free  ok
+  m4_base_foot_2             engaged  6.5 mm in foot_ins_2           head on base                   tip free  ok
+  m4_base_foot_3             engaged  6.5 mm in foot_ins_3           head on base                   tip free  ok
+  pin_J2_collar_+1           engaged  5.5 mm in pin_J2_collar_+1_ins head on (pin: spring side)     tip free  ok
+  pin_J2_collar_-1           engaged  5.5 mm in pin_J2_collar_-1_ins head on (pin: spring side)     tip free  ok
+  pin_J2_turret_+1           engaged  5.5 mm in pin_J2_turret_+1_ins head on (pin: spring side)     tip free  ok
+  pin_J2_turret_-1           engaged  5.5 mm in pin_J2_turret_-1_ins head on (pin: spring side)     tip free  ok
+  pin_J3_collar_+1           engaged  5.5 mm in pin_J3_collar_+1_ins head on (pin: spring side)     tip free  ok
+  pin_J3_collar_-1           engaged  5.5 mm in pin_J3_collar_-1_ins head on (pin: spring side)     tip free  ok
+  pin_J3_fork_+1             engaged  5.5 mm in pin_J3_fork_+1_ins   head on (pin: spring side)     tip free  ok
+  pin_J3_fork_-1             engaged  5.5 mm in pin_J3_fork_-1_ins   head on (pin: spring side)     tip free  ok
+  seam_fore_0                engaged  4.7 mm in seam_ins_fore_1      head on link_fore_tongue       tip free  ok
+  seam_fore_1                engaged  4.7 mm in seam_ins_fore_0      head on link_fore_tongue       tip free  ok
+  seam_fore_2                engaged  4.7 mm in seam_ins_fore_3      head on link_fore_tongue       tip free  ok
+  seam_fore_3                engaged  4.7 mm in seam_ins_fore_2      head on link_fore_tongue       tip free  ok
+  seam_fore_4                engaged  4.7 mm in seam_ins_fore_5      head on link_fore_tongue       tip free  ok
+  seam_fore_5                engaged  4.7 mm in seam_ins_fore_4      head on link_fore_tongue       tip free  ok
+  seam_upper_0               engaged  4.7 mm in seam_ins_upper_1     head on link_upper_tongue      tip free  ok
+  seam_upper_1               engaged  4.7 mm in seam_ins_upper_0     head on link_upper_tongue      tip free  ok
+  seam_upper_2               engaged  4.7 mm in seam_ins_upper_3     head on link_upper_tongue      tip free  ok
+  seam_upper_3               engaged  4.7 mm in seam_ins_upper_2     head on link_upper_tongue      tip free  ok
+  servo_scr_J1_0             engaged  4.4 mm in servo_J1             head on j1_mount               tip free  ok
+  servo_scr_J1_1             engaged  2.6 mm in servo_J1             head on j1_mount               tip free  ok
+  servo_scr_J1_2             engaged  2.6 mm in servo_J1             head on j1_mount               tip free  ok
+  servo_scr_J1_3             engaged  2.6 mm in servo_J1             head on j1_mount               tip free  ok
+  servo_scr_J2_0             engaged  2.6 mm in servo_J2             head on J2_turret_p2           tip free  ok
+  servo_scr_J2_1             engaged  2.6 mm in servo_J2             head on J2_turret_p2           tip free  ok
+  servo_scr_J2_2             engaged  2.6 mm in servo_J2             head on J2_turret_p2           tip free  ok
+  servo_scr_J2_3             engaged  2.6 mm in servo_J2             head on J2_turret_p2           tip free  ok
+  servo_scr_J3_0             engaged  4.4 mm in servo_J3             head on J3_p2                  tip free  ok
+  servo_scr_J3_1             engaged  2.6 mm in servo_J3             head on J3_p2                  tip free  ok
+  servo_scr_J3_2             engaged  2.6 mm in servo_J3             head on J3_p2                  tip free  ok
+  servo_scr_J3_3             engaged  2.6 mm in servo_J3             head on J3_p2                  tip free  ok
+  servo_scr_J4_0             engaged  2.6 mm in servo_J4             head on j4_base                tip free  ok
+  servo_scr_J4_1             engaged  2.6 mm in servo_J4             head on j4_base                tip free  ok
+  servo_scr_J5_0             engaged  4.4 mm in servo_J5             head on J5_p2                  tip free  ok
+  servo_scr_J5_1             engaged  2.6 mm in servo_J5             head on J5_p2                  tip free  ok
+  servo_scr_J5_2             engaged  2.6 mm in servo_J5             head on J5_p2                  tip free  ok
+  servo_scr_J5_3             engaged  2.6 mm in servo_J5             head on J5_p2                  tip free  ok
+  servo_scr_J6_0             engaged  2.6 mm in servo_J6             head on j6_body                tip free  ok
+  servo_scr_J6_1             engaged  2.6 mm in servo_J6             head on j6_body                tip free  ok
+  split_J2_0                 engaged  5.7 mm in split_ins_J2_0       head on J2_turret_p2           tip free  ok
+  split_J2_1                 engaged  5.7 mm in split_ins_J2_1       head on J2_turret_p2           tip free  ok
+  split_J2_2                 engaged  5.7 mm in split_ins_J2_2       head on J2_turret_p2           tip free  ok
+  split_J2_3                 engaged  5.7 mm in split_ins_J2_3       head on J2_turret_p2           tip free  ok
+  split_J3_0                 engaged  5.7 mm in split_ins_J3_0       head on J3_p2                  tip free  ok
+  split_J3_1                 engaged  5.7 mm in split_ins_J3_1       head on J3_p2                  tip free  ok
+  split_J3_2                 engaged  5.7 mm in split_ins_J3_2       head on J3_p2                  tip free  ok
+  split_J3_3                 engaged  5.7 mm in split_ins_J3_3       head on J3_p2                  tip free  ok
+  split_J5_0                 engaged  5.7 mm in split_ins_J5_0       head on J5_p2                  tip free  ok
+  split_J5_1                 engaged  5.7 mm in split_ins_J5_1       head on J5_p2                  tip free  ok
+  split_J5_2                 engaged  5.7 mm in split_ins_J5_2       head on J5_p2                  tip free  ok
+  split_J5_3                 engaged  5.7 mm in split_ins_J5_3       head on J5_p2                  tip free  ok
+
+INSERTS / NUTS in their pockets
+  cap_ins_J4_0               host j4_base              material round it 100 %  ok
+  cap_ins_J4_1               host j4_base              material round it 100 %  ok
+  cap_ins_J4_2               host j4_base              material round it 100 %  ok
+  cap_ins_J4_3               host j4_base              material round it 100 %  ok
+  cap_ins_J6_0               host j6_body              material round it 100 %  ok
+  cap_ins_J6_1               host j6_body              material round it 100 %  ok
+  cap_ins_J6_2               host j6_body              material round it 100 %  ok
+  cap_ins_J6_3               host j6_body              material round it 100 %  ok
+  collar_ins                 host spigot_collar        material round it 100 %  ok
+  collar_nut_158_+1          host collar_upper_-y      material round it 100 %  ok
+  collar_nut_158_-1          host collar_upper_-y      material round it 100 %  ok
+  collar_nut_299_+1          host collar_fore_-y       material round it 100 %  ok
+  collar_nut_299_-1          host collar_fore_-y       material round it 100 %  ok
+  ear_ins_fore               host link_fore_groove     material round it  96 %  ok
+  ear_ins_upper              host link_upper_groove    material round it 100 %  ok
+  foot_ins_0                 host j1_mount             material round it 100 %  ok
+  foot_ins_1                 host j1_mount             material round it 100 %  ok
+  foot_ins_2                 host j1_mount             material round it 100 %  ok
+  foot_ins_3                 host j1_mount             material round it 100 %  ok
+  forearm_ins_0              host link_fore_groove     material round it 100 %  ok
+  forearm_ins_1              host link_fore_tongue     material round it 100 %  ok
+  forearm_ins_2              host link_fore_groove     material round it 100 %  ok
+  forearm_ins_3              host link_fore_tongue     material round it 100 %  ok
+  j4hub_ins_0                host j4_hub               material round it 100 %  ok
+  j4hub_ins_1                host j4_hub               material round it 100 %  ok
+  j4hub_ins_2                host j4_hub               material round it 100 %  ok
+  j4hub_ins_3                host j4_hub               material round it 100 %  ok
+  link_end_ins_0             host link_upper_groove    material round it 100 %  ok
+  link_end_ins_1             host link_upper_tongue    material round it 100 %  ok
+  link_end_ins_2             host link_upper_groove    material round it 100 %  ok
+  link_end_ins_3             host link_upper_tongue    material round it 100 %  ok
+  pin_J2_collar_+1_ins       host collar_upper_+y      material round it 100 %  ok
+  pin_J2_collar_-1_ins       host collar_upper_-y      material round it 100 %  ok
+  pin_J2_turret_+1_ins       host J2_turret_p1         material round it 100 %  ok
+  pin_J2_turret_-1_ins       host J2_turret_p1         material round it 100 %  ok
+  pin_J3_collar_+1_ins       host collar_fore_+y       material round it 100 %  ok
+  pin_J3_collar_-1_ins       host collar_fore_-y       material round it 100 %  ok
+  pin_J3_fork_+1_ins         host J3_p1                material round it 100 %  ok
+  pin_J3_fork_-1_ins         host J3_p1                material round it 100 %  ok
+  seam_ins_fore_0            host link_fore_groove     material round it 100 %  ok
+  seam_ins_fore_1            host link_fore_groove     material round it 100 %  ok
+  seam_ins_fore_2            host link_fore_groove     material round it 100 %  ok
+  seam_ins_fore_3            host link_fore_groove     material round it 100 %  ok
+  seam_ins_fore_4            host link_fore_groove     material round it 100 %  ok
+  seam_ins_fore_5            host link_fore_groove     material round it 100 %  ok
+  seam_ins_upper_0           host link_upper_groove    material round it 100 %  ok
+  seam_ins_upper_1           host link_upper_groove    material round it 100 %  ok
+  seam_ins_upper_2           host link_upper_groove    material round it 100 %  ok
+  seam_ins_upper_3           host link_upper_groove    material round it 100 %  ok
+  split_ins_J2_0             host J2_turret_p1         material round it 100 %  ok
+  split_ins_J2_1             host J2_turret_p1         material round it 100 %  ok
+  split_ins_J2_2             host J2_turret_p1         material round it 100 %  ok
+  split_ins_J2_3             host J2_turret_p1         material round it 100 %  ok
+  split_ins_J3_0             host J3_p1                material round it 100 %  ok
+  split_ins_J3_1             host J3_p1                material round it 100 %  ok
+  split_ins_J3_2             host J3_p1                material round it 100 %  ok
+  split_ins_J3_3             host J3_p1                material round it 100 %  ok
+  split_ins_J5_0             host J5_p1                material round it 100 %  ok
+  split_ins_J5_1             host J5_p1                material round it 100 %  ok
+  split_ins_J5_2             host J5_p1                material round it 100 %  ok
+  split_ins_J5_3             host J5_p1                material round it 100 %  ok
+  tool_ins_135               host j6_flange            material round it 100 %  ok
+  tool_ins_225               host j6_flange            material round it 100 %  ok
+  tool_ins_315               host j6_flange            material round it 100 %  ok
+  tool_ins_45                host j6_flange            material round it 100 %  ok
+
+FASTENER CHECK: 0 failure(s)
+=== PARAMETER AUDIT ===
+PARAMETER -> CAD AUDIT: generator value vs measurement of the exported file
+
+  J3_p2          pinch channel width (y)                      want   24.500  got   24.500  PASS
+  J3_p2          bay length (x)                               want   46.020  got   46.000  PASS
+  J3_p2          bay depth P -> back wall                     want   34.989  got   35.000  PASS
+  J3_p2          wiring window length (x)                     want    7.500  got    7.500  PASS
+  J3_p2          wiring window width (y)                      want   22.000  got   22.000  PASS
+  J3_p2          servo screw pad face = back plateau (8.30,+10.25) want   32.000  got   32.001  PASS
+  J3_p2          servo screw clearance O (8.30,+10.25)        want    3.400  got    3.395  PASS
+  J3_p2          servo screw head seat above the seat face (8.30,+10.25) want   37.389  got   37.386  PASS
+  J3_p2          servo screw pad face = back plateau (8.30,-10.25) want   32.000  got   32.001  PASS
+  J3_p2          servo screw clearance O (8.30,-10.25)        want    3.400  got    3.395  PASS
+  J3_p2          servo screw head seat above the seat face (8.30,-10.25) want   37.389  got   37.386  PASS
+  J3_p2          servo screw pad face = back plateau (32.75,+10.25) want   32.000  got   32.001  PASS
+  J3_p2          servo screw clearance O (32.75,+10.25)       want    3.400  got    3.395  PASS
+  J3_p2          servo screw head seat above the seat face (32.75,+10.25) want   37.389  got   37.386  PASS
+  J3_p2          servo screw pad face = back plateau (32.75,-10.25) want   32.000  got   32.001  PASS
+  J3_p2          servo screw clearance O (32.75,-10.25)       want    3.400  got    3.395  PASS
+  J3_p2          servo screw head seat above the seat face (32.75,-10.25) want   37.389  got   37.386  PASS
+  J3_p1          drive bearing pocket O                       want   42.020  got   42.030  PASS
+  J3_p1          idle bearing pocket O                        want   42.020  got   42.030  PASS
+  J3_p1          drive pocket open to the gap (O at z_in+0.6) want   42.020  got   42.030  PASS
+  J3_p1          floor shaft bore O                           want   31.000  got   31.026  PASS
+  J3_p1          servo seat plane P (floor top, x=30,y=10)    want   28.500  got   28.495  PASS
+  J3_p1          horn/step relief depth below P               want    1.400  got    1.400  PASS
+  J3_p1          split insert pocket depth at (-20,+16)       want    8.100  got    8.105  PASS
+  J3_p2          split bolt hole open P..back face (void fraction) (-20,+16) want    1.000  got    1.000  PASS
+  J3_p1          split insert pocket depth at (-20,-16)       want    8.100  got    8.105  PASS
+  J3_p2          split bolt hole open P..back face (void fraction) (-20,-16) want    1.000  got    1.000  PASS
+  J3_p1          split insert pocket depth at (+26,+16)       want    8.100  got    8.105  PASS
+  J3_p2          split bolt hole open P..back face (void fraction) (+26,+16) want    1.000  got    1.000  PASS
+  J3_p1          split insert pocket depth at (+26,-16)       want    8.100  got    8.105  PASS
+  J3_p2          split bolt hole open P..back face (void fraction) (+26,-16) want    1.000  got    1.000  PASS
+  J3_shaft       shaft OD                                     want   29.950  got   29.948  PASS
+  J3_shaft       shaft bore                                   want   22.000  got   22.000  PASS
+  J3_shaft       set-screw flat distance from axis (normal at -90 deg) want   14.200  got   14.199  PASS
+  J3_shaft       set-screw flat distance from axis (normal at +90 deg) want   14.200  got   14.199  PASS
+  J3_shaft       horn face = end of shaft                     want   25.489  got   25.489  PASS
+  J3_shaft       horn hole O at BCD14,   0 deg                want    2.520  got    2.520  PASS
+  J3_shaft       horn hole O at BCD14,  90 deg                want    2.520  got    2.520  PASS
+  J3_shaft       horn hole O at BCD14, 180 deg                want    2.520  got    2.520  PASS
+  J3_shaft       horn hole O at BCD14, 270 deg                want    2.520  got    2.520  PASS
+  J5_p2          pinch channel width (y)                      want   24.500  got   24.500  PASS
+  J5_p2          bay length (x)                               want   46.020  got   46.000  PASS
+  J5_p2          bay depth P -> back wall                     want   34.989  got   35.000  PASS
+  J5_p2          wiring window length (x)                     want    7.500  got    7.500  PASS
+  J5_p2          wiring window width (y)                      want   22.000  got   22.000  PASS
+  J5_p2          servo screw pad face = back plateau (8.30,+10.25) want   32.000  got   32.001  PASS
+  J5_p2          servo screw clearance O (8.30,+10.25)        want    3.400  got    3.395  PASS
+  J5_p2          servo screw head seat above the seat face (8.30,+10.25) want   37.389  got   37.386  PASS
+  J5_p2          servo screw pad face = back plateau (8.30,-10.25) want   32.000  got   32.001  PASS
+  J5_p2          servo screw clearance O (8.30,-10.25)        want    3.400  got    3.395  PASS
+  J5_p2          servo screw head seat above the seat face (8.30,-10.25) want   37.389  got   37.386  PASS
+  J5_p2          servo screw pad face = back plateau (32.75,+10.25) want   32.000  got   32.001  PASS
+  J5_p2          servo screw clearance O (32.75,+10.25)       want    3.400  got    3.395  PASS
+  J5_p2          servo screw head seat above the seat face (32.75,+10.25) want   37.389  got   37.386  PASS
+  J5_p2          servo screw pad face = back plateau (32.75,-10.25) want   32.000  got   32.001  PASS
+  J5_p2          servo screw clearance O (32.75,-10.25)       want    3.400  got    3.395  PASS
+  J5_p2          servo screw head seat above the seat face (32.75,-10.25) want   37.389  got   37.386  PASS
+  J5_p1          drive bearing pocket O                       want   37.020  got   37.024  PASS
+  J5_p1          idle bearing pocket O                        want   37.020  got   37.024  PASS
+  J5_p1          drive pocket open to the gap (O at z_in+0.6) want   37.020  got   37.024  PASS
+  J5_p1          floor shaft bore O                           want   31.000  got   31.026  PASS
+  J5_p1          servo seat plane P (floor top, x=30,y=10)    want   26.000  got   25.995  PASS
+  J5_p1          horn/step relief depth below P               want    1.400  got    1.405  PASS
+  J5_p1          split insert pocket depth at (-20,+16)       want    8.100  got    8.105  PASS
+  J5_p2          split bolt hole open P..back face (void fraction) (-20,+16) want    1.000  got    1.000  PASS
+  J5_p1          split insert pocket depth at (-20,-16)       want    8.100  got    8.105  PASS
+  J5_p2          split bolt hole open P..back face (void fraction) (-20,-16) want    1.000  got    1.000  PASS
+  J5_p1          split insert pocket depth at (+26,+16)       want    8.100  got    8.105  PASS
+  J5_p2          split bolt hole open P..back face (void fraction) (+26,+16) want    1.000  got    1.000  PASS
+  J5_p1          split insert pocket depth at (+26,-16)       want    8.100  got    8.105  PASS
+  J5_p2          split bolt hole open P..back face (void fraction) (+26,-16) want    1.000  got    1.000  PASS
+  J5_shaft       shaft OD                                     want   29.950  got   29.948  PASS
+  J5_shaft       shaft bore                                   want   22.000  got   22.000  PASS
+  J5_shaft       set-screw flat distance from axis (normal at -90 deg) want   14.200  got   14.199  PASS
+  J5_shaft       horn face = end of shaft                     want   22.989  got   22.989  PASS
+  J5_shaft       horn hole O at BCD14,   0 deg                want    2.520  got    2.520  PASS
+  J5_shaft       horn hole O at BCD14,  90 deg                want    2.520  got    2.520  PASS
+  J5_shaft       horn hole O at BCD14, 180 deg                want    2.520  got    2.520  PASS
+  J5_shaft       horn hole O at BCD14, 270 deg                want    2.520  got    2.520  PASS
+  J2_p2          pinch channel width (y)                      want   24.500  got   24.500  PASS
+  J2_p2          bay length (x)                               want   46.020  got   46.000  PASS
+  J2_p2          bay depth P -> back wall                     want   34.989  got   35.000  PASS
+  J2_p2          wiring window length (x)                     want    7.500  got    7.500  PASS
+  J2_p2          wiring window width (y)                      want   22.000  got   22.000  PASS
+  J2_p2          servo screw pad face = back plateau (8.30,+10.25) want   32.000  got   32.001  PASS
+  J2_p2          servo screw clearance O (8.30,+10.25)        want    3.400  got    3.395  PASS
+  J2_p2          servo screw head seat above the seat face (8.30,+10.25) want   37.389  got   37.386  PASS
+  J2_p2          servo screw pad face = back plateau (8.30,-10.25) want   32.000  got   32.001  PASS
+  J2_p2          servo screw clearance O (8.30,-10.25)        want    3.400  got    3.395  PASS
+  J2_p2          servo screw head seat above the seat face (8.30,-10.25) want   37.389  got   37.386  PASS
+  J2_p2          servo screw pad face = back plateau (32.75,+10.25) want   32.000  got   32.001  PASS
+  J2_p2          servo screw clearance O (32.75,+10.25)       want    3.400  got    3.395  PASS
+  J2_p2          servo screw head seat above the seat face (32.75,+10.25) want   37.389  got   37.386  PASS
+  J2_p2          servo screw pad face = back plateau (32.75,-10.25) want   32.000  got   32.001  PASS
+  J2_p2          servo screw clearance O (32.75,-10.25)       want    3.400  got    3.395  PASS
+  J2_p2          servo screw head seat above the seat face (32.75,-10.25) want   37.389  got   37.386  PASS
+  J2_p1          drive bearing pocket O                       want   42.020  got   42.030  PASS
+  J2_p1          idle bearing pocket O                        want   42.020  got   42.030  PASS
+  J2_p1          drive pocket open to the gap (O at z_in+0.6) want   42.020  got   42.030  PASS
+  J2_p1          floor shaft bore O                           want   31.000  got   31.026  PASS
+  J2_p1          servo seat plane P (floor top, x=30,y=10)    want   28.500  got   28.495  PASS
+  J2_p1          horn/step relief depth below P               want    1.400  got    1.405  PASS
+  J2_p1          split insert pocket depth at (-20,+16)       want    8.100  got    8.105  PASS
+  J2_p2          split bolt hole open P..back face (void fraction) (-20,+16) want    1.000  got    1.000  PASS
+  J2_p1          split insert pocket depth at (-20,-16)       want    8.100  got    8.105  PASS
+  J2_p2          split bolt hole open P..back face (void fraction) (-20,-16) want    1.000  got    1.000  PASS
+  J2_p1          split insert pocket depth at (+26,+16)       want    8.100  got    8.105  PASS
+  J2_p2          split bolt hole open P..back face (void fraction) (+26,+16) want    1.000  got    1.000  PASS
+  J2_p1          split insert pocket depth at (+26,-16)       want    8.100  got    8.105  PASS
+  J2_p2          split bolt hole open P..back face (void fraction) (+26,-16) want    1.000  got    1.000  PASS
+  J2_shaft       shaft OD                                     want   29.950  got   29.940  PASS
+  J2_shaft       shaft bore                                   want   22.000  got   22.000  PASS
+  J2_shaft       set-screw flat distance from axis (normal at +0 deg) want   14.200  got   14.199  PASS
+  J2_shaft       set-screw flat distance from axis (normal at +180 deg) want   14.200  got   14.199  PASS
+  J2_shaft       horn face = end of shaft                     want   25.489  got   25.489  PASS
+  J2_shaft       horn hole O at BCD14,   0 deg                want    2.520  got    2.520  PASS
+  J2_shaft       horn hole O at BCD14,  90 deg                want    2.520  got    2.520  PASS
+  J2_shaft       horn hole O at BCD14, 180 deg                want    2.520  got    2.520  PASS
+  J2_shaft       horn hole O at BCD14, 270 deg                want    2.520  got    2.520  PASS
+  J5_p1          J5_FACE (mounting face to J5 axis)           want   28.280  got   28.280  PASS
+  j1_hub         horn recess floor z (horn face)              want  -11.300  got  -11.297  PASS
+  j1_hub         plug O (across, off the flat)                want   21.800  got   21.800  PASS
+  j1_hub         D-flat distance from axis (45 deg)           want    9.000  got    9.000  PASS
+  J2_turret_p1   spigot D-key distance (45 deg)               want    9.200  got    9.202  PASS
+  j1_mount       pinch channel width                          want   24.500  got   24.500  PASS
+  j1_mount       end stop face x (case end)                   want  -10.112  got  -10.115  PASS
+  j1_mount       lip underside z (cap face)                   want  -14.311  got  -14.310  PASS
+  j1_mount       servo screw pad face = back plateau (8.30,+10.25) want   32.000  got   32.001  PASS
+  j1_mount       servo screw clearance O (8.30,+10.25)        want    3.400  got    3.395  PASS
+  j1_mount       servo screw head seat above the seat face (8.30,+10.25) want   37.389  got   37.389  PASS
+  j1_mount       servo screw head counterbore O (8.30,+10.25) want    5.600  got    5.588  PASS
+  j1_mount       servo screw pad face = back plateau (8.30,-10.25) want   32.000  got   32.001  PASS
+  j1_mount       servo screw clearance O (8.30,-10.25)        want    3.400  got    3.395  PASS
+  j1_mount       servo screw head seat above the seat face (8.30,-10.25) want   37.389  got   37.389  PASS
+  j1_mount       servo screw head counterbore O (8.30,-10.25) want    5.600  got    5.588  PASS
+  j1_mount       servo screw pad face = back plateau (32.75,+10.25) want   32.000  got   32.001  PASS
+  j1_mount       servo screw clearance O (32.75,+10.25)       want    3.400  got    3.395  PASS
+  j1_mount       servo screw head seat above the seat face (32.75,+10.25) want   37.389  got   37.389  PASS
+  j1_mount       servo screw head counterbore O (32.75,+10.25) want    5.600  got    5.588  PASS
+  j1_mount       servo screw pad face = back plateau (32.75,-10.25) want   32.000  got   32.001  PASS
+  j1_mount       servo screw clearance O (32.75,-10.25)       want    3.400  got    3.395  PASS
+  j1_mount       servo screw head seat above the seat face (32.75,-10.25) want   37.389  got   37.389  PASS
+  j1_mount       servo screw head counterbore O (32.75,-10.25) want    5.600  got    5.588  PASS
+  j4_base        pinch channel width                          want   24.500  got   24.500  PASS
+  j4_base        lip underside z (cap face)                   want  378.589  got  378.590  PASS
+  j4_base        servo screw pad face = back plateau (32.75,+10.25) want   32.000  got   32.001  PASS
+  j4_base        servo screw clearance O (32.75,+10.25)       want    3.400  got    3.395  PASS
+  j4_base        servo screw head seat above the seat face (32.75,+10.25) want   37.389  got   37.386  PASS
+  j4_base        servo screw head counterbore O (32.75,+10.25) want    5.600  got    5.588  PASS
+  j4_base        servo screw pad face = back plateau (32.75,-10.25) want   32.000  got   32.001  PASS
+  j4_base        servo screw clearance O (32.75,-10.25)       want    3.400  got    3.395  PASS
+  j4_base        servo screw head seat above the seat face (32.75,-10.25) want   37.389  got   37.386  PASS
+  j4_base        servo screw head counterbore O (32.75,-10.25) want    5.600  got    5.588  PASS
+  j4_base        servo seat pad face = back plateau (8.30,+10.25) want   32.000  got   32.001  PASS
+  j4_base        servo seat pad face = back plateau (8.30,-10.25) want   32.000  got   32.001  PASS
+  j4_cap         6706 pocket O                                want   37.020  got   37.024  PASS
+  j4_cap         outer-race shoulder O                        want   34.000  got   34.006  PASS
+  j4_cap         cap bolt counterbore depth (+14.5,-15.5)     want    3.800  got    3.800  PASS
+  j4_cap         cap bolt counterbore depth (+14.5,+15.5)     want    3.800  got    3.800  PASS
+  j4_cap         cap bolt counterbore depth (+31.0,-15.5)     want    3.800  got    3.800  PASS
+  j4_cap         cap bolt counterbore depth (+31.0,+15.5)     want    3.800  got    3.800  PASS
+  j4_hub         journal OD                                   want   29.950  got   29.948  PASS
+  j4_hub         collar OD (inner race only)                  want   32.000  got   31.998  PASS
+  j4_hub         J5 insert depth at (-17,-7)                  want    7.500  got    7.501  PASS
+  j4_hub         J5 insert depth at (-17,+7)                  want    7.500  got    7.501  PASS
+  j4_hub         J5 insert depth at (+17,-7)                  want    7.500  got    7.501  PASS
+  j4_hub         J5 insert depth at (+17,+7)                  want    7.500  got    7.501  PASS
+  j6_body        pinch channel width                          want   24.500  got   24.500  PASS
+  j6_body        lip underside (cap face)                     want   64.589  got   64.589  PASS
+  j6_body        servo screw pad face = back plateau (32.75,+10.25) want   32.000  got   32.001  PASS
+  j6_body        servo screw clearance O (32.75,+10.25)       want    3.400  got    3.395  PASS
+  j6_body        servo screw head seat above the seat face (32.75,+10.25) want   37.389  got   37.386  PASS
+  j6_body        servo screw pad face = back plateau (32.75,-10.25) want   32.000  got   32.001  PASS
+  j6_body        servo screw clearance O (32.75,-10.25)       want    3.400  got    3.395  PASS
+  j6_body        servo screw head seat above the seat face (32.75,-10.25) want   37.389  got   37.386  PASS
+  j6_body        servo seat pad face = back plateau (8.30,+10.25) want   32.000  got   32.001  PASS
+  j6_body        servo seat pad face = back plateau (8.30,-10.25) want   32.000  got   32.001  PASS
+  J3_p1          floor bolt head counterbore depth (-17,-7)   want    3.200  got    3.202  PASS
+  J3_p1          floor bolt head counterbore O (-17,-7)       want    6.200  got    6.200  PASS
+  J3_p1          floor bolt head counterbore depth (-17,+7)   want    3.200  got    3.202  PASS
+  J3_p1          floor bolt head counterbore O (-17,+7)       want    6.200  got    6.200  PASS
+  J3_p1          floor bolt head counterbore depth (+17,-7)   want    3.200  got    3.202  PASS
+  J3_p1          floor bolt head counterbore O (+17,-7)       want    6.200  got    6.200  PASS
+  J3_p1          floor bolt head counterbore depth (+17,+7)   want    3.200  got    3.202  PASS
+  J3_p1          floor bolt head counterbore O (+17,+7)       want    6.200  got    6.200  PASS
+  J5_p1          floor bolt head counterbore depth (-17,-7)   want    3.200  got    3.202  PASS
+  J5_p1          floor bolt head counterbore O (-17,-7)       want    6.200  got    6.200  PASS
+  J5_p1          floor bolt head counterbore depth (-17,+7)   want    3.200  got    3.202  PASS
+  J5_p1          floor bolt head counterbore O (-17,+7)       want    6.200  got    6.200  PASS
+  J5_p1          floor bolt head counterbore depth (+17,-7)   want    3.200  got    3.202  PASS
+  J5_p1          floor bolt head counterbore O (+17,-7)       want    6.200  got    6.200  PASS
+  J5_p1          floor bolt head counterbore depth (+17,+7)   want    3.200  got    3.202  PASS
+  J5_p1          floor bolt head counterbore O (+17,+7)       want    6.200  got    6.200  PASS
+  j6_body        J5 D-bore flat (a of the flat)               want  -14.250  got  -14.255  PASS
+  j6_body        J5 grub pilot O                              want    2.600  got    2.597  PASS
+  j6_cap         6706 pocket O                                want   37.020  got   37.024  PASS
+  j6_flange      tool insert O at BCD30,  45 deg              want    4.100  got    4.100  PASS
+  j6_flange      tool insert O at BCD30, 135 deg              want    4.100  got    4.100  PASS
+  j6_flange      tool insert O at BCD30, 225 deg              want    4.100  got    4.100  PASS
+  j6_flange      tool insert O at BCD30, 315 deg              want    4.100  got    4.100  PASS
+  base           lower 6806 pocket O, open at the bottom      want   42.020  got   42.030  PASS
+  spigot_collar  bore O                                       want   30.150  got   30.150  PASS
+  spigot_collar  inner-race boss outer r                      want   16.750  got   16.746  PASS
+  spigot_collar  body top z (0.5 under the base)              want   -0.500  got   -0.502  PASS
+  J2_turret_p1   J2 spring pin z (-1 side)                    want  125.000  got  125.000  PASS
+  J2_turret_p1   J2 spring pin z (+1 side)                    want  125.000  got  125.000  PASS
+  collar_upper   inner width (link 50 + 0.4)                  want   50.400  got   50.400  PASS
+  link_upper_tongue seam head counterbore depth (28.3,-17.85)    want    3.200  got    3.202  PASS
+  link_upper_tongue seam counterbore O (28.3,-17.85)             want    6.000  got    5.995  PASS
+  link_upper_tongue seam head counterbore depth (28.3,+17.85)    want    3.200  got    3.202  PASS
+  link_upper_tongue seam counterbore O (28.3,+17.85)             want    6.000  got    5.990  PASS
+  link_upper_tongue seam head counterbore depth (56.7,-17.85)    want    3.200  got    3.202  PASS
+  link_upper_tongue seam counterbore O (56.7,-17.85)             want    6.000  got    5.990  PASS
+  link_upper_tongue seam head counterbore depth (56.7,+17.85)    want    3.200  got    3.202  PASS
+  link_upper_tongue seam counterbore O (56.7,+17.85)             want    6.000  got    5.990  PASS
+  link_upper_tongue ear head counterbore depth                   want    2.700  got    2.702  PASS
+  link_fore_tongue seam head counterbore depth (29.8,-18.35)    want    3.200  got    3.202  PASS
+  link_fore_tongue seam counterbore O (29.8,-18.35)             want    6.000  got    6.000  PASS
+  link_fore_tongue seam head counterbore depth (29.8,+18.35)    want    3.200  got    3.202  PASS
+  link_fore_tongue seam counterbore O (29.8,+18.35)             want    6.000  got    6.000  PASS
+  link_fore_tongue seam head counterbore depth (59.5,-18.35)    want    3.200  got    3.202  PASS
+  link_fore_tongue seam counterbore O (59.5,-18.35)             want    6.000  got    6.000  PASS
+  link_fore_tongue seam head counterbore depth (59.5,+18.35)    want    3.200  got    3.202  PASS
+  link_fore_tongue seam counterbore O (59.5,+18.35)             want    6.000  got    6.000  PASS
+  link_fore_tongue seam head counterbore depth (89.2,-18.35)    want    3.200  got    3.202  PASS
+  link_fore_tongue seam counterbore O (89.2,-18.35)             want    6.000  got    6.000  PASS
+  link_fore_tongue seam head counterbore depth (89.2,+18.35)    want    3.200  got    3.202  PASS
+  link_fore_tongue seam counterbore O (89.2,+18.35)             want    6.000  got    5.995  PASS
+  link_fore_tongue ear head counterbore depth                   want    2.700  got    2.702  PASS
+  shaft_clamp    bore O (45 deg: clear of the grub pilots and the gap) want   30.000  got   29.967  PASS
+  shaft_clamp    ear gap width (at r 17)                      want   11.400  got   11.400  PASS
+  shaft_clamp    ring OD (45 deg)                             want   38.350  got   38.340  PASS
+  shaft_clamp    M5 set-screw clearance hole O (90 deg)       want    5.400  got    5.396  PASS
+  shaft_clamp    M5 set-screw clearance hole O (270 deg)      want    5.400  got    5.396  PASS
+  link_upper_groove M5 self-tap pilot O (side hole, 90 deg)      want    4.200  got    4.196  PASS
+  link_upper_groove M5 self-tap pilot O (side hole, 270 deg)     want    4.200  got    4.196  PASS
+  link_upper_tongue M5 self-tap pilot O (side hole, 90 deg)      want    4.200  got    4.196  PASS
+  link_upper_tongue M5 self-tap pilot O (side hole, 270 deg)     want    4.200  got    4.196  PASS
+  link_fore_groove M5 self-tap pilot O (side hole, 90 deg)      want    4.200  got    4.196  PASS
+  link_fore_groove M5 self-tap pilot O (side hole, 270 deg)     want    4.200  got    4.196  PASS
+  link_fore_tongue M5 self-tap pilot O (side hole, 90 deg)      want    4.200  got    4.192  PASS
+  link_fore_tongue M5 self-tap pilot O (side hole, 270 deg)     want    4.200  got    4.196  PASS
+  J2_turret_p1   collet slit width (x -13)                    want    1.000  got    1.000  PASS
+  J2_turret_p1   collet slit width (x +13)                    want    1.000  got    1.000  PASS
+  J2_turret_p1   underside land outer r (bears on the inner ring only) want   16.750  got   16.740  PASS
+  spigot_collar  pinch slot width                             want    2.000  got    2.000  PASS
+  j4_base        lip relief r (stationary lips off the 6706 inner ring) want   16.750  got   16.750  PASS
+  base           foot floor thickness at r 38 (was 0.5)       want    3.000  got    2.990  PASS
+  j1_mount       table hole O at 0 deg (r 58)                 want    5.500  got    5.500  PASS
+  j1_mount       table hole O at 90 deg (r 58)                want    5.500  got    5.500  PASS
+  j1_mount       table hole O at 180 deg (r 58)               want    5.500  got    5.500  PASS
+  j1_mount       table hole O at 270 deg (r 58)               want    5.500  got    5.500  PASS
+  j1_mount       nothing inside the rear idler horn envelope + 0.5 (void fraction) want    1.000  got    1.000  PASS
+  j4_base        nothing inside the rear idler horn envelope + 0.5 (void fraction) want    1.000  got    1.000  PASS
+  J5_shaft       flat runs to the idle end (surface r at the idle end) want   14.200  got   14.199  PASS
+  J3_p2          pinch wall at the far end of the bay (was 0.06-0.5) want    2.400  got    2.398  PASS
+  J5_p2          pinch wall at the far end of the bay (was 0.06-0.5) want    2.400  got    2.398  PASS
+  J5_spacer      thickness (blade face to inner ring)         want    3.000  got    3.000  PASS
+  J2_p2          servo pod back wall thickness (x 25, y 8)    want    2.400  got    2.399  PASS
+  J2_p2          servo pod side wall present at the deep rear corner (x 32, z P+32) want    1.000  got    1.000  PASS
+  J3_p1          J3 spring-lug insert pocket length (-1 side) want    6.500  got    6.500  PASS
+  J3_p1          J3 spring-lug insert pocket length (+1 side) want    6.500  got    6.500  PASS
+  J2_turret_p1   J2 spring-lug insert pocket length (-1 side) want    6.500  got    6.500  PASS
+  J2_turret_p1   J2 spring-lug insert pocket length (+1 side) want    6.500  got    6.500  PASS
+  spigot_collar  material all round the pinch insert (fraction) want    1.000  got    1.000  PASS
+
+265 parameters checked, 0 FAIL
+=== TOOL ACCESS (hex key to every screw at its build step) ===
+  ok   m4_base_foot_2         step  3 (base + J1 bearings onto the foot): clear then; in the finished arm J2_turret_p2 cover(s) it
+  ok   m4_base_foot_3         step  3 (base + J1 bearings onto the foot): clear then; in the finished arm J2_turret_p2 cover(s) it
+  ok   ear_bolt_upper         step  5 (BENCH upper link): clear then; in the finished arm J2_turret_p1, brg_J2_idle cover(s) it
+  ok   seam_upper_0           step  5 (BENCH upper link): clear then; in the finished arm J2_turret_p1 cover(s) it
+  ok   seam_upper_1           step  5 (BENCH upper link): clear then; in the finished arm J2_turret_p1 cover(s) it
+  ok   horn_screw_J2_0        step  6 (BENCH J2 servo + shaft): clear then; in the finished arm J2_turret_p1 cover(s) it
+  ok   horn_screw_J2_180      step  6 (BENCH J2 servo + shaft): clear then; in the finished arm J2_turret_p1 cover(s) it
+  ok   horn_screw_J2_270      step  6 (BENCH J2 servo + shaft): clear then; in the finished arm J2_turret_p1 cover(s) it
+  ok   horn_screw_J2_90       step  6 (BENCH J2 servo + shaft): clear then; in the finished arm J2_turret_p1 cover(s) it
+  ok   j3fork_link_0          step  9 (J3 fork p1 onto the upper link): clear then; in the finished arm shaft_clamp_3, link_fore_groove, seam_ins_fore_0, link_set_3_270 cover(s) it
+  ok   j3fork_link_1          step  9 (J3 fork p1 onto the upper link): clear then; in the finished arm shaft_clamp_4, link_fore_tongue, seam_fore_1, link_set_4_90 cover(s) it
+  ok   j3fork_link_2          step  9 (J3 fork p1 onto the upper link): clear then; in the finished arm shaft_clamp_3, link_fore_groove, seam_ins_fore_1, link_set_3_90 cover(s) it
+  ok   j3fork_link_3          step  9 (J3 fork p1 onto the upper link): clear then; in the finished arm shaft_clamp_4, link_fore_tongue, seam_fore_0, link_set_4_270 cover(s) it
+  ok   ear_bolt_fore          step 10 (BENCH forearm): clear then; in the finished arm J3_p1, brg_J3_drive cover(s) it
+  ok   seam_fore_0            step 10 (BENCH forearm): clear then; in the finished arm J3_p1, J3_p2 cover(s) it
+  ok   seam_fore_1            step 10 (BENCH forearm): clear then; in the finished arm J3_p1, J3_p2 cover(s) it
+  ok   seam_fore_4            step 10 (BENCH forearm): clear then; in the finished arm collar_fore_+y cover(s) it
+  ok   seam_fore_5            step 10 (BENCH forearm): clear then; in the finished arm collar_fore_+y cover(s) it
+  ok   j4base_forearm_0       step 11 (BENCH J4 base on the forearm): clear then; in the finished arm j4_cap, j4_hub, brg_J4 cover(s) it
+  ok   j4base_forearm_1       step 11 (BENCH J4 base on the forearm): clear then; in the finished arm j4_cap, j4_hub, brg_J4 cover(s) it
+  ok   j4base_forearm_2       step 11 (BENCH J4 base on the forearm): clear then; in the finished arm j4_cap, j4_hub, servo_J4, brg_J4 cover(s) it
+  ok   j4base_forearm_3       step 11 (BENCH J4 base on the forearm): clear then; in the finished arm j4_cap, j4_hub, servo_J4, brg_J4 cover(s) it
+  ok   cap_J4_0               step 12 (BENCH J4 servo (2 screws from under the plate), bearing, cap): clear then; in the finished arm j4_hub, J5_p1, J5_shaft, j6_body, J5_spacer_B cover(s) it
+  ok   cap_J4_1               step 12 (BENCH J4 servo (2 screws from under the plate), bearing, cap): clear then; in the finished arm j4_hub, J5_p1, J5_shaft, j6_body, J5_spacer_A cover(s) it
+  ok   servo_scr_J4_0         step 12 (BENCH J4 servo (2 screws from under the plate), bearing, cap): clear then; in the finished arm collar_fore_-y cover(s) it
+  ok   servo_scr_J4_1         step 12 (BENCH J4 servo (2 screws from under the plate), bearing, cap): clear then; in the finished arm collar_fore_+y cover(s) it
+  ok   horn_screw_J4_0        step 13 (BENCH J4 hub onto the horn): clear then; in the finished arm J5_p1, J5_shaft, j6_body cover(s) it
+  ok   horn_screw_J4_180      step 13 (BENCH J4 hub onto the horn): clear then; in the finished arm J5_p1, J5_shaft, j6_body cover(s) it
+  ok   horn_screw_J4_270      step 13 (BENCH J4 hub onto the horn): clear then; in the finished arm J5_p1, J5_shaft, j6_body cover(s) it
+  ok   horn_screw_J4_90       step 13 (BENCH J4 hub onto the horn): clear then; in the finished arm J5_p1, J5_shaft, j6_body cover(s) it
+  ok   j5fork_j4hub_0         step 14 (BENCH J5 fork p1 onto the hub): clear then; in the finished arm j6_body cover(s) it
+  ok   j5fork_j4hub_1         step 14 (BENCH J5 fork p1 onto the hub): clear then; in the finished arm j6_body cover(s) it
+  ok   j5fork_j4hub_2         step 14 (BENCH J5 fork p1 onto the hub): clear then; in the finished arm j6_body, servo_J6 cover(s) it
+  ok   j5fork_j4hub_3         step 14 (BENCH J5 fork p1 onto the hub): clear then; in the finished arm j6_body, servo_J6 cover(s) it
+  ok   cap_J6_0               step 15 (BENCH blade: J6 servo, bearing, cap): clear then; in the finished arm j6_flange cover(s) it
+  ok   cap_J6_1               step 15 (BENCH blade: J6 servo, bearing, cap): clear then; in the finished arm j6_flange cover(s) it
+
+TOOL ACCESS: 114 screws, 78 clear even in the finished arm, 36 clear at their build step (covered later), 0 BLOCKED at their step; 0 components outside the sequence
+=== RULE 4 (mate, never overlap; pathways; attached) ===
+RULE 4 -- mating, overlap and pathways on 232 components (0 unassigned to a body: none)
+
+  J2_shaft               brg_J2_drive           b2|bNone  cyl. fit clr 0.025
+  J2_shaft               brg_J2_idle            b2|bNone  cyl. fit clr 0.025
+  J2_shaft               horn_screw_J2_0        b2|b2  cyl. fit clr 0.010; planar mate 10.9 mm2
+  J2_shaft               horn_screw_J2_180      b2|b2  cyl. fit clr 0.010; planar mate 10.9 mm2
+  J2_shaft               horn_screw_J2_270      b2|b2  cyl. fit clr 0.010; planar mate 10.9 mm2
+  J2_shaft               horn_screw_J2_90       b2|b2  cyl. fit clr 0.010; planar mate 10.9 mm2
+  J2_shaft               link_set_1_270         b2|b2  planar mate 19.6 mm2
+  J2_shaft               link_set_1_90          b2|b2  planar mate 19.6 mm2
+  J2_shaft               link_set_2_270         b2|b2  planar mate 19.6 mm2
+  J2_shaft               link_set_2_90          b2|b2  planar mate 19.6 mm2
+  J2_shaft               servo_J2               b2|b1  planar mate 264.6 mm2
+  J2_shaft               shaft_clamp_1          b2|b2  cyl. fit clr 0.025
+  J2_shaft               shaft_clamp_2          b2|b2  cyl. fit clr 0.025
+  J2_turret_p1           J2_turret_p2           b1|b1  flush; cyl. fit clr 0.000; planar mate 3666.9 mm2; cyl. fit clr 0.000; flush; cyl. fit clr 0.000; flush; flush; cyl. fit clr 0.000
+  J2_turret_p1           brg_J1_z3              b1|bNone  cyl. fit clr 0.000
+  J2_turret_p1           brg_J1_z43             b1|bNone  planar mate 174.6 mm2; cyl. fit clr 0.000
+  J2_turret_p1           brg_J2_drive           b1|bNone  flush; cyl. fit clr 0.000; flush
+  J2_turret_p1           brg_J2_idle            b1|bNone  flush; cyl. fit clr 0.000; planar mate 251.3 mm2
+  J2_turret_p1           pin_J2_turret_+1_ins   b1|b1  flush; cyl. fit clr 0.000
+  J2_turret_p1           pin_J2_turret_-1_ins   b1|b1  flush; cyl. fit clr 0.000
+  J2_turret_p1           servo_J2               b1|b1  planar mate 232.6 mm2
+  J2_turret_p1           split_ins_J2_0         b1|b1  flush; cyl. fit clr 0.000
+  J2_turret_p1           split_ins_J2_1         b1|b1  flush; cyl. fit clr 0.000
+  J2_turret_p1           split_ins_J2_2         b1|b1  flush; cyl. fit clr 0.000
+  J2_turret_p1           split_ins_J2_3         b1|b1  flush; cyl. fit clr 0.000
+  J2_turret_p2           servo_J2               b1|b1  designed overlap 290.384 mm3 (ST3215 pinch (-0.22 channel), |y| 12.25..12.36); planar mate 5.9 mm2; planar mate 5.9 mm2; planar mate 4.9 mm2; planar mate 4.9 mm2; edge/point; edge/point; edge/point; edge/point; edge/point; edge/point; edge/point; edge/point
+  J2_turret_p2           servo_scr_J2_0         b1|b1  planar mate 4.8 mm2
+  J2_turret_p2           servo_scr_J2_1         b1|b1  planar mate 4.8 mm2
+  J2_turret_p2           servo_scr_J2_2         b1|b1  planar mate 4.8 mm2
+  J2_turret_p2           servo_scr_J2_3         b1|b1  planar mate 4.8 mm2
+  J2_turret_p2           split_J2_0             b1|b1  planar mate 14.7 mm2
+  J2_turret_p2           split_J2_1             b1|b1  planar mate 14.7 mm2
+  J2_turret_p2           split_J2_2             b1|b1  planar mate 14.7 mm2
+  J2_turret_p2           split_J2_3             b1|b1  planar mate 14.7 mm2
+  J2_turret_p2           split_ins_J2_0         b1|b1  planar mate 4.1 mm2
+  J2_turret_p2           split_ins_J2_1         b1|b1  planar mate 4.1 mm2
+  J2_turret_p2           split_ins_J2_2         b1|b1  planar mate 4.1 mm2
+  J2_turret_p2           split_ins_J2_3         b1|b1  planar mate 4.1 mm2
+  J3_p1                  J3_p2                  b2|b2  flush; flush; planar mate 739.9 mm2; flush
+  J3_p1                  brg_J3_drive           b2|bNone  flush; cyl. fit clr 0.000
+  J3_p1                  brg_J3_idle            b2|bNone  flush; cyl. fit clr 0.000
+  J3_p1                  j3fork_link_0          b2|b2  planar mate 14.7 mm2
+  J3_p1                  j3fork_link_1          b2|b2  planar mate 14.7 mm2
+  J3_p1                  j3fork_link_2          b2|b2  planar mate 14.7 mm2
+  J3_p1                  j3fork_link_3          b2|b2  planar mate 14.7 mm2
+  J3_p1                  link_end_ins_0         b2|b2  planar mate 4.1 mm2
+  J3_p1                  link_end_ins_1         b2|b2  planar mate 4.1 mm2
+  J3_p1                  link_end_ins_2         b2|b2  planar mate 4.1 mm2
+  J3_p1                  link_end_ins_3         b2|b2  planar mate 4.1 mm2
+  J3_p1                  link_upper_groove      b2|b2  cyl. fit clr 0.000; cyl. fit clr 0.000; cyl. fit clr 0.000; planar mate 382.0 mm2
+  J3_p1                  link_upper_tongue      b2|b2  cyl. fit clr 0.000; cyl. fit clr 0.000; planar mate 403.7 mm2
+  J3_p1                  pin_J3_fork_+1_ins     b2|b2  flush; cyl. fit clr 0.000
+  J3_p1                  pin_J3_fork_-1_ins     b2|b2  flush; cyl. fit clr 0.000
+  J3_p1                  servo_J3               b2|b2  planar mate 232.6 mm2
+  J3_p1                  split_ins_J3_0         b2|b2  flush; cyl. fit clr 0.000
+  J3_p1                  split_ins_J3_1         b2|b2  flush; cyl. fit clr 0.000
+  J3_p1                  split_ins_J3_2         b2|b2  flush; cyl. fit clr 0.000
+  J3_p1                  split_ins_J3_3         b2|b2  flush; cyl. fit clr 0.000
+  J3_p2                  servo_J3               b2|b2  designed overlap 290.384 mm3 (ST3215 pinch (-0.22 channel), |y| 12.25..12.36); planar mate 5.9 mm2; planar mate 4.9 mm2; planar mate 5.9 mm2; planar mate 4.9 mm2; edge/point; edge/point; edge/point; edge/point; edge/point; edge/point; edge/point; edge/point
+  J3_p2                  servo_scr_J3_0         b2|b2  planar mate 4.8 mm2
+  J3_p2                  servo_scr_J3_1         b2|b2  planar mate 4.8 mm2
+  J3_p2                  servo_scr_J3_2         b2|b2  planar mate 4.8 mm2
+  J3_p2                  servo_scr_J3_3         b2|b2  planar mate 4.8 mm2
+  J3_p2                  split_J3_0             b2|b2  planar mate 14.7 mm2
+  J3_p2                  split_J3_1             b2|b2  planar mate 14.7 mm2
+  J3_p2                  split_J3_2             b2|b2  planar mate 14.7 mm2
+  J3_p2                  split_J3_3             b2|b2  planar mate 14.7 mm2
+  J3_p2                  split_ins_J3_0         b2|b2  planar mate 4.1 mm2
+  J3_p2                  split_ins_J3_1         b2|b2  planar mate 4.1 mm2
+  J3_p2                  split_ins_J3_2         b2|b2  planar mate 4.1 mm2
+  J3_p2                  split_ins_J3_3         b2|b2  planar mate 4.1 mm2
+  J3_shaft               brg_J3_drive           b3|bNone  cyl. fit clr 0.025
+  J3_shaft               brg_J3_idle            b3|bNone  cyl. fit clr 0.025
+  J3_shaft               horn_screw_J3_0        b3|b3  cyl. fit clr 0.010; planar mate 10.9 mm2
+  J3_shaft               horn_screw_J3_180      b3|b3  cyl. fit clr 0.010; planar mate 10.9 mm2
+  J3_shaft               horn_screw_J3_270      b3|b3  cyl. fit clr 0.010; planar mate 10.9 mm2
+  J3_shaft               horn_screw_J3_90       b3|b3  cyl. fit clr 0.010; planar mate 10.9 mm2
+  J3_shaft               link_set_3_270         b3|b3  planar mate 19.6 mm2
+  J3_shaft               link_set_3_90          b3|b3  planar mate 19.6 mm2
+  J3_shaft               link_set_4_270         b3|b3  planar mate 19.6 mm2
+  J3_shaft               link_set_4_90          b3|b3  planar mate 19.6 mm2
+  J3_shaft               servo_J3               b3|b2  planar mate 264.6 mm2
+  J3_shaft               shaft_clamp_3          b3|b3  cyl. fit clr 0.025
+  J3_shaft               shaft_clamp_4          b3|b3  cyl. fit clr 0.025
+  J5_p1                  J5_p2                  b4|b4  flush; flush; planar mate 712.5 mm2; flush
+  J5_p1                  brg_J5_drive           b4|bNone  flush; cyl. fit clr 0.000
+  J5_p1                  brg_J5_idle            b4|bNone  flush; cyl. fit clr 0.000
+  J5_p1                  j4_hub                 b4|b4  planar mate 1489.2 mm2
+  J5_p1                  j4hub_ins_0            b4|b4  planar mate 4.1 mm2
+  J5_p1                  j4hub_ins_1            b4|b4  planar mate 4.1 mm2
+  J5_p1                  j4hub_ins_2            b4|b4  planar mate 4.1 mm2
+  J5_p1                  j4hub_ins_3            b4|b4  planar mate 4.1 mm2
+  J5_p1                  j5fork_j4hub_0         b4|b4  planar mate 14.7 mm2
+  J5_p1                  j5fork_j4hub_1         b4|b4  planar mate 14.7 mm2
+  J5_p1                  j5fork_j4hub_2         b4|b4  planar mate 14.7 mm2
+  J5_p1                  j5fork_j4hub_3         b4|b4  planar mate 14.7 mm2
+  J5_p1                  servo_J5               b4|b4  planar mate 232.6 mm2
+  J5_p1                  split_ins_J5_0         b4|b4  flush; cyl. fit clr 0.000
+  J5_p1                  split_ins_J5_1         b4|b4  flush; cyl. fit clr 0.000
+  J5_p1                  split_ins_J5_2         b4|b4  flush; cyl. fit clr 0.000
+  J5_p1                  split_ins_J5_3         b4|b4  flush; cyl. fit clr 0.000
+  J5_p2                  servo_J5               b4|b4  designed overlap 290.384 mm3 (ST3215 pinch (-0.22 channel), |y| 12.25..12.36); planar mate 5.9 mm2; planar mate 4.9 mm2; planar mate 5.9 mm2; planar mate 4.9 mm2; edge/point; edge/point; edge/point; edge/point; edge/point; edge/point; edge/point; edge/point
+  J5_p2                  servo_scr_J5_0         b4|b4  planar mate 4.8 mm2
+  J5_p2                  servo_scr_J5_1         b4|b4  planar mate 4.8 mm2
+  J5_p2                  servo_scr_J5_2         b4|b4  planar mate 4.8 mm2
+  J5_p2                  servo_scr_J5_3         b4|b4  planar mate 4.8 mm2
+  J5_p2                  split_J5_0             b4|b4  planar mate 14.7 mm2
+  J5_p2                  split_J5_1             b4|b4  planar mate 14.7 mm2
+  J5_p2                  split_J5_2             b4|b4  planar mate 14.7 mm2
+  J5_p2                  split_J5_3             b4|b4  planar mate 14.7 mm2
+  J5_p2                  split_ins_J5_0         b4|b4  planar mate 4.1 mm2
+  J5_p2                  split_ins_J5_1         b4|b4  planar mate 4.1 mm2
+  J5_p2                  split_ins_J5_2         b4|b4  planar mate 4.1 mm2
+  J5_p2                  split_ins_J5_3         b4|b4  planar mate 4.1 mm2
+  J5_shaft               brg_J5_drive           b5|bNone  cyl. fit clr 0.025
+  J5_shaft               brg_J5_idle            b5|bNone  cyl. fit clr 0.025
+  J5_shaft               horn_screw_J5_0        b5|b5  cyl. fit clr 0.010; planar mate 10.9 mm2
+  J5_shaft               horn_screw_J5_180      b5|b5  cyl. fit clr 0.010; planar mate 10.9 mm2
+  J5_shaft               horn_screw_J5_270      b5|b5  cyl. fit clr 0.010; planar mate 10.9 mm2
+  J5_shaft               horn_screw_J5_90       b5|b5  cyl. fit clr 0.010; planar mate 10.9 mm2
+  J5_shaft               j5_grub                b5|b5  planar mate 7.1 mm2
+  J5_shaft               servo_J5               b5|b4  planar mate 264.6 mm2
+  J5_spacer_A            brg_J5_drive           b5|bNone  planar mate 87.9 mm2
+  J5_spacer_A            j6_body                b5|b5  planar mate 5.6 mm2; planar mate 50.4 mm2; planar mate 31.9 mm2
+  J5_spacer_B            brg_J5_idle            b5|bNone  planar mate 87.9 mm2
+  J5_spacer_B            j6_body                b5|b5  planar mate 50.4 mm2; planar mate 31.9 mm2; planar mate 5.6 mm2
+  base                   brg_J1_z3              b0|bNone  flush; cyl. fit clr 0.000; planar mate 251.3 mm2
+  base                   brg_J1_z43             b0|bNone  flush; cyl. fit clr 0.000; planar mate 251.3 mm2
+  base                   foot_ins_0             b0|b0  planar mate 8.7 mm2
+  base                   foot_ins_1             b0|b0  planar mate 8.7 mm2
+  base                   foot_ins_2             b0|b0  planar mate 8.7 mm2
+  base                   foot_ins_3             b0|b0  planar mate 8.7 mm2
+  base                   j1_mount               b0|b0  planar mate 127.5 mm2; planar mate 127.5 mm2; planar mate 127.5 mm2; planar mate 127.5 mm2
+  base                   m4_base_foot_0         b0|b0  planar mate 22.6 mm2
+  base                   m4_base_foot_1         b0|b0  planar mate 22.6 mm2
+  base                   m4_base_foot_2         b0|b0  planar mate 22.6 mm2
+  base                   m4_base_foot_3         b0|b0  planar mate 22.6 mm2
+  brg_J1_z3              spigot_collar          bNone|b1  planar mate 164.1 mm2
+  brg_J4                 j4_base                bNone|b3  planar mate 57.9 mm2; planar mate 57.9 mm2
+  brg_J4                 j4_cap                 bNone|b3  cyl. fit clr 0.010; flush; planar mate 167.3 mm2
+  brg_J4                 j4_hub                 bNone|b4  cyl. fit clr 0.025; planar mate 97.4 mm2
+  brg_J6                 j6_body                bNone|b5  planar mate 9.1 mm2; planar mate 9.1 mm2; planar mate 7.7 mm2; planar mate 34.0 mm2; planar mate 2.0 mm2; planar mate 5.1 mm2; planar mate 2.0 mm2; planar mate 34.0 mm2; planar mate 7.7 mm2; planar mate 5.1 mm2
+  brg_J6                 j6_cap                 bNone|b5  cyl. fit clr 0.010; flush; planar mate 167.3 mm2
+  brg_J6                 j6_flange              bNone|b6  cyl. fit clr 0.025; planar mate 97.4 mm2
+  cap_J4_0               cap_ins_J4_0           b3|b3  cyl. fit clr 0.000
+  cap_J4_0               j4_cap                 b3|b3  planar mate 14.7 mm2
+  cap_J4_1               cap_ins_J4_1           b3|b3  cyl. fit clr 0.000
+  cap_J4_1               j4_cap                 b3|b3  planar mate 14.7 mm2
+  cap_J4_2               cap_ins_J4_2           b3|b3  cyl. fit clr 0.000
+  cap_J4_2               j4_cap                 b3|b3  planar mate 14.7 mm2
+  cap_J4_3               cap_ins_J4_3           b3|b3  cyl. fit clr 0.000
+  cap_J4_3               j4_cap                 b3|b3  planar mate 14.7 mm2
+  cap_J6_0               cap_ins_J6_0           b5|b5  cyl. fit clr 0.000
+  cap_J6_0               j6_cap                 b5|b5  planar mate 14.7 mm2
+  cap_J6_1               cap_ins_J6_1           b5|b5  cyl. fit clr 0.000
+  cap_J6_1               j6_cap                 b5|b5  planar mate 14.7 mm2
+  cap_J6_2               cap_ins_J6_2           b5|b5  cyl. fit clr 0.000
+  cap_J6_2               j6_cap                 b5|b5  planar mate 14.7 mm2
+  cap_J6_3               cap_ins_J6_3           b5|b5  cyl. fit clr 0.000
+  cap_J6_3               j6_cap                 b5|b5  planar mate 14.7 mm2
+  cap_ins_J4_0           j4_base                b3|b3  cyl. fit clr 0.000; flush
+  cap_ins_J4_0           j4_cap                 b3|b3  planar mate 4.1 mm2
+  cap_ins_J4_1           j4_base                b3|b3  cyl. fit clr 0.000; flush
+  cap_ins_J4_1           j4_cap                 b3|b3  planar mate 4.1 mm2
+  cap_ins_J4_2           j4_base                b3|b3  cyl. fit clr 0.000; flush
+  cap_ins_J4_2           j4_cap                 b3|b3  planar mate 4.1 mm2
+  cap_ins_J4_3           j4_base                b3|b3  cyl. fit clr 0.000; flush
+  cap_ins_J4_3           j4_cap                 b3|b3  planar mate 4.1 mm2
+  cap_ins_J6_0           j6_body                b5|b5  cyl. fit clr 0.000; flush
+  cap_ins_J6_0           j6_cap                 b5|b5  planar mate 4.1 mm2
+  cap_ins_J6_1           j6_body                b5|b5  cyl. fit clr 0.000; flush
+  cap_ins_J6_1           j6_cap                 b5|b5  planar mate 4.1 mm2
+  cap_ins_J6_2           j6_body                b5|b5  cyl. fit clr 0.000; flush
+  cap_ins_J6_2           j6_cap                 b5|b5  planar mate 4.1 mm2
+  cap_ins_J6_3           j6_body                b5|b5  cyl. fit clr 0.000; flush
+  cap_ins_J6_3           j6_cap                 b5|b5  planar mate 4.1 mm2
+  collar_clamp_158_+1    collar_nut_158_+1      b2|b2  cyl. fit clr 0.000
+  collar_clamp_158_+1    collar_upper_+y        b2|b2  planar mate 14.7 mm2
+  collar_clamp_158_-1    collar_nut_158_-1      b2|b2  cyl. fit clr 0.000
+  collar_clamp_158_-1    collar_upper_+y        b2|b2  planar mate 14.7 mm2
+  collar_clamp_299_+1    collar_fore_+y         b3|b3  planar mate 14.7 mm2
+  collar_clamp_299_+1    collar_nut_299_+1      b3|b3  cyl. fit clr 0.000
+  collar_clamp_299_-1    collar_fore_+y         b3|b3  planar mate 14.7 mm2
+  collar_clamp_299_-1    collar_nut_299_-1      b3|b3  cyl. fit clr 0.000
+  collar_fore_+y         pin_J3_collar_+1_ins   b3|b3  flush; cyl. fit clr 0.000
+  collar_fore_-y         collar_nut_299_+1      b3|b3  planar mate 17.1 mm2
+  collar_fore_-y         collar_nut_299_-1      b3|b3  planar mate 17.1 mm2
+  collar_fore_-y         pin_J3_collar_-1_ins   b3|b3  cyl. fit clr 0.000
+  collar_ins             collar_pinch           b1|b1  cyl. fit clr 0.000
+  collar_ins             spigot_collar          b1|b1  cyl. fit clr 0.000; flush
+  collar_nut_158_+1      collar_upper_-y        b2|b2  planar mate 17.1 mm2
+  collar_nut_158_-1      collar_upper_-y        b2|b2  planar mate 17.1 mm2
+  collar_pinch           spigot_collar          b1|b1  planar mate 14.7 mm2
+  collar_upper_+y        pin_J2_collar_+1_ins   b2|b2  flush; cyl. fit clr 0.000
+  collar_upper_-y        pin_J2_collar_-1_ins   b2|b2  cyl. fit clr 0.000
+  ear_bolt_fore          ear_ins_fore           b3|b3  cyl. fit clr 0.000
+  ear_bolt_fore          link_fore_tongue       b3|b3  planar mate 10.2 mm2
+  ear_bolt_upper         ear_ins_upper          b2|b2  cyl. fit clr 0.000
+  ear_bolt_upper         link_upper_tongue      b2|b2  planar mate 10.2 mm2
+  ear_ins_fore           link_fore_groove       b3|b3  cyl. fit clr 0.000
+  ear_ins_fore           link_fore_tongue       b3|b3  planar mate 3.9 mm2
+  ear_ins_upper          link_upper_groove      b2|b2  cyl. fit clr 0.000
+  ear_ins_upper          link_upper_tongue      b2|b2  planar mate 3.9 mm2
+  foot_ins_0             j1_mount               b0|b0  cyl. fit clr 0.000; flush; planar mate 12.1 mm2
+  foot_ins_0             m4_base_foot_0         b0|b0  cyl. fit clr 0.000
+  foot_ins_1             j1_mount               b0|b0  cyl. fit clr 0.000; flush; planar mate 12.1 mm2
+  foot_ins_1             m4_base_foot_1         b0|b0  cyl. fit clr 0.000
+  foot_ins_2             j1_mount               b0|b0  cyl. fit clr 0.000; flush; planar mate 12.1 mm2
+  foot_ins_2             m4_base_foot_2         b0|b0  cyl. fit clr 0.000
+  foot_ins_3             j1_mount               b0|b0  cyl. fit clr 0.000; flush; planar mate 12.1 mm2
+  foot_ins_3             m4_base_foot_3         b0|b0  cyl. fit clr 0.000
+  forearm_ins_0          j4_base                b3|b3  planar mate 4.1 mm2
+  forearm_ins_0          j4base_forearm_0       b3|b3  cyl. fit clr 0.000
+  forearm_ins_0          link_fore_groove       b3|b3  cyl. fit clr 0.000; flush
+  forearm_ins_1          j4_base                b3|b3  planar mate 4.1 mm2
+  forearm_ins_1          j4base_forearm_1       b3|b3  cyl. fit clr 0.000
+  forearm_ins_1          link_fore_tongue       b3|b3  cyl. fit clr 0.000; flush
+  forearm_ins_2          j4_base                b3|b3  planar mate 4.1 mm2
+  forearm_ins_2          j4base_forearm_2       b3|b3  cyl. fit clr 0.000
+  forearm_ins_2          link_fore_groove       b3|b3  cyl. fit clr 0.000; flush
+  forearm_ins_3          j4_base                b3|b3  planar mate 4.1 mm2
+  forearm_ins_3          j4base_forearm_3       b3|b3  cyl. fit clr 0.000
+  forearm_ins_3          link_fore_tongue       b3|b3  cyl. fit clr 0.000; flush
+  horn_screw_J1_0        j1_hub                 b1|b1  planar mate 10.9 mm2; cyl. fit clr 0.010
+  horn_screw_J1_0        servo_J1               b1|b0  cyl. fit clr 0.000
+  horn_screw_J1_180      j1_hub                 b1|b1  planar mate 10.9 mm2; cyl. fit clr 0.010
+  horn_screw_J1_180      servo_J1               b1|b0  cyl. fit clr 0.000
+  horn_screw_J1_270      j1_hub                 b1|b1  planar mate 10.9 mm2; cyl. fit clr 0.010
+  horn_screw_J1_270      servo_J1               b1|b0  cyl. fit clr 0.000
+  horn_screw_J1_90       j1_hub                 b1|b1  planar mate 10.9 mm2; cyl. fit clr 0.010
+  horn_screw_J1_90       servo_J1               b1|b0  cyl. fit clr 0.000
+  horn_screw_J2_0        servo_J2               b2|b1  cyl. fit clr 0.000; flush
+  horn_screw_J2_180      servo_J2               b2|b1  cyl. fit clr 0.000; flush
+  horn_screw_J2_270      servo_J2               b2|b1  cyl. fit clr 0.000; flush
+  horn_screw_J2_90       servo_J2               b2|b1  cyl. fit clr 0.000; flush
+  horn_screw_J3_0        servo_J3               b3|b2  cyl. fit clr 0.000; flush
+  horn_screw_J3_180      servo_J3               b3|b2  cyl. fit clr 0.000; flush
+  horn_screw_J3_270      servo_J3               b3|b2  cyl. fit clr 0.000; flush
+  horn_screw_J3_90       servo_J3               b3|b2  cyl. fit clr 0.000; flush
+  horn_screw_J4_0        j4_hub                 b4|b4  planar mate 10.9 mm2; cyl. fit clr 0.010
+  horn_screw_J4_0        servo_J4               b4|b3  cyl. fit clr 0.000
+  horn_screw_J4_180      j4_hub                 b4|b4  planar mate 10.9 mm2; cyl. fit clr 0.010
+  horn_screw_J4_180      servo_J4               b4|b3  cyl. fit clr 0.000
+  horn_screw_J4_270      j4_hub                 b4|b4  planar mate 10.9 mm2; cyl. fit clr 0.010
+  horn_screw_J4_270      servo_J4               b4|b3  cyl. fit clr 0.000
+  horn_screw_J4_90       j4_hub                 b4|b4  planar mate 10.9 mm2; cyl. fit clr 0.010
+  horn_screw_J4_90       servo_J4               b4|b3  cyl. fit clr 0.000
+  horn_screw_J5_0        servo_J5               b5|b4  cyl. fit clr 0.000; flush
+  horn_screw_J5_180      servo_J5               b5|b4  cyl. fit clr 0.000; flush
+  horn_screw_J5_270      servo_J5               b5|b4  cyl. fit clr 0.000; flush
+  horn_screw_J5_90       servo_J5               b5|b4  cyl. fit clr 0.000; flush
+  horn_screw_J6_0        j6_flange              b6|b6  planar mate 10.9 mm2; cyl. fit clr 0.010
+  horn_screw_J6_0        servo_J6               b6|b5  cyl. fit clr 0.000
+  horn_screw_J6_180      j6_flange              b6|b6  planar mate 10.9 mm2; cyl. fit clr 0.010
+  horn_screw_J6_180      servo_J6               b6|b5  cyl. fit clr 0.000
+  horn_screw_J6_270      j6_flange              b6|b6  planar mate 10.9 mm2; cyl. fit clr 0.010
+  horn_screw_J6_270      servo_J6               b6|b5  cyl. fit clr 0.000
+  horn_screw_J6_90       j6_flange              b6|b6  planar mate 10.9 mm2; cyl. fit clr 0.010
+  horn_screw_J6_90       servo_J6               b6|b5  cyl. fit clr 0.000
+  j1_hub                 servo_J1               b1|b0  planar mate 231.1 mm2
+  j1_mount               servo_J1               b0|b0  designed overlap 290.384 mm3 (ST3215 pinch (-0.22 channel), |y| 12.25..12.36); planar mate 6.3 mm2; planar mate 53.1 mm2; planar mate 5.2 mm2; planar mate 6.3 mm2; planar mate 53.1 mm2; planar mate 5.2 mm2; edge/point; edge/point; edge/point; edge/point; edge/point; edge/point; edge/point; edge/point; edge (coplanar, opposite); edge/point; edge/point; edge/point; edge/point; edge/point
+  j1_mount               servo_scr_J1_0         b0|b0  planar mate 4.8 mm2
+  j1_mount               servo_scr_J1_1         b0|b0  planar mate 4.8 mm2
+  j1_mount               servo_scr_J1_2         b0|b0  planar mate 4.8 mm2
+  j1_mount               servo_scr_J1_3         b0|b0  planar mate 4.8 mm2
+  j3fork_link_0          link_end_ins_0         b2|b2  cyl. fit clr 0.000
+  j3fork_link_1          link_end_ins_1         b2|b2  cyl. fit clr 0.000
+  j3fork_link_2          link_end_ins_2         b2|b2  cyl. fit clr 0.000
+  j3fork_link_3          link_end_ins_3         b2|b2  cyl. fit clr 0.000
+  j4_base                j4_cap                 b3|b3  flush; flush; flush; planar mate 221.1 mm2; flush; planar mate 221.1 mm2
+  j4_base                j4base_forearm_0       b3|b3  planar mate 14.7 mm2
+  j4_base                j4base_forearm_1       b3|b3  planar mate 14.7 mm2
+  j4_base                j4base_forearm_2       b3|b3  planar mate 14.7 mm2
+  j4_base                j4base_forearm_3       b3|b3  planar mate 14.7 mm2
+  j4_base                link_fore_groove       b3|b3  planar mate 371.9 mm2
+  j4_base                link_fore_tongue       b3|b3  planar mate 394.1 mm2
+  j4_base                servo_J4               b3|b3  designed overlap 290.384 mm3 (ST3215 pinch (-0.22 channel), |y| 12.25..12.36); planar mate 6.3 mm2; planar mate 53.1 mm2; planar mate 53.1 mm2; planar mate 6.3 mm2; planar mate 7.6 mm2; planar mate 7.6 mm2; edge/point; edge/point; edge/point; edge/point; edge (coplanar, opposite); edge/point; edge/point; edge/point; edge/point; edge/point; edge/point; edge/point; edge/point; edge/point
+  j4_base                servo_scr_J4_0         b3|b3  planar mate 4.8 mm2
+  j4_base                servo_scr_J4_1         b3|b3  planar mate 4.8 mm2
+  j4_hub                 j4hub_ins_0            b4|b4  flush; cyl. fit clr 0.000
+  j4_hub                 j4hub_ins_1            b4|b4  flush; cyl. fit clr 0.000
+  j4_hub                 j4hub_ins_2            b4|b4  flush; cyl. fit clr 0.000
+  j4_hub                 j4hub_ins_3            b4|b4  flush; cyl. fit clr 0.000
+  j4_hub                 servo_J4               b4|b3  planar mate 231.1 mm2
+  j4hub_ins_0            j5fork_j4hub_0         b4|b4  cyl. fit clr 0.000
+  j4hub_ins_1            j5fork_j4hub_1         b4|b4  cyl. fit clr 0.000
+  j4hub_ins_2            j5fork_j4hub_2         b4|b4  cyl. fit clr 0.000
+  j4hub_ins_3            j5fork_j4hub_3         b4|b4  cyl. fit clr 0.000
+  j5_grub                j6_body                b5|b5  designed overlap 6.725 mm3 (set screw forms its thread in the O2.6 pilot, r 1.30..1.50); edge/point; edge/point; edge/point
+  j6_body                j6_cap                 b5|b5  flush; planar mate 4.0 mm2; planar mate 4.0 mm2; flush; flush; planar mate 63.4 mm2; flush; planar mate 250.4 mm2; planar mate 46.7 mm2; planar mate 250.4 mm2; planar mate 63.4 mm2; planar mate 46.7 mm2; flush; flush; flush; flush; flush; flush
+  j6_body                servo_J6               b5|b5  designed overlap 290.384 mm3 (ST3215 pinch (-0.22 channel), |y| 12.25..12.36); planar mate 7.0 mm2; planar mate 53.1 mm2; planar mate 7.3 mm2; planar mate 7.0 mm2; planar mate 53.1 mm2; planar mate 7.3 mm2; edge (coplanar, opposite); edge/point; edge/point; edge/point; edge/point; edge/point; edge/point; edge/point; edge/point; edge/point; edge/point; edge/point; edge/point; edge/point
+  j6_body                servo_scr_J6_0         b5|b5  planar mate 4.8 mm2
+  j6_body                servo_scr_J6_1         b5|b5  planar mate 4.8 mm2
+  j6_flange              servo_J6               b6|b5  planar mate 231.1 mm2
+  j6_flange              tool_ins_135           b6|b6  flush; cyl. fit clr 0.000
+  j6_flange              tool_ins_225           b6|b6  flush; cyl. fit clr 0.000
+  j6_flange              tool_ins_315           b6|b6  flush; cyl. fit clr 0.000
+  j6_flange              tool_ins_45            b6|b6  flush; cyl. fit clr 0.000
+  link_end_ins_0         link_upper_groove      b2|b2  cyl. fit clr 0.000; flush
+  link_end_ins_1         link_upper_tongue      b2|b2  cyl. fit clr 0.000; flush
+  link_end_ins_2         link_upper_groove      b2|b2  cyl. fit clr 0.000; flush
+  link_end_ins_3         link_upper_tongue      b2|b2  cyl. fit clr 0.000; flush
+  link_fore_groove       link_fore_tongue       b3|b3  planar mate 387.3 mm2; planar mate 7.2 mm2; planar mate 23.5 mm2; planar mate 23.5 mm2; planar mate 23.5 mm2; planar mate 23.5 mm2; planar mate 23.5 mm2; planar mate 23.5 mm2; planar mate 7.2 mm2
+  link_fore_groove       link_set_3_270         b3|b3  designed overlap 29.302 mm3 (set screw forms its thread in the O4.2 pilot, r 2.10..2.50); edge/point; edge/point
+  link_fore_groove       link_set_3_90          b3|b3  designed overlap 29.305 mm3 (set screw forms its thread in the O4.2 pilot, r 2.10..2.50); edge/point; edge/point
+  link_fore_groove       seam_ins_fore_0        b3|b3  cyl. fit clr 0.000
+  link_fore_groove       seam_ins_fore_1        b3|b3  cyl. fit clr 0.000
+  link_fore_groove       seam_ins_fore_2        b3|b3  cyl. fit clr 0.000
+  link_fore_groove       seam_ins_fore_3        b3|b3  cyl. fit clr 0.000
+  link_fore_groove       seam_ins_fore_4        b3|b3  cyl. fit clr 0.000
+  link_fore_groove       seam_ins_fore_5        b3|b3  cyl. fit clr 0.000
+  link_fore_groove       shaft_clamp_3          b3|b3  cyl. fit clr 0.025; cyl. fit clr 0.025; flush
+  link_fore_tongue       link_set_4_270         b3|b3  designed overlap 29.302 mm3 (set screw forms its thread in the O4.2 pilot, r 2.10..2.50); edge/point; edge/point
+  link_fore_tongue       link_set_4_90          b3|b3  designed overlap 29.305 mm3 (set screw forms its thread in the O4.2 pilot, r 2.10..2.50); edge/point; edge/point
+  link_fore_tongue       seam_fore_0            b3|b3  planar mate 14.7 mm2
+  link_fore_tongue       seam_fore_1            b3|b3  planar mate 14.7 mm2
+  link_fore_tongue       seam_fore_2            b3|b3  planar mate 14.7 mm2
+  link_fore_tongue       seam_fore_3            b3|b3  planar mate 14.7 mm2
+  link_fore_tongue       seam_fore_4            b3|b3  planar mate 14.7 mm2
+  link_fore_tongue       seam_fore_5            b3|b3  planar mate 14.7 mm2
+  link_fore_tongue       seam_ins_fore_0        b3|b3  planar mate 4.1 mm2
+  link_fore_tongue       seam_ins_fore_1        b3|b3  planar mate 4.1 mm2
+  link_fore_tongue       seam_ins_fore_2        b3|b3  planar mate 4.1 mm2
+  link_fore_tongue       seam_ins_fore_3        b3|b3  planar mate 4.1 mm2
+  link_fore_tongue       seam_ins_fore_4        b3|b3  planar mate 4.1 mm2
+  link_fore_tongue       seam_ins_fore_5        b3|b3  planar mate 4.1 mm2
+  link_fore_tongue       shaft_clamp_4          b3|b3  flush; cyl. fit clr 0.025; cyl. fit clr 0.025
+  link_set_1_270         link_upper_groove      b2|b2  designed overlap 29.302 mm3 (set screw forms its thread in the O4.2 pilot, r 2.10..2.50); edge/point; edge/point
+  link_set_1_90          link_upper_groove      b2|b2  designed overlap 29.305 mm3 (set screw forms its thread in the O4.2 pilot, r 2.10..2.50); edge/point; edge/point
+  link_set_2_270         link_upper_tongue      b2|b2  designed overlap 29.302 mm3 (set screw forms its thread in the O4.2 pilot, r 2.10..2.50); edge/point; edge/point
+  link_set_2_90          link_upper_tongue      b2|b2  designed overlap 29.305 mm3 (set screw forms its thread in the O4.2 pilot, r 2.10..2.50); edge/point; edge/point
+  link_upper_groove      link_upper_tongue      b2|b2  planar mate 23.5 mm2; planar mate 23.5 mm2; planar mate 402.6 mm2; planar mate 23.5 mm2; planar mate 23.5 mm2; planar mate 7.2 mm2; planar mate 7.2 mm2
+  link_upper_groove      seam_ins_upper_0       b2|b2  cyl. fit clr 0.000
+  link_upper_groove      seam_ins_upper_1       b2|b2  cyl. fit clr 0.000
+  link_upper_groove      seam_ins_upper_2       b2|b2  cyl. fit clr 0.000
+  link_upper_groove      seam_ins_upper_3       b2|b2  cyl. fit clr 0.000
+  link_upper_groove      shaft_clamp_1          b2|b2  cyl. fit clr 0.025; cyl. fit clr 0.025; flush
+  link_upper_tongue      seam_ins_upper_0       b2|b2  planar mate 4.1 mm2
+  link_upper_tongue      seam_ins_upper_1       b2|b2  planar mate 4.1 mm2
+  link_upper_tongue      seam_ins_upper_2       b2|b2  planar mate 4.1 mm2
+  link_upper_tongue      seam_ins_upper_3       b2|b2  planar mate 4.1 mm2
+  link_upper_tongue      seam_upper_0           b2|b2  planar mate 14.7 mm2
+  link_upper_tongue      seam_upper_1           b2|b2  planar mate 14.7 mm2
+  link_upper_tongue      seam_upper_2           b2|b2  planar mate 14.7 mm2
+  link_upper_tongue      seam_upper_3           b2|b2  planar mate 14.7 mm2
+  link_upper_tongue      shaft_clamp_2          b2|b2  flush; cyl. fit clr 0.025; cyl. fit clr 0.025
+  pin_J2_collar_+1       pin_J2_collar_+1_ins   b2|b2  cyl. fit clr 0.000
+  pin_J2_collar_+1       spring_J2_+1           b2|bNone  cyl. fit clr 0.000; cyl. fit clr 0.000
+  pin_J2_collar_-1       pin_J2_collar_-1_ins   b2|b2  cyl. fit clr 0.000
+  pin_J2_collar_-1       spring_J2_-1           b2|bNone  cyl. fit clr 0.000; cyl. fit clr 0.000
+  pin_J2_turret_+1       pin_J2_turret_+1_ins   b1|b1  cyl. fit clr 0.000
+  pin_J2_turret_+1       spring_J2_+1           b1|bNone  cyl. fit clr 0.000; cyl. fit clr 0.000
+  pin_J2_turret_-1       pin_J2_turret_-1_ins   b1|b1  cyl. fit clr 0.000
+  pin_J2_turret_-1       spring_J2_-1           b1|bNone  cyl. fit clr 0.000; cyl. fit clr 0.000
+  pin_J3_collar_+1       pin_J3_collar_+1_ins   b3|b3  cyl. fit clr 0.000
+  pin_J3_collar_+1       spring_J3_+1           b3|bNone  cyl. fit clr 0.000; cyl. fit clr 0.000
+  pin_J3_collar_-1       pin_J3_collar_-1_ins   b3|b3  cyl. fit clr 0.000
+  pin_J3_collar_-1       spring_J3_-1           b3|bNone  cyl. fit clr 0.000; cyl. fit clr 0.000
+  pin_J3_fork_+1         pin_J3_fork_+1_ins     b2|b2  cyl. fit clr 0.000
+  pin_J3_fork_+1         spring_J3_+1           b2|bNone  cyl. fit clr 0.000; cyl. fit clr 0.000
+  pin_J3_fork_-1         pin_J3_fork_-1_ins     b2|b2  cyl. fit clr 0.000
+  pin_J3_fork_-1         spring_J3_-1           b2|bNone  cyl. fit clr 0.000; cyl. fit clr 0.000
+  seam_fore_0            seam_ins_fore_1        b3|b3  cyl. fit clr 0.000
+  seam_fore_1            seam_ins_fore_0        b3|b3  cyl. fit clr 0.000
+  seam_fore_2            seam_ins_fore_3        b3|b3  cyl. fit clr 0.000
+  seam_fore_3            seam_ins_fore_2        b3|b3  cyl. fit clr 0.000
+  seam_fore_4            seam_ins_fore_5        b3|b3  cyl. fit clr 0.000
+  seam_fore_5            seam_ins_fore_4        b3|b3  cyl. fit clr 0.000
+  seam_ins_upper_0       seam_upper_1           b2|b2  cyl. fit clr 0.000
+  seam_ins_upper_1       seam_upper_0           b2|b2  cyl. fit clr 0.000
+  seam_ins_upper_2       seam_upper_3           b2|b2  cyl. fit clr 0.000
+  seam_ins_upper_3       seam_upper_2           b2|b2  cyl. fit clr 0.000
+  servo_J1               servo_scr_J1_0         b0|b0  designed overlap 1.525 mm3 (self-tapping screw forms its thread in the servo's O2.0 back hole, r 1.00..1.10); edge/point; edge/point
+  servo_J1               servo_scr_J1_1         b0|b0  designed overlap 1.525 mm3 (self-tapping screw forms its thread in the servo's O2.0 back hole, r 1.00..1.10); edge/point; edge/point
+  servo_J1               servo_scr_J1_2         b0|b0  designed overlap 1.525 mm3 (self-tapping screw forms its thread in the servo's O2.0 back hole, r 1.00..1.10); edge/point; edge/point
+  servo_J1               servo_scr_J1_3         b0|b0  designed overlap 1.525 mm3 (self-tapping screw forms its thread in the servo's O2.0 back hole, r 1.00..1.10); edge/point; edge/point
+  servo_J2               servo_scr_J2_0         b1|b1  designed overlap 1.525 mm3 (self-tapping screw forms its thread in the servo's O2.0 back hole, r 1.00..1.10); edge/point; edge/point
+  servo_J2               servo_scr_J2_1         b1|b1  designed overlap 1.525 mm3 (self-tapping screw forms its thread in the servo's O2.0 back hole, r 1.00..1.10); edge/point; edge/point
+  servo_J2               servo_scr_J2_2         b1|b1  designed overlap 1.525 mm3 (self-tapping screw forms its thread in the servo's O2.0 back hole, r 1.00..1.10); edge/point; edge/point
+  servo_J2               servo_scr_J2_3         b1|b1  designed overlap 1.525 mm3 (self-tapping screw forms its thread in the servo's O2.0 back hole, r 1.00..1.10); edge/point; edge/point
+  servo_J3               servo_scr_J3_0         b2|b2  designed overlap 1.525 mm3 (self-tapping screw forms its thread in the servo's O2.0 back hole, r 1.00..1.10); edge/point; edge/point
+  servo_J3               servo_scr_J3_1         b2|b2  designed overlap 1.525 mm3 (self-tapping screw forms its thread in the servo's O2.0 back hole, r 1.00..1.10); edge/point; edge/point
+  servo_J3               servo_scr_J3_2         b2|b2  designed overlap 1.525 mm3 (self-tapping screw forms its thread in the servo's O2.0 back hole, r 1.00..1.10); edge/point; edge/point
+  servo_J3               servo_scr_J3_3         b2|b2  designed overlap 1.525 mm3 (self-tapping screw forms its thread in the servo's O2.0 back hole, r 1.00..1.10); edge/point; edge/point
+  servo_J4               servo_scr_J4_0         b3|b3  designed overlap 1.525 mm3 (self-tapping screw forms its thread in the servo's O2.0 back hole, r 1.00..1.10); edge/point; edge/point
+  servo_J4               servo_scr_J4_1         b3|b3  designed overlap 1.525 mm3 (self-tapping screw forms its thread in the servo's O2.0 back hole, r 1.00..1.10); edge/point; edge/point
+  servo_J5               servo_scr_J5_0         b4|b4  designed overlap 1.525 mm3 (self-tapping screw forms its thread in the servo's O2.0 back hole, r 1.00..1.10); edge/point; edge/point
+  servo_J5               servo_scr_J5_1         b4|b4  designed overlap 1.525 mm3 (self-tapping screw forms its thread in the servo's O2.0 back hole, r 1.00..1.10); edge/point; edge/point
+  servo_J5               servo_scr_J5_2         b4|b4  designed overlap 1.525 mm3 (self-tapping screw forms its thread in the servo's O2.0 back hole, r 1.00..1.10); edge/point; edge/point
+  servo_J5               servo_scr_J5_3         b4|b4  designed overlap 1.525 mm3 (self-tapping screw forms its thread in the servo's O2.0 back hole, r 1.00..1.10); edge/point; edge/point
+  servo_J6               servo_scr_J6_0         b5|b5  designed overlap 1.525 mm3 (self-tapping screw forms its thread in the servo's O2.0 back hole, r 1.00..1.10); edge/point; edge/point
+  servo_J6               servo_scr_J6_1         b5|b5  designed overlap 1.525 mm3 (self-tapping screw forms its thread in the servo's O2.0 back hole, r 1.00..1.10); edge/point; edge/point
+  split_J2_0             split_ins_J2_0         b1|b1  cyl. fit clr 0.000
+  split_J2_1             split_ins_J2_1         b1|b1  cyl. fit clr 0.000
+  split_J2_2             split_ins_J2_2         b1|b1  cyl. fit clr 0.000
+  split_J2_3             split_ins_J2_3         b1|b1  cyl. fit clr 0.000
+  split_J3_0             split_ins_J3_0         b2|b2  cyl. fit clr 0.000
+  split_J3_1             split_ins_J3_1         b2|b2  cyl. fit clr 0.000
+  split_J3_2             split_ins_J3_2         b2|b2  cyl. fit clr 0.000
+  split_J3_3             split_ins_J3_3         b2|b2  cyl. fit clr 0.000
+  split_J5_0             split_ins_J5_0         b4|b4  cyl. fit clr 0.000
+  split_J5_1             split_ins_J5_1         b4|b4  cyl. fit clr 0.000
+  split_J5_2             split_ins_J5_2         b4|b4  cyl. fit clr 0.000
+  split_J5_3             split_ins_J5_3         b4|b4  cyl. fit clr 0.000
+
+SPLIT CLAMPS -- printed open, closed by their bolt: travel needed vs available
+  spigot collar + slit spigot (collet) on the J1 hub plug: clearances 0.075 + 0.100 mm -> slot travel 1.10 of 2.0, spigot slits 0.63 of 2.0  ok
+  collar_upper  halves on the link_upper: back plates 0.200 + 0.200 mm off -> arm gap travel 0.40 of 0.50  ok
+  collar_fore   halves on the link_fore: back plates 0.200 + 0.200 mm off -> arm gap travel 0.40 of 0.50  ok
+
+BOLTED JOINTS -- the two parts a screw joins share a planar mate normal to the screw
+  cap_J4_0               head on j4_cap                       holds in j4_base                      clamped
+  cap_J4_1               head on j4_cap                       holds in j4_base                      clamped
+  cap_J4_2               head on j4_cap                       holds in j4_base                      clamped
+  cap_J4_3               head on j4_cap                       holds in j4_base                      clamped
+  cap_J6_0               head on j6_cap                       holds in j6_body                      clamped
+  cap_J6_1               head on j6_cap                       holds in j6_body                      clamped
+  cap_J6_2               head on j6_cap                       holds in j6_body                      clamped
+  cap_J6_3               head on j6_cap                       holds in j6_body                      clamped
+  collar_clamp_158_+1    head on collar_upper_+y              holds in collar_upper_-y              clamped
+  collar_clamp_158_-1    head on collar_upper_+y              holds in collar_upper_-y              clamped
+  collar_clamp_299_+1    head on collar_fore_+y               holds in collar_fore_-y               clamped
+  collar_clamp_299_-1    head on collar_fore_+y               holds in collar_fore_-y               clamped
+  collar_pinch           head on spigot_collar                holds in spigot_collar                same part
+  ear_bolt_fore          head on link_fore_tongue             holds in link_fore_groove             clamped
+  ear_bolt_upper         head on link_upper_tongue            holds in link_upper_groove            clamped
+  horn_screw_J1_0        head on j1_hub                       holds in j1_hub,servo_J1              clamped
+  horn_screw_J1_180      head on j1_hub                       holds in j1_hub,servo_J1              clamped
+  horn_screw_J1_270      head on j1_hub                       holds in j1_hub,servo_J1              clamped
+  horn_screw_J1_90       head on j1_hub                       holds in j1_hub,servo_J1              clamped
+  horn_screw_J2_0        head on J2_shaft                     holds in J2_shaft,servo_J2            clamped
+  horn_screw_J2_180      head on J2_shaft                     holds in J2_shaft,servo_J2            clamped
+  horn_screw_J2_270      head on J2_shaft                     holds in J2_shaft,servo_J2            clamped
+  horn_screw_J2_90       head on J2_shaft                     holds in J2_shaft,servo_J2            clamped
+  horn_screw_J3_0        head on J3_shaft                     holds in J3_shaft,servo_J3            clamped
+  horn_screw_J3_180      head on J3_shaft                     holds in J3_shaft,servo_J3            clamped
+  horn_screw_J3_270      head on J3_shaft                     holds in J3_shaft,servo_J3            clamped
+  horn_screw_J3_90       head on J3_shaft                     holds in J3_shaft,servo_J3            clamped
+  horn_screw_J4_0        head on j4_hub                       holds in j4_hub,servo_J4              clamped
+  horn_screw_J4_180      head on j4_hub                       holds in j4_hub,servo_J4              clamped
+  horn_screw_J4_270      head on j4_hub                       holds in j4_hub,servo_J4              clamped
+  horn_screw_J4_90       head on j4_hub                       holds in j4_hub,servo_J4              clamped
+  horn_screw_J5_0        head on J5_shaft                     holds in J5_shaft,servo_J5            clamped
+  horn_screw_J5_180      head on J5_shaft                     holds in J5_shaft,servo_J5            clamped
+  horn_screw_J5_270      head on J5_shaft                     holds in J5_shaft,servo_J5            clamped
+  horn_screw_J5_90       head on J5_shaft                     holds in J5_shaft,servo_J5            clamped
+  horn_screw_J6_0        head on j6_flange                    holds in j6_flange,servo_J6           clamped
+  horn_screw_J6_180      head on j6_flange                    holds in j6_flange,servo_J6           clamped
+  horn_screw_J6_270      head on j6_flange                    holds in j6_flange,servo_J6           clamped
+  horn_screw_J6_90       head on j6_flange                    holds in j6_flange,servo_J6           clamped
+  j3fork_link_0          head on J3_p1                        holds in link_upper_groove            clamped
+  j3fork_link_1          head on J3_p1                        holds in link_upper_tongue            clamped
+  j3fork_link_2          head on J3_p1                        holds in link_upper_groove            clamped
+  j3fork_link_3          head on J3_p1                        holds in link_upper_tongue            clamped
+  j4base_forearm_0       head on j4_base                      holds in link_fore_groove             clamped
+  j4base_forearm_1       head on j4_base                      holds in link_fore_tongue             clamped
+  j4base_forearm_2       head on j4_base                      holds in link_fore_groove             clamped
+  j4base_forearm_3       head on j4_base                      holds in link_fore_tongue             clamped
+  j5fork_j4hub_0         head on J5_p1                        holds in j4_hub                       clamped
+  j5fork_j4hub_1         head on J5_p1                        holds in j4_hub                       clamped
+  j5fork_j4hub_2         head on J5_p1                        holds in j4_hub                       clamped
+  j5fork_j4hub_3         head on J5_p1                        holds in j4_hub                       clamped
+  m4_base_foot_0         head on base                         holds in j1_mount                     clamped
+  m4_base_foot_1         head on base                         holds in j1_mount                     clamped
+  m4_base_foot_2         head on base                         holds in j1_mount                     clamped
+  m4_base_foot_3         head on base                         holds in j1_mount                     clamped
+  seam_fore_0            head on link_fore_tongue             holds in link_fore_groove             clamped
+  seam_fore_1            head on link_fore_tongue             holds in link_fore_groove             clamped
+  seam_fore_2            head on link_fore_tongue             holds in link_fore_groove             clamped
+  seam_fore_3            head on link_fore_tongue             holds in link_fore_groove             clamped
+  seam_fore_4            head on link_fore_tongue             holds in link_fore_groove             clamped
+  seam_fore_5            head on link_fore_tongue             holds in link_fore_groove             clamped
+  seam_upper_0           head on link_upper_tongue            holds in link_upper_groove            clamped
+  seam_upper_1           head on link_upper_tongue            holds in link_upper_groove            clamped
+  seam_upper_2           head on link_upper_tongue            holds in link_upper_groove            clamped
+  seam_upper_3           head on link_upper_tongue            holds in link_upper_groove            clamped
+  servo_scr_J1_0         head on j1_mount                     holds in servo_J1                     clamped
+  servo_scr_J1_1         head on j1_mount                     holds in servo_J1                     clamped
+  servo_scr_J1_2         head on j1_mount                     holds in servo_J1                     clamped
+  servo_scr_J1_3         head on j1_mount                     holds in servo_J1                     clamped
+  servo_scr_J2_0         head on J2_turret_p2                 holds in servo_J2                     clamped
+  servo_scr_J2_1         head on J2_turret_p2                 holds in servo_J2                     clamped
+  servo_scr_J2_2         head on J2_turret_p2                 holds in servo_J2                     clamped
+  servo_scr_J2_3         head on J2_turret_p2                 holds in servo_J2                     clamped
+  servo_scr_J3_0         head on J3_p2                        holds in servo_J3                     clamped
+  servo_scr_J3_1         head on J3_p2                        holds in servo_J3                     clamped
+  servo_scr_J3_2         head on J3_p2                        holds in servo_J3                     clamped
+  servo_scr_J3_3         head on J3_p2                        holds in servo_J3                     clamped
+  servo_scr_J4_0         head on j4_base                      holds in servo_J4                     clamped
+  servo_scr_J4_1         head on j4_base                      holds in servo_J4                     clamped
+  servo_scr_J5_0         head on J5_p2                        holds in servo_J5                     clamped
+  servo_scr_J5_1         head on J5_p2                        holds in servo_J5                     clamped
+  servo_scr_J5_2         head on J5_p2                        holds in servo_J5                     clamped
+  servo_scr_J5_3         head on J5_p2                        holds in servo_J5                     clamped
+  servo_scr_J6_0         head on j6_body                      holds in servo_J6                     clamped
+  servo_scr_J6_1         head on j6_body                      holds in servo_J6                     clamped
+  split_J2_0             head on J2_turret_p2                 holds in J2_turret_p1                 clamped
+  split_J2_1             head on J2_turret_p2                 holds in J2_turret_p1                 clamped
+  split_J2_2             head on J2_turret_p2                 holds in J2_turret_p1                 clamped
+  split_J2_3             head on J2_turret_p2                 holds in J2_turret_p1                 clamped
+  split_J3_0             head on J3_p2                        holds in J3_p1                        clamped
+  split_J3_1             head on J3_p2                        holds in J3_p1                        clamped
+  split_J3_2             head on J3_p2                        holds in J3_p1                        clamped
+  split_J3_3             head on J3_p2                        holds in J3_p1                        clamped
+  split_J5_0             head on J5_p2                        holds in J5_p1                        clamped
+  split_J5_1             head on J5_p2                        holds in J5_p1                        clamped
+  split_J5_2             head on J5_p2                        holds in J5_p1                        clamped
+  split_J5_3             head on J5_p2                        holds in J5_p1                        clamped
+
+ATTACHED -- each body reached from what drives it, through touching parts only
+  body 0 (from j1_mount ):  15 parts,  15 reached
+  body 1 (from servo_J1 ):  27 parts,  27 reached
+  body 2 (from servo_J2 ):  60 parts,  60 reached
+  body 3 (from servo_J3 ):  58 parts,  58 reached
+  body 4 (from servo_J4 ):  28 parts,  28 reached
+  body 5 (from servo_J5 ):  21 parts,  21 reached
+  body 6 (from servo_J6 ):   9 parts,   9 reached
+
+RULE 4: 0 failure(s)   (63 s)
+
+CONTROLS
+  J3_p2 pushed 0.3 mm into J3_p1 (along the joint axis)      -> DETECTED
+  j4_cap lifted 0.2 mm off j4_base                           -> DETECTED
+  upper link tongue moved 1.1 mm onto the J2 cheek           -> DETECTED
+=== SPRINGS ===
+============================================================================================
+GRAVITY SPRINGS
+============================================================================================
+   collar_upper_+y clear of every part at rest                    PASS  clear
+   collar_upper_-y clear of every part at rest                    PASS  clear
+   collar_fore_+y clear of every part at rest                     PASS  clear
+   collar_fore_-y clear of every part at rest                     PASS  clear
+   all 4 springs clear of every part over J2 +-54 x J3 +-72       PASS  49 poses
+   J2 spring stays in its specified length range                  PASS  33.0 .. 55.2 mm (spec 33.0 .. 55.2)
+   J3 spring stays in its specified length range                  PASS  40.0 .. 88.4 mm (spec 40.0 .. 88.4)
+
+FAILURES: 0
+=== SWEEP ===
+WHOLE-ARM MOTION SWEEP -- rev I, 35 parts incl. 6 x ST3215
+rise above the rest-pose contact; > 15 points = clash
+
+  J1 yaw       +- 90.0 deg  rest    78  worst rise    0 at   +0.0
+  J2 shoulder  +- 54.0 deg  rest    32  worst rise    2 at   +0.0
+  J3 elbow     +- 72.0 deg  rest    36  worst rise    8 at   +0.0
+  J4 roll      +- 90.0 deg  rest    40  worst rise    0 at   +0.0
+  J5 pitch     +- 46.5 deg  rest    56  worst rise    0 at   +0.0
+  J6 roll      +- 90.0 deg  rest    35  worst rise    0 at   +0.0
+
+  CONTROL (block in the J3 arc): rise 408 -> DETECTED
+
+joints with a clash: 0
+=== 6-DOF (axes two ways, Jacobian rank) ===
+1  JOINT AXES -- A: servo horn   B: bearing pockets on the printed part
+
+   J1 base yaw      axis [ 0. -0. -1.] through [  0.     0.   -14.31] | 3 pocket faces (base.step), coaxial to 0.0000 | servo vs bearings: 0.0000 deg, 0.0000 mm  ok
+   J2 shoulder      axis [ 0. -1.  0.] through [  0.  -28.5  90. ] | 4 pocket faces (J2_turret_p1.step), coaxial to 0.0000 | servo vs bearings: 0.0000 deg, 0.0000 mm  ok
+   J3 elbow         axis [0. 1. 0.] through [  0.   28.5 209. ] | 3 pocket faces (J3_p1.step), coaxial to 0.0000 | servo vs bearings: 0.0000 deg, 0.0000 mm  ok
+   J4 forearm roll  axis [ 0. -0. -1.] through [  0.     0.   378.59] | 1 pocket faces (j4_cap.step), coaxial to 0.0000 | servo vs bearings: 0.0000 deg, 0.0000 mm  ok
+   J5 wrist pitch   axis [0. 1. 0.] through [  0.    26.   430.37] | 3 pocket faces (J5_p1.step), coaxial to 0.0000 | servo vs bearings: 0.0000 deg, 0.0000 mm  ok
+   J6 tool roll     axis [-0. -0. -1.] through [  0.     0.   494.96] | 1 pocket faces (j6_cap.step), coaxial to 0.0000 | servo vs bearings: 0.0000 deg, 0.0000 mm  ok
+
+2  six distinct ST3215 (one per joint): True;  swept ranges without a clash: J1 yaw +-90.0, J2 shoulder +-54.0, J3 elbow +-72.0, J4 roll +-90.0, J5 pitch +-46.5, J6 roll +-90.0
+
+3  Jacobian rank over 3000 random poses inside the swept ranges (linear rows / 430 mm): rank 6 at 100.0 %; sigma_min/sigma_max min 3.96e-06, median 0.024
+   107 near-singular poses (sigma ratio < 1e-3): elbow straight (|J3| < 8 deg) 70; wrist aligned (|J5| < 8 deg) 28; wrist centre within 25 mm of the J1 axis 9; other 0
+   home (all 0: arm straight up)        rank 3   sigma_min/sigma_max 0.00e+00
+   working pose (30,40,-70,20,35,10)    rank 6   sigma_min/sigma_max 8.09e-02
+   J5 = 0 only (wrist aligned)          rank 5   sigma_min/sigma_max 3.73e-17
+   J3 = 0 only (elbow straight)         rank 5   sigma_min/sigma_max 3.75e-17
+   wrist: J4-J5 0.000 mm, J5-J6 0.000 mm, J4-J6 0.000 mm apart -> spherical wrist (axes meet in one point)
+
+4  CONTROL: J5 axis moved onto J4 -> max rank 4 over 300 poses -> DETECTED
+
+6-DOF CHECK: 0 failure(s)
+=== OFFICIAL ST3215 (manufacturer's model, rear idler horn) ===
+J1: official ST3215 seated like servo_J1
+   case middle        x j1_mount                 58.748 mm3
+   case back          x j1_mount                 35.347 mm3
+   DRIVE horn         x j1_hub                   42.482 mm3
+   servo_scr_J1_0         core in the real hole: yes (0.000 mm3 solid), thread bites 4.57 mm3  ok
+   servo_scr_J1_1         core in the real hole: yes (0.000 mm3 solid), thread bites 4.57 mm3  ok
+   servo_scr_J1_2         core in the real hole: yes (0.000 mm3 solid), thread bites 4.57 mm3  ok
+   servo_scr_J1_3         core in the real hole: yes (0.000 mm3 solid), thread bites 4.57 mm3  ok
+J2: official ST3215 seated like servo_J2
+   case middle        x J2_turret_p2             58.748 mm3
+   case back          x J2_turret_p2             35.347 mm3
+   DRIVE horn         x J2_shaft                 48.236 mm3
+   servo_scr_J2_0         core in the real hole: yes (0.000 mm3 solid), thread bites 4.57 mm3  ok
+   servo_scr_J2_1         core in the real hole: yes (0.000 mm3 solid), thread bites 4.57 mm3  ok
+   servo_scr_J2_2         core in the real hole: yes (0.000 mm3 solid), thread bites 4.57 mm3  ok
+   servo_scr_J2_3         core in the real hole: yes (0.000 mm3 solid), thread bites 4.57 mm3  ok
+J3: official ST3215 seated like servo_J3
+   case middle        x J3_p2                    58.748 mm3
+   case back          x J3_p2                    35.347 mm3
+   DRIVE horn         x J3_shaft                 48.236 mm3
+   servo_scr_J3_0         core in the real hole: yes (0.000 mm3 solid), thread bites 4.57 mm3  ok
+   servo_scr_J3_1         core in the real hole: yes (0.000 mm3 solid), thread bites 4.57 mm3  ok
+   servo_scr_J3_2         core in the real hole: yes (0.000 mm3 solid), thread bites 4.57 mm3  ok
+   servo_scr_J3_3         core in the real hole: yes (0.000 mm3 solid), thread bites 4.57 mm3  ok
+J4: official ST3215 seated like servo_J4
+   case middle        x j4_base                  58.748 mm3
+   case back          x j4_base                  35.347 mm3
+   DRIVE horn         x j4_hub                   42.482 mm3
+   servo_scr_J4_0         core in the real hole: yes (0.000 mm3 solid), thread bites 4.57 mm3  ok
+   servo_scr_J4_1         core in the real hole: yes (0.000 mm3 solid), thread bites 4.57 mm3  ok
+J5: official ST3215 seated like servo_J5
+   case middle        x J5_p2                    58.748 mm3
+   case back          x J5_p2                    35.347 mm3
+   DRIVE horn         x J5_shaft                 48.236 mm3
+   servo_scr_J5_0         core in the real hole: yes (0.000 mm3 solid), thread bites 4.57 mm3  ok
+   servo_scr_J5_1         core in the real hole: yes (0.000 mm3 solid), thread bites 4.57 mm3  ok
+   servo_scr_J5_2         core in the real hole: yes (0.000 mm3 solid), thread bites 4.57 mm3  ok
+   servo_scr_J5_3         core in the real hole: yes (0.000 mm3 solid), thread bites 4.57 mm3  ok
+J6: official ST3215 seated like servo_J6
+   case middle        x j6_body                  58.748 mm3
+   case back          x j6_body                  35.347 mm3
+   DRIVE horn         x j6_flange                42.482 mm3
+   servo_scr_J6_0         core in the real hole: yes (0.000 mm3 solid), thread bites 4.57 mm3  ok
+   servo_scr_J6_1         core in the real hole: yes (0.000 mm3 solid), thread bites 4.57 mm3  ok
+
+(the case x housing overlaps above are the designed -0.22 pinch; the DRIVE horn x coupler
+ overlap is the real horn standing 0.20 mm further out -- checked next)
+  warnings.warn("Unable to import Axes3D. This may be due to multiple versions of "
+
+DRIVEN CHAIN SHIFTED 0.20 mm (real horn), clearance fixed side <-> moving side, per joint
+   J1: 0.300 mm  (base | spigot_collar)  ok
+   J2: 0.589 mm  (J2_turret_p1 | J2_shaft)  ok
+   J3: 0.589 mm  (J3_p1 | J3_shaft)  ok
+   J4: 0.502 mm  (j4_base | j4_hub)  ok
+   J5: 0.476 mm  (J5_p1 | J5_spacer_B)  ok
+   J6: 0.502 mm  (j6_body | j6_flange)  ok
+
+OFFICIAL-SERVO CHECK: 0 problem(s)  (18 designed / expected overlaps explained above)
+=== DISASSEMBLY PATHS (our servo model) ===
+  warnings.warn("Unable to import Axes3D. This may be due to multiple versions of "
+   J2 servo + shaft out of p1, towards the servo back         FREE (no overlap beyond the fit it starts in)
+   J3 servo + shaft out of p1, towards the servo back         FREE (no overlap beyond the fit it starts in)
+   J5 servo + shaft out of p1, towards the servo back         FREE (no overlap beyond the fit it starts in)
+   J4 servo out along its channel (+x), cap/hub off           FREE (no overlap beyond the fit it starts in)
+   J6 servo out along its channel (+x), cap/hub off           FREE (no overlap beyond the fit it starts in)
+   J1 servo out of the foot along its channel (+x), base/hub off FREE (no overlap beyond the fit it starts in)
+   J1 turret lifted off the base (collar off)                 FREE (no overlap beyond the fit it starts in)
+
+DISASSEMBLY PATHS: 0 blocked
+=== DISASSEMBLY PATHS (official servo) ===
+  warnings.warn("Unable to import Axes3D. This may be due to multiple versions of "
+(servos = the MANUFACTURER'S ST3215 model, rear idler horn included)
+   J2 servo + shaft out of p1, towards the servo back         FREE (no overlap beyond the fit it starts in)
+   J3 servo + shaft out of p1, towards the servo back         FREE (no overlap beyond the fit it starts in)
+   J5 servo + shaft out of p1, towards the servo back         FREE (no overlap beyond the fit it starts in)
+   J4 servo out along its channel (+x), cap/hub off           FREE (no overlap beyond the fit it starts in)
+   J6 servo out along its channel (+x), cap/hub off           FREE (no overlap beyond the fit it starts in)
+   J1 servo out of the foot along its channel (+x), base/hub off FREE (no overlap beyond the fit it starts in)
+   J1 turret lifted off the base (collar off)                 FREE (no overlap beyond the fit it starts in)
+
+DISASSEMBLY PATHS: 0 blocked
+=== AUDIT GAPS (joints together, tipping, walls, bed) ===
+A  JOINTS TOGETHER -- 450 combined poses
+   J4 hub - blade         min   0.471 mm at J1..J5 (0, -27, -72, 0, 0)  (J5_p1 | J5_spacer_B)  ok
+   forearm - J4 hub       min   0.495 mm at J1..J5 (45, 54, -72, -90, -46.5)  (j4_base | j4_hub)  ok
+   blade - flange         min   0.500 mm at J1..J5 (45, -54, 72, 90, 0)  (j6_body | j6_flange)  ok
+   ground - turret        min   0.500 mm at J1..J5 (45, -54, -72, -90, -46.5)  (base | J2_turret_p1)  ok
+   turret - upper link    min   0.510 mm at J1..J5 (45, -54, -72, -90, -46.5)  (J2_turret_p1 | J2_shaft)  ok
+   upper link - forearm   min   0.518 mm at J1..J5 (45, 27, -72, -90, -46.5)  (J3_p1 | J3_shaft)  ok
+   ground - upper link    min  15.000 mm at J1..J5 (45, 0, -72, -90, -46.5)  (brg_J1_z43 | link_upper_tongue)  ok
+   forearm - blade        min  19.779 mm at J1..J5 (0, 0, 72, -90, 0)  (j4_cap | j6_body)  ok
+   J4 hub - flange        min  27.820 mm at J1..J5 (0, -27, -72, 0, 0)  (J5_p1 | horn_screw_J6_90)  ok
+   turret - forearm       min  44.162 mm at J1..J5 (0, -54, 0, -90, -46.5)  (J2_turret_p1 | link_fore_groove)  ok
+   forearm - flange       min  77.220 mm at J1..J5 (0, 27, 72, 0, 46.5)  (j4_cap | j6_flange)  ok
+   ground - forearm       min  99.376 mm at J1..J5 (0, -54, 72, -90, -46.5)  (base | link_fore_tongue)  ok
+   upper link - J4 hub    min 115.931 mm at J1..J5 (45, 54, 0, -90, -46.5)  (J3_p1 | horn_screw_J4_0)  ok
+   upper link - blade     min 149.283 mm at J1..J5 (45, 54, 0, 0, 0)  (J3_p1 | j6_body)  ok
+   ground - J4 hub        min 155.355 mm at J1..J5 (0, -54, 72, 90, -46.5)  (base | J5_p2)  ok
+   turret - J4 hub        min 181.848 mm at J1..J5 (45, 54, -72, -90, -46.5)  (J2_turret_p1 | J5_p2)  ok
+   ground - blade         min 183.738 mm at J1..J5 (0, -54, 72, 0, 46.5)  (base | j6_body)  ok
+   ground - flange        min 199.399 mm at J1..J5 (0, -54, 72, 0, 46.5)  (j1_mount | j6_flange)  ok
+   upper link - flange    min 205.857 mm at J1..J5 (45, -27, 0, -90, 46.5)  (pin_J3_fork_+1 | j6_flange)  ok
+   turret - blade         min 208.372 mm at J1..J5 (45, -54, 72, 0, 46.5)  (J2_turret_p1 | j6_body)  ok
+   turret - flange        min 243.334 mm at J1..J5 (45, 54, -72, 0, -46.5)  (J2_turret_p1 | j6_flange)  ok
+JOINTS TOGETHER: 0 pair(s) too close
+
+B  TIPPING -- centre of mass vs the foot
+   total mass 1509 g (printed parts at 65 % fill, 6 x ST3215 55 g)
+   worst pose J1..J5 (0, -54, 36, 90, 0): centre of mass 118.0 mm from the J1 axis, 98.4 mm high; foot radius 64.0 mm -> TIPS unless the foot is fixed down
+   -> the foot MUST be fixed down: 4 x O5.5 table holes at r 58 are in the foot -> ok
+TIPPING: 0 problem(s)
+
+C  THINNEST WALLS of the printed parts (inward rays, 20 000 points each)
+   base                 1st percentile  1.99 mm   thin WALLS (>= 15 mm2 under 0.8 mm): none
+   spigot_collar        1st percentile  1.36 mm   thin WALLS (>= 15 mm2 under 0.8 mm): none
+   j1_mount             1st percentile  1.19 mm   thin WALLS (>= 15 mm2 under 0.8 mm): none
+   j1_hub               1st percentile  1.11 mm   thin WALLS (>= 15 mm2 under 0.8 mm): none
+   J2_turret_p1         1st percentile  1.49 mm   thin WALLS (>= 15 mm2 under 0.8 mm): none
+   J2_turret_p2         1st percentile  1.79 mm   thin WALLS (>= 15 mm2 under 0.8 mm): none
+   J2_shaft             1st percentile  3.20 mm   thin WALLS (>= 15 mm2 under 0.8 mm): none
+   shaft_clamp          1st percentile  2.91 mm   thin WALLS (>= 15 mm2 under 0.8 mm): none
+   link_upper_groove    1st percentile  0.85 mm   thin WALLS (>= 15 mm2 under 0.8 mm): 185 mm2 at [70.0, -0.0, 0.3], 0.57 mm
+   link_upper_tongue    1st percentile  1.19 mm   thin WALLS (>= 15 mm2 under 0.8 mm): none
+   collar_upper         1st percentile  1.80 mm   thin WALLS (>= 15 mm2 under 0.8 mm): none
+   J3_p1                1st percentile  1.44 mm   thin WALLS (>= 15 mm2 under 0.8 mm): none
+   J3_p2                1st percentile  1.79 mm   thin WALLS (>= 15 mm2 under 0.8 mm): none
+   J3_shaft             1st percentile  3.20 mm   thin WALLS (>= 15 mm2 under 0.8 mm): none
+   link_fore_tongue     1st percentile  1.59 mm   thin WALLS (>= 15 mm2 under 0.8 mm): none
+   link_fore_groove     1st percentile  1.59 mm   thin WALLS (>= 15 mm2 under 0.8 mm): none
+   collar_fore          1st percentile  1.80 mm   thin WALLS (>= 15 mm2 under 0.8 mm): none
+   j4_base              1st percentile  1.19 mm   thin WALLS (>= 15 mm2 under 0.8 mm): none
+   j4_cap               1st percentile  1.40 mm   thin WALLS (>= 15 mm2 under 0.8 mm): none
+   j4_hub               1st percentile  1.14 mm   thin WALLS (>= 15 mm2 under 0.8 mm): none
+   J5_p1                1st percentile  1.44 mm   thin WALLS (>= 15 mm2 under 0.8 mm): none
+   J5_p2                1st percentile  1.79 mm   thin WALLS (>= 15 mm2 under 0.8 mm): none
+   J5_shaft             1st percentile  3.21 mm   thin WALLS (>= 15 mm2 under 0.8 mm): none
+   J5_spacer            1st percentile  0.89 mm   thin WALLS (>= 15 mm2 under 0.8 mm): none
+   j6_body              1st percentile  2.32 mm   thin WALLS (>= 15 mm2 under 0.8 mm): none
+   j6_cap               1st percentile  1.18 mm   thin WALLS (>= 15 mm2 under 0.8 mm): none
+   j6_flange            1st percentile  1.14 mm   thin WALLS (>= 15 mm2 under 0.8 mm): none
+   accepted: link_upper_groove -- released part the user already printed: 0.5 mm skin under its cable bore = the first bottom layers on the bed, not load-bearing
+THIN WALLS: 0 part(s) with a thin wall
+
+D  BED FIT (print-ready orientation)
+BED: 0 part(s) too big for a 180 mm cube
+   largest: 15_link_fore_tongue_x1.stl  -> all fit 180 mm cube: True, 256 mm cube: True
+
+written AUDIT_GAPS.json
+=== GATES (each part in its chosen PRINT orientation) ===
+j1_mount [+Z up]      350 layers    0 finding(s)
+j1_hub [+Z up]         87 layers    0 finding(s)
+J2_turret_p1 [+X up]  420 layers    0 finding(s)
+J2_turret_p2 [-Y up]  187 layers    0 finding(s)
+J2_shaft [+Y up]      252 layers    0 finding(s)
+J3_p1 [-Z up]         265 layers    0 finding(s)
+J3_p2 [-Z up]         187 layers    0 finding(s)
+J3_shaft [-Z up]      252 layers    0 finding(s)
+j4_base [-Z up]       323 layers    0 finding(s)
+j4_cap [-Z up]         50 layers    0 finding(s)
+j4_hub [-Z up]        102 layers    0 finding(s)
+J5_p1 [+X up]         331 layers    0 finding(s)
+J5_p2 [-Z up]         187 layers    0 finding(s)
+J5_shaft [-Z up]      227 layers    0 finding(s)
+J5_spacer [+Z up]      15 layers    0 finding(s)
+j6_body [-X up]       433 layers    0 finding(s)
+j6_cap [-X up]         50 layers    0 finding(s)
+j6_flange [-X up]     102 layers    0 finding(s)
+collar_upper [+Z up]   50 layers    0 finding(s)
+collar_fore [+Z up]    50 layers    0 finding(s)
+base [+Z up]          250 layers    0 finding(s)
+spigot_collar [+Z up]   60 layers    0 finding(s)
+link_fore_tongue [+Z up]   81 layers    1 finding(s)
+      MARGINAL     z= 16.100  only 0.0% of the layer survives erosion
+link_fore_groove [+Z up]   72 layers    0 finding(s)
+link_upper_tongue [+Z up]   81 layers    1 finding(s)
+      MARGINAL     z= 16.100  only 0.0% of the layer survives erosion
+shaft_clamp [-Z up]    70 layers    0 finding(s)
+=== PAIRS (static all-pairs) ===
+STATIC ALL-PAIRS AUDIT -- 39 parts, 17 touching pairs
+
+SURFACE contacts (penetration < 0.15 mm -- seats, bolted faces, pinch, fits):
+   J2_shaft           | servo_J2             181 pts  depth 0.000
+   J2_turret_p1       | servo_J2              42 pts  depth 0.011
+   J2_turret_p2       | servo_J2             549 pts  depth 0.111
+   J3_p1              | link_upper_groove      5 pts  depth 0.002
+   J3_p1              | link_upper_tongue     11 pts  depth 0.003
+   J3_p1              | servo_J3              67 pts  depth 0.011
+   J3_p2              | servo_J3             575 pts  depth 0.111
+   J3_shaft           | servo_J3             143 pts  depth 0.000
+   J5_p1              | servo_J5              69 pts  depth 0.011
+   J5_p2              | servo_J5             568 pts  depth 0.112
+   J5_shaft           | servo_J5             172 pts  depth 0.000
+   j1_hub             | servo_J1             280 pts  depth 0.000
+   j1_mount           | servo_J1             518 pts  depth 0.112
+   j4_base            | servo_J4             663 pts  depth 0.111
+   j4_hub             | servo_J4             160 pts  depth 0.000
+   j6_body            | servo_J6             696 pts  depth 0.112
+   j6_flange          | servo_J6             150 pts  depth 0.000
+
+CLASHES (penetration >= 0.15 mm) -- must each be explained:
+=== WIRING (both bus plugs in every servo, way out) ===
+WIRING -- both bus plugs in every servo (manufacturer's socket position, user's photo)
+  plug (photo): socket footprint, 2.0 mm above the socket top; wires 7.5 x 2.0 straight for 8.0 mm
+
+J1
+   upper-bound plug_A: clear
+   upper-bound plug_B: clear
+   plug_A  fits, nearest part 2.20 mm (j1_mount)
+   plug_B  fits, nearest part 1.98 mm (j1_mount)
+   lead end: free run +x (along case) 60.0  -x 18.0  +y 17.5  -y 7.5  +z (straight out) 15.0   -> way out: +x (along case) 60.0
+   lead end: free run +x (along case) 60.0  -x 18.0  +y 7.5  -y 17.5  +z (straight out) 15.0   -> way out: +x (along case) 60.0
+
+J2
+   upper-bound plug_A: clear
+   upper-bound plug_B: clear
+   plug_A  fits, nearest part 2.20 mm (J2_turret_p2)
+   plug_B  fits, nearest part 2.05 mm (J2_turret_p2)
+   lead end: free run +x (along case) 4.5  -x 3.5  +y 16.0  -y 6.5  +z (straight out) 60.0   -> way out: +z (straight out) 60.0
+   lead end: free run +x (along case) 4.5  -x 3.5  +y 6.0  -y 16.5  +z (straight out) 60.0   -> way out: +z (straight out) 60.0
+
+J3
+   upper-bound plug_A: clear
+   upper-bound plug_B: clear
+   plug_A  fits, nearest part 2.20 mm (J3_p2)
+   plug_B  fits, nearest part 2.05 mm (J3_p2)
+   lead end: free run +x (along case) 4.5  -x 3.5  +y 16.0  -y 6.5  +z (straight out) 60.0   -> way out: +z (straight out) 60.0
+   lead end: free run +x (along case) 4.5  -x 3.5  +y 6.0  -y 16.5  +z (straight out) 60.0   -> way out: +z (straight out) 60.0
+
+J4
+   upper-bound plug_A: clear
+   upper-bound plug_B: clear
+   plug_A  fits, nearest part 2.20 mm (j4_base)
+   plug_B  fits, nearest part 1.98 mm (j4_base)
+   lead end: free run +x (along case) 60.0  -x 18.0  +y 60.0  -y 7.5  +z (straight out) 10.0   -> way out: +x (along case) 60.0
+   lead end: free run +x (along case) 60.0  -x 18.0  +y 60.0  -y 17.5  +z (straight out) 10.0   -> way out: +x (along case) 60.0
+
+J5
+   upper-bound plug_A: clear
+   upper-bound plug_B: clear
+   plug_A  fits, nearest part 2.20 mm (J5_p2)
+   plug_B  fits, nearest part 2.05 mm (J5_p2)
+   lead end: free run +x (along case) 4.5  -x 3.5  +y 16.0  -y 6.5  +z (straight out) 60.0   -> way out: +z (straight out) 60.0
+   lead end: free run +x (along case) 4.5  -x 3.5  +y 6.0  -y 16.5  +z (straight out) 60.0   -> way out: +z (straight out) 60.0
+
+J6
+   upper-bound plug_A: clear
+   upper-bound plug_B: clear
+   plug_A  fits, nearest part 2.20 mm (j6_body)
+   plug_B  fits, nearest part 2.05 mm (j6_body)
+   lead end: free run +x (along case) 14.5  -x 18.0  +y 17.5  -y 7.5  +z (straight out) 16.5   -> way out: straight out 2 mm, then +x 60.0
+   lead end: free run +x (along case) 14.5  -x 18.0  +y 7.5  -y 17.5  +z (straight out) 16.5   -> way out: straight out 2 mm, then +x 60.0
+
+CONTROL  plugs moved 22 mm into the J3 bay end -> DETECTED
+
+WIRING CHECK: 0 problem(s)
+=== HEAD CLEARANCE (screw heads vs turning parts, contact angle) ===
+SCREW HEADS vs TURNING PARTS -- each joint alone, -180..+180 deg (1 deg)
+  J1 collar_pinch         min 2.00 mm in +-90.0 (at -90 deg, vs base)   would touch at never (-) / never (+)   ok
+  J2 split_J2_0           min 6.39 mm in +-54.0 (at +9 deg, vs link_upper_groove)   would touch at never (-) / never (+)   ok
+  J2 split_J2_1           min 6.39 mm in +-54.0 (at -52 deg, vs link_upper_groove)   would touch at never (-) / never (+)   ok
+  J2 split_J2_2           min 6.39 mm in +-54.0 (at -23 deg, vs link_upper_groove)   would touch at never (-) / never (+)   ok
+  J2 split_J2_3           min 6.62 mm in +-54.0 (at -54 deg, vs link_upper_groove)   would touch at never (-) / never (+)   ok
+  J2 pin_J2_turret_-1     min 4.50 mm in +-54.0 (at -49 deg, vs link_upper_groove)   would touch at never (-) / never (+)   ok
+  J2 pin_J2_turret_+1     min 4.50 mm in +-54.0 (at -47 deg, vs link_upper_tongue)   would touch at never (-) / never (+)   ok
+  J2 seam_upper_0         min 1.20 mm in +-54.0 (at -51 deg, vs J2_turret_p1)   would touch at never (-) / never (+)   ok
+  J2 seam_upper_1         min 1.20 mm in +-54.0 (at +48 deg, vs J2_turret_p1)   would touch at never (-) / never (+)   ok
+  J2 seam_upper_2         min 9.28 mm in +-54.0 (at -38 deg, vs J2_turret_p1)   would touch at -122 deg / +157 deg   ok
+  J2 seam_upper_3         min 9.28 mm in +-54.0 (at +38 deg, vs J2_turret_p1)   would touch at -157 deg / +122 deg   ok
+  J2 ear_bolt_upper       min 1.20 mm in +-54.0 (at -54 deg, vs J2_turret_p1)   would touch at never (-) / never (+)   ok
+  J2 link_set_1_90        min 5.50 mm in +-54.0 (at -37 deg, vs J2_turret_p1)   would touch at never (-) / never (+)   ok
+  J2 link_set_1_270       min 5.50 mm in +-54.0 (at -36 deg, vs J2_turret_p1)   would touch at never (-) / never (+)   ok
+  J2 link_set_2_90        min 5.50 mm in +-54.0 (at -50 deg, vs J2_turret_p1)   would touch at never (-) / never (+)   ok
+  J2 link_set_2_270       min 5.50 mm in +-54.0 (at -51 deg, vs J2_turret_p1)   would touch at never (-) / never (+)   ok
+  J2 pin_J2_collar_-1     min 15.98 mm in +-54.0 (at -54 deg, vs J2_turret_p2)   would touch at -147 deg / +147 deg   ok
+  J2 pin_J2_collar_+1     min 19.40 mm in +-54.0 (at +54 deg, vs J2_turret_p1)   would touch at -147 deg / +147 deg   ok
+  J2 collar_clamp_158_-1  min 22.38 mm in +-54.0 (at +34 deg, vs J2_turret_p1)   would touch at -168 deg / +122 deg   ok
+  J2 collar_clamp_158_+1  min 22.38 mm in +-54.0 (at -34 deg, vs J2_turret_p1)   would touch at -122 deg / +168 deg   ok
+  J3 split_J3_0           min 6.39 mm in +-72.0 (at -72 deg, vs link_fore_tongue)   would touch at never (-) / never (+)   ok
+  J3 split_J3_1           min 6.39 mm in +-72.0 (at -72 deg, vs link_fore_tongue)   would touch at never (-) / never (+)   ok
+  J3 split_J3_2           min 6.39 mm in +-72.0 (at -28 deg, vs link_fore_tongue)   would touch at never (-) / never (+)   ok
+  J3 split_J3_3           min 6.39 mm in +-72.0 (at -72 deg, vs link_fore_tongue)   would touch at never (-) / never (+)   ok
+  J3 j3fork_link_0        min 4.32 mm in +-72.0 (at -72 deg, vs link_fore_groove)   would touch at -94 deg / +152 deg   ok
+  J3 j3fork_link_1        min 4.32 mm in +-72.0 (at -72 deg, vs link_fore_tongue)   would touch at -94 deg / +152 deg   ok
+  J3 j3fork_link_2        min 4.32 mm in +-72.0 (at +72 deg, vs link_fore_groove)   would touch at -152 deg / +94 deg   ok
+  J3 j3fork_link_3        min 4.32 mm in +-72.0 (at +72 deg, vs link_fore_tongue)   would touch at -152 deg / +94 deg   ok
+  J3 seam_upper_2         min 36.83 mm in +-72.0 (at -8 deg, vs link_fore_tongue)   would touch at -171 deg / +139 deg   ok
+  J3 seam_upper_3         min 36.83 mm in +-72.0 (at +8 deg, vs link_fore_tongue)   would touch at -139 deg / +171 deg   ok
+  J3 pin_J2_collar_-1     min 24.65 mm in +-72.0 (at +8 deg, vs link_fore_groove)   would touch at never (-) / never (+)   ok
+  J3 pin_J3_fork_-1       min 4.50 mm in +-72.0 (at -32 deg, vs link_fore_groove)   would touch at never (-) / never (+)   ok
+  J3 pin_J2_collar_+1     min 24.65 mm in +-72.0 (at -8 deg, vs link_fore_tongue)   would touch at never (-) / never (+)   ok
+  J3 pin_J3_fork_+1       min 4.50 mm in +-72.0 (at -32 deg, vs link_fore_tongue)   would touch at never (-) / never (+)   ok
+  J3 collar_clamp_158_-1  min 29.92 mm in +-72.0 (at -72 deg, vs link_fore_tongue)   would touch at -124 deg / never (+)   ok
+  J3 collar_clamp_158_+1  min 29.92 mm in +-72.0 (at +72 deg, vs link_fore_tongue)   would touch at never (-) / +124 deg   ok
+  J3 seam_fore_0          min 1.20 mm in +-72.0 (at -72 deg, vs J3_p1)   would touch at -165 deg / +102 deg   ok
+  J3 seam_fore_1          min 1.20 mm in +-72.0 (at -14 deg, vs J3_p1)   would touch at -102 deg / +165 deg   ok
+  J3 seam_fore_2          min 5.94 mm in +-72.0 (at -12 deg, vs J3_p1)   would touch at -163 deg / +129 deg   ok
+  J3 seam_fore_3          min 5.94 mm in +-72.0 (at +12 deg, vs J3_p1)   would touch at -129 deg / +163 deg   ok
+  J3 seam_fore_4          min 34.24 mm in +-72.0 (at -17 deg, vs J3_p1)   would touch at -174 deg / +151 deg   ok
+  J3 seam_fore_5          min 34.24 mm in +-72.0 (at +17 deg, vs J3_p1)   would touch at -151 deg / +174 deg   ok
+  J3 ear_bolt_fore        min 1.20 mm in +-72.0 (at -72 deg, vs J3_p1)   would touch at never (-) / never (+)   ok
+  J3 link_set_3_90        min 2.21 mm in +-72.0 (at +72 deg, vs J3_p1)   would touch at never (-) / never (+)   ok
+  J3 link_set_3_270       min 2.21 mm in +-72.0 (at -72 deg, vs J3_p1)   would touch at never (-) / never (+)   ok
+  J3 link_set_4_90        min 2.21 mm in +-72.0 (at -72 deg, vs J3_p1)   would touch at never (-) / never (+)   ok
+  J3 link_set_4_270       min 2.21 mm in +-72.0 (at +72 deg, vs J3_p1)   would touch at never (-) / never (+)   ok
+  J3 pin_J3_collar_-1     min 33.66 mm in +-72.0 (at +5 deg, vs J3_p1)   would touch at -173 deg / +173 deg   ok
+  J3 pin_J3_collar_+1     min 33.66 mm in +-72.0 (at -5 deg, vs J3_p1)   would touch at -173 deg / +173 deg   ok
+  J4 cap_J4_0             min 1.30 mm in +-90.0 (at -90 deg, vs j4_hub)   would touch at never (-) / never (+)   ok
+  J4 cap_J4_1             min 1.30 mm in +-90.0 (at -90 deg, vs j4_hub)   would touch at never (-) / never (+)   ok
+  J4 cap_J4_2             min 9.00 mm in +-90.0 (at -58 deg, vs j4_hub)   would touch at never (-) / never (+)   ok
+  J4 cap_J4_3             min 9.00 mm in +-90.0 (at -32 deg, vs j4_hub)   would touch at never (-) / never (+)   ok
+  J4 j5fork_j4hub_0       min 4.30 mm in +-90.0 (at -90 deg, vs j4_cap)   would touch at never (-) / never (+)   ok
+  J4 j5fork_j4hub_1       min 4.30 mm in +-90.0 (at -90 deg, vs j4_cap)   would touch at never (-) / never (+)   ok
+  J4 j5fork_j4hub_2       min 4.30 mm in +-90.0 (at -90 deg, vs j4_cap)   would touch at never (-) / never (+)   ok
+  J4 j5fork_j4hub_3       min 4.30 mm in +-90.0 (at -90 deg, vs j4_cap)   would touch at never (-) / never (+)   ok
+  J5 horn_screw_J4_0      min 25.43 mm in +-46.5 (at +31 deg, vs j6_body)   would touch at -168 deg / +116 deg   ok
+  J5 horn_screw_J4_90     min 25.17 mm in +-46.5 (at +43 deg, vs j6_body)   would touch at -159 deg / +125 deg   ok
+  J5 horn_screw_J4_180    min 25.43 mm in +-46.5 (at -21 deg, vs j6_body)   would touch at -150 deg / +134 deg   ok
+  J5 horn_screw_J4_270    min 25.17 mm in +-46.5 (at +43 deg, vs j6_body)   would touch at -159 deg / +125 deg   ok
+  J5 split_J5_0           min 6.90 mm in +-46.5 (at -32 deg, vs j6_body)   would touch at never (-) / never (+)   ok
+  J5 split_J5_1           min 6.90 mm in +-46.5 (at +10 deg, vs j6_body)   would touch at never (-) / never (+)   ok
+  J5 split_J5_2           min 3.39 mm in +-46.5 (at -6 deg, vs j6_body)   would touch at never (-) / never (+)   ok
+  J5 split_J5_3           min 3.39 mm in +-46.5 (at -46 deg, vs j6_body)   would touch at never (-) / never (+)   ok
+  J5 cap_J4_0             min 22.23 mm in +-46.5 (at -22 deg, vs j6_body)   would touch at -177 deg / +105 deg   ok
+  J5 cap_J4_1             min 22.23 mm in +-46.5 (at -22 deg, vs j6_body)   would touch at -177 deg / +105 deg   ok
+  J5 cap_J4_2             min 29.72 mm in +-46.5 (at +30 deg, vs j6_body)   would touch at never (-) / +95 deg   ok
+  J5 cap_J4_3             min 29.72 mm in +-46.5 (at +30 deg, vs j6_body)   would touch at never (-) / +95 deg   ok
+  J5 j5fork_j4hub_0       min 6.85 mm in +-46.5 (at +42 deg, vs j6_body)   would touch at -107 deg / +172 deg   ok
+  J5 j5fork_j4hub_1       min 6.85 mm in +-46.5 (at +42 deg, vs j6_body)   would touch at -107 deg / +172 deg   ok
+  J5 j5fork_j4hub_2       min 6.85 mm in +-46.5 (at +8 deg, vs j6_body)   would touch at never (-) / +115 deg   ok
+  J5 j5fork_j4hub_3       min 6.85 mm in +-46.5 (at +8 deg, vs j6_body)   would touch at never (-) / +115 deg   ok
+  J5 servo_scr_J6_0       min 15.62 mm in +-46.5 (at +46 deg, vs J5_p1)   would touch at never (-) / +97 deg   ok
+  J5 servo_scr_J6_1       min 4.91 mm in +-46.5 (at -46 deg, vs J5_p1)   would touch at never (-) / +97 deg   ok
+  J5 horn_screw_J6_0      min 30.82 mm in +-46.5 (at -6 deg, vs J5_p1)   would touch at -173 deg / +141 deg   ok
+  J5 horn_screw_J6_90     min 27.79 mm in +-46.5 (at +0 deg, vs J5_p1)   would touch at -167 deg / +146 deg   ok
+  J5 horn_screw_J6_180    min 30.82 mm in +-46.5 (at +6 deg, vs J5_p1)   would touch at -161 deg / +153 deg   ok
+  J5 horn_screw_J6_270    min 34.43 mm in +-46.5 (at +0 deg, vs J5_p1)   would touch at -167 deg / +146 deg   ok
+  J5 cap_J6_0             min 39.12 mm in +-46.5 (at -42 deg, vs J5_p1)   would touch at -179 deg / +133 deg   ok
+  J5 cap_J6_1             min 24.71 mm in +-46.5 (at +9 deg, vs J5_p2)   would touch at -179 deg / +133 deg   ok
+  J5 cap_J6_3             min 29.84 mm in +-46.5 (at -4 deg, vs J5_p2)   would touch at never (-) / +123 deg   ok
+  J5 j5_grub              min 6.15 mm in +-46.5 (at -46 deg, vs J5_p1)   would touch at never (-) / never (+)   ok
+  J6 cap_J6_0             min 1.30 mm in +-90.0 (at -90 deg, vs j6_flange)   would touch at never (-) / never (+)   ok
+  J6 cap_J6_1             min 1.30 mm in +-90.0 (at -90 deg, vs j6_flange)   would touch at never (-) / never (+)   ok
+  J6 cap_J6_2             min 9.94 mm in +-90.0 (at -29 deg, vs j6_flange)   would touch at never (-) / never (+)   ok
+  J6 cap_J6_3             min 9.94 mm in +-90.0 (at -61 deg, vs j6_flange)   would touch at never (-) / never (+)   ok
+
+HEAD CLEARANCE: 0 screw(s) closer than 1.0 mm to a turning part inside the range
+=== CABLE ROUTE (one joint per cable, path change, loops) ===
+CABLE ROUTE -- daisy chain controller -> J1 -> ... -> J6, one joint per cable
+
+  cable      crosses range        exit r from axis         span min..max (mm)     change     loop / cable
+  J1 -> J2   J1      +-90.0       40.0 mm (bound   80)      144.6 .. 179.0         34.5 mm    54 / 263 mm
+  J2 -> J3   J2      +-54.0       14.8 mm (bound   24)      184.1 .. 200.7         16.6 mm    37 / 267 mm
+  J3 -> J4   J3      +-72.0       14.8 mm (bound   28)      141.6 .. 155.1         13.5 mm    33 / 219 mm
+  J4 -> J5   J4      +-90.0       40.0 mm (bound   80)      106.8 .. 148.4         41.6 mm    62 / 240 mm
+  J5 -> J6   J5      +-46.5       14.8 mm (bound   21)       74.6 .. 85.3          10.7 mm    31 / 146 mm
+
+  controller -> J1: both in the foot, no joint crossed
+  J6 is the last servo on the bus: no cable leaves it
+
+No joint turns more than 180 deg in total, so no cable can wind up; the largest path change is 42 mm.
+CABLE ROUTE: 0 problem(s)
+=== PLUG INSERTION (bus plugs in and out with the arm assembled) ===
+PLUG INSERTION -- each bus plug pulled straight out of its socket, arm assembled
+   J1 plug A: ACCESS -- 10 mm straight out, then +y 4 mm, then +x, turned 0 deg
+   J1 plug B: ACCESS -- 10 mm straight out, then -y 6 mm, then +x, turned 0 deg
+   J2 plug A: SLOT -- goes straight in and out
+   J2 plug B: SLOT -- goes straight in and out
+   J3 plug A: SLOT -- goes straight in and out
+   J3 plug B: SLOT -- goes straight in and out
+   J4 plug A: ACCESS -- 10 mm straight out, then +y 4 mm, then +x, turned 0 deg
+   J4 plug B: ACCESS -- 10 mm straight out, then -y 6 mm, then +x, turned 0 deg
+   J5 plug A: SLOT -- goes straight in and out
+   J5 plug B: SLOT -- goes straight in and out
+   J6 plug A: ACCESS -- 14 mm straight out, then +x 8 mm, then +y, turned 0 deg
+   J6 plug B: ACCESS -- 14 mm straight out, then +x 8 mm, then +y, turned 0 deg
+
+PLUG INSERTION: 0 plug(s) that cannot be plugged in with the arm assembled
+=== UNION JOINTS (every glued feature joined over its full section) ===
+UNION JOINTS -- every glued feature of every printed part (part frame, mm)
+WEAK = joined over less than 0.80 x the feature's own section (a post on its full footprint = 1.00)
+
+base                   3 unions   weakest: base_wrist.py:base:132                       joint 1244.07 mm2  ref  471.24  ratio  2.64  at x -25.0..25.0 y -25.0..25.0 z 0.0..12.0
+spigot_collar          3 unions   weakest: gen_base_collar.py:collar:81                 joint  135.01 mm2  ref   51.35  ratio  2.63  at x -12.9..-6.4 y 15.5..23.4 z -9.0..-0.5
+j1_mount              11 unions   weakest: gen_drive_j1.py:mount:154                    joint  153.94 mm2  ref  153.94  ratio  1.00  at x 29.8..43.8 y -43.8..-29.8 z -65.9..0.0
+j1_hub                 1 unions   weakest: gen_drive_j1.py:hub:65                       joint  373.25 mm2  ref  239.70  ratio  1.56  at x -10.9..10.9 y -10.9..10.9 z 3.4..17.4
+J2_turret_p1          13 unions   weakest: turret_pro.py:turret:40                      joint  706.86 mm2  ref  706.86  ratio  1.00  at x -15.0..15.0 y -15.0..15.0 z -72.0..0.0
+J2_turret_p2          13 unions   weakest: turret_pro.py:turret:40                      joint  706.86 mm2  ref  706.86  ratio  1.00  at x -15.0..15.0 y -15.0..15.0 z -72.0..0.0
+J2_shaft               0 unions   weakest: -
+shaft_clamp            0 unions   weakest: -
+link_upper_groove     12 unions   weakest: link_pro.py:build:97                         joint   70.88 mm2  ref   70.88  ratio  1.00  at x 71.0..82.6 y -21.8..-12.2 z 2.8..12.2
+link_upper_tongue     18 unions   weakest: link_pro.py:build:97                         joint   70.88 mm2  ref   70.88  ratio  1.00  at x 71.0..82.6 y -21.8..-12.2 z 2.8..12.2
+collar_upper           3 unions   weakest: spring_parts.py:collar_half:125              joint  138.00 mm2  ref   70.00  ratio  1.97  at x 25.2..32.2 y 0.2..18.7 z 153.0..163.0
+J3_p1                 24 unions   weakest: gen_drive_j3.py:p1:78                        joint  136.07 mm2  ref   72.72  ratio  1.87  at x 23.0..54.0 y -7.0..7.0 z -24.5..-17.0
+J3_p2                 19 unions   weakest: drive_common.py:split_bolts:301              joint   77.94 mm2  ref   34.00  ratio  2.29  at x -20.0..-11.5 y -18.0..-14.0 z 28.5..65.9
+J3_shaft               0 unions   weakest: -
+link_fore_tongue      15 unions   weakest: <string>:build:47                            joint   70.88 mm2  ref   70.88  ratio  1.00  at x 105.0..116.6 y -21.8..-12.2 z 2.8..12.2
+link_fore_groove      16 unions   weakest: <string>:build:47                            joint   70.88 mm2  ref   70.88  ratio  1.00  at x 105.0..116.6 y -21.8..-12.2 z 2.8..12.2
+collar_fore            3 unions   weakest: spring_parts.py:collar_half:125              joint  138.00 mm2  ref   70.00  ratio  1.97  at x 25.2..32.2 y 0.2..18.7 z 294.0..304.0
+j4_base                9 unions   weakest: gen_drive_j4.py:base:85                      joint  296.54 mm2  ref  296.54  ratio  1.00  at x -10.1..35.5 y -18.8..-12.2 z 332.0..382.6
+j4_cap                 1 unions   weakest: gen_drive_j4.py:cap:136                      joint 1990.46 mm2  ref  353.43  ratio  5.63  at x -22.5..22.5 y -22.5..22.5 z 382.6..392.6
+j4_hub                 2 unions   weakest: gen_drive_j4.py:hub:160                      joint  804.25 mm2  ref  325.15  ratio  2.47  at x -23.0..23.0 y -23.0..23.0 z 393.1..402.1
+J5_p1                 17 unions   weakest: gen_j5_new.py:_stadium:117                   joint 4597.19 mm2  ref 1860.96  ratio  2.47  at x -12.1..37.9 y -25.0..25.0 z 0.0..47.4
+J5_p2                 18 unions   weakest: drive_common.py:split_bolts:301              joint   77.94 mm2  ref   34.00  ratio  2.29  at x -20.0..-11.5 y 14.0..18.0 z 26.0..63.4
+J5_shaft               0 unions   weakest: -
+J5_spacer              0 unions   weakest: -
+j6_body               12 unions   weakest: gen_wrist.py:j6_body_abc:144                 joint  716.31 mm2  ref  379.50  ratio  1.89  at x -15.1..15.1 y 0.0..16.0 z -15.1..15.1
+j6_cap                 1 unions   weakest: gen_wrist.py:j6_cap_abc:193                  joint 2042.05 mm2  ref  353.43  ratio  5.78  at x -22.5..22.5 y -22.5..22.5 z 68.6..78.6
+j6_flange              2 unions   weakest: gen_wrist.py:j6_flange_abc:212               joint  804.25 mm2  ref  325.15  ratio  2.47  at x -23.0..23.0 y -23.0..23.0 z 79.1..88.1
+
+UNION JOINTS: 0 weak joint(s)
+=== DONE ===

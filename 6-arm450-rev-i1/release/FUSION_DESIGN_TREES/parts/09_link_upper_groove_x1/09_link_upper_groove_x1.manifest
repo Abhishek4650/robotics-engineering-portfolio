@@ -1,0 +1,10 @@
+{
+ "autodeskProduct": "Fusion360",
+ "type": "script",
+ "author": "ARM-450 rev I",
+ "description": {
+  "": "ARM-450 rev I link_upper_groove: build the design tree, save 09_link_upper_groove_x1.f3d"
+ },
+ "supportedOS": "windows|mac",
+ "editEnabled": true
+}

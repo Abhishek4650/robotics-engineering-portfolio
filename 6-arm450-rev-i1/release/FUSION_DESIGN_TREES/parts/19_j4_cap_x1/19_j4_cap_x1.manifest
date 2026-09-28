@@ -1,0 +1,10 @@
+{
+ "autodeskProduct": "Fusion360",
+ "type": "script",
+ "author": "ARM-450 rev I",
+ "description": {
+  "": "ARM-450 rev I j4_cap: build the design tree, save 19_j4_cap_x1.f3d"
+ },
+ "supportedOS": "windows|mac",
+ "editEnabled": true
+}

@@ -1,0 +1,38 @@
+  ok   m4_base_foot_2         step  3 (base + J1 bearings onto the foot): clear then; in the finished arm J2_turret_p2 cover(s) it
+  ok   m4_base_foot_3         step  3 (base + J1 bearings onto the foot): clear then; in the finished arm J2_turret_p2 cover(s) it
+  ok   ear_bolt_upper         step  5 (BENCH upper link): clear then; in the finished arm J2_turret_p1, brg_J2_idle cover(s) it
+  ok   seam_upper_0           step  5 (BENCH upper link): clear then; in the finished arm J2_turret_p1 cover(s) it
+  ok   seam_upper_1           step  5 (BENCH upper link): clear then; in the finished arm J2_turret_p1 cover(s) it
+  ok   horn_screw_J2_0        step  6 (BENCH J2 servo + shaft): clear then; in the finished arm J2_turret_p1 cover(s) it
+  ok   horn_screw_J2_180      step  6 (BENCH J2 servo + shaft): clear then; in the finished arm J2_turret_p1 cover(s) it
+  ok   horn_screw_J2_270      step  6 (BENCH J2 servo + shaft): clear then; in the finished arm J2_turret_p1 cover(s) it
+  ok   horn_screw_J2_90       step  6 (BENCH J2 servo + shaft): clear then; in the finished arm J2_turret_p1 cover(s) it
+  ok   j3fork_link_0          step  9 (J3 fork p1 onto the upper link): clear then; in the finished arm shaft_clamp_3, link_fore_groove, seam_ins_fore_0, link_set_3_270 cover(s) it
+  ok   j3fork_link_1          step  9 (J3 fork p1 onto the upper link): clear then; in the finished arm shaft_clamp_4, link_fore_tongue, seam_fore_1, link_set_4_90 cover(s) it
+  ok   j3fork_link_2          step  9 (J3 fork p1 onto the upper link): clear then; in the finished arm shaft_clamp_3, link_fore_groove, seam_ins_fore_1, link_set_3_90 cover(s) it
+  ok   j3fork_link_3          step  9 (J3 fork p1 onto the upper link): clear then; in the finished arm shaft_clamp_4, link_fore_tongue, seam_fore_0, link_set_4_270 cover(s) it
+  ok   ear_bolt_fore          step 10 (BENCH forearm): clear then; in the finished arm J3_p1, brg_J3_drive cover(s) it
+  ok   seam_fore_0            step 10 (BENCH forearm): clear then; in the finished arm J3_p1, J3_p2 cover(s) it
+  ok   seam_fore_1            step 10 (BENCH forearm): clear then; in the finished arm J3_p1, J3_p2 cover(s) it
+  ok   seam_fore_4            step 10 (BENCH forearm): clear then; in the finished arm collar_fore_+y cover(s) it
+  ok   seam_fore_5            step 10 (BENCH forearm): clear then; in the finished arm collar_fore_+y cover(s) it
+  ok   j4base_forearm_0       step 11 (BENCH J4 base on the forearm): clear then; in the finished arm j4_cap, j4_hub, brg_J4 cover(s) it
+  ok   j4base_forearm_1       step 11 (BENCH J4 base on the forearm): clear then; in the finished arm j4_cap, j4_hub, brg_J4 cover(s) it
+  ok   j4base_forearm_2       step 11 (BENCH J4 base on the forearm): clear then; in the finished arm j4_cap, j4_hub, servo_J4, brg_J4 cover(s) it
+  ok   j4base_forearm_3       step 11 (BENCH J4 base on the forearm): clear then; in the finished arm j4_cap, j4_hub, servo_J4, brg_J4 cover(s) it
+  ok   cap_J4_0               step 12 (BENCH J4 servo (2 screws from under the plate), bearing, cap): clear then; in the finished arm j4_hub, J5_p1, J5_shaft, j6_body, J5_spacer_B cover(s) it
+  ok   cap_J4_1               step 12 (BENCH J4 servo (2 screws from under the plate), bearing, cap): clear then; in the finished arm j4_hub, J5_p1, J5_shaft, j6_body, J5_spacer_A cover(s) it
+  ok   servo_scr_J4_0         step 12 (BENCH J4 servo (2 screws from under the plate), bearing, cap): clear then; in the finished arm collar_fore_-y cover(s) it
+  ok   servo_scr_J4_1         step 12 (BENCH J4 servo (2 screws from under the plate), bearing, cap): clear then; in the finished arm collar_fore_+y cover(s) it
+  ok   horn_screw_J4_0        step 13 (BENCH J4 hub onto the horn): clear then; in the finished arm J5_p1, J5_shaft, j6_body cover(s) it
+  ok   horn_screw_J4_180      step 13 (BENCH J4 hub onto the horn): clear then; in the finished arm J5_p1, J5_shaft, j6_body cover(s) it
+  ok   horn_screw_J4_270      step 13 (BENCH J4 hub onto the horn): clear then; in the finished arm J5_p1, J5_shaft, j6_body cover(s) it
+  ok   horn_screw_J4_90       step 13 (BENCH J4 hub onto the horn): clear then; in the finished arm J5_p1, J5_shaft, j6_body cover(s) it
+  ok   j5fork_j4hub_0         step 14 (BENCH J5 fork p1 onto the hub): clear then; in the finished arm j6_body cover(s) it
+  ok   j5fork_j4hub_1         step 14 (BENCH J5 fork p1 onto the hub): clear then; in the finished arm j6_body cover(s) it
+  ok   j5fork_j4hub_2         step 14 (BENCH J5 fork p1 onto the hub): clear then; in the finished arm j6_body, servo_J6 cover(s) it
+  ok   j5fork_j4hub_3         step 14 (BENCH J5 fork p1 onto the hub): clear then; in the finished arm j6_body, servo_J6 cover(s) it
+  ok   cap_J6_0               step 15 (BENCH blade: J6 servo, bearing, cap): clear then; in the finished arm j6_flange cover(s) it
+  ok   cap_J6_1               step 15 (BENCH blade: J6 servo, bearing, cap): clear then; in the finished arm j6_flange cover(s) it
+
+TOOL ACCESS: 114 screws, 78 clear even in the finished arm, 36 clear at their build step (covered later), 0 BLOCKED at their step; 0 components outside the sequence

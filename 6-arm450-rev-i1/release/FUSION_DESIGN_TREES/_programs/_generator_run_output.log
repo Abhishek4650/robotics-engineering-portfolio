@@ -1,0 +1,87 @@
+base_wrist.base() reproduces the released base: vol 121558.9  (out_cad/base.stl is checked below)
+base            131024.1 mm3  solids 1  z -0.00..50.00
+spigot_collar     8453.5 mm3  solids 1  z -9.00..3.00
+ran gen_base_collar.py     0.8 s
+link centring ring  5393.2 mm3  solids 1  shells 1  valid True
+ran gen_clamp.py           0.1 s
+J1 rev I stack (world z):  spigot end -9.00  flange -12.90..-9.50  horn -11.300  cap face -14.311
+   j1_hub  5165.1 mm3  solids 1
+ran gen_drive_j1.py        0.1 s
+J2 rev I   P 28.50  horn face 25.489  Z_DRIVE 65.89  (turret frame, axis -Y)
+   J2_turret_p1   122540.7 mm3  solids 1  y  -28.50..  42.00  z  -59.00..  79.00
+   J2_turret_p2   111835.4 mm3  solids 1  y  -65.89.. -28.50  z    0.50..  67.00
+   J2_shaft        17290.9 mm3  solids 1  y  -25.49..  25.00  z   25.02..  54.98
+ran gen_drive_j2.py        1.3 s
+seam hole  expected ( 28.33,-17.85)  measured ( 28.33,-17.85)  O 3.41
+seam hole  expected ( 28.33,+17.85)  measured ( 28.33,+17.85)  O 3.41
+seam hole  expected ( 56.67,-17.85)  measured ( 56.67,-17.85)  O 3.41
+seam hole  expected ( 56.67,+17.85)  measured ( 56.67,+17.85)  O 3.41
+ear hole   expected (-20.50, +0.00)  measured (-20.50, +0.00)  O 2.71
+link_upper_tongue rev I  27378.0 mm3 (released 27578.7)  solids 1  BRep valid True
+STL watertight True  (released STL: open along the 8 boss/wall tangency lines)
+ran gen_upper_tongue.py    44.7 s
+collar_upper    4767.4 mm3  solids 1  (print 2: one each side)
+collar_fore     4767.4 mm3  solids 1  (print 2: one each side)
+j2_lugs       solids 2
+j3_lugs       solids 2
+ran spring_parts.py        0.2 s
+J3 rev I   P 28.50   horn face 25.489   z_drive 65.89   shaft -25.00..25.489
+   J3_p1       50955.1 mm3  solids 1  z  -24.50..  28.50
+   J3_p2       36646.4 mm3  solids 1  z   28.50..  65.89
+   J3_shaft    17290.9 mm3  solids 1  z  -25.00..  25.49
+ran gen_drive_j3.py        1.8 s
+link_fore_tongue     33762.9 mm3  solids 1  BRep valid True  x -25.00..119.00
+link_fore_groove     31520.0 mm3  solids 1  BRep valid True  x -25.00..119.00
+ran gen_forearm.py         1.7 s
+J4 rev I (world z): face 328.0  tip 344.000  cap face 378.589  horn 381.600  lips top 382.589
+   bearing 382.589..386.589   hub top 402.089  <- J5 fork mounting face
+   j4_base    48394.4 mm3  solids 1  z  318.00.. 382.59
+   j4_cap     12261.1 mm3  solids 1  z  382.59.. 392.59
+   j4_hub     21189.2 mm3  solids 1  z  381.60.. 402.09
+ran gen_drive_j4.py        0.6 s
+wrist rev I (J5 local):  J5_FACE 28.28  P5 26.00  horn5 22.989  Z_DRIVE 63.39  J5 axis world z 430.369
+   J6: tip 30.0  cap face 64.589  horn 67.600  lips 68.589  bearing ..72.589  tool face x 88.089  (from the J5 axis)
+   J5_p1        37791.9 mm3  solids 1  x  -28.28..  37.91  y  -25.00..  25.00  z  -22.00..  26.00
+   J5_p2        35619.8 mm3  solids 1  x  -28.28..  37.91  y  -25.00..  25.00  z   26.00..  63.39
+   J5_shaft     15788.6 mm3  solids 1  x  -14.97..  14.97  y  -14.97..  14.97  z  -22.50..  22.99
+   J5_spacer      263.8 mm3  solids 1  x  -16.00..  16.00  y  -16.00..  16.00  z   15.00..  18.00
+   j6_body      41809.6 mm3  solids 1  x  -18.10..  68.59  y  -18.10..  35.51  z  -21.60..  21.60
+   j6_cap       13182.4 mm3  solids 1  x   68.59..  78.59  y  -22.50..  35.51  z  -22.50..  22.50
+   j6_flange    21189.2 mm3  solids 1  x   67.60..  88.09  y  -23.00..  23.00  z  -23.00..  23.00
+ran gen_wrist.py           2.1 s
+J1 mount  lips -14.311..-10.311  back tip -48.900  table -69.900
+   j1_mount  141819.8 mm3  solids 1  z  -69.90..   0.00
+01_base_x1                   steps   33  bool 14 ext 13 fillet 1 loft 5  recorded-vs-released 0.0000 / 0.0000 mm3  3.4 s
+02_spigot_collar_x1          steps   17  bool 8 ext 9  recorded-vs-released 0.0000 / 0.0000 mm3  0.5 s
+03_j1_mount_x1               steps  106  bool 45 ext 61  recorded-vs-released 0.0000 / 0.0000 mm3  1.3 s
+04_j1_hub_x1                 steps   26  bool 12 chamfer 1 ext 13  recorded-vs-released 0.0000 / 0.0000 mm3  0.5 s
+05_J2_turret_p1_x1           steps   93  bool 46 ext 43 loft 4  recorded-vs-released 0.0000 / 0.0000 mm3  1.5 s
+06_J2_turret_p2_x1           steps  114  bool 49 ext 63 loft 2  recorded-vs-released 0.0000 / 0.0000 mm3  1.9 s
+07_J2_shaft_x1               steps   18  bool 8 chamfer 1 ext 9  recorded-vs-released 0.0000 / 0.0000 mm3  0.5 s
+08_shaft_clamp_x4            steps    9  bool 4 ext 5  recorded-vs-released 0.0000 / 0.0000 mm3  0.6 s
+09_link_upper_groove_x1      steps   65  bool 31 ext 32 fillet 2  recorded-vs-released 0.0000 / 0.0000 mm3  9.6 s
+10_link_upper_tongue_x1      steps   81  bool 39 ext 40 fillet 2  recorded-vs-released 0.0061 / 0.0061 mm3  3.0 s
+11_collar_upper_x2           steps   13  bool 6 ext 7  recorded-vs-released 0.0000 / 0.0000 mm3  0.1 s
+12_J3_p1_x1                  steps  135  bool 65 ext 67 fillet 1 loft 2  recorded-vs-released 0.0000 / 0.0000 mm3  2.2 s
+13_J3_p2_x1                  steps  146  bool 63 ext 81 fillet 1 loft 1  recorded-vs-released 0.0004 / 0.0004 mm3  1.2 s
+14_J3_shaft_x1               steps   18  bool 8 chamfer 1 ext 9  recorded-vs-released 0.0000 / 0.0000 mm3  0.4 s
+15_link_fore_tongue_x1       steps   81  bool 39 ext 40 fillet 2  recorded-vs-released 0.0000 / 0.0000 mm3  2.9 s
+16_link_fore_groove_x1       steps   85  bool 41 ext 42 fillet 2  recorded-vs-released 0.0000 / 0.0000 mm3  13.9 s
+17_collar_fore_x2            steps   13  bool 6 ext 7  recorded-vs-released 0.0000 / 0.0000 mm3  0.1 s
+18_j4_base_x1                steps   61  bool 29 ext 32  recorded-vs-released 0.0000 / 0.0000 mm3  1.0 s
+19_j4_cap_x1                 steps   23  bool 11 ext 12  recorded-vs-released 0.0000 / 0.0000 mm3  0.3 s
+20_j4_hub_x1                 steps   31  bool 15 ext 16  recorded-vs-released 0.0000 / 0.0000 mm3  0.4 s
+21_J5_p1_x1                  steps   97  bool 46 ext 48 fillet 1 loft 2  recorded-vs-released 0.0000 / 0.0000 mm3  1.8 s
+22_J5_p2_x1                  steps  140  bool 60 ext 78 fillet 1 loft 1  recorded-vs-released 0.0004 / 0.0004 mm3  1.1 s
+23_J5_shaft_x1               steps   16  bool 7 chamfer 1 ext 8  recorded-vs-released 0.0000 / 0.0000 mm3  0.4 s
+24_J5_spacer_x2              steps    1  ext 1  recorded-vs-released 0.0000 / 0.0000 mm3  0.0 s
+25_j6_body_x1                steps   62  bool 30 ext 32  recorded-vs-released 0.0000 / 0.0000 mm3  1.2 s
+26_j6_cap_x1                 steps   23  bool 11 ext 12  recorded-vs-released 0.0000 / 0.0000 mm3  0.3 s
+27_j6_flange_x1              steps   31  bool 15 ext 16  recorded-vs-released 0.0000 / 0.0000 mm3  0.4 s
+fit_01_servo_pinch           steps    3  bool 1 ext 2  recorded-vs-released 0.0000 / 0.0000 mm3  0.0 s
+fit_02_6806_seat             steps    5  bool 2 ext 3  recorded-vs-released 0.0000 / 0.0000 mm3  0.1 s
+fit_03_6706_seat             steps    5  bool 2 ext 3  recorded-vs-released 0.0000 / 0.0000 mm3  0.1 s
+fit_04_shaft_stub            steps    5  bool 2 ext 3  recorded-vs-released 0.0000 / 0.0000 mm3  0.1 s
+fit_05_centring_ring         steps    1  ext 1  recorded-vs-released 0.0000 / 0.0000 mm3  0.0 s
+fit_06_holes                 steps   11  bool 5 ext 6  recorded-vs-released 0.0000 / 0.0000 mm3  0.1 s
+fit_07_servo_screws          steps   48  bool 16 ext 32  recorded-vs-released 0.0000 / 0.0000 mm3  0.4 s

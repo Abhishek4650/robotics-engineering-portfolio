@@ -1,0 +1,10 @@
+{
+ "autodeskProduct": "Fusion360",
+ "type": "script",
+ "author": "ARM-450 rev I",
+ "description": {
+  "": "ARM-450 rev I link_fore_tongue: build the design tree, save 15_link_fore_tongue_x1.f3d"
+ },
+ "supportedOS": "windows|mac",
+ "editEnabled": true
+}

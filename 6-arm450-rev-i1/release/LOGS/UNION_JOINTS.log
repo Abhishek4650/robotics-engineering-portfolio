@@ -1,0 +1,32 @@
+UNION JOINTS -- every glued feature of every printed part (part frame, mm)
+WEAK = joined over less than 0.80 x the feature's own section (a post on its full footprint = 1.00)
+
+base                   3 unions   weakest: base_wrist.py:base:132                       joint 1244.07 mm2  ref  471.24  ratio  2.64  at x -25.0..25.0 y -25.0..25.0 z 0.0..12.0
+spigot_collar          3 unions   weakest: gen_base_collar.py:collar:81                 joint  135.01 mm2  ref   51.35  ratio  2.63  at x -12.9..-6.4 y 15.5..23.4 z -9.0..-0.5
+j1_mount              11 unions   weakest: gen_drive_j1.py:mount:154                    joint  153.94 mm2  ref  153.94  ratio  1.00  at x 29.8..43.8 y -43.8..-29.8 z -65.9..0.0
+j1_hub                 1 unions   weakest: gen_drive_j1.py:hub:65                       joint  373.25 mm2  ref  239.70  ratio  1.56  at x -10.9..10.9 y -10.9..10.9 z 3.4..17.4
+J2_turret_p1          13 unions   weakest: turret_pro.py:turret:40                      joint  706.86 mm2  ref  706.86  ratio  1.00  at x -15.0..15.0 y -15.0..15.0 z -72.0..0.0
+J2_turret_p2          13 unions   weakest: turret_pro.py:turret:40                      joint  706.86 mm2  ref  706.86  ratio  1.00  at x -15.0..15.0 y -15.0..15.0 z -72.0..0.0
+J2_shaft               0 unions   weakest: -
+shaft_clamp            0 unions   weakest: -
+link_upper_groove     12 unions   weakest: link_pro.py:build:97                         joint   70.88 mm2  ref   70.88  ratio  1.00  at x 71.0..82.6 y -21.8..-12.2 z 2.8..12.2
+link_upper_tongue     18 unions   weakest: link_pro.py:build:97                         joint   70.88 mm2  ref   70.88  ratio  1.00  at x 71.0..82.6 y -21.8..-12.2 z 2.8..12.2
+collar_upper           3 unions   weakest: spring_parts.py:collar_half:125              joint  138.00 mm2  ref   70.00  ratio  1.97  at x 25.2..32.2 y 0.2..18.7 z 153.0..163.0
+J3_p1                 24 unions   weakest: gen_drive_j3.py:p1:78                        joint  136.07 mm2  ref   72.72  ratio  1.87  at x 23.0..54.0 y -7.0..7.0 z -24.5..-17.0
+J3_p2                 19 unions   weakest: drive_common.py:split_bolts:301              joint   77.94 mm2  ref   34.00  ratio  2.29  at x -20.0..-11.5 y -18.0..-14.0 z 28.5..65.9
+J3_shaft               0 unions   weakest: -
+link_fore_tongue      15 unions   weakest: <string>:build:47                            joint   70.88 mm2  ref   70.88  ratio  1.00  at x 105.0..116.6 y -21.8..-12.2 z 2.8..12.2
+link_fore_groove      16 unions   weakest: <string>:build:47                            joint   70.88 mm2  ref   70.88  ratio  1.00  at x 105.0..116.6 y -21.8..-12.2 z 2.8..12.2
+collar_fore            3 unions   weakest: spring_parts.py:collar_half:125              joint  138.00 mm2  ref   70.00  ratio  1.97  at x 25.2..32.2 y 0.2..18.7 z 294.0..304.0
+j4_base                9 unions   weakest: gen_drive_j4.py:base:85                      joint  296.54 mm2  ref  296.54  ratio  1.00  at x -10.1..35.5 y -18.8..-12.2 z 332.0..382.6
+j4_cap                 1 unions   weakest: gen_drive_j4.py:cap:136                      joint 1990.46 mm2  ref  353.43  ratio  5.63  at x -22.5..22.5 y -22.5..22.5 z 382.6..392.6
+j4_hub                 2 unions   weakest: gen_drive_j4.py:hub:160                      joint  804.25 mm2  ref  325.15  ratio  2.47  at x -23.0..23.0 y -23.0..23.0 z 393.1..402.1
+J5_p1                 17 unions   weakest: gen_j5_new.py:_stadium:117                   joint 4597.19 mm2  ref 1860.96  ratio  2.47  at x -12.1..37.9 y -25.0..25.0 z 0.0..47.4
+J5_p2                 18 unions   weakest: drive_common.py:split_bolts:301              joint   77.94 mm2  ref   34.00  ratio  2.29  at x -20.0..-11.5 y 14.0..18.0 z 26.0..63.4
+J5_shaft               0 unions   weakest: -
+J5_spacer              0 unions   weakest: -
+j6_body               12 unions   weakest: gen_wrist.py:j6_body_abc:144                 joint  716.31 mm2  ref  379.50  ratio  1.89  at x -15.1..15.1 y 0.0..16.0 z -15.1..15.1
+j6_cap                 1 unions   weakest: gen_wrist.py:j6_cap_abc:193                  joint 2042.05 mm2  ref  353.43  ratio  5.78  at x -22.5..22.5 y -22.5..22.5 z 68.6..78.6
+j6_flange              2 unions   weakest: gen_wrist.py:j6_flange_abc:212               joint  804.25 mm2  ref  325.15  ratio  2.47  at x -23.0..23.0 y -23.0..23.0 z 79.1..88.1
+
+UNION JOINTS: 0 weak joint(s)

@@ -1,0 +1,47 @@
+generator runs (scratch copy /tmp/claude-1000/-home-user-ros2-ws-Arm-450-new-design/d7055e52-889b-4cd2-992e-dd3a2338ce75/scratchpad/ftree_work_1790504439)
+  gen_base_collar.py     0.8 s
+  gen_clamp.py           0.1 s
+  gen_drive_j1.py        0.1 s
+  gen_drive_j2.py        1.3 s
+  gen_upper_tongue.py    44.7 s
+  spring_parts.py        0.2 s
+  gen_drive_j3.py        1.8 s
+  gen_forearm.py         1.7 s
+  gen_drive_j4.py        0.6 s
+  gen_wrist.py           2.1 s
+link_pro rebuild vs released out_cad links (mm3): {'link_upper_tongue.step': (0.0, 0.0)}
+
+01_base_x1                   steps   33  bool 14 ext 13 fillet 1 loft 5  recorded-vs-released 0.0000 / 0.0000 mm3  3.4 s
+02_spigot_collar_x1          steps   17  bool 8 ext 9  recorded-vs-released 0.0000 / 0.0000 mm3  0.5 s
+03_j1_mount_x1               steps  106  bool 45 ext 61  recorded-vs-released 0.0000 / 0.0000 mm3  1.3 s
+04_j1_hub_x1                 steps   26  bool 12 chamfer 1 ext 13  recorded-vs-released 0.0000 / 0.0000 mm3  0.5 s
+05_J2_turret_p1_x1           steps   93  bool 46 ext 43 loft 4  recorded-vs-released 0.0000 / 0.0000 mm3  1.5 s
+06_J2_turret_p2_x1           steps  114  bool 49 ext 63 loft 2  recorded-vs-released 0.0000 / 0.0000 mm3  1.9 s
+07_J2_shaft_x1               steps   18  bool 8 chamfer 1 ext 9  recorded-vs-released 0.0000 / 0.0000 mm3  0.5 s
+08_shaft_clamp_x4            steps    9  bool 4 ext 5  recorded-vs-released 0.0000 / 0.0000 mm3  0.6 s
+09_link_upper_groove_x1      steps   65  bool 31 ext 32 fillet 2  recorded-vs-released 0.0000 / 0.0000 mm3  9.6 s
+10_link_upper_tongue_x1      steps   81  bool 39 ext 40 fillet 2  recorded-vs-released 0.0061 / 0.0061 mm3  3.0 s
+11_collar_upper_x2           steps   13  bool 6 ext 7  recorded-vs-released 0.0000 / 0.0000 mm3  0.1 s
+12_J3_p1_x1                  steps  135  bool 65 ext 67 fillet 1 loft 2  recorded-vs-released 0.0000 / 0.0000 mm3  2.2 s
+13_J3_p2_x1                  steps  146  bool 63 ext 81 fillet 1 loft 1  recorded-vs-released 0.0004 / 0.0004 mm3  1.2 s
+14_J3_shaft_x1               steps   18  bool 8 chamfer 1 ext 9  recorded-vs-released 0.0000 / 0.0000 mm3  0.4 s
+15_link_fore_tongue_x1       steps   81  bool 39 ext 40 fillet 2  recorded-vs-released 0.0000 / 0.0000 mm3  2.9 s
+16_link_fore_groove_x1       steps   85  bool 41 ext 42 fillet 2  recorded-vs-released 0.0000 / 0.0000 mm3  13.9 s
+17_collar_fore_x2            steps   13  bool 6 ext 7  recorded-vs-released 0.0000 / 0.0000 mm3  0.1 s
+18_j4_base_x1                steps   61  bool 29 ext 32  recorded-vs-released 0.0000 / 0.0000 mm3  1.0 s
+19_j4_cap_x1                 steps   23  bool 11 ext 12  recorded-vs-released 0.0000 / 0.0000 mm3  0.3 s
+20_j4_hub_x1                 steps   31  bool 15 ext 16  recorded-vs-released 0.0000 / 0.0000 mm3  0.4 s
+21_J5_p1_x1                  steps   97  bool 46 ext 48 fillet 1 loft 2  recorded-vs-released 0.0000 / 0.0000 mm3  1.8 s
+22_J5_p2_x1                  steps  140  bool 60 ext 78 fillet 1 loft 1  recorded-vs-released 0.0004 / 0.0004 mm3  1.1 s
+23_J5_shaft_x1               steps   16  bool 7 chamfer 1 ext 8  recorded-vs-released 0.0000 / 0.0000 mm3  0.4 s
+24_J5_spacer_x2              steps    1  ext 1  recorded-vs-released 0.0000 / 0.0000 mm3  0.0 s
+25_j6_body_x1                steps   62  bool 30 ext 32  recorded-vs-released 0.0000 / 0.0000 mm3  1.2 s
+26_j6_cap_x1                 steps   23  bool 11 ext 12  recorded-vs-released 0.0000 / 0.0000 mm3  0.3 s
+27_j6_flange_x1              steps   31  bool 15 ext 16  recorded-vs-released 0.0000 / 0.0000 mm3  0.4 s
+fit_01_servo_pinch           steps    3  bool 1 ext 2  recorded-vs-released 0.0000 / 0.0000 mm3  0.0 s
+fit_02_6806_seat             steps    5  bool 2 ext 3  recorded-vs-released 0.0000 / 0.0000 mm3  0.1 s
+fit_03_6706_seat             steps    5  bool 2 ext 3  recorded-vs-released 0.0000 / 0.0000 mm3  0.1 s
+fit_04_shaft_stub            steps    5  bool 2 ext 3  recorded-vs-released 0.0000 / 0.0000 mm3  0.1 s
+fit_05_centring_ring         steps    1  ext 1  recorded-vs-released 0.0000 / 0.0000 mm3  0.0 s
+fit_06_holes                 steps   11  bool 5 ext 6  recorded-vs-released 0.0000 / 0.0000 mm3  0.1 s
+fit_07_servo_screws          steps   48  bool 16 ext 32  recorded-vs-released 0.0000 / 0.0000 mm3  0.4 s

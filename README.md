@@ -36,6 +36,9 @@ the DLS damping term and the seeding strategy actually matter.
 
 ## Project 2 — ARM-450: a clean-sheet 6-DOF arm, designed to a hard mass budget
 
+*The first concept. Its successor, rev I.1, the version sent to the printer, is
+[Project 6](#project-6--arm-450-rev-i1-the-printable-arm-verified-part-against-part).*
+
 <p align="center">
 <img src="2-arm450-mechanical-design/figures/arm450_6dof.gif" width="320" alt="ARM-450 six degrees of freedom">
 <img src="2-arm450-mechanical-design/figures/arm450_sine_trace.gif" width="320" alt="ARM-450 tracing a sine">
@@ -125,6 +128,40 @@ the kinematics. The 1e-15 m agreement in the finished package is a direct conseq
 
 ---
 
+## Project 6 — ARM-450 rev I.1: the printable arm, verified part against part
+
+<p align="center">
+<img src="6-arm450-rev-i1/kinematics/figures/sine_vertical.gif" width="320" alt="ARM-450 rev I.1 tracing a sine on a board">
+<img src="6-arm450-rev-i1/kinematics/figures/sine_table.gif" width="320" alt="ARM-450 rev I.1 tracing a sine on a table">
+</p>
+
+The second generation of ARM-450, released for printing: six ST3215 servos, 27 print files
+(33 pieces) and 114 screws. The whole release is checked **on the exported 3D geometry**:
+
+- parts may touch only on designed faces, and any other overlap is measured as a boolean volume;
+- the official servo model, bearings and every fastener are modelled as solids;
+- a hex key must reach every screw at its build step;
+- every servo must come out, and every bus plug must go in, with the arm assembled;
+- each joint has a proven cable route;
+- every glued feature must join over its full section.
+
+All 25 check stages are at 0 failures, and each has its own log.
+
+| | |
+| --- | --- |
+| **Release** | STL print set + fit-test coupons, STEP parts and assembly, URDF, a Fusion 360 script per part (editable timeline → `.f3d`), SolidWorks macro, 24-step base-to-flange assembly guide |
+| **Kinematics** | DH table **derived from the servo axes measured on the CAD**; FK = CAD = URDF to 3e-13 mm; closed-form Pieper IK (8 branches, 0.18 ms) vs DLS / pinv / J-transpose / LM / ikpy |
+| **Workspace finding** | The pen can never point straight down: J2 + J3 + J5 give 172.5° of pitch, not 180°. On a table the pen must tilt. |
+| **Timing** | Resolved-rate tracking of a 5-D pen task, with the free roll used in the null space; board sine at ~82 mm/s with the servos at half their rating; encoder floor ~0.9 mm |
+| **Status** | Print verdict GREEN from the CAD checks; not yet built and measured |
+
+→ [`6-arm450-rev-i1/`](6-arm450-rev-i1) · [README](6-arm450-rev-i1/README.md) ·
+[audit report](6-arm450-rev-i1/release/PDF/ARM450_AUDIT_REPORT.pdf) ·
+[assembly guide](6-arm450-rev-i1/release/PDF/ARM450_ASSEMBLY_GUIDE_base_to_flange.pdf) ·
+[kinematics report](6-arm450-rev-i1/kinematics/docs/ARM450_KINEMATICS.pdf)
+
+---
+
 ## Skills, concretely
 
 | Area | Evidence |
@@ -132,9 +169,9 @@ the kinematics. The 1e-15 m agreement in the finished package is a direct conseq
 | **ROS 2** (Jazzy) | Custom packages, launch files, nodes, TF, `robot_state_publisher`, RViz config, colcon |
 | **Robot kinematics** | Modified-DH FK, velocity-propagation Jacobian, DLS / pseudoinverse / Jacobian-transpose / Levenberg–Marquardt IK, manipulability and conditioning |
 | **Python** | NumPy, SciPy, matplotlib, ReportLab, PyBullet, `ikpy`, `pyserial` |
-| **Mechanical design** | Parametric CAD in code, STEP/STL export, bearing fits, tolerance and compliance budgets, FEA, DFM for FDM printing |
+| **Mechanical design** | Parametric CAD in code (CadQuery / OpenCascade, Fusion 360 API), STEP/STL export, bearing fits, tolerance and compliance budgets, FEA, DFM for FDM printing |
 | **Embedded / hardware** | Serial bus protocols, register-level servo control, ESP32 bridges, systematic bring-up and fault isolation |
-| **Verification** | Numerical cross-checking against independent implementations; automated pre-flight gates before committing to hardware |
+| **Verification** | Numerical cross-checking against independent implementations; boolean-volume interference, fastener-access, disassembly and cable-route checks on the real B-rep before printing |
 | **Documentation** | Every project ships a README, a generated PDF report, and reproducible figure scripts |
 
 ---

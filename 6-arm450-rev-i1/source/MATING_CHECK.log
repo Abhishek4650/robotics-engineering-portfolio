@@ -1,0 +1,526 @@
+RULE 4 -- mating, overlap and pathways on 232 components (0 unassigned to a body: none)
+
+  J2_shaft               brg_J2_drive           b2|bNone  cyl. fit clr 0.025
+  J2_shaft               brg_J2_idle            b2|bNone  cyl. fit clr 0.025
+  J2_shaft               horn_screw_J2_0        b2|b2  cyl. fit clr 0.010; planar mate 10.9 mm2
+  J2_shaft               horn_screw_J2_180      b2|b2  cyl. fit clr 0.010; planar mate 10.9 mm2
+  J2_shaft               horn_screw_J2_270      b2|b2  cyl. fit clr 0.010; planar mate 10.9 mm2
+  J2_shaft               horn_screw_J2_90       b2|b2  cyl. fit clr 0.010; planar mate 10.9 mm2
+  J2_shaft               link_set_1_270         b2|b2  planar mate 19.6 mm2
+  J2_shaft               link_set_1_90          b2|b2  planar mate 19.6 mm2
+  J2_shaft               link_set_2_270         b2|b2  planar mate 19.6 mm2
+  J2_shaft               link_set_2_90          b2|b2  planar mate 19.6 mm2
+  J2_shaft               servo_J2               b2|b1  planar mate 264.6 mm2
+  J2_shaft               shaft_clamp_1          b2|b2  cyl. fit clr 0.025
+  J2_shaft               shaft_clamp_2          b2|b2  cyl. fit clr 0.025
+  J2_turret_p1           J2_turret_p2           b1|b1  flush; cyl. fit clr 0.000; planar mate 3666.9 mm2; cyl. fit clr 0.000; flush; cyl. fit clr 0.000; flush; flush; cyl. fit clr 0.000
+  J2_turret_p1           brg_J1_z3              b1|bNone  cyl. fit clr 0.000
+  J2_turret_p1           brg_J1_z43             b1|bNone  planar mate 174.6 mm2; cyl. fit clr 0.000
+  J2_turret_p1           brg_J2_drive           b1|bNone  flush; cyl. fit clr 0.000; flush
+  J2_turret_p1           brg_J2_idle            b1|bNone  flush; cyl. fit clr 0.000; planar mate 251.3 mm2
+  J2_turret_p1           pin_J2_turret_+1_ins   b1|b1  flush; cyl. fit clr 0.000
+  J2_turret_p1           pin_J2_turret_-1_ins   b1|b1  flush; cyl. fit clr 0.000
+  J2_turret_p1           servo_J2               b1|b1  planar mate 232.6 mm2
+  J2_turret_p1           split_ins_J2_0         b1|b1  flush; cyl. fit clr 0.000
+  J2_turret_p1           split_ins_J2_1         b1|b1  flush; cyl. fit clr 0.000
+  J2_turret_p1           split_ins_J2_2         b1|b1  flush; cyl. fit clr 0.000
+  J2_turret_p1           split_ins_J2_3         b1|b1  flush; cyl. fit clr 0.000
+  J2_turret_p2           servo_J2               b1|b1  designed overlap 290.384 mm3 (ST3215 pinch (-0.22 channel), |y| 12.25..12.36); planar mate 5.9 mm2; planar mate 5.9 mm2; planar mate 4.9 mm2; planar mate 4.9 mm2; edge/point; edge/point; edge/point; edge/point; edge/point; edge/point; edge/point; edge/point
+  J2_turret_p2           servo_scr_J2_0         b1|b1  planar mate 4.8 mm2
+  J2_turret_p2           servo_scr_J2_1         b1|b1  planar mate 4.8 mm2
+  J2_turret_p2           servo_scr_J2_2         b1|b1  planar mate 4.8 mm2
+  J2_turret_p2           servo_scr_J2_3         b1|b1  planar mate 4.8 mm2
+  J2_turret_p2           split_J2_0             b1|b1  planar mate 14.7 mm2
+  J2_turret_p2           split_J2_1             b1|b1  planar mate 14.7 mm2
+  J2_turret_p2           split_J2_2             b1|b1  planar mate 14.7 mm2
+  J2_turret_p2           split_J2_3             b1|b1  planar mate 14.7 mm2
+  J2_turret_p2           split_ins_J2_0         b1|b1  planar mate 4.1 mm2
+  J2_turret_p2           split_ins_J2_1         b1|b1  planar mate 4.1 mm2
+  J2_turret_p2           split_ins_J2_2         b1|b1  planar mate 4.1 mm2
+  J2_turret_p2           split_ins_J2_3         b1|b1  planar mate 4.1 mm2
+  J3_p1                  J3_p2                  b2|b2  flush; flush; planar mate 739.9 mm2; flush
+  J3_p1                  brg_J3_drive           b2|bNone  flush; cyl. fit clr 0.000
+  J3_p1                  brg_J3_idle            b2|bNone  flush; cyl. fit clr 0.000
+  J3_p1                  j3fork_link_0          b2|b2  planar mate 14.7 mm2
+  J3_p1                  j3fork_link_1          b2|b2  planar mate 14.7 mm2
+  J3_p1                  j3fork_link_2          b2|b2  planar mate 14.7 mm2
+  J3_p1                  j3fork_link_3          b2|b2  planar mate 14.7 mm2
+  J3_p1                  link_end_ins_0         b2|b2  planar mate 4.1 mm2
+  J3_p1                  link_end_ins_1         b2|b2  planar mate 4.1 mm2
+  J3_p1                  link_end_ins_2         b2|b2  planar mate 4.1 mm2
+  J3_p1                  link_end_ins_3         b2|b2  planar mate 4.1 mm2
+  J3_p1                  link_upper_groove      b2|b2  cyl. fit clr 0.000; cyl. fit clr 0.000; cyl. fit clr 0.000; planar mate 382.0 mm2
+  J3_p1                  link_upper_tongue      b2|b2  cyl. fit clr 0.000; cyl. fit clr 0.000; planar mate 403.7 mm2
+  J3_p1                  pin_J3_fork_+1_ins     b2|b2  flush; cyl. fit clr 0.000
+  J3_p1                  pin_J3_fork_-1_ins     b2|b2  flush; cyl. fit clr 0.000
+  J3_p1                  servo_J3               b2|b2  planar mate 232.6 mm2
+  J3_p1                  split_ins_J3_0         b2|b2  flush; cyl. fit clr 0.000
+  J3_p1                  split_ins_J3_1         b2|b2  flush; cyl. fit clr 0.000
+  J3_p1                  split_ins_J3_2         b2|b2  flush; cyl. fit clr 0.000
+  J3_p1                  split_ins_J3_3         b2|b2  flush; cyl. fit clr 0.000
+  J3_p2                  servo_J3               b2|b2  designed overlap 290.384 mm3 (ST3215 pinch (-0.22 channel), |y| 12.25..12.36); planar mate 5.9 mm2; planar mate 4.9 mm2; planar mate 5.9 mm2; planar mate 4.9 mm2; edge/point; edge/point; edge/point; edge/point; edge/point; edge/point; edge/point; edge/point
+  J3_p2                  servo_scr_J3_0         b2|b2  planar mate 4.8 mm2
+  J3_p2                  servo_scr_J3_1         b2|b2  planar mate 4.8 mm2
+  J3_p2                  servo_scr_J3_2         b2|b2  planar mate 4.8 mm2
+  J3_p2                  servo_scr_J3_3         b2|b2  planar mate 4.8 mm2
+  J3_p2                  split_J3_0             b2|b2  planar mate 14.7 mm2
+  J3_p2                  split_J3_1             b2|b2  planar mate 14.7 mm2
+  J3_p2                  split_J3_2             b2|b2  planar mate 14.7 mm2
+  J3_p2                  split_J3_3             b2|b2  planar mate 14.7 mm2
+  J3_p2                  split_ins_J3_0         b2|b2  planar mate 4.1 mm2
+  J3_p2                  split_ins_J3_1         b2|b2  planar mate 4.1 mm2
+  J3_p2                  split_ins_J3_2         b2|b2  planar mate 4.1 mm2
+  J3_p2                  split_ins_J3_3         b2|b2  planar mate 4.1 mm2
+  J3_shaft               brg_J3_drive           b3|bNone  cyl. fit clr 0.025
+  J3_shaft               brg_J3_idle            b3|bNone  cyl. fit clr 0.025
+  J3_shaft               horn_screw_J3_0        b3|b3  cyl. fit clr 0.010; planar mate 10.9 mm2
+  J3_shaft               horn_screw_J3_180      b3|b3  cyl. fit clr 0.010; planar mate 10.9 mm2
+  J3_shaft               horn_screw_J3_270      b3|b3  cyl. fit clr 0.010; planar mate 10.9 mm2
+  J3_shaft               horn_screw_J3_90       b3|b3  cyl. fit clr 0.010; planar mate 10.9 mm2
+  J3_shaft               link_set_3_270         b3|b3  planar mate 19.6 mm2
+  J3_shaft               link_set_3_90          b3|b3  planar mate 19.6 mm2
+  J3_shaft               link_set_4_270         b3|b3  planar mate 19.6 mm2
+  J3_shaft               link_set_4_90          b3|b3  planar mate 19.6 mm2
+  J3_shaft               servo_J3               b3|b2  planar mate 264.6 mm2
+  J3_shaft               shaft_clamp_3          b3|b3  cyl. fit clr 0.025
+  J3_shaft               shaft_clamp_4          b3|b3  cyl. fit clr 0.025
+  J5_p1                  J5_p2                  b4|b4  flush; flush; planar mate 712.5 mm2; flush
+  J5_p1                  brg_J5_drive           b4|bNone  flush; cyl. fit clr 0.000
+  J5_p1                  brg_J5_idle            b4|bNone  flush; cyl. fit clr 0.000
+  J5_p1                  j4_hub                 b4|b4  planar mate 1489.2 mm2
+  J5_p1                  j4hub_ins_0            b4|b4  planar mate 4.1 mm2
+  J5_p1                  j4hub_ins_1            b4|b4  planar mate 4.1 mm2
+  J5_p1                  j4hub_ins_2            b4|b4  planar mate 4.1 mm2
+  J5_p1                  j4hub_ins_3            b4|b4  planar mate 4.1 mm2
+  J5_p1                  j5fork_j4hub_0         b4|b4  planar mate 14.7 mm2
+  J5_p1                  j5fork_j4hub_1         b4|b4  planar mate 14.7 mm2
+  J5_p1                  j5fork_j4hub_2         b4|b4  planar mate 14.7 mm2
+  J5_p1                  j5fork_j4hub_3         b4|b4  planar mate 14.7 mm2
+  J5_p1                  servo_J5               b4|b4  planar mate 232.6 mm2
+  J5_p1                  split_ins_J5_0         b4|b4  flush; cyl. fit clr 0.000
+  J5_p1                  split_ins_J5_1         b4|b4  flush; cyl. fit clr 0.000
+  J5_p1                  split_ins_J5_2         b4|b4  flush; cyl. fit clr 0.000
+  J5_p1                  split_ins_J5_3         b4|b4  flush; cyl. fit clr 0.000
+  J5_p2                  servo_J5               b4|b4  designed overlap 290.384 mm3 (ST3215 pinch (-0.22 channel), |y| 12.25..12.36); planar mate 5.9 mm2; planar mate 4.9 mm2; planar mate 5.9 mm2; planar mate 4.9 mm2; edge/point; edge/point; edge/point; edge/point; edge/point; edge/point; edge/point; edge/point
+  J5_p2                  servo_scr_J5_0         b4|b4  planar mate 4.8 mm2
+  J5_p2                  servo_scr_J5_1         b4|b4  planar mate 4.8 mm2
+  J5_p2                  servo_scr_J5_2         b4|b4  planar mate 4.8 mm2
+  J5_p2                  servo_scr_J5_3         b4|b4  planar mate 4.8 mm2
+  J5_p2                  split_J5_0             b4|b4  planar mate 14.7 mm2
+  J5_p2                  split_J5_1             b4|b4  planar mate 14.7 mm2
+  J5_p2                  split_J5_2             b4|b4  planar mate 14.7 mm2
+  J5_p2                  split_J5_3             b4|b4  planar mate 14.7 mm2
+  J5_p2                  split_ins_J5_0         b4|b4  planar mate 4.1 mm2
+  J5_p2                  split_ins_J5_1         b4|b4  planar mate 4.1 mm2
+  J5_p2                  split_ins_J5_2         b4|b4  planar mate 4.1 mm2
+  J5_p2                  split_ins_J5_3         b4|b4  planar mate 4.1 mm2
+  J5_shaft               brg_J5_drive           b5|bNone  cyl. fit clr 0.025
+  J5_shaft               brg_J5_idle            b5|bNone  cyl. fit clr 0.025
+  J5_shaft               horn_screw_J5_0        b5|b5  cyl. fit clr 0.010; planar mate 10.9 mm2
+  J5_shaft               horn_screw_J5_180      b5|b5  cyl. fit clr 0.010; planar mate 10.9 mm2
+  J5_shaft               horn_screw_J5_270      b5|b5  cyl. fit clr 0.010; planar mate 10.9 mm2
+  J5_shaft               horn_screw_J5_90       b5|b5  cyl. fit clr 0.010; planar mate 10.9 mm2
+  J5_shaft               j5_grub                b5|b5  planar mate 7.1 mm2
+  J5_shaft               servo_J5               b5|b4  planar mate 264.6 mm2
+  J5_spacer_A            brg_J5_drive           b5|bNone  planar mate 87.9 mm2
+  J5_spacer_A            j6_body                b5|b5  planar mate 5.6 mm2; planar mate 50.4 mm2; planar mate 31.9 mm2
+  J5_spacer_B            brg_J5_idle            b5|bNone  planar mate 87.9 mm2
+  J5_spacer_B            j6_body                b5|b5  planar mate 50.4 mm2; planar mate 31.9 mm2; planar mate 5.6 mm2
+  base                   brg_J1_z3              b0|bNone  flush; cyl. fit clr 0.000; planar mate 251.3 mm2
+  base                   brg_J1_z43             b0|bNone  flush; cyl. fit clr 0.000; planar mate 251.3 mm2
+  base                   foot_ins_0             b0|b0  planar mate 8.7 mm2
+  base                   foot_ins_1             b0|b0  planar mate 8.7 mm2
+  base                   foot_ins_2             b0|b0  planar mate 8.7 mm2
+  base                   foot_ins_3             b0|b0  planar mate 8.7 mm2
+  base                   j1_mount               b0|b0  planar mate 127.5 mm2; planar mate 127.5 mm2; planar mate 127.5 mm2; planar mate 127.5 mm2
+  base                   m4_base_foot_0         b0|b0  planar mate 22.6 mm2
+  base                   m4_base_foot_1         b0|b0  planar mate 22.6 mm2
+  base                   m4_base_foot_2         b0|b0  planar mate 22.6 mm2
+  base                   m4_base_foot_3         b0|b0  planar mate 22.6 mm2
+  brg_J1_z3              spigot_collar          bNone|b1  planar mate 164.1 mm2
+  brg_J4                 j4_base                bNone|b3  planar mate 57.9 mm2; planar mate 57.9 mm2
+  brg_J4                 j4_cap                 bNone|b3  cyl. fit clr 0.010; flush; planar mate 167.3 mm2
+  brg_J4                 j4_hub                 bNone|b4  cyl. fit clr 0.025; planar mate 97.4 mm2
+  brg_J6                 j6_body                bNone|b5  planar mate 9.1 mm2; planar mate 9.1 mm2; planar mate 7.7 mm2; planar mate 34.0 mm2; planar mate 2.0 mm2; planar mate 5.1 mm2; planar mate 2.0 mm2; planar mate 34.0 mm2; planar mate 7.7 mm2; planar mate 5.1 mm2
+  brg_J6                 j6_cap                 bNone|b5  cyl. fit clr 0.010; flush; planar mate 167.3 mm2
+  brg_J6                 j6_flange              bNone|b6  cyl. fit clr 0.025; planar mate 97.4 mm2
+  cap_J4_0               cap_ins_J4_0           b3|b3  cyl. fit clr 0.000
+  cap_J4_0               j4_cap                 b3|b3  planar mate 14.7 mm2
+  cap_J4_1               cap_ins_J4_1           b3|b3  cyl. fit clr 0.000
+  cap_J4_1               j4_cap                 b3|b3  planar mate 14.7 mm2
+  cap_J4_2               cap_ins_J4_2           b3|b3  cyl. fit clr 0.000
+  cap_J4_2               j4_cap                 b3|b3  planar mate 14.7 mm2
+  cap_J4_3               cap_ins_J4_3           b3|b3  cyl. fit clr 0.000
+  cap_J4_3               j4_cap                 b3|b3  planar mate 14.7 mm2
+  cap_J6_0               cap_ins_J6_0           b5|b5  cyl. fit clr 0.000
+  cap_J6_0               j6_cap                 b5|b5  planar mate 14.7 mm2
+  cap_J6_1               cap_ins_J6_1           b5|b5  cyl. fit clr 0.000
+  cap_J6_1               j6_cap                 b5|b5  planar mate 14.7 mm2
+  cap_J6_2               cap_ins_J6_2           b5|b5  cyl. fit clr 0.000
+  cap_J6_2               j6_cap                 b5|b5  planar mate 14.7 mm2
+  cap_J6_3               cap_ins_J6_3           b5|b5  cyl. fit clr 0.000
+  cap_J6_3               j6_cap                 b5|b5  planar mate 14.7 mm2
+  cap_ins_J4_0           j4_base                b3|b3  cyl. fit clr 0.000; flush
+  cap_ins_J4_0           j4_cap                 b3|b3  planar mate 4.1 mm2
+  cap_ins_J4_1           j4_base                b3|b3  cyl. fit clr 0.000; flush
+  cap_ins_J4_1           j4_cap                 b3|b3  planar mate 4.1 mm2
+  cap_ins_J4_2           j4_base                b3|b3  cyl. fit clr 0.000; flush
+  cap_ins_J4_2           j4_cap                 b3|b3  planar mate 4.1 mm2
+  cap_ins_J4_3           j4_base                b3|b3  cyl. fit clr 0.000; flush
+  cap_ins_J4_3           j4_cap                 b3|b3  planar mate 4.1 mm2
+  cap_ins_J6_0           j6_body                b5|b5  cyl. fit clr 0.000; flush
+  cap_ins_J6_0           j6_cap                 b5|b5  planar mate 4.1 mm2
+  cap_ins_J6_1           j6_body                b5|b5  cyl. fit clr 0.000; flush
+  cap_ins_J6_1           j6_cap                 b5|b5  planar mate 4.1 mm2
+  cap_ins_J6_2           j6_body                b5|b5  cyl. fit clr 0.000; flush
+  cap_ins_J6_2           j6_cap                 b5|b5  planar mate 4.1 mm2
+  cap_ins_J6_3           j6_body                b5|b5  cyl. fit clr 0.000; flush
+  cap_ins_J6_3           j6_cap                 b5|b5  planar mate 4.1 mm2
+  collar_clamp_158_+1    collar_nut_158_+1      b2|b2  cyl. fit clr 0.000
+  collar_clamp_158_+1    collar_upper_+y        b2|b2  planar mate 14.7 mm2
+  collar_clamp_158_-1    collar_nut_158_-1      b2|b2  cyl. fit clr 0.000
+  collar_clamp_158_-1    collar_upper_+y        b2|b2  planar mate 14.7 mm2
+  collar_clamp_299_+1    collar_fore_+y         b3|b3  planar mate 14.7 mm2
+  collar_clamp_299_+1    collar_nut_299_+1      b3|b3  cyl. fit clr 0.000
+  collar_clamp_299_-1    collar_fore_+y         b3|b3  planar mate 14.7 mm2
+  collar_clamp_299_-1    collar_nut_299_-1      b3|b3  cyl. fit clr 0.000
+  collar_fore_+y         pin_J3_collar_+1_ins   b3|b3  flush; cyl. fit clr 0.000
+  collar_fore_-y         collar_nut_299_+1      b3|b3  planar mate 17.1 mm2
+  collar_fore_-y         collar_nut_299_-1      b3|b3  planar mate 17.1 mm2
+  collar_fore_-y         pin_J3_collar_-1_ins   b3|b3  cyl. fit clr 0.000
+  collar_ins             collar_pinch           b1|b1  cyl. fit clr 0.000
+  collar_ins             spigot_collar          b1|b1  cyl. fit clr 0.000; flush
+  collar_nut_158_+1      collar_upper_-y        b2|b2  planar mate 17.1 mm2
+  collar_nut_158_-1      collar_upper_-y        b2|b2  planar mate 17.1 mm2
+  collar_pinch           spigot_collar          b1|b1  planar mate 14.7 mm2
+  collar_upper_+y        pin_J2_collar_+1_ins   b2|b2  flush; cyl. fit clr 0.000
+  collar_upper_-y        pin_J2_collar_-1_ins   b2|b2  cyl. fit clr 0.000
+  ear_bolt_fore          ear_ins_fore           b3|b3  cyl. fit clr 0.000
+  ear_bolt_fore          link_fore_tongue       b3|b3  planar mate 10.2 mm2
+  ear_bolt_upper         ear_ins_upper          b2|b2  cyl. fit clr 0.000
+  ear_bolt_upper         link_upper_tongue      b2|b2  planar mate 10.2 mm2
+  ear_ins_fore           link_fore_groove       b3|b3  cyl. fit clr 0.000
+  ear_ins_fore           link_fore_tongue       b3|b3  planar mate 3.9 mm2
+  ear_ins_upper          link_upper_groove      b2|b2  cyl. fit clr 0.000
+  ear_ins_upper          link_upper_tongue      b2|b2  planar mate 3.9 mm2
+  foot_ins_0             j1_mount               b0|b0  cyl. fit clr 0.000; flush; planar mate 12.1 mm2
+  foot_ins_0             m4_base_foot_0         b0|b0  cyl. fit clr 0.000
+  foot_ins_1             j1_mount               b0|b0  cyl. fit clr 0.000; flush; planar mate 12.1 mm2
+  foot_ins_1             m4_base_foot_1         b0|b0  cyl. fit clr 0.000
+  foot_ins_2             j1_mount               b0|b0  cyl. fit clr 0.000; flush; planar mate 12.1 mm2
+  foot_ins_2             m4_base_foot_2         b0|b0  cyl. fit clr 0.000
+  foot_ins_3             j1_mount               b0|b0  cyl. fit clr 0.000; flush; planar mate 12.1 mm2
+  foot_ins_3             m4_base_foot_3         b0|b0  cyl. fit clr 0.000
+  forearm_ins_0          j4_base                b3|b3  planar mate 4.1 mm2
+  forearm_ins_0          j4base_forearm_0       b3|b3  cyl. fit clr 0.000
+  forearm_ins_0          link_fore_groove       b3|b3  cyl. fit clr 0.000; flush
+  forearm_ins_1          j4_base                b3|b3  planar mate 4.1 mm2
+  forearm_ins_1          j4base_forearm_1       b3|b3  cyl. fit clr 0.000
+  forearm_ins_1          link_fore_tongue       b3|b3  cyl. fit clr 0.000; flush
+  forearm_ins_2          j4_base                b3|b3  planar mate 4.1 mm2
+  forearm_ins_2          j4base_forearm_2       b3|b3  cyl. fit clr 0.000
+  forearm_ins_2          link_fore_groove       b3|b3  cyl. fit clr 0.000; flush
+  forearm_ins_3          j4_base                b3|b3  planar mate 4.1 mm2
+  forearm_ins_3          j4base_forearm_3       b3|b3  cyl. fit clr 0.000
+  forearm_ins_3          link_fore_tongue       b3|b3  cyl. fit clr 0.000; flush
+  horn_screw_J1_0        j1_hub                 b1|b1  planar mate 10.9 mm2; cyl. fit clr 0.010
+  horn_screw_J1_0        servo_J1               b1|b0  cyl. fit clr 0.000
+  horn_screw_J1_180      j1_hub                 b1|b1  planar mate 10.9 mm2; cyl. fit clr 0.010
+  horn_screw_J1_180      servo_J1               b1|b0  cyl. fit clr 0.000
+  horn_screw_J1_270      j1_hub                 b1|b1  planar mate 10.9 mm2; cyl. fit clr 0.010
+  horn_screw_J1_270      servo_J1               b1|b0  cyl. fit clr 0.000
+  horn_screw_J1_90       j1_hub                 b1|b1  planar mate 10.9 mm2; cyl. fit clr 0.010
+  horn_screw_J1_90       servo_J1               b1|b0  cyl. fit clr 0.000
+  horn_screw_J2_0        servo_J2               b2|b1  cyl. fit clr 0.000; flush
+  horn_screw_J2_180      servo_J2               b2|b1  cyl. fit clr 0.000; flush
+  horn_screw_J2_270      servo_J2               b2|b1  cyl. fit clr 0.000; flush
+  horn_screw_J2_90       servo_J2               b2|b1  cyl. fit clr 0.000; flush
+  horn_screw_J3_0        servo_J3               b3|b2  cyl. fit clr 0.000; flush
+  horn_screw_J3_180      servo_J3               b3|b2  cyl. fit clr 0.000; flush
+  horn_screw_J3_270      servo_J3               b3|b2  cyl. fit clr 0.000; flush
+  horn_screw_J3_90       servo_J3               b3|b2  cyl. fit clr 0.000; flush
+  horn_screw_J4_0        j4_hub                 b4|b4  planar mate 10.9 mm2; cyl. fit clr 0.010
+  horn_screw_J4_0        servo_J4               b4|b3  cyl. fit clr 0.000
+  horn_screw_J4_180      j4_hub                 b4|b4  planar mate 10.9 mm2; cyl. fit clr 0.010
+  horn_screw_J4_180      servo_J4               b4|b3  cyl. fit clr 0.000
+  horn_screw_J4_270      j4_hub                 b4|b4  planar mate 10.9 mm2; cyl. fit clr 0.010
+  horn_screw_J4_270      servo_J4               b4|b3  cyl. fit clr 0.000
+  horn_screw_J4_90       j4_hub                 b4|b4  planar mate 10.9 mm2; cyl. fit clr 0.010
+  horn_screw_J4_90       servo_J4               b4|b3  cyl. fit clr 0.000
+  horn_screw_J5_0        servo_J5               b5|b4  cyl. fit clr 0.000; flush
+  horn_screw_J5_180      servo_J5               b5|b4  cyl. fit clr 0.000; flush
+  horn_screw_J5_270      servo_J5               b5|b4  cyl. fit clr 0.000; flush
+  horn_screw_J5_90       servo_J5               b5|b4  cyl. fit clr 0.000; flush
+  horn_screw_J6_0        j6_flange              b6|b6  planar mate 10.9 mm2; cyl. fit clr 0.010
+  horn_screw_J6_0        servo_J6               b6|b5  cyl. fit clr 0.000
+  horn_screw_J6_180      j6_flange              b6|b6  planar mate 10.9 mm2; cyl. fit clr 0.010
+  horn_screw_J6_180      servo_J6               b6|b5  cyl. fit clr 0.000
+  horn_screw_J6_270      j6_flange              b6|b6  planar mate 10.9 mm2; cyl. fit clr 0.010
+  horn_screw_J6_270      servo_J6               b6|b5  cyl. fit clr 0.000
+  horn_screw_J6_90       j6_flange              b6|b6  planar mate 10.9 mm2; cyl. fit clr 0.010
+  horn_screw_J6_90       servo_J6               b6|b5  cyl. fit clr 0.000
+  j1_hub                 servo_J1               b1|b0  planar mate 231.1 mm2
+  j1_mount               servo_J1               b0|b0  designed overlap 290.384 mm3 (ST3215 pinch (-0.22 channel), |y| 12.25..12.36); planar mate 6.3 mm2; planar mate 53.1 mm2; planar mate 5.2 mm2; planar mate 6.3 mm2; planar mate 53.1 mm2; planar mate 5.2 mm2; edge/point; edge/point; edge/point; edge/point; edge/point; edge/point; edge/point; edge/point; edge (coplanar, opposite); edge/point; edge/point; edge/point; edge/point; edge/point
+  j1_mount               servo_scr_J1_0         b0|b0  planar mate 4.8 mm2
+  j1_mount               servo_scr_J1_1         b0|b0  planar mate 4.8 mm2
+  j1_mount               servo_scr_J1_2         b0|b0  planar mate 4.8 mm2
+  j1_mount               servo_scr_J1_3         b0|b0  planar mate 4.8 mm2
+  j3fork_link_0          link_end_ins_0         b2|b2  cyl. fit clr 0.000
+  j3fork_link_1          link_end_ins_1         b2|b2  cyl. fit clr 0.000
+  j3fork_link_2          link_end_ins_2         b2|b2  cyl. fit clr 0.000
+  j3fork_link_3          link_end_ins_3         b2|b2  cyl. fit clr 0.000
+  j4_base                j4_cap                 b3|b3  flush; flush; flush; planar mate 221.1 mm2; flush; planar mate 221.1 mm2
+  j4_base                j4base_forearm_0       b3|b3  planar mate 14.7 mm2
+  j4_base                j4base_forearm_1       b3|b3  planar mate 14.7 mm2
+  j4_base                j4base_forearm_2       b3|b3  planar mate 14.7 mm2
+  j4_base                j4base_forearm_3       b3|b3  planar mate 14.7 mm2
+  j4_base                link_fore_groove       b3|b3  planar mate 371.9 mm2
+  j4_base                link_fore_tongue       b3|b3  planar mate 394.1 mm2
+  j4_base                servo_J4               b3|b3  designed overlap 290.384 mm3 (ST3215 pinch (-0.22 channel), |y| 12.25..12.36); planar mate 6.3 mm2; planar mate 53.1 mm2; planar mate 53.1 mm2; planar mate 6.3 mm2; planar mate 7.6 mm2; planar mate 7.6 mm2; edge/point; edge/point; edge/point; edge/point; edge (coplanar, opposite); edge/point; edge/point; edge/point; edge/point; edge/point; edge/point; edge/point; edge/point; edge/point
+  j4_base                servo_scr_J4_0         b3|b3  planar mate 4.8 mm2
+  j4_base                servo_scr_J4_1         b3|b3  planar mate 4.8 mm2
+  j4_hub                 j4hub_ins_0            b4|b4  flush; cyl. fit clr 0.000
+  j4_hub                 j4hub_ins_1            b4|b4  flush; cyl. fit clr 0.000
+  j4_hub                 j4hub_ins_2            b4|b4  flush; cyl. fit clr 0.000
+  j4_hub                 j4hub_ins_3            b4|b4  flush; cyl. fit clr 0.000
+  j4_hub                 servo_J4               b4|b3  planar mate 231.1 mm2
+  j4hub_ins_0            j5fork_j4hub_0         b4|b4  cyl. fit clr 0.000
+  j4hub_ins_1            j5fork_j4hub_1         b4|b4  cyl. fit clr 0.000
+  j4hub_ins_2            j5fork_j4hub_2         b4|b4  cyl. fit clr 0.000
+  j4hub_ins_3            j5fork_j4hub_3         b4|b4  cyl. fit clr 0.000
+  j5_grub                j6_body                b5|b5  designed overlap 6.725 mm3 (set screw forms its thread in the O2.6 pilot, r 1.30..1.50); edge/point; edge/point; edge/point
+  j6_body                j6_cap                 b5|b5  flush; planar mate 4.0 mm2; planar mate 4.0 mm2; flush; flush; planar mate 63.4 mm2; flush; planar mate 250.4 mm2; planar mate 46.7 mm2; planar mate 250.4 mm2; planar mate 63.4 mm2; planar mate 46.7 mm2; flush; flush; flush; flush; flush; flush
+  j6_body                servo_J6               b5|b5  designed overlap 290.384 mm3 (ST3215 pinch (-0.22 channel), |y| 12.25..12.36); planar mate 7.0 mm2; planar mate 53.1 mm2; planar mate 7.3 mm2; planar mate 7.0 mm2; planar mate 53.1 mm2; planar mate 7.3 mm2; edge (coplanar, opposite); edge/point; edge/point; edge/point; edge/point; edge/point; edge/point; edge/point; edge/point; edge/point; edge/point; edge/point; edge/point; edge/point
+  j6_body                servo_scr_J6_0         b5|b5  planar mate 4.8 mm2
+  j6_body                servo_scr_J6_1         b5|b5  planar mate 4.8 mm2
+  j6_flange              servo_J6               b6|b5  planar mate 231.1 mm2
+  j6_flange              tool_ins_135           b6|b6  flush; cyl. fit clr 0.000
+  j6_flange              tool_ins_225           b6|b6  flush; cyl. fit clr 0.000
+  j6_flange              tool_ins_315           b6|b6  flush; cyl. fit clr 0.000
+  j6_flange              tool_ins_45            b6|b6  flush; cyl. fit clr 0.000
+  link_end_ins_0         link_upper_groove      b2|b2  cyl. fit clr 0.000; flush
+  link_end_ins_1         link_upper_tongue      b2|b2  cyl. fit clr 0.000; flush
+  link_end_ins_2         link_upper_groove      b2|b2  cyl. fit clr 0.000; flush
+  link_end_ins_3         link_upper_tongue      b2|b2  cyl. fit clr 0.000; flush
+  link_fore_groove       link_fore_tongue       b3|b3  planar mate 387.3 mm2; planar mate 7.2 mm2; planar mate 23.5 mm2; planar mate 23.5 mm2; planar mate 23.5 mm2; planar mate 23.5 mm2; planar mate 23.5 mm2; planar mate 23.5 mm2; planar mate 7.2 mm2
+  link_fore_groove       link_set_3_270         b3|b3  designed overlap 29.302 mm3 (set screw forms its thread in the O4.2 pilot, r 2.10..2.50); edge/point; edge/point
+  link_fore_groove       link_set_3_90          b3|b3  designed overlap 29.305 mm3 (set screw forms its thread in the O4.2 pilot, r 2.10..2.50); edge/point; edge/point
+  link_fore_groove       seam_ins_fore_0        b3|b3  cyl. fit clr 0.000
+  link_fore_groove       seam_ins_fore_1        b3|b3  cyl. fit clr 0.000
+  link_fore_groove       seam_ins_fore_2        b3|b3  cyl. fit clr 0.000
+  link_fore_groove       seam_ins_fore_3        b3|b3  cyl. fit clr 0.000
+  link_fore_groove       seam_ins_fore_4        b3|b3  cyl. fit clr 0.000
+  link_fore_groove       seam_ins_fore_5        b3|b3  cyl. fit clr 0.000
+  link_fore_groove       shaft_clamp_3          b3|b3  cyl. fit clr 0.025; cyl. fit clr 0.025; flush
+  link_fore_tongue       link_set_4_270         b3|b3  designed overlap 29.302 mm3 (set screw forms its thread in the O4.2 pilot, r 2.10..2.50); edge/point; edge/point
+  link_fore_tongue       link_set_4_90          b3|b3  designed overlap 29.305 mm3 (set screw forms its thread in the O4.2 pilot, r 2.10..2.50); edge/point; edge/point
+  link_fore_tongue       seam_fore_0            b3|b3  planar mate 14.7 mm2
+  link_fore_tongue       seam_fore_1            b3|b3  planar mate 14.7 mm2
+  link_fore_tongue       seam_fore_2            b3|b3  planar mate 14.7 mm2
+  link_fore_tongue       seam_fore_3            b3|b3  planar mate 14.7 mm2
+  link_fore_tongue       seam_fore_4            b3|b3  planar mate 14.7 mm2
+  link_fore_tongue       seam_fore_5            b3|b3  planar mate 14.7 mm2
+  link_fore_tongue       seam_ins_fore_0        b3|b3  planar mate 4.1 mm2
+  link_fore_tongue       seam_ins_fore_1        b3|b3  planar mate 4.1 mm2
+  link_fore_tongue       seam_ins_fore_2        b3|b3  planar mate 4.1 mm2
+  link_fore_tongue       seam_ins_fore_3        b3|b3  planar mate 4.1 mm2
+  link_fore_tongue       seam_ins_fore_4        b3|b3  planar mate 4.1 mm2
+  link_fore_tongue       seam_ins_fore_5        b3|b3  planar mate 4.1 mm2
+  link_fore_tongue       shaft_clamp_4          b3|b3  flush; cyl. fit clr 0.025; cyl. fit clr 0.025
+  link_set_1_270         link_upper_groove      b2|b2  designed overlap 29.302 mm3 (set screw forms its thread in the O4.2 pilot, r 2.10..2.50); edge/point; edge/point
+  link_set_1_90          link_upper_groove      b2|b2  designed overlap 29.305 mm3 (set screw forms its thread in the O4.2 pilot, r 2.10..2.50); edge/point; edge/point
+  link_set_2_270         link_upper_tongue      b2|b2  designed overlap 29.302 mm3 (set screw forms its thread in the O4.2 pilot, r 2.10..2.50); edge/point; edge/point
+  link_set_2_90          link_upper_tongue      b2|b2  designed overlap 29.305 mm3 (set screw forms its thread in the O4.2 pilot, r 2.10..2.50); edge/point; edge/point
+  link_upper_groove      link_upper_tongue      b2|b2  planar mate 23.5 mm2; planar mate 23.5 mm2; planar mate 402.6 mm2; planar mate 23.5 mm2; planar mate 23.5 mm2; planar mate 7.2 mm2; planar mate 7.2 mm2
+  link_upper_groove      seam_ins_upper_0       b2|b2  cyl. fit clr 0.000
+  link_upper_groove      seam_ins_upper_1       b2|b2  cyl. fit clr 0.000
+  link_upper_groove      seam_ins_upper_2       b2|b2  cyl. fit clr 0.000
+  link_upper_groove      seam_ins_upper_3       b2|b2  cyl. fit clr 0.000
+  link_upper_groove      shaft_clamp_1          b2|b2  cyl. fit clr 0.025; cyl. fit clr 0.025; flush
+  link_upper_tongue      seam_ins_upper_0       b2|b2  planar mate 4.1 mm2
+  link_upper_tongue      seam_ins_upper_1       b2|b2  planar mate 4.1 mm2
+  link_upper_tongue      seam_ins_upper_2       b2|b2  planar mate 4.1 mm2
+  link_upper_tongue      seam_ins_upper_3       b2|b2  planar mate 4.1 mm2
+  link_upper_tongue      seam_upper_0           b2|b2  planar mate 14.7 mm2
+  link_upper_tongue      seam_upper_1           b2|b2  planar mate 14.7 mm2
+  link_upper_tongue      seam_upper_2           b2|b2  planar mate 14.7 mm2
+  link_upper_tongue      seam_upper_3           b2|b2  planar mate 14.7 mm2
+  link_upper_tongue      shaft_clamp_2          b2|b2  flush; cyl. fit clr 0.025; cyl. fit clr 0.025
+  pin_J2_collar_+1       pin_J2_collar_+1_ins   b2|b2  cyl. fit clr 0.000
+  pin_J2_collar_+1       spring_J2_+1           b2|bNone  cyl. fit clr 0.000; cyl. fit clr 0.000
+  pin_J2_collar_-1       pin_J2_collar_-1_ins   b2|b2  cyl. fit clr 0.000
+  pin_J2_collar_-1       spring_J2_-1           b2|bNone  cyl. fit clr 0.000; cyl. fit clr 0.000
+  pin_J2_turret_+1       pin_J2_turret_+1_ins   b1|b1  cyl. fit clr 0.000
+  pin_J2_turret_+1       spring_J2_+1           b1|bNone  cyl. fit clr 0.000; cyl. fit clr 0.000
+  pin_J2_turret_-1       pin_J2_turret_-1_ins   b1|b1  cyl. fit clr 0.000
+  pin_J2_turret_-1       spring_J2_-1           b1|bNone  cyl. fit clr 0.000; cyl. fit clr 0.000
+  pin_J3_collar_+1       pin_J3_collar_+1_ins   b3|b3  cyl. fit clr 0.000
+  pin_J3_collar_+1       spring_J3_+1           b3|bNone  cyl. fit clr 0.000; cyl. fit clr 0.000
+  pin_J3_collar_-1       pin_J3_collar_-1_ins   b3|b3  cyl. fit clr 0.000
+  pin_J3_collar_-1       spring_J3_-1           b3|bNone  cyl. fit clr 0.000; cyl. fit clr 0.000
+  pin_J3_fork_+1         pin_J3_fork_+1_ins     b2|b2  cyl. fit clr 0.000
+  pin_J3_fork_+1         spring_J3_+1           b2|bNone  cyl. fit clr 0.000; cyl. fit clr 0.000
+  pin_J3_fork_-1         pin_J3_fork_-1_ins     b2|b2  cyl. fit clr 0.000
+  pin_J3_fork_-1         spring_J3_-1           b2|bNone  cyl. fit clr 0.000; cyl. fit clr 0.000
+  seam_fore_0            seam_ins_fore_1        b3|b3  cyl. fit clr 0.000
+  seam_fore_1            seam_ins_fore_0        b3|b3  cyl. fit clr 0.000
+  seam_fore_2            seam_ins_fore_3        b3|b3  cyl. fit clr 0.000
+  seam_fore_3            seam_ins_fore_2        b3|b3  cyl. fit clr 0.000
+  seam_fore_4            seam_ins_fore_5        b3|b3  cyl. fit clr 0.000
+  seam_fore_5            seam_ins_fore_4        b3|b3  cyl. fit clr 0.000
+  seam_ins_upper_0       seam_upper_1           b2|b2  cyl. fit clr 0.000
+  seam_ins_upper_1       seam_upper_0           b2|b2  cyl. fit clr 0.000
+  seam_ins_upper_2       seam_upper_3           b2|b2  cyl. fit clr 0.000
+  seam_ins_upper_3       seam_upper_2           b2|b2  cyl. fit clr 0.000
+  servo_J1               servo_scr_J1_0         b0|b0  designed overlap 1.525 mm3 (self-tapping screw forms its thread in the servo's O2.0 back hole, r 1.00..1.10); edge/point; edge/point
+  servo_J1               servo_scr_J1_1         b0|b0  designed overlap 1.525 mm3 (self-tapping screw forms its thread in the servo's O2.0 back hole, r 1.00..1.10); edge/point; edge/point
+  servo_J1               servo_scr_J1_2         b0|b0  designed overlap 1.525 mm3 (self-tapping screw forms its thread in the servo's O2.0 back hole, r 1.00..1.10); edge/point; edge/point
+  servo_J1               servo_scr_J1_3         b0|b0  designed overlap 1.525 mm3 (self-tapping screw forms its thread in the servo's O2.0 back hole, r 1.00..1.10); edge/point; edge/point
+  servo_J2               servo_scr_J2_0         b1|b1  designed overlap 1.525 mm3 (self-tapping screw forms its thread in the servo's O2.0 back hole, r 1.00..1.10); edge/point; edge/point
+  servo_J2               servo_scr_J2_1         b1|b1  designed overlap 1.525 mm3 (self-tapping screw forms its thread in the servo's O2.0 back hole, r 1.00..1.10); edge/point; edge/point
+  servo_J2               servo_scr_J2_2         b1|b1  designed overlap 1.525 mm3 (self-tapping screw forms its thread in the servo's O2.0 back hole, r 1.00..1.10); edge/point; edge/point
+  servo_J2               servo_scr_J2_3         b1|b1  designed overlap 1.525 mm3 (self-tapping screw forms its thread in the servo's O2.0 back hole, r 1.00..1.10); edge/point; edge/point
+  servo_J3               servo_scr_J3_0         b2|b2  designed overlap 1.525 mm3 (self-tapping screw forms its thread in the servo's O2.0 back hole, r 1.00..1.10); edge/point; edge/point
+  servo_J3               servo_scr_J3_1         b2|b2  designed overlap 1.525 mm3 (self-tapping screw forms its thread in the servo's O2.0 back hole, r 1.00..1.10); edge/point; edge/point
+  servo_J3               servo_scr_J3_2         b2|b2  designed overlap 1.525 mm3 (self-tapping screw forms its thread in the servo's O2.0 back hole, r 1.00..1.10); edge/point; edge/point
+  servo_J3               servo_scr_J3_3         b2|b2  designed overlap 1.525 mm3 (self-tapping screw forms its thread in the servo's O2.0 back hole, r 1.00..1.10); edge/point; edge/point
+  servo_J4               servo_scr_J4_0         b3|b3  designed overlap 1.525 mm3 (self-tapping screw forms its thread in the servo's O2.0 back hole, r 1.00..1.10); edge/point; edge/point
+  servo_J4               servo_scr_J4_1         b3|b3  designed overlap 1.525 mm3 (self-tapping screw forms its thread in the servo's O2.0 back hole, r 1.00..1.10); edge/point; edge/point
+  servo_J5               servo_scr_J5_0         b4|b4  designed overlap 1.525 mm3 (self-tapping screw forms its thread in the servo's O2.0 back hole, r 1.00..1.10); edge/point; edge/point
+  servo_J5               servo_scr_J5_1         b4|b4  designed overlap 1.525 mm3 (self-tapping screw forms its thread in the servo's O2.0 back hole, r 1.00..1.10); edge/point; edge/point
+  servo_J5               servo_scr_J5_2         b4|b4  designed overlap 1.525 mm3 (self-tapping screw forms its thread in the servo's O2.0 back hole, r 1.00..1.10); edge/point; edge/point
+  servo_J5               servo_scr_J5_3         b4|b4  designed overlap 1.525 mm3 (self-tapping screw forms its thread in the servo's O2.0 back hole, r 1.00..1.10); edge/point; edge/point
+  servo_J6               servo_scr_J6_0         b5|b5  designed overlap 1.525 mm3 (self-tapping screw forms its thread in the servo's O2.0 back hole, r 1.00..1.10); edge/point; edge/point
+  servo_J6               servo_scr_J6_1         b5|b5  designed overlap 1.525 mm3 (self-tapping screw forms its thread in the servo's O2.0 back hole, r 1.00..1.10); edge/point; edge/point
+  split_J2_0             split_ins_J2_0         b1|b1  cyl. fit clr 0.000
+  split_J2_1             split_ins_J2_1         b1|b1  cyl. fit clr 0.000
+  split_J2_2             split_ins_J2_2         b1|b1  cyl. fit clr 0.000
+  split_J2_3             split_ins_J2_3         b1|b1  cyl. fit clr 0.000
+  split_J3_0             split_ins_J3_0         b2|b2  cyl. fit clr 0.000
+  split_J3_1             split_ins_J3_1         b2|b2  cyl. fit clr 0.000
+  split_J3_2             split_ins_J3_2         b2|b2  cyl. fit clr 0.000
+  split_J3_3             split_ins_J3_3         b2|b2  cyl. fit clr 0.000
+  split_J5_0             split_ins_J5_0         b4|b4  cyl. fit clr 0.000
+  split_J5_1             split_ins_J5_1         b4|b4  cyl. fit clr 0.000
+  split_J5_2             split_ins_J5_2         b4|b4  cyl. fit clr 0.000
+  split_J5_3             split_ins_J5_3         b4|b4  cyl. fit clr 0.000
+
+SPLIT CLAMPS -- printed open, closed by their bolt: travel needed vs available
+  spigot collar + slit spigot (collet) on the J1 hub plug: clearances 0.075 + 0.100 mm -> slot travel 1.10 of 2.0, spigot slits 0.63 of 2.0  ok
+  collar_upper  halves on the link_upper: back plates 0.200 + 0.200 mm off -> arm gap travel 0.40 of 0.50  ok
+  collar_fore   halves on the link_fore: back plates 0.200 + 0.200 mm off -> arm gap travel 0.40 of 0.50  ok
+
+BOLTED JOINTS -- the two parts a screw joins share a planar mate normal to the screw
+  cap_J4_0               head on j4_cap                       holds in j4_base                      clamped
+  cap_J4_1               head on j4_cap                       holds in j4_base                      clamped
+  cap_J4_2               head on j4_cap                       holds in j4_base                      clamped
+  cap_J4_3               head on j4_cap                       holds in j4_base                      clamped
+  cap_J6_0               head on j6_cap                       holds in j6_body                      clamped
+  cap_J6_1               head on j6_cap                       holds in j6_body                      clamped
+  cap_J6_2               head on j6_cap                       holds in j6_body                      clamped
+  cap_J6_3               head on j6_cap                       holds in j6_body                      clamped
+  collar_clamp_158_+1    head on collar_upper_+y              holds in collar_upper_-y              clamped
+  collar_clamp_158_-1    head on collar_upper_+y              holds in collar_upper_-y              clamped
+  collar_clamp_299_+1    head on collar_fore_+y               holds in collar_fore_-y               clamped
+  collar_clamp_299_-1    head on collar_fore_+y               holds in collar_fore_-y               clamped
+  collar_pinch           head on spigot_collar                holds in spigot_collar                same part
+  ear_bolt_fore          head on link_fore_tongue             holds in link_fore_groove             clamped
+  ear_bolt_upper         head on link_upper_tongue            holds in link_upper_groove            clamped
+  horn_screw_J1_0        head on j1_hub                       holds in j1_hub,servo_J1              clamped
+  horn_screw_J1_180      head on j1_hub                       holds in j1_hub,servo_J1              clamped
+  horn_screw_J1_270      head on j1_hub                       holds in j1_hub,servo_J1              clamped
+  horn_screw_J1_90       head on j1_hub                       holds in j1_hub,servo_J1              clamped
+  horn_screw_J2_0        head on J2_shaft                     holds in J2_shaft,servo_J2            clamped
+  horn_screw_J2_180      head on J2_shaft                     holds in J2_shaft,servo_J2            clamped
+  horn_screw_J2_270      head on J2_shaft                     holds in J2_shaft,servo_J2            clamped
+  horn_screw_J2_90       head on J2_shaft                     holds in J2_shaft,servo_J2            clamped
+  horn_screw_J3_0        head on J3_shaft                     holds in J3_shaft,servo_J3            clamped
+  horn_screw_J3_180      head on J3_shaft                     holds in J3_shaft,servo_J3            clamped
+  horn_screw_J3_270      head on J3_shaft                     holds in J3_shaft,servo_J3            clamped
+  horn_screw_J3_90       head on J3_shaft                     holds in J3_shaft,servo_J3            clamped
+  horn_screw_J4_0        head on j4_hub                       holds in j4_hub,servo_J4              clamped
+  horn_screw_J4_180      head on j4_hub                       holds in j4_hub,servo_J4              clamped
+  horn_screw_J4_270      head on j4_hub                       holds in j4_hub,servo_J4              clamped
+  horn_screw_J4_90       head on j4_hub                       holds in j4_hub,servo_J4              clamped
+  horn_screw_J5_0        head on J5_shaft                     holds in J5_shaft,servo_J5            clamped
+  horn_screw_J5_180      head on J5_shaft                     holds in J5_shaft,servo_J5            clamped
+  horn_screw_J5_270      head on J5_shaft                     holds in J5_shaft,servo_J5            clamped
+  horn_screw_J5_90       head on J5_shaft                     holds in J5_shaft,servo_J5            clamped
+  horn_screw_J6_0        head on j6_flange                    holds in j6_flange,servo_J6           clamped
+  horn_screw_J6_180      head on j6_flange                    holds in j6_flange,servo_J6           clamped
+  horn_screw_J6_270      head on j6_flange                    holds in j6_flange,servo_J6           clamped
+  horn_screw_J6_90       head on j6_flange                    holds in j6_flange,servo_J6           clamped
+  j3fork_link_0          head on J3_p1                        holds in link_upper_groove            clamped
+  j3fork_link_1          head on J3_p1                        holds in link_upper_tongue            clamped
+  j3fork_link_2          head on J3_p1                        holds in link_upper_groove            clamped
+  j3fork_link_3          head on J3_p1                        holds in link_upper_tongue            clamped
+  j4base_forearm_0       head on j4_base                      holds in link_fore_groove             clamped
+  j4base_forearm_1       head on j4_base                      holds in link_fore_tongue             clamped
+  j4base_forearm_2       head on j4_base                      holds in link_fore_groove             clamped
+  j4base_forearm_3       head on j4_base                      holds in link_fore_tongue             clamped
+  j5fork_j4hub_0         head on J5_p1                        holds in j4_hub                       clamped
+  j5fork_j4hub_1         head on J5_p1                        holds in j4_hub                       clamped
+  j5fork_j4hub_2         head on J5_p1                        holds in j4_hub                       clamped
+  j5fork_j4hub_3         head on J5_p1                        holds in j4_hub                       clamped
+  m4_base_foot_0         head on base                         holds in j1_mount                     clamped
+  m4_base_foot_1         head on base                         holds in j1_mount                     clamped
+  m4_base_foot_2         head on base                         holds in j1_mount                     clamped
+  m4_base_foot_3         head on base                         holds in j1_mount                     clamped
+  seam_fore_0            head on link_fore_tongue             holds in link_fore_groove             clamped
+  seam_fore_1            head on link_fore_tongue             holds in link_fore_groove             clamped
+  seam_fore_2            head on link_fore_tongue             holds in link_fore_groove             clamped
+  seam_fore_3            head on link_fore_tongue             holds in link_fore_groove             clamped
+  seam_fore_4            head on link_fore_tongue             holds in link_fore_groove             clamped
+  seam_fore_5            head on link_fore_tongue             holds in link_fore_groove             clamped
+  seam_upper_0           head on link_upper_tongue            holds in link_upper_groove            clamped
+  seam_upper_1           head on link_upper_tongue            holds in link_upper_groove            clamped
+  seam_upper_2           head on link_upper_tongue            holds in link_upper_groove            clamped
+  seam_upper_3           head on link_upper_tongue            holds in link_upper_groove            clamped
+  servo_scr_J1_0         head on j1_mount                     holds in servo_J1                     clamped
+  servo_scr_J1_1         head on j1_mount                     holds in servo_J1                     clamped
+  servo_scr_J1_2         head on j1_mount                     holds in servo_J1                     clamped
+  servo_scr_J1_3         head on j1_mount                     holds in servo_J1                     clamped
+  servo_scr_J2_0         head on J2_turret_p2                 holds in servo_J2                     clamped
+  servo_scr_J2_1         head on J2_turret_p2                 holds in servo_J2                     clamped
+  servo_scr_J2_2         head on J2_turret_p2                 holds in servo_J2                     clamped
+  servo_scr_J2_3         head on J2_turret_p2                 holds in servo_J2                     clamped
+  servo_scr_J3_0         head on J3_p2                        holds in servo_J3                     clamped
+  servo_scr_J3_1         head on J3_p2                        holds in servo_J3                     clamped
+  servo_scr_J3_2         head on J3_p2                        holds in servo_J3                     clamped
+  servo_scr_J3_3         head on J3_p2                        holds in servo_J3                     clamped
+  servo_scr_J4_0         head on j4_base                      holds in servo_J4                     clamped
+  servo_scr_J4_1         head on j4_base                      holds in servo_J4                     clamped
+  servo_scr_J5_0         head on J5_p2                        holds in servo_J5                     clamped
+  servo_scr_J5_1         head on J5_p2                        holds in servo_J5                     clamped
+  servo_scr_J5_2         head on J5_p2                        holds in servo_J5                     clamped
+  servo_scr_J5_3         head on J5_p2                        holds in servo_J5                     clamped
+  servo_scr_J6_0         head on j6_body                      holds in servo_J6                     clamped
+  servo_scr_J6_1         head on j6_body                      holds in servo_J6                     clamped
+  split_J2_0             head on J2_turret_p2                 holds in J2_turret_p1                 clamped
+  split_J2_1             head on J2_turret_p2                 holds in J2_turret_p1                 clamped
+  split_J2_2             head on J2_turret_p2                 holds in J2_turret_p1                 clamped
+  split_J2_3             head on J2_turret_p2                 holds in J2_turret_p1                 clamped
+  split_J3_0             head on J3_p2                        holds in J3_p1                        clamped
+  split_J3_1             head on J3_p2                        holds in J3_p1                        clamped
+  split_J3_2             head on J3_p2                        holds in J3_p1                        clamped
+  split_J3_3             head on J3_p2                        holds in J3_p1                        clamped
+  split_J5_0             head on J5_p2                        holds in J5_p1                        clamped
+  split_J5_1             head on J5_p2                        holds in J5_p1                        clamped
+  split_J5_2             head on J5_p2                        holds in J5_p1                        clamped
+  split_J5_3             head on J5_p2                        holds in J5_p1                        clamped
+
+ATTACHED -- each body reached from what drives it, through touching parts only
+  body 0 (from j1_mount ):  15 parts,  15 reached
+  body 1 (from servo_J1 ):  27 parts,  27 reached
+  body 2 (from servo_J2 ):  60 parts,  60 reached
+  body 3 (from servo_J3 ):  58 parts,  58 reached
+  body 4 (from servo_J4 ):  28 parts,  28 reached
+  body 5 (from servo_J5 ):  21 parts,  21 reached
+  body 6 (from servo_J6 ):   9 parts,   9 reached
+
+RULE 4: 0 failure(s)   (63 s)
+
+CONTROLS
+  J3_p2 pushed 0.3 mm into J3_p1 (along the joint axis)      -> DETECTED
+  j4_cap lifted 0.2 mm off j4_base                           -> DETECTED
+  upper link tongue moved 1.1 mm onto the J2 cheek           -> DETECTED

@@ -1,0 +1,301 @@
+FASTENERS: 114 screws/grubs/pins, 61 inserts, 4 nuts, against 49 parts
+
+  1 cap_J4_0                   free
+  1 cap_J4_1                   free
+  1 cap_J4_2                   free
+  1 cap_J4_3                   free
+  1 cap_J6_0                   free
+  1 cap_J6_1                   free
+  1 cap_J6_2                   free
+  1 cap_J6_3                   free
+  1 collar_clamp_158_+1        free
+  1 collar_clamp_158_-1        free
+  1 collar_clamp_299_+1        free
+  1 collar_clamp_299_-1        free
+  1 collar_pinch               free
+  1 ear_bolt_fore              free
+  1 ear_bolt_upper             free
+  1 horn_screw_J1_0            free
+  1 horn_screw_J1_180          free
+  1 horn_screw_J1_270          free
+  1 horn_screw_J1_90           free
+  1 horn_screw_J2_0            free
+  1 horn_screw_J2_180          free
+  1 horn_screw_J2_270          free
+  1 horn_screw_J2_90           free
+  1 horn_screw_J3_0            free
+  1 horn_screw_J3_180          free
+  1 horn_screw_J3_270          free
+  1 horn_screw_J3_90           free
+  1 horn_screw_J4_0            free
+  1 horn_screw_J4_180          free
+  1 horn_screw_J4_270          free
+  1 horn_screw_J4_90           free
+  1 horn_screw_J5_0            free
+  1 horn_screw_J5_180          free
+  1 horn_screw_J5_270          free
+  1 horn_screw_J5_90           free
+  1 horn_screw_J6_0            free
+  1 horn_screw_J6_180          free
+  1 horn_screw_J6_270          free
+  1 horn_screw_J6_90           free
+  1 j3fork_link_0              free
+  1 j3fork_link_1              free
+  1 j3fork_link_2              free
+  1 j3fork_link_3              free
+  1 j4base_forearm_0           free
+  1 j4base_forearm_1           free
+  1 j4base_forearm_2           free
+  1 j4base_forearm_3           free
+  1 j5_grub                    j6_body 6.725 mm3 (self-tapping, designed)
+  1 j5fork_j4hub_0             free
+  1 j5fork_j4hub_1             free
+  1 j5fork_j4hub_2             free
+  1 j5fork_j4hub_3             free
+  1 link_set_1_270             link_upper_groove 29.302 mm3 (self-tapping, designed)
+  1 link_set_1_90              link_upper_groove 29.305 mm3 (self-tapping, designed)
+  1 link_set_2_270             link_upper_tongue 29.302 mm3 (self-tapping, designed)
+  1 link_set_2_90              link_upper_tongue 29.305 mm3 (self-tapping, designed)
+  1 link_set_3_270             link_fore_groove 29.302 mm3 (self-tapping, designed)
+  1 link_set_3_90              link_fore_groove 29.305 mm3 (self-tapping, designed)
+  1 link_set_4_270             link_fore_tongue 29.302 mm3 (self-tapping, designed)
+  1 link_set_4_90              link_fore_tongue 29.305 mm3 (self-tapping, designed)
+  1 m4_base_foot_0             free
+  1 m4_base_foot_1             free
+  1 m4_base_foot_2             free
+  1 m4_base_foot_3             free
+  1 pin_J2_collar_+1           free
+  1 pin_J2_collar_-1           free
+  1 pin_J2_turret_+1           free
+  1 pin_J2_turret_-1           free
+  1 pin_J3_collar_+1           free
+  1 pin_J3_collar_-1           free
+  1 pin_J3_fork_+1             free
+  1 pin_J3_fork_-1             free
+  1 seam_fore_0                free
+  1 seam_fore_1                free
+  1 seam_fore_2                free
+  1 seam_fore_3                free
+  1 seam_fore_4                free
+  1 seam_fore_5                free
+  1 seam_upper_0               free
+  1 seam_upper_1               free
+  1 seam_upper_2               free
+  1 seam_upper_3               free
+  1 servo_scr_J1_0             servo_J1 1.525 mm3 (self-tapping, designed)
+  1 servo_scr_J1_1             servo_J1 1.525 mm3 (self-tapping, designed)
+  1 servo_scr_J1_2             servo_J1 1.525 mm3 (self-tapping, designed)
+  1 servo_scr_J1_3             servo_J1 1.525 mm3 (self-tapping, designed)
+  1 servo_scr_J2_0             servo_J2 1.525 mm3 (self-tapping, designed)
+  1 servo_scr_J2_1             servo_J2 1.525 mm3 (self-tapping, designed)
+  1 servo_scr_J2_2             servo_J2 1.525 mm3 (self-tapping, designed)
+  1 servo_scr_J2_3             servo_J2 1.525 mm3 (self-tapping, designed)
+  1 servo_scr_J3_0             servo_J3 1.525 mm3 (self-tapping, designed)
+  1 servo_scr_J3_1             servo_J3 1.525 mm3 (self-tapping, designed)
+  1 servo_scr_J3_2             servo_J3 1.525 mm3 (self-tapping, designed)
+  1 servo_scr_J3_3             servo_J3 1.525 mm3 (self-tapping, designed)
+  1 servo_scr_J4_0             servo_J4 1.525 mm3 (self-tapping, designed)
+  1 servo_scr_J4_1             servo_J4 1.525 mm3 (self-tapping, designed)
+  1 servo_scr_J5_0             servo_J5 1.525 mm3 (self-tapping, designed)
+  1 servo_scr_J5_1             servo_J5 1.525 mm3 (self-tapping, designed)
+  1 servo_scr_J5_2             servo_J5 1.525 mm3 (self-tapping, designed)
+  1 servo_scr_J5_3             servo_J5 1.525 mm3 (self-tapping, designed)
+  1 servo_scr_J6_0             servo_J6 1.525 mm3 (self-tapping, designed)
+  1 servo_scr_J6_1             servo_J6 1.525 mm3 (self-tapping, designed)
+  1 split_J2_0                 free
+  1 split_J2_1                 free
+  1 split_J2_2                 free
+  1 split_J2_3                 free
+  1 split_J3_0                 free
+  1 split_J3_1                 free
+  1 split_J3_2                 free
+  1 split_J3_3                 free
+  1 split_J5_0                 free
+  1 split_J5_1                 free
+  1 split_J5_2                 free
+  1 split_J5_3                 free
+
+CLAMP / THREAD ENGAGEMENT, HEAD SEAT, TIP
+  cap_J4_0                   engaged  5.7 mm in cap_ins_J4_0         head on j4_cap                 tip free  ok
+  cap_J4_1                   engaged  5.7 mm in cap_ins_J4_1         head on j4_cap                 tip free  ok
+  cap_J4_2                   engaged  5.7 mm in cap_ins_J4_2         head on j4_cap                 tip free  ok
+  cap_J4_3                   engaged  5.7 mm in cap_ins_J4_3         head on j4_cap                 tip free  ok
+  cap_J6_0                   engaged  5.7 mm in cap_ins_J6_0         head on j6_cap                 tip free  ok
+  cap_J6_1                   engaged  5.7 mm in cap_ins_J6_1         head on j6_cap                 tip free  ok
+  cap_J6_2                   engaged  5.7 mm in cap_ins_J6_2         head on j6_cap                 tip free  ok
+  cap_J6_3                   engaged  5.7 mm in cap_ins_J6_3         head on j6_cap                 tip free  ok
+  collar_clamp_158_+1        engaged  4.0 mm in collar_nut_158_+1    head on collar_upper_+y        tip free  ok
+  collar_clamp_158_-1        engaged  4.0 mm in collar_nut_158_-1    head on collar_upper_+y        tip free  ok
+  collar_clamp_299_+1        engaged  4.0 mm in collar_nut_299_+1    head on collar_fore_+y         tip free  ok
+  collar_clamp_299_-1        engaged  4.0 mm in collar_nut_299_-1    head on collar_fore_+y         tip free  ok
+  collar_pinch               engaged  3.1 mm in collar_ins           head on spigot_collar          tip free  ok
+  ear_bolt_fore              engaged  4.0 mm in ear_ins_fore         head on link_fore_tongue       tip free  ok
+  ear_bolt_upper             engaged  4.0 mm in ear_ins_upper        head on link_upper_tongue      tip free  ok
+  horn_screw_J1_0            engaged  3.0 mm in servo_J1             head on j1_hub                 tip free  ok
+  horn_screw_J1_180          engaged  3.0 mm in servo_J1             head on j1_hub                 tip free  ok
+  horn_screw_J1_270          engaged  3.0 mm in servo_J1             head on j1_hub                 tip free  ok
+  horn_screw_J1_90           engaged  3.0 mm in servo_J1             head on j1_hub                 tip free  ok
+  horn_screw_J2_0            engaged  2.5 mm in servo_J2             head on J2_shaft               tip free  ok
+  horn_screw_J2_180          engaged  2.5 mm in servo_J2             head on J2_shaft               tip free  ok
+  horn_screw_J2_270          engaged  2.5 mm in servo_J2             head on J2_shaft               tip free  ok
+  horn_screw_J2_90           engaged  2.5 mm in servo_J2             head on J2_shaft               tip free  ok
+  horn_screw_J3_0            engaged  2.5 mm in servo_J3             head on J3_shaft               tip free  ok
+  horn_screw_J3_180          engaged  2.5 mm in servo_J3             head on J3_shaft               tip free  ok
+  horn_screw_J3_270          engaged  2.5 mm in servo_J3             head on J3_shaft               tip free  ok
+  horn_screw_J3_90           engaged  2.5 mm in servo_J3             head on J3_shaft               tip free  ok
+  horn_screw_J4_0            engaged  3.0 mm in servo_J4             head on j4_hub                 tip free  ok
+  horn_screw_J4_180          engaged  3.0 mm in servo_J4             head on j4_hub                 tip free  ok
+  horn_screw_J4_270          engaged  3.0 mm in servo_J4             head on j4_hub                 tip free  ok
+  horn_screw_J4_90           engaged  3.0 mm in servo_J4             head on j4_hub                 tip free  ok
+  horn_screw_J5_0            engaged  2.5 mm in servo_J5             head on J5_shaft               tip free  ok
+  horn_screw_J5_180          engaged  2.5 mm in servo_J5             head on J5_shaft               tip free  ok
+  horn_screw_J5_270          engaged  2.5 mm in servo_J5             head on J5_shaft               tip free  ok
+  horn_screw_J5_90           engaged  2.5 mm in servo_J5             head on J5_shaft               tip free  ok
+  horn_screw_J6_0            engaged  3.0 mm in servo_J6             head on j6_flange              tip free  ok
+  horn_screw_J6_180          engaged  3.0 mm in servo_J6             head on j6_flange              tip free  ok
+  horn_screw_J6_270          engaged  3.0 mm in servo_J6             head on j6_flange              tip free  ok
+  horn_screw_J6_90           engaged  3.0 mm in servo_J6             head on j6_flange              tip free  ok
+  j3fork_link_0              engaged  5.2 mm in link_end_ins_0       head on J3_p1                  tip free  ok
+  j3fork_link_1              engaged  5.2 mm in link_end_ins_1       head on J3_p1                  tip free  ok
+  j3fork_link_2              engaged  5.2 mm in link_end_ins_2       head on J3_p1                  tip free  ok
+  j3fork_link_3              engaged  5.2 mm in link_end_ins_3       head on J3_p1                  tip free  ok
+  j4base_forearm_0           engaged  5.7 mm in forearm_ins_0        head on j4_base                tip free  ok
+  j4base_forearm_1           engaged  5.7 mm in forearm_ins_1        head on j4_base                tip free  ok
+  j4base_forearm_2           engaged  5.7 mm in forearm_ins_2        head on j4_base                tip free  ok
+  j4base_forearm_3           engaged  5.7 mm in forearm_ins_3        head on j4_base                tip free  ok
+  j5_grub                    engaged  3.8 mm in j6_body              head on (grub)                 tip on J5_shaft  ok
+  j5fork_j4hub_0             engaged  5.2 mm in j4hub_ins_0          head on J5_p1                  tip free  ok
+  j5fork_j4hub_1             engaged  5.2 mm in j4hub_ins_1          head on J5_p1                  tip free  ok
+  j5fork_j4hub_2             engaged  5.2 mm in j4hub_ins_2          head on J5_p1                  tip free  ok
+  j5fork_j4hub_3             engaged  5.2 mm in j4hub_ins_3          head on J5_p1                  tip free  ok
+  link_set_1_270             engaged  5.0 mm in link_upper_groove    head on link_upper_groove      tip on J2_shaft  ok
+  link_set_1_90              engaged  5.0 mm in link_upper_groove    head on link_upper_groove      tip on J2_shaft  ok
+  link_set_2_270             engaged  5.0 mm in link_upper_tongue    head on link_upper_tongue      tip on J2_shaft  ok
+  link_set_2_90              engaged  5.0 mm in link_upper_tongue    head on link_upper_tongue      tip on J2_shaft  ok
+  link_set_3_270             engaged  5.0 mm in link_fore_groove     head on link_fore_groove       tip on J3_shaft  ok
+  link_set_3_90              engaged  5.0 mm in link_fore_groove     head on link_fore_groove       tip on J3_shaft  ok
+  link_set_4_270             engaged  5.0 mm in link_fore_tongue     head on link_fore_tongue       tip on J3_shaft  ok
+  link_set_4_90              engaged  5.0 mm in link_fore_tongue     head on link_fore_tongue       tip on J3_shaft  ok
+  m4_base_foot_0             engaged  6.5 mm in foot_ins_0           head on base                   tip free  ok
+  m4_base_foot_1             engaged  6.5 mm in foot_ins_1           head on base                   tip free  ok
+  m4_base_foot_2             engaged  6.5 mm in foot_ins_2           head on base                   tip free  ok
+  m4_base_foot_3             engaged  6.5 mm in foot_ins_3           head on base                   tip free  ok
+  pin_J2_collar_+1           engaged  5.5 mm in pin_J2_collar_+1_ins head on (pin: spring side)     tip free  ok
+  pin_J2_collar_-1           engaged  5.5 mm in pin_J2_collar_-1_ins head on (pin: spring side)     tip free  ok
+  pin_J2_turret_+1           engaged  5.5 mm in pin_J2_turret_+1_ins head on (pin: spring side)     tip free  ok
+  pin_J2_turret_-1           engaged  5.5 mm in pin_J2_turret_-1_ins head on (pin: spring side)     tip free  ok
+  pin_J3_collar_+1           engaged  5.5 mm in pin_J3_collar_+1_ins head on (pin: spring side)     tip free  ok
+  pin_J3_collar_-1           engaged  5.5 mm in pin_J3_collar_-1_ins head on (pin: spring side)     tip free  ok
+  pin_J3_fork_+1             engaged  5.5 mm in pin_J3_fork_+1_ins   head on (pin: spring side)     tip free  ok
+  pin_J3_fork_-1             engaged  5.5 mm in pin_J3_fork_-1_ins   head on (pin: spring side)     tip free  ok
+  seam_fore_0                engaged  4.7 mm in seam_ins_fore_1      head on link_fore_tongue       tip free  ok
+  seam_fore_1                engaged  4.7 mm in seam_ins_fore_0      head on link_fore_tongue       tip free  ok
+  seam_fore_2                engaged  4.7 mm in seam_ins_fore_3      head on link_fore_tongue       tip free  ok
+  seam_fore_3                engaged  4.7 mm in seam_ins_fore_2      head on link_fore_tongue       tip free  ok
+  seam_fore_4                engaged  4.7 mm in seam_ins_fore_5      head on link_fore_tongue       tip free  ok
+  seam_fore_5                engaged  4.7 mm in seam_ins_fore_4      head on link_fore_tongue       tip free  ok
+  seam_upper_0               engaged  4.7 mm in seam_ins_upper_1     head on link_upper_tongue      tip free  ok
+  seam_upper_1               engaged  4.7 mm in seam_ins_upper_0     head on link_upper_tongue      tip free  ok
+  seam_upper_2               engaged  4.7 mm in seam_ins_upper_3     head on link_upper_tongue      tip free  ok
+  seam_upper_3               engaged  4.7 mm in seam_ins_upper_2     head on link_upper_tongue      tip free  ok
+  servo_scr_J1_0             engaged  4.4 mm in servo_J1             head on j1_mount               tip free  ok
+  servo_scr_J1_1             engaged  2.6 mm in servo_J1             head on j1_mount               tip free  ok
+  servo_scr_J1_2             engaged  2.6 mm in servo_J1             head on j1_mount               tip free  ok
+  servo_scr_J1_3             engaged  2.6 mm in servo_J1             head on j1_mount               tip free  ok
+  servo_scr_J2_0             engaged  2.6 mm in servo_J2             head on J2_turret_p2           tip free  ok
+  servo_scr_J2_1             engaged  2.6 mm in servo_J2             head on J2_turret_p2           tip free  ok
+  servo_scr_J2_2             engaged  2.6 mm in servo_J2             head on J2_turret_p2           tip free  ok
+  servo_scr_J2_3             engaged  2.6 mm in servo_J2             head on J2_turret_p2           tip free  ok
+  servo_scr_J3_0             engaged  4.4 mm in servo_J3             head on J3_p2                  tip free  ok
+  servo_scr_J3_1             engaged  2.6 mm in servo_J3             head on J3_p2                  tip free  ok
+  servo_scr_J3_2             engaged  2.6 mm in servo_J3             head on J3_p2                  tip free  ok
+  servo_scr_J3_3             engaged  2.6 mm in servo_J3             head on J3_p2                  tip free  ok
+  servo_scr_J4_0             engaged  2.6 mm in servo_J4             head on j4_base                tip free  ok
+  servo_scr_J4_1             engaged  2.6 mm in servo_J4             head on j4_base                tip free  ok
+  servo_scr_J5_0             engaged  4.4 mm in servo_J5             head on J5_p2                  tip free  ok
+  servo_scr_J5_1             engaged  2.6 mm in servo_J5             head on J5_p2                  tip free  ok
+  servo_scr_J5_2             engaged  2.6 mm in servo_J5             head on J5_p2                  tip free  ok
+  servo_scr_J5_3             engaged  2.6 mm in servo_J5             head on J5_p2                  tip free  ok
+  servo_scr_J6_0             engaged  2.6 mm in servo_J6             head on j6_body                tip free  ok
+  servo_scr_J6_1             engaged  2.6 mm in servo_J6             head on j6_body                tip free  ok
+  split_J2_0                 engaged  5.7 mm in split_ins_J2_0       head on J2_turret_p2           tip free  ok
+  split_J2_1                 engaged  5.7 mm in split_ins_J2_1       head on J2_turret_p2           tip free  ok
+  split_J2_2                 engaged  5.7 mm in split_ins_J2_2       head on J2_turret_p2           tip free  ok
+  split_J2_3                 engaged  5.7 mm in split_ins_J2_3       head on J2_turret_p2           tip free  ok
+  split_J3_0                 engaged  5.7 mm in split_ins_J3_0       head on J3_p2                  tip free  ok
+  split_J3_1                 engaged  5.7 mm in split_ins_J3_1       head on J3_p2                  tip free  ok
+  split_J3_2                 engaged  5.7 mm in split_ins_J3_2       head on J3_p2                  tip free  ok
+  split_J3_3                 engaged  5.7 mm in split_ins_J3_3       head on J3_p2                  tip free  ok
+  split_J5_0                 engaged  5.7 mm in split_ins_J5_0       head on J5_p2                  tip free  ok
+  split_J5_1                 engaged  5.7 mm in split_ins_J5_1       head on J5_p2                  tip free  ok
+  split_J5_2                 engaged  5.7 mm in split_ins_J5_2       head on J5_p2                  tip free  ok
+  split_J5_3                 engaged  5.7 mm in split_ins_J5_3       head on J5_p2                  tip free  ok
+
+INSERTS / NUTS in their pockets
+  cap_ins_J4_0               host j4_base              material round it 100 %  ok
+  cap_ins_J4_1               host j4_base              material round it 100 %  ok
+  cap_ins_J4_2               host j4_base              material round it 100 %  ok
+  cap_ins_J4_3               host j4_base              material round it 100 %  ok
+  cap_ins_J6_0               host j6_body              material round it 100 %  ok
+  cap_ins_J6_1               host j6_body              material round it 100 %  ok
+  cap_ins_J6_2               host j6_body              material round it 100 %  ok
+  cap_ins_J6_3               host j6_body              material round it 100 %  ok
+  collar_ins                 host spigot_collar        material round it 100 %  ok
+  collar_nut_158_+1          host collar_upper_-y      material round it 100 %  ok
+  collar_nut_158_-1          host collar_upper_-y      material round it 100 %  ok
+  collar_nut_299_+1          host collar_fore_-y       material round it 100 %  ok
+  collar_nut_299_-1          host collar_fore_-y       material round it 100 %  ok
+  ear_ins_fore               host link_fore_groove     material round it  96 %  ok
+  ear_ins_upper              host link_upper_groove    material round it 100 %  ok
+  foot_ins_0                 host j1_mount             material round it 100 %  ok
+  foot_ins_1                 host j1_mount             material round it 100 %  ok
+  foot_ins_2                 host j1_mount             material round it 100 %  ok
+  foot_ins_3                 host j1_mount             material round it 100 %  ok
+  forearm_ins_0              host link_fore_groove     material round it 100 %  ok
+  forearm_ins_1              host link_fore_tongue     material round it 100 %  ok
+  forearm_ins_2              host link_fore_groove     material round it 100 %  ok
+  forearm_ins_3              host link_fore_tongue     material round it 100 %  ok
+  j4hub_ins_0                host j4_hub               material round it 100 %  ok
+  j4hub_ins_1                host j4_hub               material round it 100 %  ok
+  j4hub_ins_2                host j4_hub               material round it 100 %  ok
+  j4hub_ins_3                host j4_hub               material round it 100 %  ok
+  link_end_ins_0             host link_upper_groove    material round it 100 %  ok
+  link_end_ins_1             host link_upper_tongue    material round it 100 %  ok
+  link_end_ins_2             host link_upper_groove    material round it 100 %  ok
+  link_end_ins_3             host link_upper_tongue    material round it 100 %  ok
+  pin_J2_collar_+1_ins       host collar_upper_+y      material round it 100 %  ok
+  pin_J2_collar_-1_ins       host collar_upper_-y      material round it 100 %  ok
+  pin_J2_turret_+1_ins       host J2_turret_p1         material round it 100 %  ok
+  pin_J2_turret_-1_ins       host J2_turret_p1         material round it 100 %  ok
+  pin_J3_collar_+1_ins       host collar_fore_+y       material round it 100 %  ok
+  pin_J3_collar_-1_ins       host collar_fore_-y       material round it 100 %  ok
+  pin_J3_fork_+1_ins         host J3_p1                material round it 100 %  ok
+  pin_J3_fork_-1_ins         host J3_p1                material round it 100 %  ok
+  seam_ins_fore_0            host link_fore_groove     material round it 100 %  ok
+  seam_ins_fore_1            host link_fore_groove     material round it 100 %  ok
+  seam_ins_fore_2            host link_fore_groove     material round it 100 %  ok
+  seam_ins_fore_3            host link_fore_groove     material round it 100 %  ok
+  seam_ins_fore_4            host link_fore_groove     material round it 100 %  ok
+  seam_ins_fore_5            host link_fore_groove     material round it 100 %  ok
+  seam_ins_upper_0           host link_upper_groove    material round it 100 %  ok
+  seam_ins_upper_1           host link_upper_groove    material round it 100 %  ok
+  seam_ins_upper_2           host link_upper_groove    material round it 100 %  ok
+  seam_ins_upper_3           host link_upper_groove    material round it 100 %  ok
+  split_ins_J2_0             host J2_turret_p1         material round it 100 %  ok
+  split_ins_J2_1             host J2_turret_p1         material round it 100 %  ok
+  split_ins_J2_2             host J2_turret_p1         material round it 100 %  ok
+  split_ins_J2_3             host J2_turret_p1         material round it 100 %  ok
+  split_ins_J3_0             host J3_p1                material round it 100 %  ok
+  split_ins_J3_1             host J3_p1                material round it 100 %  ok
+  split_ins_J3_2             host J3_p1                material round it 100 %  ok
+  split_ins_J3_3             host J3_p1                material round it 100 %  ok
+  split_ins_J5_0             host J5_p1                material round it 100 %  ok
+  split_ins_J5_1             host J5_p1                material round it 100 %  ok
+  split_ins_J5_2             host J5_p1                material round it 100 %  ok
+  split_ins_J5_3             host J5_p1                material round it 100 %  ok
+  tool_ins_135               host j6_flange            material round it 100 %  ok
+  tool_ins_225               host j6_flange            material round it 100 %  ok
+  tool_ins_315               host j6_flange            material round it 100 %  ok
+  tool_ins_45                host j6_flange            material round it 100 %  ok
+
+FASTENER CHECK: 0 failure(s)

@@ -1,0 +1,10 @@
+{
+ "autodeskProduct": "Fusion360",
+ "type": "script",
+ "author": "ARM-450 rev I",
+ "description": {
+  "": "ARM-450 rev I j1_mount: build the design tree, save 03_j1_mount_x1.f3d"
+ },
+ "supportedOS": "windows|mac",
+ "editEnabled": true
+}

@@ -1,0 +1,183 @@
+PARAMETER -> CAD AUDIT: generator value vs measurement of the exported file
+
+  J3_p2          pinch channel width (y)                      want   24.500  got   24.500  PASS
+  J3_p2          bay length (x)                               want   46.020  got   46.000  PASS
+  J3_p2          bay depth P -> back wall                     want   34.989  got   35.000  PASS
+  J3_p2          wiring window length (x)                     want   12.000  got   12.000  PASS
+  J3_p2          wiring window width (y)                      want   20.000  got   20.000  PASS
+  J3_p1          drive bearing pocket O                       want   42.020  got   42.030  PASS
+  J3_p1          idle bearing pocket O                        want   42.020  got   42.030  PASS
+  J3_p1          drive pocket open to the gap (O at z_in+0.6) want   42.020  got   42.030  PASS
+  J3_p1          floor shaft bore O                           want   31.000  got   31.026  PASS
+  J3_p1          servo seat plane P (floor top, x=30,y=10)    want   28.500  got   28.495  PASS
+  J3_p1          horn/step relief depth below P               want    1.400  got    1.405  PASS
+  J3_p1          split insert pocket depth at (-20,+16)       want    8.100  got    8.105  PASS
+  J3_p2          split bolt hole open P..back face (void fraction) (-20,+16) want    1.000  got    1.000  PASS
+  J3_p1          split insert pocket depth at (-20,-16)       want    8.100  got    8.105  PASS
+  J3_p2          split bolt hole open P..back face (void fraction) (-20,-16) want    1.000  got    1.000  PASS
+  J3_p1          split insert pocket depth at (+26,+16)       want    8.100  got    8.105  PASS
+  J3_p2          split bolt hole open P..back face (void fraction) (+26,+16) want    1.000  got    1.000  PASS
+  J3_p1          split insert pocket depth at (+26,-16)       want    8.100  got    8.105  PASS
+  J3_p2          split bolt hole open P..back face (void fraction) (+26,-16) want    1.000  got    1.000  PASS
+  J3_shaft       shaft OD                                     want   29.950  got   29.948  PASS
+  J3_shaft       shaft bore                                   want   22.000  got   22.000  PASS
+  J3_shaft       set-screw flat distance from axis (normal at -90 deg) want   14.200  got   14.199  PASS
+  J3_shaft       set-screw flat distance from axis (normal at +90 deg) want   14.200  got   14.199  PASS
+  J3_shaft       horn face = end of shaft                     want   25.489  got   25.489  PASS
+  J3_shaft       horn hole O at BCD14,   0 deg                want    2.520  got    2.520  PASS
+  J3_shaft       horn hole O at BCD14,  90 deg                want    2.520  got    2.520  PASS
+  J3_shaft       horn hole O at BCD14, 180 deg                want    2.520  got    2.520  PASS
+  J3_shaft       horn hole O at BCD14, 270 deg                want    2.520  got    2.520  PASS
+  J5_p2          pinch channel width (y)                      want   24.500  got   24.500  PASS
+  J5_p2          bay length (x)                               want   46.020  got   46.000  PASS
+  J5_p2          bay depth P -> back wall                     want   34.989  got   35.000  PASS
+  J5_p2          wiring window length (x)                     want   12.000  got   12.000  PASS
+  J5_p2          wiring window width (y)                      want   20.000  got   20.000  PASS
+  J5_p1          drive bearing pocket O                       want   37.020  got   37.024  PASS
+  J5_p1          idle bearing pocket O                        want   37.020  got   37.024  PASS
+  J5_p1          drive pocket open to the gap (O at z_in+0.6) want   37.020  got   37.024  PASS
+  J5_p1          floor shaft bore O                           want   31.000  got   31.026  PASS
+  J5_p1          servo seat plane P (floor top, x=30,y=10)    want   26.000  got   25.995  PASS
+  J5_p1          horn/step relief depth below P               want    1.400  got    1.405  PASS
+  J5_p1          split insert pocket depth at (-20,+16)       want    8.100  got    8.105  PASS
+  J5_p2          split bolt hole open P..back face (void fraction) (-20,+16) want    1.000  got    1.000  PASS
+  J5_p1          split insert pocket depth at (-20,-16)       want    8.100  got    8.105  PASS
+  J5_p2          split bolt hole open P..back face (void fraction) (-20,-16) want    1.000  got    1.000  PASS
+  J5_p1          split insert pocket depth at (+26,+16)       want    8.100  got    8.105  PASS
+  J5_p2          split bolt hole open P..back face (void fraction) (+26,+16) want    1.000  got    1.000  PASS
+  J5_p1          split insert pocket depth at (+26,-16)       want    8.100  got    8.105  PASS
+  J5_p2          split bolt hole open P..back face (void fraction) (+26,-16) want    1.000  got    1.000  PASS
+  J5_shaft       shaft OD                                     want   29.950  got   29.948  PASS
+  J5_shaft       shaft bore                                   want   22.000  got   22.000  PASS
+  J5_shaft       set-screw flat distance from axis (normal at -90 deg) want   14.200  got   14.199  PASS
+  J5_shaft       horn face = end of shaft                     want   22.989  got   22.989  PASS
+  J5_shaft       horn hole O at BCD14,   0 deg                want    2.520  got    2.520  PASS
+  J5_shaft       horn hole O at BCD14,  90 deg                want    2.520  got    2.520  PASS
+  J5_shaft       horn hole O at BCD14, 180 deg                want    2.520  got    2.520  PASS
+  J5_shaft       horn hole O at BCD14, 270 deg                want    2.520  got    2.520  PASS
+  J2_p2          pinch channel width (y)                      want   24.500  got   24.500  PASS
+  J2_p2          bay length (x)                               want   46.020  got   46.000  PASS
+  J2_p2          bay depth P -> back wall                     want   34.989  got   35.000  PASS
+  J2_p2          wiring window length (x)                     want   12.000  got   12.000  PASS
+  J2_p2          wiring window width (y)                      want   20.000  got   20.000  PASS
+  J2_p1          drive bearing pocket O                       want   42.020  got   42.030  PASS
+  J2_p1          idle bearing pocket O                        want   42.020  got   42.030  PASS
+  J2_p1          drive pocket open to the gap (O at z_in+0.6) want   42.020  got   42.030  PASS
+  J2_p1          floor shaft bore O                           want   31.000  got   31.026  PASS
+  J2_p1          servo seat plane P (floor top, x=30,y=10)    want   28.500  got   28.495  PASS
+  J2_p1          horn/step relief depth below P               want    1.400  got    1.405  PASS
+  J2_p1          split insert pocket depth at (-20,+16)       want    8.100  got    8.105  PASS
+  J2_p2          split bolt hole open P..back face (void fraction) (-20,+16) want    1.000  got    1.000  PASS
+  J2_p1          split insert pocket depth at (-20,-16)       want    8.100  got    8.105  PASS
+  J2_p2          split bolt hole open P..back face (void fraction) (-20,-16) want    1.000  got    1.000  PASS
+  J2_p1          split insert pocket depth at (+26,+16)       want    8.100  got    8.105  PASS
+  J2_p2          split bolt hole open P..back face (void fraction) (+26,+16) want    1.000  got    1.000  PASS
+  J2_p1          split insert pocket depth at (+26,-16)       want    8.100  got    8.105  PASS
+  J2_p2          split bolt hole open P..back face (void fraction) (+26,-16) want    1.000  got    1.000  PASS
+  J2_shaft       shaft OD                                     want   29.950  got   29.940  PASS
+  J2_shaft       shaft bore                                   want   22.000  got   22.000  PASS
+  J2_shaft       set-screw flat distance from axis (normal at +0 deg) want   14.200  got   14.199  PASS
+  J2_shaft       set-screw flat distance from axis (normal at +180 deg) want   14.200  got   14.199  PASS
+  J2_shaft       horn face = end of shaft                     want   25.489  got   25.489  PASS
+  J2_shaft       horn hole O at BCD14,   0 deg                want    2.520  got    2.520  PASS
+  J2_shaft       horn hole O at BCD14,  90 deg                want    2.520  got    2.520  PASS
+  J2_shaft       horn hole O at BCD14, 180 deg                want    2.520  got    2.520  PASS
+  J2_shaft       horn hole O at BCD14, 270 deg                want    2.520  got    2.520  PASS
+  J5_p1          J5_FACE (mounting face to J5 axis)           want   28.280  got   28.280  PASS
+  j1_hub         horn recess floor z (horn face)              want  -11.300  got  -11.297  PASS
+  j1_hub         plug O (across, off the flat)                want   21.800  got   21.800  PASS
+  j1_hub         D-flat distance from axis (45 deg)           want    9.000  got    8.998  PASS
+  J2_turret_p1   spigot D-key distance (45 deg)               want    9.200  got    9.202  PASS
+  j1_mount       pinch channel width                          want   24.500  got   24.500  PASS
+  j1_mount       end stop face x (case end)                   want  -10.112  got  -10.115  PASS
+  j1_mount       lip underside z (cap face)                   want  -14.311  got  -14.310  PASS
+  j4_base        pinch channel width                          want   24.500  got   24.500  PASS
+  j4_base        lip underside z (cap face)                   want  378.589  got  378.590  PASS
+  j4_cap         6706 pocket O                                want   37.020  got   37.024  PASS
+  j4_cap         outer-race shoulder O                        want   34.000  got   34.006  PASS
+  j4_cap         cap bolt counterbore depth (+14.5,-15.5)     want    3.300  got    3.300  PASS
+  j4_cap         cap bolt counterbore depth (+14.5,+15.5)     want    3.300  got    3.300  PASS
+  j4_cap         cap bolt counterbore depth (+31.0,-15.5)     want    3.300  got    3.300  PASS
+  j4_cap         cap bolt counterbore depth (+31.0,+15.5)     want    3.300  got    3.300  PASS
+  j4_hub         journal OD                                   want   29.950  got   29.950  PASS
+  j4_hub         collar OD (inner race only)                  want   32.000  got   31.998  PASS
+  j4_hub         J5 insert depth at (-17,-7)                  want    7.500  got    7.501  PASS
+  j4_hub         J5 insert depth at (-17,+7)                  want    7.500  got    7.501  PASS
+  j4_hub         J5 insert depth at (+17,-7)                  want    7.500  got    7.501  PASS
+  j4_hub         J5 insert depth at (+17,+7)                  want    7.500  got    7.501  PASS
+  j6_body        pinch channel width                          want   24.500  got   24.500  PASS
+  j6_body        lip underside (cap face)                     want   64.589  got   64.589  PASS
+  j6_body        J5 D-bore flat (a of the flat)               want  -14.250  got  -14.255  PASS
+  j6_body        J5 grub pilot O                              want    2.600  got    2.597  PASS
+  j6_cap         6706 pocket O                                want   37.020  got   37.024  PASS
+  j6_flange      tool insert O at BCD30,  45 deg              want    4.100  got    4.100  PASS
+  j6_flange      tool insert O at BCD30, 135 deg              want    4.100  got    4.100  PASS
+  j6_flange      tool insert O at BCD30, 225 deg              want    4.100  got    4.100  PASS
+  j6_flange      tool insert O at BCD30, 315 deg              want    4.100  got    4.100  PASS
+  base           lower 6806 pocket O, open at the bottom      want   42.020  got   42.030  PASS
+  spigot_collar  bore O                                       want   30.150  got   30.150  PASS
+  spigot_collar  inner-race boss outer r                      want   16.750  got   16.746  PASS
+  spigot_collar  body top z (0.5 under the base)              want   -0.500  got   -0.502  PASS
+  J2_turret_p1   J2 spring pin z (-1 side)                    want  125.000  got  125.000  PASS
+  J2_turret_p1   J2 spring pin z (+1 side)                    want  125.000  got  125.000  PASS
+  collar_upper   inner width (link 50 + 0.4)                  want   50.400  got   50.400  PASS
+  link_upper_tongue seam head counterbore depth (28.3,-17.85)    want    3.200  got    3.202  PASS
+  link_upper_tongue seam counterbore O (28.3,-17.85)             want    6.000  got    5.995  PASS
+  link_upper_tongue seam head counterbore depth (28.3,+17.85)    want    3.200  got    3.202  PASS
+  link_upper_tongue seam counterbore O (28.3,+17.85)             want    6.000  got    5.990  PASS
+  link_upper_tongue seam head counterbore depth (56.7,-17.85)    want    3.200  got    3.202  PASS
+  link_upper_tongue seam counterbore O (56.7,-17.85)             want    6.000  got    5.990  PASS
+  link_upper_tongue seam head counterbore depth (56.7,+17.85)    want    3.200  got    3.202  PASS
+  link_upper_tongue seam counterbore O (56.7,+17.85)             want    6.000  got    5.990  PASS
+  link_upper_tongue ear head counterbore depth                   want    2.700  got    2.702  PASS
+  link_fore_tongue seam head counterbore depth (29.8,-18.35)    want    3.200  got    3.202  PASS
+  link_fore_tongue seam counterbore O (29.8,-18.35)             want    6.000  got    6.000  PASS
+  link_fore_tongue seam head counterbore depth (29.8,+18.35)    want    3.200  got    3.202  PASS
+  link_fore_tongue seam counterbore O (29.8,+18.35)             want    6.000  got    6.000  PASS
+  link_fore_tongue seam head counterbore depth (59.5,-18.35)    want    3.200  got    3.202  PASS
+  link_fore_tongue seam counterbore O (59.5,-18.35)             want    6.000  got    6.000  PASS
+  link_fore_tongue seam head counterbore depth (59.5,+18.35)    want    3.200  got    3.202  PASS
+  link_fore_tongue seam counterbore O (59.5,+18.35)             want    6.000  got    5.995  PASS
+  link_fore_tongue seam head counterbore depth (89.2,-18.35)    want    3.200  got    3.202  PASS
+  link_fore_tongue seam counterbore O (89.2,-18.35)             want    6.000  got    6.000  PASS
+  link_fore_tongue seam head counterbore depth (89.2,+18.35)    want    3.200  got    3.202  PASS
+  link_fore_tongue seam counterbore O (89.2,+18.35)             want    6.000  got    5.995  PASS
+  link_fore_tongue ear head counterbore depth                   want    2.700  got    2.702  PASS
+  shaft_clamp    bore O (45 deg: clear of the grub pilots and the gap) want   30.000  got   29.967  PASS
+  shaft_clamp    ear gap width (at r 17)                      want   11.400  got   11.400  PASS
+  shaft_clamp    ring OD (45 deg)                             want   38.350  got   38.340  PASS
+  shaft_clamp    M5 set-screw clearance hole O (90 deg)       want    5.400  got    5.396  PASS
+  shaft_clamp    M5 set-screw clearance hole O (270 deg)      want    5.400  got    5.396  PASS
+  link_upper_groove M5 self-tap pilot O (side hole, 90 deg)      want    4.200  got    4.196  PASS
+  link_upper_groove M5 self-tap pilot O (side hole, 270 deg)     want    4.200  got    4.196  PASS
+  link_upper_tongue M5 self-tap pilot O (side hole, 90 deg)      want    4.200  got    4.192  PASS
+  link_upper_tongue M5 self-tap pilot O (side hole, 270 deg)     want    4.200  got    4.196  PASS
+  link_fore_groove M5 self-tap pilot O (side hole, 90 deg)      want    4.200  got    4.196  PASS
+  link_fore_groove M5 self-tap pilot O (side hole, 270 deg)     want    4.200  got    4.196  PASS
+  link_fore_tongue M5 self-tap pilot O (side hole, 90 deg)      want    4.200  got    4.196  PASS
+  link_fore_tongue M5 self-tap pilot O (side hole, 270 deg)     want    4.200  got    4.196  PASS
+  J2_turret_p1   collet slit width (x -13)                    want    1.000  got    1.000  PASS
+  J2_turret_p1   collet slit width (x +13)                    want    1.000  got    1.000  PASS
+  J2_turret_p1   underside land outer r (bears on the inner ring only) want   16.750  got   16.740  PASS
+  spigot_collar  pinch slot width                             want    2.000  got    2.000  PASS
+  j4_base        lip relief r (stationary lips off the 6706 inner ring) want   16.750  got   16.750  PASS
+  base           foot floor thickness at r 38 (was 0.5)       want    3.000  got    2.990  PASS
+  j1_mount       table hole O at 0 deg (r 58)                 want    5.500  got    5.500  PASS
+  j1_mount       table hole O at 90 deg (r 58)                want    5.500  got    5.500  PASS
+  j1_mount       table hole O at 180 deg (r 58)               want    5.500  got    5.500  PASS
+  j1_mount       table hole O at 270 deg (r 58)               want    5.500  got    5.500  PASS
+  j1_mount       nothing inside the rear idler horn envelope + 0.5 (void fraction) want    1.000  got    1.000  PASS
+  j4_base        nothing inside the rear idler horn envelope + 0.5 (void fraction) want    1.000  got    1.000  PASS
+  J5_shaft       flat runs to the idle end (surface r at the idle end) want   14.200  got   14.199  PASS
+  J3_p2          pinch wall at the far end of the bay (was 0.06-0.5) want    2.400  got    2.398  PASS
+  J5_p2          pinch wall at the far end of the bay (was 0.06-0.5) want    2.400  got    2.398  PASS
+  J5_spacer      thickness (blade face to inner ring)         want    3.000  got    3.000  PASS
+  J2_p2          servo pod back wall thickness (x 25, y 8)    want    2.400  got    2.399  PASS
+  J2_p2          servo pod side wall present at the deep rear corner (x 32, z P+32) want    1.000  got    1.000  PASS
+  J3_p1          J3 spring-lug insert pocket length (-1 side) want    6.500  got    6.500  PASS
+  J3_p1          J3 spring-lug insert pocket length (+1 side) want    6.500  got    6.500  PASS
+  J2_turret_p1   J2 spring-lug insert pocket length (-1 side) want    6.500  got    6.500  PASS
+  J2_turret_p1   J2 spring-lug insert pocket length (+1 side) want    6.500  got    6.500  PASS
+  spigot_collar  material all round the pinch insert (fraction) want    1.000  got    1.000  PASS
+
+179 parameters checked, 0 FAIL

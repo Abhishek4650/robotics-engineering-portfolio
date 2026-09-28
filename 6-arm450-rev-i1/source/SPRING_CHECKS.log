@@ -1,0 +1,12 @@
+============================================================================================
+GRAVITY SPRINGS
+============================================================================================
+   collar_upper_+y clear of every part at rest                    PASS  clear
+   collar_upper_-y clear of every part at rest                    PASS  clear
+   collar_fore_+y clear of every part at rest                     PASS  clear
+   collar_fore_-y clear of every part at rest                     PASS  clear
+   all 4 springs clear of every part over J2 +-54 x J3 +-72       PASS  49 poses
+   J2 spring stays in its specified length range                  PASS  33.0 .. 55.2 mm (spec 33.0 .. 55.2)
+   J3 spring stays in its specified length range                  PASS  40.0 .. 88.4 mm (spec 40.0 .. 88.4)
+
+FAILURES: 0

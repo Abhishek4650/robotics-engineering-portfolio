@@ -1,0 +1,218 @@
+{
+ "J2_turret_p1": {
+  "orient": "+X up",
+  "islands": 0,
+  "findings": 0,
+  "overhang_mm2": 5161,
+  "bed_mm2": 847,
+  "supports": "REQUIRED"
+ },
+ "J2_turret_p2": {
+  "orient": "-Y up",
+  "islands": 0,
+  "findings": 0,
+  "overhang_mm2": 1254,
+  "bed_mm2": 3845,
+  "supports": "advised"
+ },
+ "J2_shaft": {
+  "orient": "+Y up",
+  "islands": 0,
+  "findings": 0,
+  "overhang_mm2": 10,
+  "bed_mm2": 642,
+  "supports": "none"
+ },
+ "J3_p1": {
+  "orient": "-Z up",
+  "islands": 0,
+  "findings": 0,
+  "overhang_mm2": 2984,
+  "bed_mm2": 2233,
+  "supports": "REQUIRED"
+ },
+ "J3_p2": {
+  "orient": "-Z up",
+  "islands": 0,
+  "findings": 0,
+  "overhang_mm2": 0,
+  "bed_mm2": 1713,
+  "supports": "none"
+ },
+ "J3_shaft": {
+  "orient": "-Z up",
+  "islands": 0,
+  "findings": 0,
+  "overhang_mm2": 10,
+  "bed_mm2": 642,
+  "supports": "none"
+ },
+ "j1_hub": {
+  "orient": "+Z up",
+  "islands": 0,
+  "findings": 0,
+  "overhang_mm2": 243,
+  "bed_mm2": 359,
+  "supports": "advised"
+ },
+ "j1_mount": {
+  "orient": "+Z up",
+  "islands": 0,
+  "findings": 0,
+  "overhang_mm2": 112,
+  "bed_mm2": 12799,
+  "supports": "none"
+ },
+ "j4_base": {
+  "orient": "-Z up",
+  "islands": 0,
+  "findings": 0,
+  "overhang_mm2": 1575,
+  "bed_mm2": 559,
+  "supports": "REQUIRED"
+ },
+ "j4_cap": {
+  "orient": "-Z up",
+  "islands": 0,
+  "findings": 0,
+  "overhang_mm2": 84,
+  "bed_mm2": 1163,
+  "supports": "none"
+ },
+ "j4_hub": {
+  "orient": "-Z up",
+  "islands": 0,
+  "findings": 0,
+  "overhang_mm2": 105,
+  "bed_mm2": 1498,
+  "supports": "none"
+ },
+ "J5_p1": {
+  "orient": "+X up",
+  "islands": 0,
+  "findings": 0,
+  "overhang_mm2": 878,
+  "bed_mm2": 2231,
+  "supports": "advised"
+ },
+ "J5_p2": {
+  "orient": "-Z up",
+  "islands": 0,
+  "findings": 0,
+  "overhang_mm2": 0,
+  "bed_mm2": 1686,
+  "supports": "none"
+ },
+ "J5_shaft": {
+  "orient": "-Z up",
+  "islands": 0,
+  "findings": 0,
+  "overhang_mm2": 5,
+  "bed_mm2": 642,
+  "supports": "none"
+ },
+ "J5_spacer": {
+  "orient": "+Z up",
+  "islands": 0,
+  "findings": 0,
+  "overhang_mm2": 0,
+  "bed_mm2": 88,
+  "supports": "none"
+ },
+ "j6_body": {
+  "orient": "-X up",
+  "islands": 0,
+  "findings": 0,
+  "overhang_mm2": 1729,
+  "bed_mm2": 693,
+  "supports": "REQUIRED"
+ },
+ "j6_cap": {
+  "orient": "-X up",
+  "islands": 0,
+  "findings": 0,
+  "overhang_mm2": 78,
+  "bed_mm2": 1235,
+  "supports": "none"
+ },
+ "j6_flange": {
+  "orient": "-X up",
+  "islands": 0,
+  "findings": 0,
+  "overhang_mm2": 105,
+  "bed_mm2": 1498,
+  "supports": "none"
+ },
+ "link_fore_tongue": {
+  "orient": "+Z up",
+  "islands": 0,
+  "findings": 0,
+  "overhang_mm2": 404,
+  "bed_mm2": 5616,
+  "supports": "advised"
+ },
+ "link_fore_groove": {
+  "orient": "+Z up",
+  "islands": 0,
+  "findings": 0,
+  "overhang_mm2": 275,
+  "bed_mm2": 5751,
+  "supports": "advised"
+ },
+ "base": {
+  "orient": "+Z up",
+  "islands": 0,
+  "findings": 0,
+  "overhang_mm2": 6732,
+  "bed_mm2": 5332,
+  "supports": "REQUIRED"
+ },
+ "spigot_collar": {
+  "orient": "+Z up",
+  "islands": 0,
+  "findings": 0,
+  "overhang_mm2": 78,
+  "bed_mm2": 956,
+  "supports": "none"
+ },
+ "shaft_clamp": {
+  "orient": "-Z up",
+  "islands": 0,
+  "findings": 0,
+  "overhang_mm2": 35,
+  "bed_mm2": 400,
+  "supports": "none"
+ },
+ "link_upper_groove": {
+  "orient": "+Z up",
+  "islands": 0,
+  "findings": 0,
+  "overhang_mm2": 275,
+  "bed_mm2": 4069,
+  "supports": "advised"
+ },
+ "link_upper_tongue": {
+  "orient": "+Z up",
+  "islands": 0,
+  "findings": 0,
+  "overhang_mm2": 366,
+  "bed_mm2": 3973,
+  "supports": "advised"
+ },
+ "collar_upper": {
+  "orient": "+Z up",
+  "islands": 0,
+  "findings": 0,
+  "overhang_mm2": 115,
+  "bed_mm2": 518,
+  "supports": "none"
+ },
+ "collar_fore": {
+  "orient": "+Z up",
+  "islands": 0,
+  "findings": 0,
+  "overhang_mm2": 115,
+  "bed_mm2": 518,
+  "supports": "none"
+ }
+}

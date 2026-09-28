@@ -1,0 +1,10 @@
+{
+ "autodeskProduct": "Fusion360",
+ "type": "script",
+ "author": "ARM-450 rev I",
+ "description": {
+  "": "ARM-450 rev I fit_01_servo_pinch: build the design tree, save fit_01_servo_pinch.f3d"
+ },
+ "supportedOS": "windows|mac",
+ "editEnabled": true
+}

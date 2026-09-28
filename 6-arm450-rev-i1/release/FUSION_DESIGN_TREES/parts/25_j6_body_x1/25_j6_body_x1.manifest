@@ -1,0 +1,10 @@
+{
+ "autodeskProduct": "Fusion360",
+ "type": "script",
+ "author": "ARM-450 rev I",
+ "description": {
+  "": "ARM-450 rev I j6_body: build the design tree, save 25_j6_body_x1.f3d"
+ },
+ "supportedOS": "windows|mac",
+ "editEnabled": true
+}

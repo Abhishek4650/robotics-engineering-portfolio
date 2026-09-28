@@ -1,0 +1,7 @@
+joint,parent body,child body,point x mm,y,z,axis x,y,z,range +- deg
+J1_base_yaw,ground,turret,0.0,0.0,-14.311,0.0,-0.0,-1.0,90.0
+J2_shoulder,turret,upper_link,0.0,-28.5,90.0,0.0,-1.0,0.0,54.0
+J3_elbow,upper_link,forearm,0.0,28.5,209.0,0.0,1.0,0.0,72.0
+J4_forearm_roll,forearm,j4_hub,0.0,0.0,378.589,0.0,-0.0,-1.0,90.0
+J5_wrist_pitch,j4_hub,blade,0.0,26.0,430.369,0.0,1.0,0.0,46.5
+J6_tool_roll,blade,flange,0.0,0.0,494.958,-0.0,-0.0,-1.0,90.0

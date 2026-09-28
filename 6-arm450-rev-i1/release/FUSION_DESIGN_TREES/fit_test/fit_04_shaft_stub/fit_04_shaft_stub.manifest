@@ -1,0 +1,10 @@
+{
+ "autodeskProduct": "Fusion360",
+ "type": "script",
+ "author": "ARM-450 rev I",
+ "description": {
+  "": "ARM-450 rev I fit_04_shaft_stub: build the design tree, save fit_04_shaft_stub.f3d"
+ },
+ "supportedOS": "windows|mac",
+ "editEnabled": true
+}

@@ -1,0 +1,58 @@
+J1: official ST3215 seated like servo_J1
+   case middle        x j1_mount                 58.748 mm3
+   case back          x j1_mount                 35.347 mm3
+   DRIVE horn         x j1_hub                   42.482 mm3
+   servo_scr_J1_0         core in the real hole: yes (0.000 mm3 solid), thread bites 4.57 mm3  ok
+   servo_scr_J1_1         core in the real hole: yes (0.000 mm3 solid), thread bites 4.57 mm3  ok
+   servo_scr_J1_2         core in the real hole: yes (0.000 mm3 solid), thread bites 4.57 mm3  ok
+   servo_scr_J1_3         core in the real hole: yes (0.000 mm3 solid), thread bites 4.57 mm3  ok
+J2: official ST3215 seated like servo_J2
+   case middle        x J2_turret_p2             58.748 mm3
+   case back          x J2_turret_p2             35.347 mm3
+   DRIVE horn         x J2_shaft                 48.236 mm3
+   servo_scr_J2_0         core in the real hole: yes (0.000 mm3 solid), thread bites 4.57 mm3  ok
+   servo_scr_J2_1         core in the real hole: yes (0.000 mm3 solid), thread bites 4.57 mm3  ok
+   servo_scr_J2_2         core in the real hole: yes (0.000 mm3 solid), thread bites 4.57 mm3  ok
+   servo_scr_J2_3         core in the real hole: yes (0.000 mm3 solid), thread bites 4.57 mm3  ok
+J3: official ST3215 seated like servo_J3
+   case middle        x J3_p2                    58.748 mm3
+   case back          x J3_p2                    35.347 mm3
+   DRIVE horn         x J3_shaft                 48.236 mm3
+   servo_scr_J3_0         core in the real hole: yes (0.000 mm3 solid), thread bites 4.57 mm3  ok
+   servo_scr_J3_1         core in the real hole: yes (0.000 mm3 solid), thread bites 4.57 mm3  ok
+   servo_scr_J3_2         core in the real hole: yes (0.000 mm3 solid), thread bites 4.57 mm3  ok
+   servo_scr_J3_3         core in the real hole: yes (0.000 mm3 solid), thread bites 4.57 mm3  ok
+J4: official ST3215 seated like servo_J4
+   case middle        x j4_base                  58.748 mm3
+   case back          x j4_base                  35.347 mm3
+   DRIVE horn         x j4_hub                   42.482 mm3
+   servo_scr_J4_0         core in the real hole: yes (0.000 mm3 solid), thread bites 4.57 mm3  ok
+   servo_scr_J4_1         core in the real hole: yes (0.000 mm3 solid), thread bites 4.57 mm3  ok
+J5: official ST3215 seated like servo_J5
+   case middle        x J5_p2                    58.748 mm3
+   case back          x J5_p2                    35.347 mm3
+   DRIVE horn         x J5_shaft                 48.236 mm3
+   servo_scr_J5_0         core in the real hole: yes (0.000 mm3 solid), thread bites 4.57 mm3  ok
+   servo_scr_J5_1         core in the real hole: yes (0.000 mm3 solid), thread bites 4.57 mm3  ok
+   servo_scr_J5_2         core in the real hole: yes (0.000 mm3 solid), thread bites 4.57 mm3  ok
+   servo_scr_J5_3         core in the real hole: yes (0.000 mm3 solid), thread bites 4.57 mm3  ok
+J6: official ST3215 seated like servo_J6
+   case middle        x j6_body                  58.748 mm3
+   case back          x j6_body                  35.347 mm3
+   DRIVE horn         x j6_flange                42.482 mm3
+   servo_scr_J6_0         core in the real hole: yes (0.000 mm3 solid), thread bites 4.57 mm3  ok
+   servo_scr_J6_1         core in the real hole: yes (0.000 mm3 solid), thread bites 4.57 mm3  ok
+
+(the case x housing overlaps above are the designed -0.22 pinch; the DRIVE horn x coupler
+ overlap is the real horn standing 0.20 mm further out -- checked next)
+  warnings.warn("Unable to import Axes3D. This may be due to multiple versions of "
+
+DRIVEN CHAIN SHIFTED 0.20 mm (real horn), clearance fixed side <-> moving side, per joint
+   J1: 0.300 mm  (base | spigot_collar)  ok
+   J2: 0.589 mm  (J2_turret_p1 | J2_shaft)  ok
+   J3: 0.589 mm  (J3_p1 | J3_shaft)  ok
+   J4: 0.502 mm  (j4_base | j4_hub)  ok
+   J5: 0.476 mm  (J5_p1 | J5_spacer_B)  ok
+   J6: 0.502 mm  (j6_body | j6_flange)  ok
+
+OFFICIAL-SERVO CHECK: 0 problem(s)  (18 designed / expected overlaps explained above)

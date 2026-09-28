@@ -1,0 +1,10 @@
+{
+ "autodeskProduct": "Fusion360",
+ "type": "script",
+ "author": "ARM-450 rev I",
+ "description": {
+  "": "ARM-450 rev I: build every part's design tree and save each as .f3d"
+ },
+ "supportedOS": "windows|mac",
+ "editEnabled": true
+}

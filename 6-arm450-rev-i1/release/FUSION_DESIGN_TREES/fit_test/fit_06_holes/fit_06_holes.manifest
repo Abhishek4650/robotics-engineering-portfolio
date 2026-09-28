@@ -1,0 +1,10 @@
+{
+ "autodeskProduct": "Fusion360",
+ "type": "script",
+ "author": "ARM-450 rev I",
+ "description": {
+  "": "ARM-450 rev I fit_06_holes: build the design tree, save fit_06_holes.f3d"
+ },
+ "supportedOS": "windows|mac",
+ "editEnabled": true
+}

@@ -1,0 +1,179 @@
+=== LOGS + COVER from the release pass ===
+CLAMP_CHECK.log                  <- LINK LOCK
+DOF6_CHECK.log                   <- 6-DOF
+TOOL_ACCESS.log                  <- TOOL ACCESS
+FASTENER_CHECK.log               <- FASTENERS
+MATING_CHECK.log                 <- RULE 4
+OFFICIAL_SERVO_CHECK.log         <- OFFICIAL ST3215
+DISASSEMBLY_CHECK.log            <- DISASSEMBLY PATHS (our
+DISASSEMBLY_CHECK_OFFICIAL.log   <- DISASSEMBLY PATHS (official
+AUDIT_GAPS.log                   <- AUDIT GAPS
+WIRING_CHECK.log                 <- WIRING
+HEAD_CLEARANCE.log               <- HEAD CLEARANCE
+CABLE_ROUTE.log                  <- CABLE ROUTE
+PLUG_INSERT.log                  <- PLUG INSERTION
+UNION_JOINTS.log                 <- UNION JOINTS
+ARM-450 rev I -- release pass (all stages 0)
+
+J1                                                   0
+J2                                                   0
+J3                                                   0
+J4                                                   0
+WRIST                                                0
+HARDWARE (bearings + bolts as solids)                0
+LINK LOCK (J2/J3 set screws, centring rings)         0
+FASTENERS (every screw, insert, nut)                 0
+PARAMETER AUDIT                                      0
+TOOL ACCESS (hex key to every screw at its build step) 0
+RULE 4 (mate, never overlap; pathways; attached)     0
+SPRINGS                                              0
+SWEEP                                                0
+6-DOF (axes two ways, Jacobian rank)                 0
+OFFICIAL ST3215 (manufacturer's model, rear idler horn) 0
+DISASSEMBLY PATHS (our servo model)                  0
+DISASSEMBLY PATHS (official servo)                   0
+AUDIT GAPS (joints together, tipping, walls, bed)    0
+GATES (each part in its chosen PRINT orientation)    0
+PAIRS (static all-pairs)                             0
+WIRING (both bus plugs in every servo, way out)      0
+HEAD CLEARANCE (screw heads vs turning parts, contact angle) 0
+CABLE ROUTE (one joint per cable, path change, loops) 0
+PLUG INSERTION (bus plugs in and out with the arm assembled) 0
+UNION JOINTS (every glued feature joined over its full section) 0
+SECTION MEASURE (manual check by slicing)            0
+PRINT SLICER on the print-ready files                0
+
+VERIFICATION AUDIT 2026-09-24 (Rules 3, 4, 6, 8) -- ARM450_AUDIT_REPORT.pdf:
+ * every servo SCREWED by its own back holes (20 self-tappers) and seated on 4 supports
+ * rear idler horn of the real ST3215 cleared at J1/J4/J6; J5 axle assembles; table holes
+ * thin walls fixed; fork-floor bolt heads sunk; wire windows fitted to the plugs
+ * new checks: manufacturer's servo, disassembly, wiring, head clearance, cable route
+
+RULE 4 (mate, never overlap; interact only through proper pathways) found and fixed:
+ * J1: hub D-plug in the spigot on 0.1/0.2 mm clearance (+-1.9 deg yaw play) ->
+   spigot end slit into a COLLET, closed by the spigot collar (slot 2.0: 1.10 needed)
+ * J2/J3: links hung on +-0.2 mm clearances (+-1 deg) -> 2 x M5 set screws per link
+   half, self-tapped in the link's own O4.2 side holes, on double-D shaft flats
+ * J1: turret land sat on the base and the 6806 OUTER ring -> land on the inner ring only
+ * J4/J6: stationary lips on the 6706's turning INNER ring -> 0.5 mm relief
+ * J4/J6 caps overlapped the bearings 0.01 mm; J5 spacers floated 0.05 per face
+ * every set screw / grub modelled TIGHTENED; split clamps checked for closing travel
+
+Earlier in this pass (each measured, then re-checked):
+ * shaft clamps: the released O38 ring could not enter the links' bores (seam ear);
+   rev-I C-clamp straddles the ear (gap 11.4 -> ~1 deg play) + M3 grub on the D-flat
+ * J2 servo cover was held on by nothing (cover-bolt axes in air in both halves);
+   now a servo pod (2.4 mm shell round the whole servo) + 4 x M3 x 45 split bolts
+ * J3/J5 bays were 35.99 deep with a 1.4 back wall (released generator cut +1);
+   now exactly 34.99 with 2.4 wall
+ * -y spring-lug insert pockets were missing (mirror bug) on turret p1 and J3 p1
+ * seam-screw heads on the link tongues stood 3 mm into the fork cheeks (1 mm gap)
+   and under the forearm collars: all tongue seam holes counterbored (flush heads)
+ * spigot-collar insert broke out of the O46 surface: pads added
+ * standard screw lengths everywhere; several would have bottomed out
+ * forearm seam: 0.27 mm tongue/groove overlap removed
+
+6 DOF: six independent axes (yaw, shoulder, elbow, forearm roll, wrist pitch,
+tool roll), each axis measured twice (servo horn = bearing pockets, 0.0000 deg /
+0.0000 mm), spherical wrist, Jacobian rank 6 over the working range. Singular
+(as every arm of this type): arm straight up (the modelled home), elbow straight,
+wrist aligned (J5 = 0), wrist centre over the base axis -- use a bent 'ready' pose.
+
+Limits you accepted: simple gravity springs, NO continuous payload
+(worst case arm level: J2 SF 1.07, J3 SF 1.26 on 0.88 N.m continuous).
+Supports: see the print list (J2_turret_p1, J3_p1, j6_body, base REQUIRED).
+
+Slicer note, measured: the two link tongues show 'MARGINAL z 16.1' -- that is the
+cut exactly AT the top face of the rounded seam lip. The lip is 2.00 mm wide to
+z 15.4 and 1.17 mm at z 16.0 (three lines): not a thin wall.
+--- exit 0
+=== FINAL PDF (Rule 5 pages) ===
+written /home/user/ros2_ws/Arm_450_new_design/REV_H/ARM450_REV_I_FINAL.pdf
+--- exit 0
+=== POSES + PARTS PDFs (Rule 6) ===
+pose home (straight up, as modelled)        worst 0.476 mm between bodies 4-5 (J5_p1 | J5_spacer_B)
+pose ready                                  worst 0.476 mm between bodies 4-5 (J5_p1 | J5_spacer_B)
+pose reach forward, low                     worst 0.476 mm between bodies 4-5 (J5_p1 | J5_spacer_B)
+pose turned, elbow up, wrist rolled         worst 0.476 mm between bodies 4-5 (J5_p1 | J5_spacer_B)
+pose turned the other way, wrist pitched    worst 0.476 mm between bodies 4-5 (J5_p1 | J5_spacer_B)
+pose folded back                            worst 0.476 mm between bodies 4-5 (J5_p1 | J5_spacer_B)
+part base                   9 hole features
+part spigot_collar          5 hole features
+part j1_mount              18 hole features
+part j1_hub                10 hole features
+part J2_turret_p1          14 hole features
+part J2_turret_p2           9 hole features
+part J2_shaft               6 hole features
+part shaft_clamp            3 hole features
+part link_upper_groove     17 hole features
+part link_upper_tongue     18 hole features
+part collar_upper           3 hole features
+part J3_p1                 26 hole features
+part J3_p2                 10 hole features
+part J3_shaft               6 hole features
+part link_fore_tongue      22 hole features
+part link_fore_groove      21 hole features
+part collar_fore            3 hole features
+part j4_base               16 hole features
+part j4_cap                10 hole features
+part j4_hub                13 hole features
+part J5_p1                 19 hole features
+part J5_p2                 10 hole features
+part J5_shaft               6 hole features
+part J5_spacer              1 hole features
+part j6_body               11 hole features
+part j6_cap                10 hole features
+part j6_flange             13 hole features
+written ARM450_POSES.pdf, ARM450_PARTS.pdf
+--- exit 0
+=== EDITABLE CAD folder (Rule 7) ===
+written /home/user/ros2_ws/Arm_450_new_design/EDITABLE_CAD
+--- exit 0
+=== AUDIT PICTURES (servo screws, J1 drive, idler, Rule 8) ===
+wrote /home/user/ros2_ws/Arm_450_new_design/REV_H/RULE6_VIEWS/servo_screws.png  undesigned overlaps 0
+wrote /home/user/ros2_ws/Arm_450_new_design/REV_H/RULE6_VIEWS/j1_drive_explained.png
+wrote /home/user/ros2_ws/Arm_450_new_design/REV_H/RULE6_VIEWS/idler_compare.png
+wrote /home/user/ros2_ws/Arm_450_new_design/REV_H/RULE6_VIEWS/idler_cut_J1.png  idler min gap 0.5899999999998541  undesigned overlaps 0
+wrote /home/user/ros2_ws/Arm_450_new_design/REV_H/RULE6_VIEWS/idler_cut_J4.png  idler min gap 0.589999999999911  undesigned overlaps 0
+wrote /home/user/ros2_ws/Arm_450_new_design/REV_H/RULE6_VIEWS/idler_cut_J6.png  idler min gap 0.5899999999998542  undesigned overlaps 0
+AUDIT VIEWS: 0 undesigned overlap(s)
+wrote /home/user/ros2_ws/Arm_450_new_design/REV_H/RULE6_VIEWS/head_clearance.png
+wrote /home/user/ros2_ws/Arm_450_new_design/REV_H/RULE6_VIEWS/cable_schematic.png
+--- exit 0
+=== AUDIT REPORT + README ===
+# ARM-450 rev I.1 -- print-ready files
+
+**PRINT STATUS (2026-09-24 audit, J3_p1 re-verified 2026-09-27): see `PRINT_STATUS.txt`. Print the fit test
+first; when coupon 07 screws onto the back of your servo, print everything.**
+
+## rev I.1 (2026-09-27): reprint `12_J3_p1` only
+
+Your slicer view was right: the two J3 spring lugs stood on the round cheek tops joined
+by a 0.1 mm sliver (corners 0.4 mm in the air). They are now sunk 1.5 mm into the cheeks
+and blended in by R3 webs (joint area 34 -> 136 mm2). Every other file is unchanged.
+
+Every STL in `STL_print_ready/` is already rotated to its checked print
+...
+written ARM450_AUDIT_REPORT.md / .pdf  (all stages 0: True)
+  R3  Manual verification by slicing                               0 failures
+  R3  Pockets and holes on the right faces; parameters proven in t 0 failures
+  R3  No thin walls                                                0 part(s) (upper GROOVE 0.5 mm skin accepted: already printed)
+  R3  Servo seated on the right face, locked, driving the next lin 0 failures; each servo SCREWED by its own back holes (M1: 20 screws, core in the manufacturer's holes)
+  R3  Tool / hand reach                                            0 failures
+  R3  Rigid, joints in sync                                        0 pair(s) too close; 6-DOF 0 failures
+  R3  Stands up in use (new)                                       0 problem(s) with the foot fixed by its 4 new table holes
+  R3  Wiring clearance                                             0 problem(s); nearest wall 1.98 mm; control detected. Route through the joints: see Rule 8 cables
+  R3  Assemble / disassemble any time                              0 failures
+  R3  Bought hardware real                                         0 failures
+  R3  Printable files, separate folder                             0 failures; bed: 0 part(s) too big
+  R4  Mate on coincident planes, never overlap                     0 failures
+  R4  Touch only through designed pathways (bearing rings, horn, s 0 failures
+  R4  Every part attached, nothing floating                        0 failures
+  R8  Every servo seated, never floating                           0 failures
+  R8  Screw heads beside a turning part                            0 failures
+  R8  Cables cannot wind up                                        0 failures
+  R6  Full assembly in different poses                             6 pages, 0 failures
+  R6  Part by part, with details                                   54 pages
+  R6  Sharp interface pictures (Rule 5)                            48 pages, 0 failures
+--- exit 0
+=== DONE ===
